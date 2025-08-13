@@ -1,5 +1,7 @@
 import Header from "./Header";
-import MobileMenuToggler from "./Header";
+import HeadingSpringBounce from "./HeadingSpringBounce";
+import RevealBounce from "./motions/RevealBounce";
+import Transition from "./motions/Transition";
 
 const Hero = () => {
     return (
@@ -7,8 +9,68 @@ const Hero = () => {
             {/* header */}
             <Header />
             {/* hero */}
-            <div id="hero">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rem unde facere officiis rerum placeat animi fugit ex ipsum consectetur veritatis doloremque alias recusandae numquam culpa tempore quae, aperiam fuga soluta nisi aliquid! Atque sint maxime fugit debitis voluptatum voluptates iure, ut cumque aliquam possimus soluta aperiam, ea eaque error architecto non modi nihil voluptatibus itaque eum voluptas nulla. Assumenda fuga quaerat neque sed molestias, placeat natus, dolorem quia dolores exercitationem voluptates sit, itaque laudantium eveniet! Accusamus eius recusandae, excepturi animi culpa impedit repellendus dolor soluta esse ipsa et, sint ullam sequi quo. Sed, consequuntur maxime laudantium quia beatae, suscipit tenetur at eum, accusantium dolorum provident alias inventore itaque facilis quaerat ratione obcaecati eveniet. Illum dolores facere dolorum atque. Ab inventore ad odit voluptate ut modi repellendus optio quisquam? Ipsa ipsum voluptatem ipsam delectus tempore. Autem obcaecati eligendi vel sequi quasi, aliquid blanditiis esse aliquam iure cupiditate vitae odit laboriosam rerum suscipit iusto corporis magni. Dicta aliquam obcaecati id incidunt ullam modi odio reiciendis iusto dolorem inventore. Aut, deserunt sint vel dolores exercitationem magni facilis deleniti culpa vero repudiandae, aliquid fugiat a eum nam optio? Fugit aperiam libero quia nisi accusamus, fugiat voluptatem? Aperiam, quia explicabo? Asperiores, illum harum consectetur esse delectus reiciendis labore ex alias, magni natus laboriosam voluptate enim neque nihil temporibus animi optio vitae? Culpa accusantium doloremque corporis recusandae facere quam! Iste, recusandae, fuga repudiandae nisi suscipit, illo sint porro eaque quidem pariatur eligendi molestiae id veniam expedita sapiente quis esse sit inventore optio incidunt? Vitae, deserunt. Placeat est obcaecati doloremque quibusdam tempore soluta corporis quam itaque, exercitationem expedita modi fuga ratione. Porro hic nostrum, eos, excepturi sed exercitationem doloremque debitis odit ipsa fugit possimus distinctio voluptatum dolorum atque eaque animi quae! Esse consectetur asperiores accusamus quas reprehenderit incidunt quos magni dolores perspiciatis fugiat, veritatis dolor dicta quis deleniti ipsam, corrupti, veniam adipisci quod tenetur sapiente quasi nobis ad? Atque voluptatum porro vel rerum eos quam aperiam iste omnis iure, consequatur, illum perferendis doloribus repellat tempore suscipit? Eveniet quisquam aperiam quis veritatis est iusto rem nostrum error ab et, sint dignissimos natus, placeat cumque repudiandae inventore. Aliquam maiores eius quaerat asperiores molestias nemo perspiciatis voluptas praesentium cumque! Ut ducimus, fuga at quae ipsa, incidunt illum consequuntur eaque asperiores et accusamus consequatur. Veritatis odio architecto molestiae quod, debitis mollitia quae vero voluptatum officia quam ab eum repudiandae porro fuga aut, ipsa animi vitae sapiente voluptatem. Corporis, saepe aut.
+
+            <div
+                id="hero"
+                className="section-container flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
+            >
+                {/* left */}
+                <div className="lg:w-1/2 space-y-10 ">
+                    {/* name-desc */}
+                    <div>
+                        {/* name */}
+                        <HeadingSpringBounce />
+
+                        <RevealBounce>
+                            <p className="text-gray-300 my-4 leading-loose tracking-wide">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Facilis eum culpa, minima
+                                saepe commodi rem adipisci quia asperiores
+                                reprehenderit a.
+                            </p>
+                        </RevealBounce>
+                    </div>
+                    {/* hire me */}
+                    <div>
+                        <Transition>
+                            <button className="text-lg rounded-2xl bg-primary px-16 py-3 ">
+                                Hire me
+                            </button>
+                        </Transition>
+                    </div>
+                    {/* social icons */}
+                    <div>
+                        <ul className="flex items-center justify-around gap-3">
+                            <li>f</li>
+                            <li>x</li>
+                            <li>i</li>
+                            <li>l</li>
+                            <li>g</li>
+                        </ul>
+                    </div>
+                </div>
+                {/* right */}
+                <div className="lg:w-[30rem] w-9/12 ">
+                    <div className="relative">
+                        {/* Blurred background */}
+                        <RevealBounce>
+                            <div className="absolute inset-0 blur-lg z-0">
+                                <img
+                                    src="/assets/profile.jpg"
+                                    alt="profile"
+                                    className="rounded-full object-cover"
+                                />
+                            </div>
+
+                            {/* Clear main image */}
+                            <img
+                                src="/assets/profile.jpg"
+                                alt="profile"
+                                className="relative rounded-full object-cover z-10"
+                            />
+                        </RevealBounce>
+                    </div>
+                </div>
             </div>
         </section>
     );

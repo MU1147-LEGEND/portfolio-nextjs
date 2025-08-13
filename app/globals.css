@@ -27,7 +27,49 @@ body {
 
 .section-container {
     max-width: 90rem;
-    min-height: 50.875rem;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.menu-list {
+    @apply text-white py-1 px-2 rounded-xl transition-colors duration-300 relative;
+}
+.menu-list::after {
+    content: "";
+    width: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: var(--secondary);
+    transition: width 0.3s ease-in-out;
+}
+.menu-list:hover::after {
+    width: 100%;
+}
+
+.increase-bg-width::after {
+    content: "";
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--secondary);
+    border-radius: 50px;
+    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+    filter: blur(2px);
+}
+.increase-bg-width:hover::after {
+    width: 100%;
+}
+.increase-bg-width {
+    position: relative;
+    overflow: hidden;
+    font-weight: 500;
+}
+.increase-bg-width:hover {
+    color: black;
 }

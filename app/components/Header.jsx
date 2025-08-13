@@ -1,6 +1,8 @@
 "use client";
 import { ArrowRightCircle, Menu } from "@deemlol/next-icons";
 import { useState } from "react";
+import Transition from "./motions/Transition";
+import RevealBounce from "./motions/RevealBounce";
 
 const Header = () => {
     const [isOpened, setIsOpened] = useState(false);
@@ -18,18 +20,28 @@ const Header = () => {
             <header className="hidden lg:flex bg-primary/80 items-center justify-between px-8 py-2 h-[4.86rem] max-w-[79.88rem] m-auto rounded-[3rem] backdrop-blur-md">
                 {/* left */}
                 <div className="">
-                    <button className="bg-black w-60 h-[2.8125rem] rounded-4xl cursor-pointer">
-                        Download Resume
+                    <button className="bg-black w-60 h-[2.8125rem] rounded-4xl cursor-pointer relative increase-bg-width">
+                        <RevealBounce>
+                            <span className="relative z-50">
+                                Download Resume
+                            </span>
+                        </RevealBounce>
                     </button>
                 </div>
                 {/* right */}
                 <div className="">
-                    <ul className="flex items-center justify-around space-x-5">
-                        <li className="cursor-pointer">Home</li>
-                        <li className="cursor-pointer">About</li>
-                        <li className="cursor-pointer">Projects</li>
-                        <li className="cursor-pointer">Contact</li>
-                    </ul>
+                    <Transition>
+                        <ul className="flex items-center justify-around space-x-5">
+                            <li className="cursor-pointer menu-list">Home</li>
+                            <li className="cursor-pointer menu-list">About</li>
+                            <li className="cursor-pointer menu-list">
+                                Projects
+                            </li>
+                            <li className="cursor-pointer menu-list">
+                                Contact
+                            </li>
+                        </ul>
+                    </Transition>
                 </div>
             </header>
 
@@ -72,13 +84,13 @@ const Header = () => {
                 <header
                     className={`${
                         isOpened
-                            ? "translate-x-0 opacity-100"
-                            : "translate-x-full opacity-0"
-                    } lg:hidden fixed top-[6rem] right-0 w-full bg-primary/90 flex flex-col space-y-5 items-center justify-between px-8 py-4 rounded-xl transition-all duration-300 backdrop-blur-md z-20`}
+                            ? "-translate-y-0 opacity-100 -z-10"
+                            : "-translate-y-full opacity-0"
+                    } lg:hidden fixed top-[6rem] right-0 w-full bg-gray-800/95 flex flex-col space-y-5 items-center justify-between px-8 py-4 rounded-xl transition-all duration-300 z-20`}
                 >
                     {/* right */}
                     <div className="">
-                        <ul className="flex flex-col items-center justify-around space-y-5">
+                        <ul className="flex flex-col items-center justify-around space-y-6">
                             <li
                                 className="cursor-pointer"
                                 onClick={handleOuterClose}
