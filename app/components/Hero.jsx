@@ -1,7 +1,9 @@
+import Link from "next/link";
 import Header from "./Header";
 import HeadingSpringBounce from "./HeadingSpringBounce";
 import RevealBounce from "./motions/RevealBounce";
 import Transition from "./motions/Transition";
+import { Facebook, Github, Instagram, Linkedin } from "@deemlol/next-icons";
 
 const Hero = () => {
     return (
@@ -12,10 +14,10 @@ const Hero = () => {
 
             <div
                 id="hero"
-                className="section-container flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
+                className="section-container flex flex-col-reverse lg:flex-row items-center justify-between gap-10 !mt-10 lg:!mt-20"
             >
                 {/* left */}
-                <div className="lg:w-1/2 space-y-10 ">
+                <div className="lg:w-1/2 lg:space-y-12 ">
                     {/* name-desc */}
                     <div>
                         {/* name */}
@@ -33,20 +35,49 @@ const Hero = () => {
                     {/* hire me */}
                     <div>
                         <Transition>
-                            <button className="text-lg rounded-2xl bg-primary px-16 py-3 ">
-                                Hire me
+                            <button className="relative overflow-hidden bg-primary w-60 h-[2.8125rem] rounded-lg cursor-pointer text-white font-medium after:content-[''] after:absolute after:left-0 after:top-0 after:w-0 after:h-full after:bg-primary/50 after:transition-all after:duration-300 after:z-0 hover:after:w-full">
+                                <span className="relative z-10">Hire Me</span>
                             </button>
                         </Transition>
                     </div>
                     {/* social icons */}
-                    <div>
-                        <ul className="flex items-center justify-around gap-3">
-                            <li>f</li>
-                            <li>x</li>
-                            <li>i</li>
-                            <li>l</li>
-                            <li>g</li>
-                        </ul>
+                    <div className="w-3/4 my-10 m-auto">
+                        <Transition>
+                            <ul className="flex items-center justify-around gap-3">
+                                <li>
+                                    <Link
+                                        href="https://facebook.com/fb.mohammadullah"
+                                        target="_blank"
+                                    >
+                                        <Facebook className="hover:text-secondary cursor-pointer" />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="https://www.instagram.com/mohammad_ullah11/"
+                                        target="_blank"
+                                    >
+                                        <Instagram className="hover:text-secondary cursor-pointer" />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="https://www.linkedin.com/in/mohammad-ullah32"
+                                        target="_blank"
+                                    >
+                                        <Linkedin className="hover:text-secondary cursor-pointer" />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="https://github.com/mu1147-legend"
+                                        target="_blank"
+                                    >
+                                        <Github className="hover:text-secondary cursor-pointer" />
+                                    </Link>
+                                </li>
+                            </ul>
+                        </Transition>
                     </div>
                 </div>
                 {/* right */}
@@ -54,19 +85,19 @@ const Hero = () => {
                     <div className="relative">
                         {/* Blurred background */}
                         <RevealBounce>
-                            <div className="absolute inset-0 blur-lg z-0">
+                            <div className="absolute blur-sm inset-0  z-0">
                                 <img
                                     src="/assets/profile.jpg"
                                     alt="profile"
-                                    className="rounded-full object-cover"
+                                    className="rounded-full object-cover w-4/5"
                                 />
                             </div>
 
                             {/* Clear main image */}
                             <img
-                                src="/assets/profile.jpg"
+                                src="/assets/profile.png"
                                 alt="profile"
-                                className="relative rounded-full object-cover z-10"
+                                className="relative rounded-full object-cover z-10 w-4/5"
                             />
                         </RevealBounce>
                     </div>
