@@ -41,7 +41,7 @@ const Hero = () => {
                         </Transition>
                     </div>
                     {/* social icons */}
-                    <div className="w-3/4 my-10 m-auto">
+                    <div className="w-3/4 my-10 mx-auto lg:mx-0">
                         <Transition>
                             <ul className="flex items-center justify-around gap-3">
                                 <li>
@@ -49,7 +49,7 @@ const Hero = () => {
                                         href="https://facebook.com/fb.mohammadullah"
                                         target="_blank"
                                     >
-                                        <Facebook className="hover:text-secondary cursor-pointer" />
+                                        <Facebook className="hover:text-secondary cursor-pointer hover:scale-110 transition-all duration-300" />
                                     </Link>
                                 </li>
                                 <li>
@@ -57,7 +57,7 @@ const Hero = () => {
                                         href="https://www.instagram.com/mohammad_ullah11/"
                                         target="_blank"
                                     >
-                                        <Instagram className="hover:text-secondary cursor-pointer" />
+                                        <Instagram className="hover:text-secondary cursor-pointer hover:scale-110 transition-all duration-300" />
                                     </Link>
                                 </li>
                                 <li>
@@ -65,7 +65,7 @@ const Hero = () => {
                                         href="https://www.linkedin.com/in/mohammad-ullah32"
                                         target="_blank"
                                     >
-                                        <Linkedin className="hover:text-secondary cursor-pointer" />
+                                        <Linkedin className="hover:text-secondary cursor-pointer hover:scale-110 transition-all duration-300" />
                                     </Link>
                                 </li>
                                 <li>
@@ -73,7 +73,7 @@ const Hero = () => {
                                         href="https://github.com/mu1147-legend"
                                         target="_blank"
                                     >
-                                        <Github className="hover:text-secondary cursor-pointer" />
+                                        <Github className="hover:text-secondary cursor-pointer hover:scale-110 transition-all duration-300" />
                                     </Link>
                                 </li>
                             </ul>

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@deemlol/next-icons": "^0.1.9",
+    "@studio-freight/lenis": "^1.0.42",
     "motion": "^12.23.12",
     "next": "15.4.6",
     "react": "19.1.0",
