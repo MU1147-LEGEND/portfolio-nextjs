@@ -110,7 +110,7 @@ const AboutMe = () => {
                                 {skills.map((skill, index) => (
                                     <motion.li
                                         key={skill.name}
-                                        className="flex items-center flex-col justify-center gap-2 bg-white rounded-lg p-4 shadow-md text-black font-semibold text-xs min-w-[6.13rem] h-[7rem] text-nowrap flex-shrink-0 list-none"
+                                        className="flex items-center flex-col justify-center gap-2 bg-white rounded-lg p-4 shadow-md text-black font-semibold text-xs w-[6.13rem] h-[7rem] text-nowrap flex-shrink-0 list-none select-none"
                                         initial={{ opacity: 0, y: 50 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{
@@ -118,11 +118,6 @@ const AboutMe = () => {
                                             delay: index * 0.1,
                                         }}
                                         viewport={{ once: true }}
-                                        whileHover={{
-                                            scale: 1.05,
-                                            boxShadow:
-                                                "0 10px 25px rgba(0,0,0,0.2)",
-                                        }}
                                     >
                                         <Image
                                             src={skill.icon}
@@ -130,6 +125,7 @@ const AboutMe = () => {
                                             width={48}
                                             height={48}
                                             className="mr-2 w-[3rem]"
+                                            draggable="false"
                                         />
                                         {skill.name}
                                     </motion.li>
