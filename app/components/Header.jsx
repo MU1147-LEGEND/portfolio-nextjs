@@ -15,18 +15,18 @@ const Header = () => {
     };
 
     return (
-        <div className="sticky top-0 z-20 w-full">
+        <div className="sticky top-0 z-20 w-full mt-5">
             {/* Desktop Header - Always visible */}
             <header className="hidden lg:flex bg-primary/80 items-center justify-between px-8 py-2 h-[4.86rem] max-w-[79.88rem] m-auto rounded-[3rem] backdrop-blur-md">
                 {/* left */}
                 <div className="">
-                    <button className="bg-black w-60 h-[2.8125rem] rounded-4xl cursor-pointer relative increase-bg-width">
-                        <RevealBounce>
+                    <RevealBounce>
+                        <button className="bg-black w-60 h-[2.8125rem] rounded-4xl cursor-pointer relative increase-bg-width">
                             <span className="relative z-50">
                                 Download Resume
                             </span>
-                        </RevealBounce>
-                    </button>
+                        </button>
+                    </RevealBounce>
                 </div>
                 {/* right */}
                 <div className="">

@@ -4,17 +4,18 @@ import HeadingSpringBounce from "./HeadingSpringBounce";
 import RevealBounce from "./motions/RevealBounce";
 import Transition from "./motions/Transition";
 import { Facebook, Github, Instagram, Linkedin } from "@deemlol/next-icons";
+import PathMorphing from "./motions/PathsMorph";
 
 const Hero = () => {
     return (
         <section className="hero section-container">
             {/* header */}
-            <Header />
+            {/* <Header /> */}
             {/* hero */}
 
             <div
                 id="hero"
-                className="section-container flex flex-col-reverse lg:flex-row items-center justify-between gap-10 !mt-10 lg:!mt-20"
+                className="max-w-[80rem] m-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10 !mt-10 lg:!mt-20"
             >
                 {/* left */}
                 <div className="lg:w-1/2 lg:space-y-12 ">
@@ -25,10 +26,13 @@ const Hero = () => {
 
                         <RevealBounce>
                             <p className="text-gray-300 my-4 leading-loose tracking-wide">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Facilis eum culpa, minima
-                                saepe commodi rem adipisci quia asperiores
-                                reprehenderit a.
+                                <code>
+                                    "Code isn’t just what I write, it’s how I
+                                    think
+                                    <br />
+                                    turning ideas into logic, and logic into
+                                    life."
+                                </code>
                             </p>
                         </RevealBounce>
                     </div>
@@ -83,7 +87,6 @@ const Hero = () => {
                 {/* right */}
                 <div className="lg:w-[30rem] w-9/12 ">
                     <div className="relative">
-                        {/* Blurred background */}
                         <RevealBounce>
                             <div className="absolute blur-sm inset-0  z-0">
                                 <img
@@ -93,7 +96,6 @@ const Hero = () => {
                                 />
                             </div>
 
-                            {/* Clear main image */}
                             <img
                                 src="/assets/profile.png"
                                 alt="profile"
