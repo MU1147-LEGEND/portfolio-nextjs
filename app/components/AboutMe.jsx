@@ -32,13 +32,18 @@ const AboutMe = () => {
     ];
 
     return (
-        <section className="section-container">
+        <section className="section-container" id="about">
             <RevealBounce>
+                <h2 className="text-[2rem] font-semibold text-center">
+                    About Me
+                </h2>
                 <div
                     id="about-me"
                     className="max-w-[79.875rem] m-auto bg-primary rounded-xl px-5 py-6 my-10"
                 >
-                    <h2 className="text-[2rem] font-normal">About Me</h2>
+                    <pre>
+                        <code className="text-xl">{"{ whoami }"}</code>
+                    </pre>
                     <p className="text-gray-200 my-4 leading-loose tracking-wide">
                         I’m <strong>Mohammad Ullah</strong>, a frontend
                         developer passionate about building{" "}
@@ -112,7 +117,7 @@ const AboutMe = () => {
                                 {skills.map((skill, index) => (
                                     <motion.li
                                         key={skill.name}
-                                        className="flex items-center flex-col justify-center gap-2 bg-white rounded-lg p-4 shadow-md text-black font-semibold text-xs w-[6.13rem] h-[7rem] text-nowrap flex-shrink-0 list-none select-none"
+                                        className="flex items-center flex-col justify-center gap-2 bg-white rounded-lg p-4 shadow-md text-black font-semibold text-xs w-[5.13rem] md:w-[6.13rem] h-[5rem] md:h-[7rem] text-nowrap flex-shrink-0 list-none select-none"
                                         initial={{ opacity: 0, y: 50 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{
@@ -126,7 +131,7 @@ const AboutMe = () => {
                                             alt={skill.name}
                                             width={48}
                                             height={48}
-                                            className="mr-2 w-[3rem]"
+                                            className="mr-2 w-[2rem] md:w-[3rem]"
                                             draggable="false"
                                         />
                                         {skill.name}

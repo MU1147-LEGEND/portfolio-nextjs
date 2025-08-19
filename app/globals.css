@@ -131,7 +131,7 @@ body::-webkit-scrollbar {
     background: var(--secondary);
     border-radius: 50px;
     transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
-    filter: blur(2px);
+    /* filter: blur(2px); */
 }
 .increase-bg-width:hover::after {
     width: 100%;

@@ -1,10 +1,21 @@
 "use client";
 
 import { ReactLenis } from "lenis/react";
+import { useEffect, useRef } from "react";
 
 export default function LenisScroll() {
+    const lenisRef = useRef();
+
+    useEffect(() => {
+        // Make Lenis instance globally accessible
+        if (lenisRef.current) {
+            window.lenis = lenisRef.current.lenis;
+        }
+    }, []);
+
     return (
         <ReactLenis
+            ref={lenisRef}
             root
             options={{
                 lerp: 0.07,

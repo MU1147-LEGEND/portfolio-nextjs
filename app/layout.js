@@ -1,4 +1,5 @@
 import LenisScroll from "./components/LenisScroll";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import "./globals.css";
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
             <body className={`antialiased overflow-x-hidden`}>
                 {children}
                 <LenisScroll />
+                <ScrollToTopButton />
             </body>
         </html>
     );

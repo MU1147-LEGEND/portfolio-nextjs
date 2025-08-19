@@ -1,17 +1,27 @@
 "use client";
 import { ArrowRightCircle, Menu } from "@deemlol/next-icons";
+import Link from "next/link";
 import { useState } from "react";
-import Transition from "./motions/Transition";
+import { handleSmoothScrollWithCallback } from "../utils/smoothScroll";
 import RevealBounce from "./motions/RevealBounce";
+import Transition from "./motions/Transition";
 
 const Header = () => {
     const [isOpened, setIsOpened] = useState(false);
+
     const handleOpen = () => {
         setIsOpened(!isOpened);
     };
 
     const handleOuterClose = () => {
         setIsOpened(false);
+    };
+
+    // Wrapper function to handle mobile menu closing
+    const handleNavigation = (e, target) => {
+        handleSmoothScrollWithCallback(e, target, () => {
+            setIsOpened(false);
+        });
     };
 
     return (
@@ -22,9 +32,13 @@ const Header = () => {
                 <div className="">
                     <RevealBounce>
                         <button className="bg-black w-60 h-[2.8125rem] rounded-4xl cursor-pointer relative increase-bg-width">
-                            <span className="relative z-50">
+                            <Link
+                                href="/assets/resume.pdf"
+                                // download
+                                className="relative z-50"
+                            >
                                 Download Resume
-                            </span>
+                            </Link>
                         </button>
                     </RevealBounce>
                 </div>
@@ -32,13 +46,39 @@ const Header = () => {
                 <div className="">
                     <Transition>
                         <ul className="flex items-center justify-around space-x-5">
-                            <li className="cursor-pointer menu-list">Home</li>
-                            <li className="cursor-pointer menu-list">About</li>
                             <li className="cursor-pointer menu-list">
-                                Projects
+                                <button
+                                    onClick={(e) => handleNavigation(e, "#")}
+                                >
+                                    Home
+                                </button>
                             </li>
                             <li className="cursor-pointer menu-list">
-                                Contact
+                                <button
+                                    onClick={(e) =>
+                                        handleNavigation(e, "#about")
+                                    }
+                                >
+                                    About
+                                </button>
+                            </li>
+                            <li className="cursor-pointer menu-list">
+                                <button
+                                    onClick={(e) =>
+                                        handleNavigation(e, "#projects")
+                                    }
+                                >
+                                    Projects
+                                </button>
+                            </li>
+                            <li className="cursor-pointer menu-list">
+                                <button
+                                    onClick={(e) =>
+                                        handleNavigation(e, "#contact")
+                                    }
+                                >
+                                    Contact
+                                </button>
                             </li>
                         </ul>
                     </Transition>
@@ -49,8 +89,15 @@ const Header = () => {
             <div className="lg:hidden py-3 h-full">
                 <div className="flex items-center justify-between w-full bg-primary/90 p-2 rounded-2xl">
                     <button className="bg-black w-60 h-[2.8125rem] rounded-4xl cursor-pointer">
-                        Download Resume
+                        <Link
+                            href="/assets/resume.pdf"
+                            download
+                            className="relative z-50"
+                        >
+                            Download Resume
+                        </Link>
                     </button>
+
                     <button
                         onClick={handleOpen}
                         className="lg:hidden z-30 flex items-center"
@@ -91,29 +138,39 @@ const Header = () => {
                     {/* right */}
                     <div className="">
                         <ul className="flex flex-col items-center justify-around space-y-6">
-                            <li
-                                className="cursor-pointer"
-                                onClick={handleOuterClose}
-                            >
-                                Home
+                            <li className="cursor-pointer">
+                                <button
+                                    onClick={(e) => handleNavigation(e, "#")}
+                                >
+                                    Home
+                                </button>
                             </li>
-                            <li
-                                className="cursor-pointer"
-                                onClick={handleOuterClose}
-                            >
-                                About
+                            <li className="cursor-pointer">
+                                <button
+                                    onClick={(e) =>
+                                        handleNavigation(e, "#about")
+                                    }
+                                >
+                                    About
+                                </button>
                             </li>
-                            <li
-                                className="cursor-pointer"
-                                onClick={handleOuterClose}
-                            >
-                                Projects
+                            <li className="cursor-pointer">
+                                <button
+                                    onClick={(e) =>
+                                        handleNavigation(e, "#projects")
+                                    }
+                                >
+                                    Projects
+                                </button>
                             </li>
-                            <li
-                                className="cursor-pointer"
-                                onClick={handleOuterClose}
-                            >
-                                Contact
+                            <li className="cursor-pointer">
+                                <button
+                                    onClick={(e) =>
+                                        handleNavigation(e, "#contact")
+                                    }
+                                >
+                                    Contact
+                                </button>
                             </li>
                         </ul>
                     </div>
