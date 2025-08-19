@@ -32,6 +32,7 @@ const ProjectCard = ({ projectInfo }) => {
                             </Link>
                             <Link
                                 href={projectInfo.githubLink}
+                                target="_blank"
                                 className="text-white underline bg-indigo-500 px-3 py-2 rounded-2xl hover:bg-indigo-600 transition-colors"
                             >
                                 <Github className="inline" /> GitHub Repo

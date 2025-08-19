@@ -20,17 +20,20 @@ and user-friendly interface.`,
         },
         {
             title: "Visionary - AI",
-            description: "Description for project 2",
+            description:
+                "Visionary - AI is a cutting-edge web application that leverages artificial intelligence to provide personalized AI-driven Image Generations and real-time feedback.",
             imageUrl: "/assets/visionaryai.png",
             liveLink: "https://visionary-ai-beta.vercel.app/",
             githubLink: "https://github.com/MU1147-LEGEND/VisionaryAI",
         },
         {
-            title: "Project 3",
-            description: "Description for project 2",
-            imageUrl: "/assets/sanchayanbd.png",
-            liveLink: "#",
-            githubLink: "#",
+            title: "Next.js Learning Platform",
+            description:
+                "A platform for learning Next.js with various resources and tutorials.",
+            imageUrl: "/assets/nextlearn.png",
+            liveLink: "https://learn-next-modern.vercel.app/",
+            githubLink:
+                "https://github.com/MU1147-LEGEND/nextjs-learning-platform-using-v0",
         },
         {
             title: "Project 4",
