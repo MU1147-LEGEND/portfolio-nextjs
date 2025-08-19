@@ -25,15 +25,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
-body {
-    overflow: hidden;
-}
+/* Remove overflow: hidden to allow Lenis to work properly */
 
 .section-container {
     max-width: 90rem;

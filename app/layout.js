@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`antialiased overflow-x-hidden scroll-smooth`}>
+            <body className={`antialiased overflow-x-hidden`}>
                 {children}
                 <LenisScroll />
             </body>
