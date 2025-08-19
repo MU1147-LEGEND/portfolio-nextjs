@@ -62,7 +62,9 @@ const AboutMe = () => {
                     <div className="lg:w-1/2 bg-primary rounded-xl px-5 py-6">
                         <h3 className="text-xl ">Education </h3>
                         <ul className="list-disc pl-6 my-5 h-[4rem] ">
-                            <li>Alim(HSC) - 2020</li>
+                            <li>
+                                Alim(HSC) - Tamirul Millat Kamil Madrasah - 2020
+                            </li>
                             <li>
                                 Diploma in Computer Science and Technology -
                                 Session (2022-2023)
