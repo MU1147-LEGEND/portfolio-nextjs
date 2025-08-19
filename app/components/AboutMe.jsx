@@ -13,6 +13,8 @@ import node from "../../public/assets/node.svg";
 import react from "../../public/assets/react.png";
 import ts from "../../public/assets/ts.jpg";
 import tw from "../../public/assets/tw.png";
+import wp from "../../public/assets/wp.png";
+import redux from "../../public/assets/redux.png";
 import InfiniteScroll from "./motions/InfiniteScroll";
 import RevealBounce from "./motions/RevealBounce";
 
@@ -23,10 +25,12 @@ const AboutMe = () => {
         { name: "JavaScript", icon: js },
         { name: "TypeScript", icon: ts },
         { name: "React", icon: react },
+        { name: "Redux", icon: redux },
         { name: "Next.js", icon: next },
         { name: "Node.js", icon: node },
         { name: "MongoDB", icon: mongo },
         { name: "Git", icon: git },
+        { name: "Wordpress", icon: wp },
         { name: "Figma", icon: figma },
         { name: "Linux", icon: linux },
     ];
@@ -110,9 +114,8 @@ const AboutMe = () => {
                             <InfiniteScroll
                                 itemWidth={98}
                                 gap={16}
-                                duration={25}
+                                duration={60}
                                 direction="left"
-                                pauseOnHover={true}
                             >
                                 {skills.map((skill, index) => (
                                     <motion.li
