@@ -86,9 +86,9 @@ const Hero = () => {
                 </div>
                 {/* right */}
                 <div className="lg:w-[30rem] w-9/12 ">
-                    <div className="relative">
-                        <RevealBounce>
-                            <div className="absolute blur-sm inset-0  z-0">
+                    <div className="relative m-auto flex items-center justify-center">
+                        <RevealBounce className="m-auto lg:m-0 lg:block flex items-center justify-center">
+                            <div className="absolute m-auto lg:m-0 lg:block flex items-center justify-center blur-sm inset-0  z-0">
                                 <img
                                     src="/assets/profile.jpg"
                                     alt="profile"

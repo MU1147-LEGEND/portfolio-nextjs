@@ -3,7 +3,7 @@
 import { motion, useAnimation, useInView } from "motion/react";
 import { useEffect, useRef } from "react";
 
-const RevealBounce = ({ children, delay = 0.1 }) => {
+const RevealBounce = ({ children, delay = 0.1, className }) => {
     const ref = useRef(null);
 
     const isInView = useInView(ref, { once: false });
@@ -35,6 +35,7 @@ const RevealBounce = ({ children, delay = 0.1 }) => {
             initial="hidden"
             animate={mainControls}
             transition={transition}
+            className={className}
         >
             {children}
         </motion.div>
