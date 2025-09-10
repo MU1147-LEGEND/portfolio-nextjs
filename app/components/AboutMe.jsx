@@ -85,10 +85,10 @@ const AboutMe = () => {
                         <ul className="list-disc pl-6 my-5 h-[4rem] ">
                             <li>Responsive Web Design - freeCodeCamp</li>
                             <li>
-                                JavaScript Algorithms and Data Structures -
+                                JavaScript Algorithms and Data Structures (aug 16, 2025) -
                                 <Link
                                     href={
-                                        "https://drive.google.com/file/d/1iDLBr2x8BBXg1Jwy_S1ewlR6mc8YHcBL/view?usp=sharing"
+                                        "https://www.freecodecamp.org/certification/mu1147_legend/javascript-algorithms-and-data-structures-v8"
                                     }
                                     target="_blank"
                                     className="text-blue-500 hover:underline leading-loose tracking-wide"

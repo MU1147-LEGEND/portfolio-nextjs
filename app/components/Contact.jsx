@@ -78,12 +78,17 @@ export default function Contact() {
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <span className="w-5 h-5 mt-1">✉️</span>
+                                <span className="w-5 h-5 mt-1">📩</span>
                                 <p>
                                     <span className="font-semibold text-white">
-                                        Email:
-                                    </span>{" "}
-                                    ullahmohammad314@gmail.com
+                                        Email:{" "}
+                                    </span>
+                                    <Link
+                                        href="mailto:ullahmohammad314@gmail.com"
+                                        className="text-blue-500 visited:text-purple-500 hover:underline"
+                                    >
+                                        ullahmohammad314@gmail.com
+                                    </Link>
                                 </p>
                             </div>
 

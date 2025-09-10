@@ -1,10 +1,8 @@
+import { Facebook, Github, Instagram, Linkedin } from "@deemlol/next-icons";
 import Link from "next/link";
-import Header from "./Header";
 import HeadingSpringBounce from "./HeadingSpringBounce";
 import RevealBounce from "./motions/RevealBounce";
 import Transition from "./motions/Transition";
-import { Facebook, Github, Instagram, Linkedin } from "@deemlol/next-icons";
-import PathMorphing from "./motions/PathsMorph";
 
 const Hero = () => {
     return (
