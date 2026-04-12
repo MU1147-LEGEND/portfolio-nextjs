@@ -20,14 +20,6 @@ and user-friendly interface.`,
             githubLink: "https://github.com/MU1147-LEGEND/sanchayan",
         },
         {
-            title: "Visionary - AI",
-            description:
-                "Visionary - AI is a cutting-edge web application that leverages artificial intelligence to provide personalized AI-driven Image Generations and real-time feedback.",
-            imageUrl: "/assets/projects/visionaryai.png",
-            liveLink: "https://visionary-ai-beta.vercel.app/",
-            githubLink: "https://github.com/MU1147-LEGEND/VisionaryAI",
-        },
-        {
             title: "Next.js Learning Platform",
             description:
                 "A platform for learning Next.js with various resources and tutorials.",
@@ -35,13 +27,6 @@ and user-friendly interface.`,
             liveLink: "https://learn-next-modern.vercel.app/",
             githubLink:
                 "https://github.com/MU1147-LEGEND/nextjs-learning-platform-using-v0",
-        },
-        {
-            title: "Project 4",
-            description: "Description for project 4",
-            imageUrl: "/assets/sanchayanbd.png",
-            liveLink: "#",
-            githubLink: "#",
         },
     ];
     return (
