@@ -5,8 +5,18 @@ import { getSiteSettings } from "@/lib/queries";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Reach Mohammad Ullah directly on WhatsApp or email.",
+  title: "Hire Mohammad Ullah — Full-Stack Web Developer & Software Engineer",
+  description:
+    "Get in touch with Mohammad Ullah for full-stack web development, Next.js product engineering, and technical consulting. Direct WhatsApp channel and email contact.",
+  alternates: {
+    canonical: "https://mohammadullah.me/contact",
+  },
+  openGraph: {
+    title: "Hire Mohammad Ullah — Full-Stack Web Developer & Software Engineer",
+    description:
+      "Direct WhatsApp and email contact for freelance, contract, and full-time web development opportunities.",
+    url: "https://mohammadullah.me/contact",
+  },
 };
 
 export default async function ContactPage() {

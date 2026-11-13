@@ -138,8 +138,27 @@ test("live screenshot capture and e2e Playwright UI verification", async () => {
     await page.goto(`${BASE_URL}/dev-admin`, { waitUntil: "networkidle" });
     assert.ok(page.url().includes("/dev-admin/login"), "Unauthenticated /dev-admin must redirect to /dev-admin/login");
 
-    // Capture visual proof of the 5 projects on the homepage
+    // 8. Verify SEO elements on homepage
     await page.goto(BASE_URL, { waitUntil: "networkidle" });
+    const metaDesc = await page.locator('meta[name="description"]').getAttribute("content");
+    console.log("Homepage meta description:", metaDesc);
+    assert.ok(metaDesc && metaDesc.includes("Mohammad Ullah"), "Meta description must include Mohammad Ullah");
+    assert.ok(metaDesc.includes("Web Developer") || metaDesc.includes("Full-Stack"), "Meta description must include developer keywords");
+
+    const canonicalHref = await page.locator('link[rel="canonical"]').getAttribute("href");
+    console.log("Canonical URL:", canonicalHref);
+    assert.equal(canonicalHref, "https://mohammadullah.me", "Canonical link must point to domain root");
+
+    const jsonLdContent = await page.locator('script[type="application/ld+json"]').textContent();
+    assert.ok(jsonLdContent && jsonLdContent.length > 0, "JSON-LD structured data script must be present");
+    const parsedLd = JSON.parse(jsonLdContent!);
+    assert.ok(parsedLd["@graph"], "JSON-LD graph must be present");
+    const personLd = parsedLd["@graph"].find((item: any) => item["@type"] === "Person");
+    assert.ok(personLd, "Person schema must be in JSON-LD");
+    assert.ok(personLd.knowsAbout.includes("Web Development"), "knowsAbout must include Web Development");
+    assert.ok(personLd.alternateName.includes("Developer Mohammad Ullah"), "alternateName must include Developer Mohammad Ullah");
+
+    // Capture visual proof of the 5 projects on the homepage
     await page.screenshot({ path: "public/assets/playwright-verified-home.png" });
     console.log("Saved Playwright visual proof to public/assets/playwright-verified-home.png");
   } finally {

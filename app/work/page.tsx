@@ -5,8 +5,18 @@ import { getPublishedProjects } from "@/lib/queries";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Work",
-  description: "Selected full-stack and frontend engineering case studies by Mohammad Ullah.",
+  title: "Web Development Projects & Case Studies",
+  description:
+    "Explore web development and software engineering projects by Mohammad Ullah: Next.js SaaS platforms, fintech applications, e-commerce systems, and desktop tools.",
+  alternates: {
+    canonical: "https://mohammadullah.me/work",
+  },
+  openGraph: {
+    title: "Web Development Projects & Case Studies — Mohammad Ullah",
+    description:
+      "Production web applications, interface systems, and SaaS platforms engineered by Mohammad Ullah.",
+    url: "https://mohammadullah.me/work",
+  },
 };
 
 export default async function WorkPage() {

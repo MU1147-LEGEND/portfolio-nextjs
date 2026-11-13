@@ -15,9 +15,28 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const project = await getProjectBySlug(slug);
   if (!project) return { title: "Project Not Found" };
+  const url = `https://mohammadullah.me/work/${project.slug}`;
   return {
-    title: project.title,
-    description: project.tagline,
+    title: `${project.title} — Web Development Case Study`,
+    description: `${project.tagline}. Developed by Mohammad Ullah using ${project.stack.slice(0, 4).join(", ")}.`,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: `${project.title} — Web Development Case Study by Mohammad Ullah`,
+      description: project.tagline,
+      url,
+      images: [
+        {
+          url: project.imageUrl.startsWith("http")
+            ? project.imageUrl
+            : `https://mohammadullah.me${project.imageUrl}`,
+          width: 1200,
+          height: 750,
+          alt: `${project.title} screenshot preview`,
+        },
+      ],
+    },
   };
 }
 

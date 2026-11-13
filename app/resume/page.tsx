@@ -5,8 +5,18 @@ import { getPublishedProjects, getSiteSettings } from "@/lib/queries";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Resume",
-  description: "Curriculum vitae and technical background of Mohammad Ullah.",
+  title: "Resume & Technical Background — Software Engineer Mohammad Ullah",
+  description:
+    "Review the professional resume, core technical stack (React 19, Next.js, TypeScript, Node.js, Drizzle ORM, SQLite), and engineering qualifications of Mohammad Ullah.",
+  alternates: {
+    canonical: "https://mohammadullah.me/resume",
+  },
+  openGraph: {
+    title: "Resume & Technical Background — Software Engineer Mohammad Ullah",
+    description:
+      "Curriculum vitae, core stack, and project engineering background of Mohammad Ullah.",
+    url: "https://mohammadullah.me/resume",
+  },
 };
 
 export default async function ResumePage() {

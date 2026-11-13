@@ -8,8 +8,18 @@ import { getSiteSettings } from "@/lib/queries";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "About",
-  description: "Background, engineering principles, and credentials of Mohammad Ullah.",
+  title: "About Mohammad Ullah — Software Engineer & Web Developer",
+  description:
+    "Learn about Mohammad Ullah, a Full-Stack Software Engineer and Web Developer from Bangladesh. Engineering principles, technology stack, background, and certifications.",
+  alternates: {
+    canonical: "https://mohammadullah.me/about",
+  },
+  openGraph: {
+    title: "About Mohammad Ullah — Software Engineer & Web Developer",
+    description:
+      "Engineering principles, core stack, and credentials of Mohammad Ullah.",
+    url: "https://mohammadullah.me/about",
+  },
 };
 
 export default async function AboutPage() {
