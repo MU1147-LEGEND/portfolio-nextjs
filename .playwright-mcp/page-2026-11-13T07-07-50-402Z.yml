@@ -1,0 +1,92 @@
+- generic [active] [ref=f29e1]:
+  - generic [ref=f29e2]:
+    - banner [ref=f29e3]:
+      - img "logo" [ref=f29e5]
+      - navigation [ref=f29e6]:
+        - link "Home" [ref=f29e8] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=f29e10] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=f29e12] [cursor=pointer]:
+          - /url: /services
+        - link "Pricing" [ref=f29e14] [cursor=pointer]:
+          - /url: /pricing
+        - link "Blog" [ref=f29e16] [cursor=pointer]:
+          - /url: /blog
+        - link "Resources" [ref=f29e18] [cursor=pointer]:
+          - /url: /resources
+      - button "Schedule a Meeting" [ref=f29e20] [cursor=pointer]
+    - generic [ref=f29e26]:
+      - heading "Airbnb Assistants For" [level=1] [ref=f29e27]
+      - heading "Property Management" [level=2] [ref=f29e28]
+      - paragraph [ref=f29e29]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      - button "Schedule A Meeting" [ref=f29e30] [cursor=pointer]
+      - link "See Pricing" [ref=f29e33] [cursor=pointer]:
+        - /url: "#pricing"
+    - generic [ref=f29e65]:
+      - heading "Trusted by leaders in 50+ industries" [level=3] [ref=f29e66]
+      - generic [ref=f29e67]:
+        - img "Airbnb logo" [ref=f29e69]
+        - img "Booking.com logo" [ref=f29e71]
+        - img "Vrbo logo" [ref=f29e73]
+        - img "Tripadvisor logo" [ref=f29e75]
+        - img "Agoda logo" [ref=f29e77]
+        - img "Expedia logo" [ref=f29e79]
+        - img "HomeToGo logo" [ref=f29e81]
+        - img "Airbnb logo" [ref=f29e83]
+        - img "Booking.com logo" [ref=f29e85]
+        - img "Vrbo logo" [ref=f29e87]
+        - img "Tripadvisor logo" [ref=f29e89]
+        - img "Agoda logo" [ref=f29e91]
+        - img "Expedia logo" [ref=f29e93]
+        - img "HomeToGo logo" [ref=f29e95]
+        - img "Airbnb logo" [ref=f29e97]
+        - img "Booking.com logo" [ref=f29e99]
+        - img "Vrbo logo" [ref=f29e101]
+        - img "Tripadvisor logo" [ref=f29e103]
+        - img "Agoda logo" [ref=f29e105]
+        - img "Expedia logo" [ref=f29e107]
+        - img "HomeToGo logo" [ref=f29e109]
+    - generic [ref=f29e111]:
+      - heading "Our Services" [level=2] [ref=f29e112]
+      - paragraph [ref=f29e113]: We offer a wide range of services to help you manage your property and provide an exceptional experience for your guests.
+      - generic [ref=f29e114]:
+        - article [ref=f29e115]:
+          - generic [ref=f29e118]:
+            - heading "Manage Property Listings" [level=3] [ref=f29e119]
+            - paragraph [ref=f29e120]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - button "Read More" [ref=f29e121]
+        - article [ref=f29e122]:
+          - generic [ref=f29e125]:
+            - heading "Manage Customer Bookings" [level=3] [ref=f29e126]
+            - paragraph [ref=f29e127]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - button "Read More" [ref=f29e128]
+        - article [ref=f29e129]:
+          - generic [ref=f29e132]:
+            - heading "Schedule House Cleaning" [level=3] [ref=f29e133]
+            - paragraph [ref=f29e134]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - button "Read More" [ref=f29e135]
+        - article [ref=f29e136]:
+          - generic [ref=f29e139]:
+            - heading "Monitor Guest Reviews" [level=3] [ref=f29e140]
+            - paragraph [ref=f29e141]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - button "Read More" [ref=f29e142]
+        - article [ref=f29e143]:
+          - generic [ref=f29e146]:
+            - heading "Track & Report Expenses" [level=3] [ref=f29e147]
+            - paragraph [ref=f29e148]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - button "Read More" [ref=f29e149]
+        - article [ref=f29e150]:
+          - generic [ref=f29e153]:
+            - heading "Guest Inquiry & Support" [level=3] [ref=f29e154]
+            - paragraph [ref=f29e155]: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          - button "Read More" [ref=f29e156]
+    - generic [ref=f29e158]:
+      - heading "Airbnb Assistant pricing" [level=2] [ref=f29e159]
+      - paragraph [ref=f29e160]: Choose a plan that's right for you
+      - generic [ref=f29e161]:
+        - generic [ref=f29e162]: Pay Monthly
+        - button "Toggle yearly pricing" [ref=f29e163]
+        - generic [ref=f29e165]: Pay Yearly
+        - generic [ref=f29e166]: Save 25%
+  - alert [ref=f29e172]

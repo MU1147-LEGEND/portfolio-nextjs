@@ -1,0 +1,162 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - generic [ref=f9e3]: একাউন্ট খুলতে ও লোন নিতে আপনার নিকটস্থ ব্রাঞ্চে যোগাযোগ করুন। বিস্তারিত জানতে ফোন করুনঃ +8801535-796189
+    - button "×" [ref=f9e4] [cursor=pointer]
+  - banner [ref=f9e5]:
+    - generic [ref=f9e6]:
+      - link "Go to home" [ref=f9e7] [cursor=pointer]:
+        - /url: /
+        - paragraph [ref=f9e8]
+      - navigation [ref=f9e10]:
+        - button "Home" [ref=f9e11] [cursor=pointer]
+        - button "About" [ref=f9e13] [cursor=pointer]
+        - button "Contact" [ref=f9e15] [cursor=pointer]
+        - button "Gallery" [ref=f9e17] [cursor=pointer]
+        - button "Registration Form" [ref=f9e19] [cursor=pointer]
+        - button "Dashboard" [ref=f9e21] [cursor=pointer]
+        - button "Withdraw" [ref=f9e23] [cursor=pointer]
+        - button
+  - main [ref=f9e25]:
+    - generic [ref=f9e27]:
+      - generic [ref=f9e28]:
+        - generic [ref=f9e29]
+        - generic [ref=f9e66]
+      - generic [ref=f9e92]:
+        - generic [ref=f9e93]
+        - generic [ref=f9e101]
+        - generic [ref=f9e110]
+        - generic [ref=f9e120]
+    - generic [ref=f9e128]:
+      - generic [ref=f9e129]:
+        - generic [ref=f9e130]: পবিত্র আল-কুরআনের নির্দেশিকা
+        - blockquote [ref=f9e134]: "\"আল্লাহ তা'য়ালা ব্যবসাকে হালাল করেছেন এবং সুদকে হারাম করেছেন।\""
+        - paragraph [ref=f9e135]: "— সূরা আল-বাকারা, আয়াত: ২৭৫"
+        - paragraph [ref=f9e137]: ইসলামী শরীয়াহ্ মোতাবেক অর্থনৈতিক কার্যক্রম পরিচালনা, সদস্যদের আর্থিক মর্যাদা বৃদ্ধি, সমাজিক সম্প্রীতি রক্ষা এবং সুদহীন কল্যাণকামী রাষ্ট্র বিনির্মাণই সঞ্চয়নের মূল প্রেরণা।
+      - generic [ref=f9e138]:
+        - generic [ref=f9e139]: আমাদের আদর্শ ও লক্ষ্য
+        - heading "যে ৩টি মূলস্তম্ভে গড়ে উঠেছে আমাদের সংস্থা" [level=2] [ref=f9e145]
+        - paragraph [ref=f9e146]: সঞ্চয়ন কেবল একটি আর্থিক প্রতিষ্ঠান নয়, এটি একটি সামগ্রিক সমাজ রূপান্তর ও মানবকল্যাণ আন্দোলন।
+      - generic [ref=f9e147]:
+        - generic [ref=f9e148]
+        - generic [ref=f9e156]
+        - generic [ref=f9e162]
+      - link "আমাদের লক্ষ্য ও উদ্দেশ্য সম্পর্কে আরও বিস্তারিত পড়ুন" [ref=f9e170] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=f9e175]:
+      - generic [ref=f9e176]:
+        - generic [ref=f9e177]: চলমান প্রকল্পসমূহ
+        - heading "যেসব জনকল্যাণমূলক প্রকল্পে কাজ করছে সঞ্চয়ন" [level=2] [ref=f9e181]
+        - paragraph [ref=f9e182]: সদস্যদের যৌথ বিনিয়োগের মাধ্যমে বাস্তবায়িত প্রতিটি প্রকল্প সমাজে প্রত্যক্ষ ইতিবাচক প্রভাব রাখছে এবং সুদমুক্ত হালাল মুনাফা অর্জন করছে।
+      - generic [ref=f9e183]:
+        - generic [ref=f9e184]
+        - generic [ref=f9e196]
+        - generic [ref=f9e209]
+        - generic [ref=f9e222]
+        - generic [ref=f9e237]
+        - generic [ref=f9e250]
+        - generic [ref=f9e262]
+        - generic [ref=f9e275]
+      - link "এই প্রকল্পগুলোর অংশীদার হতে আজই সদস্য ফরম পূরণ করুন" [ref=f9e289] [cursor=pointer]:
+        - /url: /registration-form
+    - generic [ref=f9e294]:
+      - generic [ref=f9e295]:
+        - generic [ref=f9e296]: সদস্যদের বিশেষ সুবিধাসমূহ
+        - heading "সঞ্চয়ন পরিবারের সদস্য হলে আপনি যেসব নাগরিক ও সামাজিক সুবিধা পাবেন" [level=2] [ref=f9e301]
+        - paragraph [ref=f9e302]: আমাদের লক্ষ্য প্রতিটি সদস্য ও তার পরিবারকে একটি নির্ভরযোগ্য সামাজিক নিরাপত্তা বলয়ের আওতায় নিয়ে আসা।
+      - generic [ref=f9e303]:
+        - generic [ref=f9e308]
+        - generic [ref=f9e317]
+        - generic [ref=f9e328]
+        - generic [ref=f9e340]
+        - generic [ref=f9e350]
+        - generic [ref=f9e360]
+        - generic [ref=f9e370]
+        - generic [ref=f9e381]
+        - generic [ref=f9e393]
+        - generic [ref=f9e403]
+      - generic [ref=f9e408]:
+        - generic [ref=f9e409]
+        - link "সদস্য আবেদন ফরম পূরণ করুন" [ref=f9e412] [cursor=pointer]:
+          - /url: /registration-form
+    - generic [ref=f9e417]:
+      - generic [ref=f9e418]:
+        - generic [ref=f9e419]: সহজ কার্যপ্রণালী
+        - heading "যেভাবে সঞ্চয়ন পরিবারের সাথে যুক্ত হবেন" [level=2] [ref=f9e421]
+        - paragraph [ref=f9e422]: কোনো প্রকার মধ্যস্থতাকারী বা দালাল ছাড়াই সরাসরি ৩টি সহজ পদক্ষেপে ডিজিটাল উপায়ে সদস্যপদ সম্পন্ন করুন।
+      - generic [ref=f9e423]:
+        - generic [ref=f9e424]
+        - generic [ref=f9e440]
+        - generic [ref=f9e457]
+    - generic [ref=f9e473]:
+      - generic [ref=f9e474]:
+        - generic [ref=f9e475]
+        - link "সম্পূর্ণ গ্যালারি দেখুন" [ref=f9e484] [cursor=pointer]:
+          - /url: /gallery
+      - generic [ref=f9e493]:
+        - img "Modern bank building" [ref=f9e496]
+        - img "Financial planning" [ref=f9e499]
+        - img "Insurance protection" [ref=f9e502]
+        - img "Credit cards" [ref=f9e505]
+        - img "Investment growth" [ref=f9e508]
+        - img "Business analytics" [ref=f9e511]
+        - img "Gallery image" [ref=f9e514]
+      - generic [ref=f9e517]:
+        - generic [ref=f9e518]
+        - generic [ref=f9e520]
+        - generic [ref=f9e522]
+        - generic [ref=f9e524]
+    - generic [ref=f9e528]:
+      - generic [ref=f9e529]:
+        - generic [ref=f9e530]: সুশাসন ও জবাবদিহিতা
+        - heading "স্বচ্ছ পরিচালনা ও শরীয়াহ্ সম্মত প্রাতিষ্ঠানিক কাঠামো" [level=2] [ref=f9e536]
+        - paragraph [ref=f9e537]: সঞ্চয়ন সংস্থা দুটি সুসংগঠিত স্তরে পরিচালিত হয় — সর্বোচ্চ নীতি নির্ধারণী **পরিচালনা পর্ষদ (Board of Directors)** এবং দৈনন্দিন নির্বাহী কার্যক্রম পরিচালনাকারী **কার্যনির্বাহী পরিষদ (Executive Committee)**। প্রতিটি আর্থিক পদক্ষেপ শরীয়াহ্ ও সমবায় নীতিমালার আলোকে নিরীক্ষিত।
+        - generic [ref=f9e538]
+        - link "সম্পূর্ণ প্রাতিষ্ঠানিক কাঠামো দেখুন" [ref=f9e552] [cursor=pointer]:
+          - /url: /structure
+      - generic [ref=f9e562]:
+        - generic [ref=f9e569]
+        - generic [ref=f9e572]
+    - generic [ref=f9e590]:
+      - generic [ref=f9e591]:
+        - generic [ref=f9e592]: সাধারণ প্রশ্নোত্তর
+        - heading "সচরাচর জিজ্ঞাসিত প্রশ্ন ও উত্তর" [level=2] [ref=f9e597]
+        - paragraph [ref=f9e598]: সদস্যপদ ও সংস্থা পরিচালনা সম্পর্কিত প্রয়োজনীয় তথ্যাবলী।
+      - generic [ref=f9e599]:
+        - generic [ref=f9e600]
+        - button "প্রবাসী ভাই-বোনেরা কীভাবে সঞ্চয়নের সদস্য হতে পারবেন?" [ref=f9e607] [cursor=pointer]
+        - button "লাভ-ক্ষতির হিসাব এবং মুনাফা কীভাবে বণ্টন করা হয়?" [ref=f9e612] [cursor=pointer]
+        - button "জরুরি প্রয়োজনে কি আমার জমাকৃত অর্থ উত্তোলন করতে পারব?" [ref=f9e617] [cursor=pointer]
+        - button "সঞ্চয়ন কর্তৃক নির্মিত হাসপাতাল ও শিক্ষা প্রতিষ্ঠানের সুবিধা পেতে কী শর্ত প্রয়োজন?" [ref=f9e622] [cursor=pointer]
+    - generic [ref=f9e627]:
+      - generic [ref=f9e628]: সুদমুক্ত সমাজ বিনির্মাণে আমাদের সাথে এগিয়ে আসুন
+      - heading "সমাজের ইতিবাচক রূপান্তরে আজই যুক্ত হোন সঞ্চয়ন পরিবারে" [level=2] [ref=f9e633]
+      - paragraph [ref=f9e634]: আপনার একটি সৎ উদ্যোগ ও ক্ষুদ্র সঞ্চয় বদলে দিতে পারে একটি অভাবী পরিবারের ভাগ্য। ঘরে বসেই মাত্র কয়েক মিনিটে অনলাইন সদস্যপদ গ্রহণ করুন।
+      - generic [ref=f9e635]:
+        - link "সদস্য আবেদন ফরম পূরণ করুন" [ref=f9e636] [cursor=pointer]:
+          - /url: /registration-form
+        - link "সরাসরি কথা বলুন" [ref=f9e640] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f9e644]:
+        - generic [ref=f9e645]: কোনো মধ্যস্থতাকারী নেই
+        - generic [ref=f9e650]: ১০০% নিরাপদ ও স্বচ্ছ হিসাব
+        - generic [ref=f9e655]: আইনি ও সমবায় নীতিমালা সমর্থিত
+  - contentinfo [ref=f9e660]:
+    - generic [ref=f9e662]:
+      - generic [ref=f9e663]:
+        - heading "সঞ্চয়ন" [level=3] [ref=f9e664]
+        - paragraph [ref=f9e665]: ইসলামী শরীয়াহ্ ভিত্তিক পরিচালিত একটি সমাজ উন্নয়ন সংস্থা। আমাদের লক্ষ্য হলো সমাজের কল্যাণ ও উন্নয়নে অবদান রাখা।
+      - generic [ref=f9e666]:
+        - heading "Quick Links" [level=3] [ref=f9e667]
+        - generic [ref=f9e668]
+      - generic [ref=f9e673]:
+        - heading "Services" [level=3] [ref=f9e674]
+        - generic [ref=f9e675]
+      - generic [ref=f9e679]:
+        - heading "Connect With Us" [level=3] [ref=f9e680]
+        - generic [ref=f9e681]
+    - generic [ref=f9e701]:
+      - generic [ref=f9e702]:
+        - generic [ref=f9e703]: "Theme:"
+        - button "Dark mode Dark" [ref=f9e705] [cursor=pointer]
+      - paragraph [ref=f9e707]: © 2026 Sanchayan. All rights reserved.
+  - alert [ref=f9e708]

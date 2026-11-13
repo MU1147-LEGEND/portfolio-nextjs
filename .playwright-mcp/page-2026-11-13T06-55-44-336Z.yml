@@ -1,0 +1,56 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e3]:
+    - generic [ref=f13e9]:
+      - heading "Text to Speech (MP3)" [level=1] [ref=f13e10]
+      - generic [ref=f13e11]:
+        - generic [ref=f13e12]: Human Tone
+        - generic [ref=f13e13]: en-US-JennyNeural
+    - generic [ref=f13e19]:
+      - generic [ref=f13e20]:
+        - heading "Text" [level=3] [ref=f13e22]
+        - generic [ref=f13e23]:
+          - textbox "Enter or paste the text you want to convert to speech. Longer text = longer audio." [ref=f13e24]:
+            - /placeholder: Type or paste text here…
+          - generic "Text input and generation controls" [ref=f13e25]:
+            - generic [ref=f13e26]:
+              - generic [ref=f13e27]:
+                - button "Generate" [disabled]
+                - button "Download MP3" [disabled]
+                - button "Copy" [ref=f13e28] [cursor=pointer]
+                - button "Clear" [ref=f13e32] [cursor=pointer]
+              - generic "Audio playback controls" [ref=f13e36]:
+                - button "Play" [disabled]
+                - button "-5s" [disabled]
+                - button "+5s" [disabled]
+                - button "Stop" [disabled]
+            - generic "Click on the progress bar to seek to a specific time" [ref=f13e37]:
+              - generic [ref=f13e38]:
+                - generic "Current playback position" [ref=f13e39]: 0:00
+                - generic "Total audio duration" [ref=f13e40]: 0:00
+              - generic "Click to seek to a specific time in the audio" [ref=f13e41] [cursor=pointer]
+          - paragraph [ref=f13e42]: "Tip: Generate MP3, then you can scrub/seek accurately."
+      - generic [ref=f13e43]:
+        - heading "Voice & settings" [level=3] [ref=f13e45]
+        - generic [ref=f13e47]:
+          - tablist [ref=f13e48]:
+            - tab "Voice" [selected] [ref=f13e49] [cursor=pointer]
+            - tab "Prefs" [ref=f13e50] [cursor=pointer]
+          - tabpanel "Voice" [ref=f13e51]:
+            - generic "Choose from multiple Azure neural voices" [ref=f13e52]:
+              - text: Azure voice
+              - combobox "Click to select a voice" [ref=f13e53] [cursor=pointer]:
+                - generic: English (US) • Jenny (Natural)
+              - paragraph [ref=f13e56]: Need a different one? Type a custom voice name in Prefs.
+            - generic "Control how fast the speech is generated (0.5x = slow, 2x = fast)" [ref=f13e57]:
+              - generic [ref=f13e58]:
+                - generic "Speech speed multiplier" [ref=f13e59]: Rate
+                - generic "Current speech rate" [ref=f13e60]: 1.00×
+              - generic "Drag to adjust speech speed" [ref=f13e61]:
+                - slider [ref=f13e65]
+            - generic "Adjust the pitch/tone of the voice (0 = low, 2 = high)" [ref=f13e66]:
+              - generic [ref=f13e67]:
+                - generic "Voice pitch control" [ref=f13e68]: Pitch
+                - generic "Current pitch setting" [ref=f13e69]: "1.00"
+              - generic "Drag to adjust voice pitch" [ref=f13e70]:
+                - slider [ref=f13e74]
+  - alert [ref=f13e75]

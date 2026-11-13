@@ -1,0 +1,437 @@
+- generic [active] [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - navigation [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - link "BASATI Science & Technology" [ref=f12e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f12e10]:
+            - generic [ref=f12e11]: BASATI
+            - generic [ref=f12e12]: Science & Technology
+        - generic [ref=f12e13]:
+          - link "Home" [ref=f12e14] [cursor=pointer]:
+            - /url: /
+          - link "Notice" [ref=f12e15] [cursor=pointer]:
+            - /url: /notices
+          - link "Departments" [ref=f12e16] [cursor=pointer]:
+            - /url: /#departments
+          - link "Students" [ref=f12e17] [cursor=pointer]:
+            - /url: /students
+          - link "Teachers" [ref=f12e18] [cursor=pointer]:
+            - /url: /teachers
+          - link "Community" [ref=f12e19] [cursor=pointer]:
+            - /url: /community
+          - link "Dashboard" [ref=f12e20] [cursor=pointer]:
+            - /url: /dashboard
+  - generic [ref=f12e21]:
+    - main [ref=f12e22]:
+      - generic [ref=f12e23]:
+        - img "Campus" [ref=f12e25]
+        - generic [ref=f12e27]:
+          - generic [ref=f12e28]: Established 2010
+          - heading "Badiul Alam Science and Technology Institute" [level=1] [ref=f12e33]
+          - paragraph [ref=f12e34]: Empowering the next generation of engineers and technologists through excellence in education, innovation, and practical skills development.
+          - generic [ref=f12e35]:
+            - link "Explore Programs" [ref=f12e36] [cursor=pointer]:
+              - /url: /#departments
+            - link "Contact Admissions" [ref=f12e37] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f12e38]:
+            - link "3 Departments" [ref=f12e39] [cursor=pointer]:
+              - /url: /#departments
+              - generic [ref=f12e40]: "3"
+              - generic [ref=f12e41]: Departments
+            - generic [ref=f12e42]:
+              - generic [ref=f12e43]: 150+
+              - generic [ref=f12e44]: Active Students
+            - generic [ref=f12e45]:
+              - generic [ref=f12e46]: "16"
+              - generic [ref=f12e47]: Years of Excellence
+      - generic [ref=f12e49]:
+        - generic [ref=f12e50]:
+          - generic [ref=f12e51]: About Us
+          - heading "Leading Technical Education Since 2010" [level=2] [ref=f12e52]
+          - paragraph [ref=f12e53]: Our polytechnic institute is committed to providing quality technical education that prepares students for successful careers in engineering and technology fields.
+        - generic [ref=f12e54]:
+          - generic [ref=f12e55]:
+            - heading "Our Vision" [level=3] [ref=f12e61]
+            - paragraph [ref=f12e62]: To be a leading polytechnic institute recognized for excellence in technical education, innovation, and developing skilled professionals who contribute to national development and global technological advancement.
+          - generic [ref=f12e63]:
+            - heading "Our Mission" [level=3] [ref=f12e70]
+            - paragraph [ref=f12e71]: To provide comprehensive technical education combining theoretical knowledge with practical skills, foster innovation and creativity, and prepare students to meet the challenges of the modern technological world.
+        - generic [ref=f12e72]:
+          - generic [ref=f12e73]:
+            - heading "Accredited Programs" [level=4] [ref=f12e78]
+            - paragraph [ref=f12e79]: All programs nationally recognized and industry-aligned
+          - generic [ref=f12e80]:
+            - heading "Expert Faculty" [level=4] [ref=f12e87]
+            - paragraph [ref=f12e88]: Experienced educators with industry backgrounds
+          - generic [ref=f12e89]:
+            - heading "Modern Curriculum" [level=4] [ref=f12e93]
+            - paragraph [ref=f12e94]: Updated courses matching current industry needs
+          - generic [ref=f12e95]:
+            - heading "Career Success" [level=4] [ref=f12e100]
+            - paragraph [ref=f12e101]: High placement rate in top companies and industries
+      - generic [ref=f12e103]:
+        - generic [ref=f12e104]:
+          - generic [ref=f12e105]: Our Departments
+          - heading "Excellence in Technical Education" [level=2] [ref=f12e106]
+          - paragraph [ref=f12e107]: Choose from our three specialized departments, each designed to provide comprehensive technical education and practical skills.
+        - generic [ref=f12e108]:
+          - generic [ref=f12e109]:
+            - img "Computer Science" [ref=f12e111]
+            - generic [ref=f12e116]:
+              - link [ref=f12e117] [cursor=pointer]:
+                - /url: /departments/computer-science
+                - heading "Computer Science" [level=3] [ref=f12e118]
+              - paragraph [ref=f12e119]: Master programming, networking, and modern software development with hands-on training in the latest technologies.
+              - generic [ref=f12e120]:
+                - generic [ref=f12e121]: "Key Courses:"
+                - generic [ref=f12e125]:
+                  - generic [ref=f12e126]: Programming
+                  - generic [ref=f12e127]: Networking
+                  - generic [ref=f12e128]: Database
+                  - generic [ref=f12e129]: Web Development
+              - generic [ref=f12e130]:
+                - generic [ref=f12e131]: 65 Students
+                - generic [ref=f12e138]: 4 Years
+              - link "View Department" [ref=f12e144] [cursor=pointer]:
+                - /url: /departments/computer-science
+          - generic [ref=f12e145]:
+            - img "Civil Technology" [ref=f12e147]
+            - generic [ref=f12e154]:
+              - link [ref=f12e155] [cursor=pointer]:
+                - /url: /departments/civil-technology
+                - heading "Civil Technology" [level=3] [ref=f12e156]
+              - paragraph [ref=f12e157]: Learn construction, structural design, and infrastructure development with practical field experience.
+              - generic [ref=f12e158]:
+                - generic [ref=f12e159]: "Key Courses:"
+                - generic [ref=f12e163]:
+                  - generic [ref=f12e164]: Surveying
+                  - generic [ref=f12e165]: Structural Design
+                  - generic [ref=f12e166]: Construction
+                  - generic [ref=f12e167]: CAD
+              - generic [ref=f12e168]:
+                - generic [ref=f12e169]: 45 Students
+                - generic [ref=f12e176]: 4 Years
+              - link "View Department" [ref=f12e182] [cursor=pointer]:
+                - /url: /departments/civil-technology
+          - generic [ref=f12e183]:
+            - img "Electrical Technology" [ref=f12e185]
+            - generic [ref=f12e190]:
+              - link [ref=f12e191] [cursor=pointer]:
+                - /url: /departments/electrical-technology
+                - heading "Electrical Technology" [level=3] [ref=f12e192]
+              - paragraph [ref=f12e193]: Explore electrical systems, power generation, and electronics with industry-standard equipment and labs.
+              - generic [ref=f12e194]:
+                - generic [ref=f12e195]: "Key Courses:"
+                - generic [ref=f12e199]:
+                  - generic [ref=f12e200]: Circuit Design
+                  - generic [ref=f12e201]: Power Systems
+                  - generic [ref=f12e202]: Electronics
+                  - generic [ref=f12e203]: Automation
+              - generic [ref=f12e204]:
+                - generic [ref=f12e205]: 40 Students
+                - generic [ref=f12e212]: 4 Years
+              - link "View Department" [ref=f12e218] [cursor=pointer]:
+                - /url: /departments/electrical-technology
+      - generic [ref=f12e220]:
+        - generic [ref=f12e221]:
+          - generic [ref=f12e222]: Campus Facilities
+          - heading "World-Class Infrastructure" [level=2] [ref=f12e223]
+          - paragraph [ref=f12e224]: Our campus is equipped with modern facilities and state-of-the-art laboratories to provide hands-on learning experience.
+        - generic [ref=f12e225]:
+          - generic [ref=f12e226]:
+            - heading "Computer Labs" [level=3] [ref=f12e232]
+            - paragraph [ref=f12e233]: State-of-the-art computer labs with latest hardware and software for programming and networking practice.
+            - list [ref=f12e234]:
+              - listitem [ref=f12e235]: 50+ Modern Computers
+              - listitem [ref=f12e237]: High-Speed Internet
+              - listitem [ref=f12e239]: Latest Software
+              - listitem [ref=f12e241]: 24/7 Access
+          - generic [ref=f12e243]:
+            - heading "Civil Workshop" [level=3] [ref=f12e249]
+            - paragraph [ref=f12e250]: Fully equipped workshop for surveying, construction materials testing, and structural design practice.
+            - list [ref=f12e251]:
+              - listitem [ref=f12e252]: Testing Equipment
+              - listitem [ref=f12e254]: CAD Workstations
+              - listitem [ref=f12e256]: Field Instruments
+              - listitem [ref=f12e258]: Project Space
+          - generic [ref=f12e260]:
+            - heading "Electrical Labs" [level=3] [ref=f12e266]
+            - paragraph [ref=f12e267]: Advanced electrical and electronics labs with modern equipment for circuit design and power systems.
+            - list [ref=f12e268]:
+              - listitem [ref=f12e269]: Circuit Trainers
+              - listitem [ref=f12e271]: Power Systems Lab
+              - listitem [ref=f12e273]: PLC Equipment
+              - listitem [ref=f12e275]: Safety Features
+          - generic [ref=f12e277]:
+            - heading "Library" [level=3] [ref=f12e283]
+            - paragraph [ref=f12e284]: Comprehensive library with extensive collection of technical books, journals, and digital resources.
+            - list [ref=f12e285]:
+              - listitem [ref=f12e286]: 5000+ Books
+              - listitem [ref=f12e288]: Digital Library
+              - listitem [ref=f12e290]: Study Areas
+              - listitem [ref=f12e292]: Research Support
+          - generic [ref=f12e294]:
+            - heading "Science Labs" [level=3] [ref=f12e302]
+            - paragraph [ref=f12e303]: Well-equipped physics and chemistry labs for fundamental science experiments and research.
+            - list [ref=f12e304]:
+              - listitem [ref=f12e305]: Modern Equipment
+              - listitem [ref=f12e307]: Safety Standards
+              - listitem [ref=f12e309]: Experiment Kits
+              - listitem [ref=f12e311]: Lab Assistants
+          - generic [ref=f12e313]:
+            - heading "Project Lab" [level=3] [ref=f12e319]
+            - paragraph [ref=f12e320]: Dedicated space for final year projects and innovative student research initiatives.
+            - list [ref=f12e321]:
+              - listitem [ref=f12e322]: Work Stations
+              - listitem [ref=f12e324]: Tools & Equipment
+              - listitem [ref=f12e326]: Mentor Support
+              - listitem [ref=f12e328]: Prototype Materials
+      - generic [ref=f12e331]:
+        - generic [ref=f12e332]:
+          - generic [ref=f12e333]: Our Faculty
+          - heading "Meet Our Expert Educators" [level=2] [ref=f12e334]
+          - paragraph [ref=f12e335]: Learn from experienced professionals dedicated to nurturing the next generation of engineers and technologists.
+        - generic [ref=f12e336]:
+          - generic [ref=f12e338]:
+            - generic [ref=f12e339]:
+              - img "Md.Tariqul Islam" [ref=f12e342]
+              - generic [ref=f12e343]:
+                - heading "Md.Tariqul Islam" [level=3] [ref=f12e344]
+                - paragraph [ref=f12e345]: Jr Instructor
+                - paragraph [ref=f12e346]: Civil Technology
+                - generic [ref=f12e351]: 4+ years
+            - generic [ref=f12e352]:
+              - generic "Education qualification" [ref=f12e353]: BSc in Civil
+              - generic "Subjects taught" [ref=f12e359]: Structural analysis, Fluid mechanics
+            - generic [ref=f12e363]:
+              - link "tariqul@basati.edu.bd" [ref=f12e364] [cursor=pointer]:
+                - /url: mailto:tariqul@basati.edu.bd
+              - link "+8801611571178" [ref=f12e369] [cursor=pointer]:
+                - /url: tel:+8801611571178
+          - generic [ref=f12e374]:
+            - generic [ref=f12e375]:
+              - img "Rajib Ahmed" [ref=f12e378]
+              - generic [ref=f12e379]:
+                - heading "Rajib Ahmed" [level=3] [ref=f12e380]
+                - paragraph [ref=f12e381]: Instructor
+                - paragraph [ref=f12e382]: Electrical Technology
+                - generic [ref=f12e387]: 10+ years
+            - generic [ref=f12e388]:
+              - generic "Education qualification" [ref=f12e389]:
+                - generic [ref=f12e393]:
+                  - generic [ref=f12e394]: Bsc in EEE
+                  - generic [ref=f12e395]: Digital Electronics
+              - generic "Subjects taught" [ref=f12e396]: Digital Electronics, Microcontroller based system design, Arduino
+            - generic [ref=f12e400]:
+              - link "rajib@basati.edu.bd" [ref=f12e401] [cursor=pointer]:
+                - /url: mailto:rajib@basati.edu.bd
+              - link "+8801313668808" [ref=f12e406] [cursor=pointer]:
+                - /url: tel:+8801313668808
+          - generic [ref=f12e411]:
+            - generic [ref=f12e412]:
+              - generic [ref=f12e413]: BJ
+              - generic [ref=f12e415]:
+                - heading "Boshra Jahan" [level=3] [ref=f12e416]
+                - paragraph [ref=f12e417]: Instructor
+                - generic [ref=f12e418]: 2+ years
+            - generic [ref=f12e419]:
+              - generic "Education qualification" [ref=f12e420]:
+                - generic [ref=f12e424]:
+                  - generic [ref=f12e425]: BSc in Mathematics
+                  - generic [ref=f12e426]: Mathematics
+              - generic "Subjects taught" [ref=f12e427]: Mathematics, Physics
+            - generic [ref=f12e431]:
+              - link "boshra@basati.edu.bd" [ref=f12e432] [cursor=pointer]:
+                - /url: mailto:boshra@basati.edu.bd
+              - link "+8801712345678" [ref=f12e437] [cursor=pointer]:
+                - /url: tel:+8801712345678
+          - generic [ref=f12e442]:
+            - generic [ref=f12e443]:
+              - img "Narayan Bhowmik" [ref=f12e446]
+              - generic [ref=f12e447]:
+                - heading "Narayan Bhowmik" [level=3] [ref=f12e448]
+                - paragraph [ref=f12e449]: Instructor
+                - paragraph [ref=f12e450]: Electrical Technology
+                - generic [ref=f12e455]: 14+ years
+            - generic [ref=f12e456]:
+              - generic "Education qualification" [ref=f12e457]:
+                - generic [ref=f12e461]:
+                  - generic [ref=f12e462]: Bsc in EEE
+                  - generic [ref=f12e463]: Electronics
+              - generic "Subjects taught" [ref=f12e464]: Electromagnetic Power
+            - generic [ref=f12e468]:
+              - link "narayan@basati.edu.bd" [ref=f12e469] [cursor=pointer]:
+                - /url: mailto:narayan@basati.edu.bd
+              - link "+8801717443981" [ref=f12e474] [cursor=pointer]:
+                - /url: tel:+8801717443981
+          - generic [ref=f12e479]:
+            - generic [ref=f12e480]:
+              - generic [ref=f12e481]: MK
+              - generic [ref=f12e483]:
+                - heading "Md.Abul Kashem" [level=3] [ref=f12e484]
+                - generic [ref=f12e485]: Head of Electrical Department
+                - paragraph [ref=f12e486]: Electrical Technology
+                - generic [ref=f12e491]: 15+ years
+            - generic [ref=f12e492]:
+              - generic "Education qualification" [ref=f12e493]: EEE
+              - generic "Subjects taught" [ref=f12e499]: Basic Electricity, Digital Logic Circuits
+            - generic [ref=f12e503]:
+              - link "kashem@basati.edu.bd" [ref=f12e504] [cursor=pointer]:
+                - /url: mailto:kashem@basati.edu.bd
+              - link "+8801814301362" [ref=f12e509] [cursor=pointer]:
+                - /url: tel:+8801814301362
+          - generic [ref=f12e514]:
+            - generic [ref=f12e515]:
+              - img "Md Nadiruzzaman" [ref=f12e518]
+              - generic [ref=f12e519]:
+                - heading "Md Nadiruzzaman" [level=3] [ref=f12e520]
+                - generic [ref=f12e521]: Principal
+                - paragraph [ref=f12e522]: Civil Technology
+                - generic [ref=f12e527]: 2+ years
+            - generic [ref=f12e528]:
+              - generic "Education qualification" [ref=f12e529]:
+                - generic [ref=f12e533]:
+                  - generic [ref=f12e534]: BSc in Mechanical Engineering (Engr)
+                  - generic [ref=f12e535]: Programming
+              - paragraph [ref=f12e536]:
+                - generic [ref=f12e539]: N/A
+            - generic [ref=f12e540]:
+              - link "nadiruzzaman@basati.edu.bd" [ref=f12e541] [cursor=pointer]:
+                - /url: mailto:nadiruzzaman@basati.edu.bd
+              - link "+8801819234711" [ref=f12e546] [cursor=pointer]:
+                - /url: tel:+8801819234711
+        - link "See All Teachers" [ref=f12e551] [cursor=pointer]:
+          - /url: /teachers
+      - generic [ref=f12e553]:
+        - generic [ref=f12e554]:
+          - generic [ref=f12e555]: Admissions
+          - heading "Join Our Institute" [level=2] [ref=f12e556]
+          - paragraph [ref=f12e557]: Start your journey towards a successful technical career. Applications are now open for the upcoming academic session.
+        - generic [ref=f12e558]:
+          - heading "Admission Process" [level=3] [ref=f12e559]
+          - generic [ref=f12e560]:
+            - generic [ref=f12e562]:
+              - generic [ref=f12e567]: "1"
+              - heading "Application" [level=4] [ref=f12e568]
+              - paragraph [ref=f12e569]: Fill out the online application form with required documents
+            - generic [ref=f12e573]:
+              - generic [ref=f12e578]: "2"
+              - heading "Entrance Exam" [level=4] [ref=f12e579]
+              - paragraph [ref=f12e580]: Take the entrance examination for your chosen department
+            - generic [ref=f12e584]:
+              - generic [ref=f12e591]: "3"
+              - heading "Interview" [level=4] [ref=f12e592]
+              - paragraph [ref=f12e593]: Attend the interview session with department faculty
+            - generic [ref=f12e597]:
+              - generic [ref=f12e601]: "4"
+              - heading "Enrollment" [level=4] [ref=f12e602]
+              - paragraph [ref=f12e603]: Complete enrollment after receiving acceptance letter
+        - generic [ref=f12e604]:
+          - generic [ref=f12e605]:
+            - heading "Admission Requirements" [level=3] [ref=f12e606]
+            - list [ref=f12e607]:
+              - listitem [ref=f12e608]:
+                - generic [ref=f12e612]: Secondary School Certificate (SSC) or equivalent
+              - listitem [ref=f12e613]:
+                - generic [ref=f12e617]: Minimum GPA of 2.00 in SSC
+              - listitem [ref=f12e618]:
+                - generic [ref=f12e622]: Mathematics and English proficiency
+              - listitem [ref=f12e623]:
+                - generic [ref=f12e627]: Passport-size photographs
+              - listitem [ref=f12e628]:
+                - generic [ref=f12e632]: Birth certificate and national ID
+          - generic [ref=f12e633]:
+            - heading "Important Dates" [level=3] [ref=f12e634]
+            - generic [ref=f12e635]:
+              - generic [ref=f12e636]:
+                - generic [ref=f12e637]: Application Opens
+                - generic [ref=f12e638]: January 1, 2025
+              - generic [ref=f12e639]:
+                - generic [ref=f12e640]: Application Deadline
+                - generic [ref=f12e641]: March 31, 2025
+              - generic [ref=f12e642]:
+                - generic [ref=f12e643]: Entrance Exam
+                - generic [ref=f12e644]: April 15, 2025
+              - generic [ref=f12e645]:
+                - generic [ref=f12e646]: Results Announced
+                - generic [ref=f12e647]: May 1, 2025
+              - generic [ref=f12e648]:
+                - generic [ref=f12e649]: Session Starts
+                - generic [ref=f12e650]: July 1, 2025
+        - generic [ref=f12e651]:
+          - link "Apply Now" [ref=f12e652] [cursor=pointer]:
+            - /url: /contact
+          - paragraph [ref=f12e653]:
+            - text: For more information, contact our admissions office at
+            - link "admissions@basati.edu.bd" [ref=f12e654] [cursor=pointer]:
+              - /url: mailto:admissions@basati.edu.bd
+    - contentinfo [ref=f12e655]:
+      - generic [ref=f12e656]:
+        - generic [ref=f12e657]:
+          - generic [ref=f12e658]:
+            - generic [ref=f12e659]: BASATI Institute
+            - paragraph [ref=f12e666]: Empowering students through quality technical education and practical skills development since 2010.
+            - generic [ref=f12e667]:
+              - link [ref=f12e668] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=100067697406685
+              - link [ref=f12e671] [cursor=pointer]:
+                - /url: "#"
+              - link [ref=f12e674] [cursor=pointer]:
+                - /url: "#"
+              - link [ref=f12e679] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f12e683]:
+            - heading "Quick Links" [level=4] [ref=f12e684]
+            - list [ref=f12e685]:
+              - listitem [ref=f12e686]:
+                - link "About Us" [ref=f12e687] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f12e688]:
+                - link "Departments" [ref=f12e689] [cursor=pointer]:
+                  - /url: "#departments"
+              - listitem [ref=f12e690]:
+                - link "Faculty" [ref=f12e691] [cursor=pointer]:
+                  - /url: /#faculty
+              - listitem [ref=f12e692]:
+                - link "Admissions" [ref=f12e693] [cursor=pointer]:
+                  - /url: "#admissions"
+              - listitem [ref=f12e694]:
+                - link "Facilities" [ref=f12e695] [cursor=pointer]:
+                  - /url: "#facilities"
+              - listitem [ref=f12e696]:
+                - link "Contact Us" [ref=f12e697] [cursor=pointer]:
+                  - /url: /contact
+          - generic [ref=f12e698]:
+            - heading "Our Departments" [level=4] [ref=f12e699]
+            - list [ref=f12e700]:
+              - listitem [ref=f12e701]:
+                - link "Computer Science" [ref=f12e702] [cursor=pointer]:
+                  - /url: /departments/computer-science
+              - listitem [ref=f12e703]:
+                - link "Civil Technology" [ref=f12e704] [cursor=pointer]:
+                  - /url: /departments/civil-technology
+              - listitem [ref=f12e705]:
+                - link "Electrical Technology" [ref=f12e706] [cursor=pointer]:
+                  - /url: /departments/electrical-technology
+          - generic [ref=f12e707]:
+            - heading "Contact Us" [level=4] [ref=f12e708]
+            - list [ref=f12e709]:
+              - listitem [ref=f12e710]:
+                - generic [ref=f12e714]: Near T-Ali roadKabsa, Brahmanbaria
+              - listitem [ref=f12e715]:
+                - link "+88018 3387 8264" [ref=f12e718] [cursor=pointer]:
+                  - /url: tel:+8801833878264
+              - listitem [ref=f12e719]:
+                - link "contact@basati.edu.bd" [ref=f12e723] [cursor=pointer]:
+                  - /url: mailto:contact@basati.edu.bd
+        - generic [ref=f12e725]:
+          - paragraph [ref=f12e726]: © 2025 BASATI Institute. All rights reserved.
+          - generic [ref=f12e727]:
+            - link "Privacy Policy" [ref=f12e728] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms of Service" [ref=f12e729] [cursor=pointer]:
+              - /url: "#"
+            - link "Cookie Policy" [ref=f12e730] [cursor=pointer]:
+              - /url: "#"

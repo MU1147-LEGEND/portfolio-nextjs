@@ -1,0 +1,361 @@
+- generic [active] [ref=f24e1]:
+  - generic [ref=f24e3]:
+    - link "Flash sale ongoing - Grab your deal now." [ref=f24e4] [cursor=pointer]:
+      - /url: /flash-sale
+    - banner [ref=f24e6]:
+      - generic [ref=f24e8]:
+        - link "Logo E-Com BP" [ref=f24e9] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=f24e10]
+          - generic [ref=f24e11]: E-Com BP
+        - navigation [ref=f24e13]:
+          - link "Home" [ref=f24e14] [cursor=pointer]:
+            - /url: /
+          - link "All Products" [ref=f24e16] [cursor=pointer]:
+            - /url: /products
+          - link "Offers" [ref=f24e18] [cursor=pointer]:
+            - /url: /flash-sale
+          - link "Track Order" [ref=f24e20] [cursor=pointer]:
+            - /url: /track-order
+        - generic [ref=f24e22]:
+          - button "Search" [ref=f24e23] [cursor=pointer]
+          - link "My Profile" [ref=f24e28] [cursor=pointer]:
+            - /url: /profile
+          - link "Wishlist" [ref=f24e33] [cursor=pointer]:
+            - /url: /wishlist
+          - link "Cart" [ref=f24e37] [cursor=pointer]:
+            - /url: /cart
+    - main [ref=f24e42]:
+      - region "Store home content" [ref=f24e45]:
+        - region [ref=f24e48]:
+          - generic [ref=f24e50]:
+            - group [ref=f24e51]:
+              - generic:
+                - img "প্রিমিয়াম কোরিয়ান স্কিনকেয়ার"
+              - generic [ref=f24e52]:
+                - generic [ref=f24e53]: বেস্ট সেলার
+                - heading "প্রিমিয়াম কোরিয়ান স্কিনকেয়ার" [level=2] [ref=f24e58]
+                - paragraph [ref=f24e59]: ত্বকের স্বাভাবিক উজ্জ্বলতা ফিরিয়ে আনুন
+                - paragraph [ref=f24e60]: ১০০% আসল ও আমদানিকৃত কোরিয়ান গ্লো বুস্টিং সেরাম ও ময়শ্চারাইজার কালেকশন।
+                - button "স্কিনকেয়ার দেখুন" [ref=f24e62] [cursor=pointer]
+            - group [aria-hidden] [ref=f24e66]:
+              - generic [ref=f24e67]:
+                - generic [ref=f24e68]: বিশেষ অফার
+                - heading [level=2] [ref=f24e73]: এক্সক্লুসিভ মেকআপ মেলা
+                - paragraph [ref=f24e74]: দীর্ঘস্থায়ী এইচডি কভারেজ ফিনিশ
+                - paragraph [ref=f24e75]: ওয়াটারপ্রুফ লিপস্টিক, আইলাইনার ও ফাউন্ডেশন দিয়ে ফুটিয়ে তুলুন আপনার অনন্য রূপ।
+                - button [ref=f24e77] [cursor=pointer]:
+                  - generic [ref=f24e78]: মেকআপ সংগ্রহ
+          - button "Previous Slide" [ref=f24e81] [cursor=pointer]
+          - button "Next Slide" [ref=f24e84] [cursor=pointer]
+          - generic [ref=f24e87]:
+            - button "Go to slide 1" [ref=f24e88] [cursor=pointer]
+            - button "Go to slide 2" [ref=f24e89] [cursor=pointer]
+        - region "Flash Sale Products" [ref=f24e91]:
+          - generic [ref=f24e92]:
+            - generic [ref=f24e93]:
+              - heading "Special Discount" [level=2] [ref=f24e94]
+              - generic [ref=f24e97]: Best Value
+            - generic [ref=f24e102]:
+              - button "Previous flash sale product" [disabled]
+              - button "Next flash sale product" [ref=f24e103] [cursor=pointer]
+          - generic [ref=f24e107]:
+            - generic [ref=f24e109]:
+              - generic:
+                - generic: pos
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f24e110] [cursor=pointer]
+              - link "View details for Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f24e113] [cursor=pointer]:
+                - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                - img "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f24e114]
+              - generic [ref=f24e115]:
+                - link [ref=f24e116] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                  - paragraph [ref=f24e117]: Innsaei • Skincare
+                  - heading "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [level=3] [ref=f24e118]
+                - generic [ref=f24e119]:
+                  - generic [ref=f24e120]: 20৳
+                  - generic [ref=f24e121]: 320৳
+                  - generic [ref=f24e122]: "-94%"
+              - generic [ref=f24e123]:
+                - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Select Variant" [ref=f24e124] [cursor=pointer]:
+                  - generic [ref=f24e131]: Select Variant
+                - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Add to cart" [ref=f24e132] [cursor=pointer]:
+                  - generic [ref=f24e137]: Buy Now
+            - generic [ref=f24e139]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f24e140] [cursor=pointer]
+              - link "View details for Puritans Pride Odorless Garlic & Parsley" [ref=f24e143] [cursor=pointer]:
+                - /url: /product/puritans-pride-odorless-garlic-parsley
+                - img "Puritans Pride Odorless Garlic & Parsley" [ref=f24e144]
+              - generic [ref=f24e145]:
+                - link [ref=f24e146] [cursor=pointer]:
+                  - /url: /product/puritans-pride-odorless-garlic-parsley
+                  - paragraph [ref=f24e147]: Haircare
+                  - heading "Puritans Pride Odorless Garlic & Parsley" [level=3] [ref=f24e148]
+                - generic [ref=f24e149]:
+                  - generic [ref=f24e150]: 50৳
+                  - generic [ref=f24e151]: 700৳
+                  - generic [ref=f24e152]: "-93%"
+              - generic [ref=f24e153]:
+                - button "Puritans Pride Odorless Garlic & Parsley — Select Variant" [ref=f24e154] [cursor=pointer]:
+                  - generic [ref=f24e161]: Select Variant
+                - button "Puritans Pride Odorless Garlic & Parsley — Add to cart" [ref=f24e162] [cursor=pointer]:
+                  - generic [ref=f24e167]: Buy Now
+          - link "View All Discounted Products" [ref=f24e175] [cursor=pointer]:
+            - /url: /flash-sale
+        - generic [ref=f24e180]:
+          - generic [ref=f24e181]:
+            - generic [ref=f24e182]:
+              - generic [ref=f24e183]: Categories
+              - heading "Shop by Category" [level=2] [ref=f24e188]
+            - generic [ref=f24e189]:
+              - button "Scroll categories left" [ref=f24e190] [cursor=pointer]
+              - button "Scroll categories right" [ref=f24e193] [cursor=pointer]
+          - generic [ref=f24e196]:
+            - button "All Products" [ref=f24e197] [cursor=pointer]
+            - button "Skincare" [ref=f24e206] [cursor=pointer]
+            - button "Makeup" [ref=f24e211] [cursor=pointer]
+            - button "Haircare" [ref=f24e216] [cursor=pointer]
+            - button "Body Care" [ref=f24e221] [cursor=pointer]
+            - button "Fragrances" [ref=f24e226] [cursor=pointer]
+        - generic [ref=f24e232]:
+          - generic [ref=f24e233]:
+            - generic [ref=f24e234]:
+              - heading "Skincare" [level=2] [ref=f24e235]
+              - link "See more Skincare" [ref=f24e237] [cursor=pointer]:
+                - /url: /skincare
+                - generic [ref=f24e238]: See more
+                - generic [ref=f24e239]: Skincare
+            - generic [ref=f24e243]:
+              - generic [ref=f24e245]:
+                - generic:
+                  - generic: pos
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f24e246] [cursor=pointer]
+                - link "View details for Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f24e249] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                  - img "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f24e250]
+                - generic [ref=f24e251]:
+                  - link [ref=f24e252] [cursor=pointer]:
+                    - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                    - paragraph [ref=f24e253]: Innsaei • Skincare
+                    - heading "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [level=3] [ref=f24e254]
+                  - generic [ref=f24e255]:
+                    - generic [ref=f24e256]: 20৳
+                    - generic [ref=f24e257]: 320৳
+                    - generic [ref=f24e258]: "-94%"
+                - generic [ref=f24e259]:
+                  - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Select Variant" [ref=f24e260] [cursor=pointer]:
+                    - generic [ref=f24e267]: Select Variant
+                  - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Add to cart" [ref=f24e268] [cursor=pointer]:
+                    - generic [ref=f24e273]: Buy Now
+              - generic [ref=f24e275]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f24e276] [cursor=pointer]
+                - link "View details for Innsaei Salicylic Acid Acne Solution Cleansing Foam" [ref=f24e279] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                  - img "Innsaei Salicylic Acid Acne Solution Cleansing Foam" [ref=f24e280]
+                - generic [ref=f24e281]:
+                  - link [ref=f24e282] [cursor=pointer]:
+                    - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                    - paragraph [ref=f24e283]: Skincare
+                    - heading "Innsaei Salicylic Acid Acne Solution Cleansing Foam" [level=3] [ref=f24e284]
+                  - generic [ref=f24e285]:
+                    - generic [ref=f24e286]: 72৳
+                    - generic [ref=f24e287]: 288৳
+                    - generic [ref=f24e288]: "-75%"
+                - generic [ref=f24e289]:
+                  - link "Innsaei Salicylic Acid Acne Solution Cleansing Foam — View Details" [ref=f24e290] [cursor=pointer]:
+                    - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                    - generic [ref=f24e294]: View Details
+                  - button "Innsaei Salicylic Acid Acne Solution Cleansing Foam — Add to cart" [ref=f24e295] [cursor=pointer]:
+                    - generic [ref=f24e300]: Buy Now
+              - generic [ref=f24e302]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f24e303] [cursor=pointer]
+                - link "View details for Cathy Doll Acne Solution Serum Foam Cleanser" [ref=f24e306] [cursor=pointer]:
+                  - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                  - img "Cathy Doll Acne Solution Serum Foam Cleanser" [ref=f24e307]
+                - generic [ref=f24e308]:
+                  - link [ref=f24e309] [cursor=pointer]:
+                    - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                    - paragraph [ref=f24e310]: Skincare
+                    - heading "Cathy Doll Acne Solution Serum Foam Cleanser" [level=3] [ref=f24e311]
+                  - generic [ref=f24e312]:
+                    - generic [ref=f24e313]: 50৳
+                    - generic [ref=f24e314]: 550৳
+                    - generic [ref=f24e315]: "-91%"
+                - generic [ref=f24e316]:
+                  - link "Cathy Doll Acne Solution Serum Foam Cleanser — View Details" [ref=f24e317] [cursor=pointer]:
+                    - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                    - generic [ref=f24e321]: View Details
+                  - button "Cathy Doll Acne Solution Serum Foam Cleanser — Add to cart" [ref=f24e322] [cursor=pointer]:
+                    - generic [ref=f24e327]: Buy Now
+              - generic [ref=f24e329]:
+                - generic:
+                  - generic: Acne Care
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f24e330] [cursor=pointer]
+                - link "View details for Skin'O Miracle Anti Acne Cleansing Foam" [ref=f24e333] [cursor=pointer]:
+                  - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                  - img "Skin'O Miracle Anti Acne Cleansing Foam" [ref=f24e334]
+                - generic [ref=f24e335]:
+                  - link [ref=f24e336] [cursor=pointer]:
+                    - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                    - paragraph [ref=f24e337]: Skincare
+                    - heading "Skin'O Miracle Anti Acne Cleansing Foam" [level=3] [ref=f24e338]
+                  - generic [ref=f24e339]:
+                    - generic [ref=f24e340]: 13৳
+                    - generic [ref=f24e341]: 247৳
+                    - generic [ref=f24e342]: "-95%"
+                - generic [ref=f24e343]:
+                  - link "Skin'O Miracle Anti Acne Cleansing Foam — View Details" [ref=f24e344] [cursor=pointer]:
+                    - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                    - generic [ref=f24e348]: View Details
+                  - button "Skin'O Miracle Anti Acne Cleansing Foam — Add to cart" [ref=f24e349] [cursor=pointer]:
+                    - generic [ref=f24e354]: Buy Now
+              - generic [ref=f24e356]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f24e357] [cursor=pointer]
+                - link "View details for Skin'O Acne + Spot Treatment Serum" [ref=f24e360] [cursor=pointer]:
+                  - /url: /product/skino-acne-spot-treatment-serum
+                  - img "Skin'O Acne + Spot Treatment Serum" [ref=f24e361]
+                - generic [ref=f24e362]:
+                  - link [ref=f24e363] [cursor=pointer]:
+                    - /url: /product/skino-acne-spot-treatment-serum
+                    - paragraph [ref=f24e364]: Skincare
+                    - heading "Skin'O Acne + Spot Treatment Serum" [level=3] [ref=f24e365]
+                  - generic [ref=f24e366]:
+                    - generic [ref=f24e367]: 125৳
+                    - generic [ref=f24e368]: 365৳
+                    - generic [ref=f24e369]: "-66%"
+                - generic [ref=f24e370]:
+                  - link "Skin'O Acne + Spot Treatment Serum — View Details" [ref=f24e371] [cursor=pointer]:
+                    - /url: /product/skino-acne-spot-treatment-serum
+                    - generic [ref=f24e375]: View Details
+                  - button "Skin'O Acne + Spot Treatment Serum — Add to cart" [ref=f24e376] [cursor=pointer]:
+                    - generic [ref=f24e381]: Buy Now
+              - generic [ref=f24e383]:
+                - generic: Acne Care
+                - button "Add to wishlist" [ref=f24e384] [cursor=pointer]
+                - link "View details for Acne Fighting Facial Wash" [ref=f24e387] [cursor=pointer]:
+                  - /url: /product/acne-fighting-facial-wash
+                  - img "Acne Fighting Facial Wash" [ref=f24e388]
+                - generic [ref=f24e389]:
+                  - link [ref=f24e390] [cursor=pointer]:
+                    - /url: /product/acne-fighting-facial-wash
+                    - paragraph [ref=f24e391]: Skincare
+                    - heading "Acne Fighting Facial Wash" [level=3] [ref=f24e392]
+                  - generic [ref=f24e393]: 185৳
+                - generic [ref=f24e395]:
+                  - link "Acne Fighting Facial Wash — View Details" [ref=f24e396] [cursor=pointer]:
+                    - /url: /product/acne-fighting-facial-wash
+                    - generic [ref=f24e400]: View Details
+                  - button "Acne Fighting Facial Wash — Add to cart" [ref=f24e401] [cursor=pointer]:
+                    - generic [ref=f24e406]: Buy Now
+              - generic [ref=f24e408]:
+                - generic: Acne Care
+                - button "Add to wishlist" [ref=f24e409] [cursor=pointer]
+                - link "View details for MAYA Rosehip Oil & Acne Control Gel Cream" [ref=f24e412] [cursor=pointer]:
+                  - /url: /product/maya-rosehip-oil-acne-control-gel-cream
+                  - img "MAYA Rosehip Oil & Acne Control Gel Cream" [ref=f24e413]
+                - generic [ref=f24e414]:
+                  - link [ref=f24e415] [cursor=pointer]:
+                    - /url: /product/maya-rosehip-oil-acne-control-gel-cream
+                    - paragraph [ref=f24e416]: Skincare
+                    - heading "MAYA Rosehip Oil & Acne Control Gel Cream" [level=3] [ref=f24e417]
+                  - generic [ref=f24e418]: 230৳
+                - generic [ref=f24e420]:
+                  - link "MAYA Rosehip Oil & Acne Control Gel Cream — View Details" [ref=f24e421] [cursor=pointer]:
+                    - /url: /product/maya-rosehip-oil-acne-control-gel-cream
+                    - generic [ref=f24e425]: View Details
+                  - button "MAYA Rosehip Oil & Acne Control Gel Cream — Add to cart" [ref=f24e426] [cursor=pointer]:
+                    - generic [ref=f24e431]: Buy Now
+              - generic [ref=f24e433]:
+                - generic: Brand
+                - button "Add to wishlist" [ref=f24e434] [cursor=pointer]
+                - link "View details for Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser" [ref=f24e437] [cursor=pointer]:
+                  - /url: /product/neutrogena-acne-proofing-salicylic-acid-daily-facial-gel-cleanser
+                  - img "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser" [ref=f24e438]
+                - generic [ref=f24e439]:
+                  - link [ref=f24e440] [cursor=pointer]:
+                    - /url: /product/neutrogena-acne-proofing-salicylic-acid-daily-facial-gel-cleanser
+                    - paragraph [ref=f24e441]: Skincare
+                    - heading "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser" [level=3] [ref=f24e442]
+                  - generic [ref=f24e443]: 1,050৳
+                - generic [ref=f24e445]:
+                  - link "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser — View Details" [ref=f24e446] [cursor=pointer]:
+                    - /url: /product/neutrogena-acne-proofing-salicylic-acid-daily-facial-gel-cleanser
+                    - generic [ref=f24e450]: View Details
+                  - button "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser — Add to cart" [ref=f24e451] [cursor=pointer]:
+                    - generic [ref=f24e456]: Buy Now
+          - generic [ref=f24e458]:
+            - heading "Makeup" [level=2] [ref=f24e459]
+            - link "See more Makeup" [ref=f24e461] [cursor=pointer]:
+              - /url: /makeup
+              - generic [ref=f24e462]: See more
+              - generic [ref=f24e463]: Makeup
+          - generic [ref=f24e469]:
+            - heading "Haircare" [level=2] [ref=f24e470]
+            - link "See more Haircare" [ref=f24e472] [cursor=pointer]:
+              - /url: /haircare
+              - generic [ref=f24e473]: See more
+              - generic [ref=f24e474]: Haircare
+          - generic [ref=f24e480]:
+            - heading "Body Care" [level=2] [ref=f24e481]
+            - link "See more Body Care" [ref=f24e483] [cursor=pointer]:
+              - /url: /bodycare
+              - generic [ref=f24e484]: See more
+              - generic [ref=f24e485]: Body Care
+          - generic [ref=f24e491]:
+            - heading "Fragrances" [level=2] [ref=f24e492]
+            - link "See more Fragrances" [ref=f24e494] [cursor=pointer]:
+              - /url: /fragrances
+              - generic [ref=f24e495]: See more
+              - generic [ref=f24e496]: Fragrances
+    - contentinfo [ref=f24e502]:
+      - generic [ref=f24e503]:
+        - generic [ref=f24e504]:
+          - generic [ref=f24e506]:
+            - generic [ref=f24e507]:
+              - img "E-Com BP" [ref=f24e508]
+              - generic [ref=f24e509]: E-Com BP
+            - paragraph [ref=f24e510]: ১০০% অরিজিনাল আমদানিকৃত ব্র্যান্ডেড কসমেটিকস, মেকআপ ও স্কিনকেয়ার প্রোডাক্টের নির্ভরযোগ্য রিটেইল শপ।
+          - generic [ref=f24e512]:
+            - generic [ref=f24e513]:
+              - paragraph [ref=f24e514]: Our Links
+              - generic [ref=f24e515]:
+                - link "All Products" [ref=f24e516] [cursor=pointer]:
+                  - /url: /
+                - link "Skincare" [ref=f24e517] [cursor=pointer]:
+                  - /url: /skincare
+                - link "Makeup" [ref=f24e518] [cursor=pointer]:
+                  - /url: /makeup
+                - link "Haircare" [ref=f24e519] [cursor=pointer]:
+                  - /url: /haircare
+                - link "Body Care" [ref=f24e520] [cursor=pointer]:
+                  - /url: /bodycare
+                - link "Fragrances" [ref=f24e521] [cursor=pointer]:
+                  - /url: /fragrances
+            - generic [ref=f24e522]:
+              - paragraph [ref=f24e523]: Customer Care
+              - generic [ref=f24e524]:
+                - link "About Us" [ref=f24e525] [cursor=pointer]:
+                  - /url: /about
+                - link "Track Order" [ref=f24e526] [cursor=pointer]:
+                  - /url: /track-order
+                - link "Return & Refund Policy" [ref=f24e527] [cursor=pointer]:
+                  - /url: /return-policy
+                - link "Support FAQ" [ref=f24e528] [cursor=pointer]:
+                  - /url: /faq
+        - paragraph [ref=f24e530]: © 2026 E-Com BP. All rights reserved.
+  - alert [ref=f24e531]

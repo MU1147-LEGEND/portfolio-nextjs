@@ -1,0 +1,488 @@
+- generic [active] [ref=f35e1]:
+  - link "Skip to content" [ref=f35e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f35e3]:
+    - generic [ref=f35e4]:
+      - link "Mohammad Ullah" [ref=f35e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f35e8]:
+        - link "Work" [ref=f35e9] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f35e10] [cursor=pointer]:
+          - /url: /about
+        - link "Resume" [ref=f35e11] [cursor=pointer]:
+          - /url: /resume
+        - link "Contact" [ref=f35e12] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f35e13]:
+        - button "Toggle color theme" [ref=f35e14] [cursor=pointer]
+        - link "WhatsApp" [ref=f35e17] [cursor=pointer]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I'm%20reaching%20out%20from%20your%20portfolio%20header.
+  - main [ref=f35e21]:
+    - generic [ref=f35e23]:
+      - heading "Selected Work" [level=1] [ref=f35e24]
+      - paragraph [ref=f35e25]: Production web applications, interface systems, and product experiments engineered with Next.js, TypeScript, and modern databases.
+      - generic [ref=f35e26]:
+        - group "Filter projects by category" [ref=f35e27]:
+          - button "All 15" [pressed] [ref=f35e28] [cursor=pointer]:
+            - generic [ref=f35e29]: All
+            - generic [ref=f35e30]: "15"
+          - button "Full-Stack 7" [ref=f35e31] [cursor=pointer]:
+            - generic [ref=f35e32]: Full-Stack
+            - generic [ref=f35e33]: "7"
+          - button "Frontend 6" [ref=f35e34] [cursor=pointer]:
+            - generic [ref=f35e35]: Frontend
+            - generic [ref=f35e36]: "6"
+          - button "Product 2" [ref=f35e37] [cursor=pointer]:
+            - generic [ref=f35e38]: Product
+            - generic [ref=f35e39]: "2"
+        - generic [ref=f35e40]:
+          - article [ref=f35e41]:
+            - generic [ref=f35e42]:
+              - link "sanchayanbd.com SanchayanBD screenshot" [ref=f35e43] [cursor=pointer]:
+                - /url: /work/sanchayanbd
+                - generic [ref=f35e44]:
+                  - generic [ref=f35e45]: sanchayanbd.com
+                  - img "SanchayanBD screenshot" [ref=f35e52]
+              - generic [ref=f35e53]:
+                - heading [level=2] [ref=f35e54]:
+                  - link "SanchayanBD" [ref=f35e55] [cursor=pointer]:
+                    - /url: /work/sanchayanbd
+                - generic [ref=f35e56]: "2025"
+              - paragraph [ref=f35e57]: Full-Stack Engineer
+              - paragraph [ref=f35e58]: SanchayanBD is a responsive web application built for a community-based financial organization, presenting membership tiers, member services, and transparent organizational values through an accessible interface.
+            - generic [ref=f35e59]:
+              - generic [ref=f35e60]:
+                - generic [ref=f35e61]: Next.js
+                - generic [ref=f35e62]: React
+                - generic [ref=f35e63]: Tailwind CSS
+                - generic [ref=f35e64]: Node.js
+              - generic [ref=f35e65]:
+                - link "Case study" [ref=f35e66] [cursor=pointer]:
+                  - /url: /work/sanchayanbd
+                - link "Live" [ref=f35e70] [cursor=pointer]:
+                  - /url: https://sanchayanbd.com
+                - link "Code" [ref=f35e75] [cursor=pointer]:
+                  - /url: https://github.com/MU1147-LEGEND/sanchayan
+          - article [ref=f35e80]:
+            - generic [ref=f35e81]:
+              - link "learn-next-modern.vercel.app Next.js Learning Platform screenshot" [ref=f35e82] [cursor=pointer]:
+                - /url: /work/nextjs-learning-platform
+                - generic [ref=f35e83]:
+                  - generic [ref=f35e84]: learn-next-modern.vercel.app
+                  - img "Next.js Learning Platform screenshot" [ref=f35e91]
+              - generic [ref=f35e92]:
+                - heading [level=2] [ref=f35e93]:
+                  - link "Next.js Learning Platform" [ref=f35e94] [cursor=pointer]:
+                    - /url: /work/nextjs-learning-platform
+                - generic [ref=f35e95]: "2025"
+              - paragraph [ref=f35e96]: Frontend Architect
+              - paragraph [ref=f35e97]: A curated learning platform for mastering modern Next.js App Router architecture, server components, and practical project patterns with structured tutorials.
+            - generic [ref=f35e98]:
+              - generic [ref=f35e99]:
+                - generic [ref=f35e100]: Next.js
+                - generic [ref=f35e101]: TypeScript
+                - generic [ref=f35e102]: Tailwind CSS
+                - generic [ref=f35e103]: Vercel
+              - generic [ref=f35e104]:
+                - link "Case study" [ref=f35e105] [cursor=pointer]:
+                  - /url: /work/nextjs-learning-platform
+                - link "Live" [ref=f35e109] [cursor=pointer]:
+                  - /url: https://learn-next-modern.vercel.app/
+                - link "Code" [ref=f35e114] [cursor=pointer]:
+                  - /url: https://github.com/MU1147-LEGEND/nextjs-learning-platform-using-v0
+          - article [ref=f35e119]:
+            - generic [ref=f35e120]:
+              - link "visionary-ai VisionaryAI screenshot" [ref=f35e121] [cursor=pointer]:
+                - /url: /work/visionary-ai
+                - generic [ref=f35e122]:
+                  - generic [ref=f35e123]: visionary-ai
+                  - img "VisionaryAI screenshot" [ref=f35e130]
+              - generic [ref=f35e131]:
+                - heading [level=2] [ref=f35e132]:
+                  - link "VisionaryAI" [ref=f35e133] [cursor=pointer]:
+                    - /url: /work/visionary-ai
+                - generic [ref=f35e134]: "2024"
+              - paragraph [ref=f35e135]: Product Engineer
+              - paragraph [ref=f35e136]: An experimental interface exploring low-latency AI generation workflows with clean state feedback, visual preview frames, and responsive controls.
+            - generic [ref=f35e137]:
+              - generic [ref=f35e138]:
+                - generic [ref=f35e139]: React
+                - generic [ref=f35e140]: Next.js
+                - generic [ref=f35e141]: Tailwind CSS
+                - generic [ref=f35e142]: Motion
+              - generic [ref=f35e143]:
+                - link "Case study" [ref=f35e144] [cursor=pointer]:
+                  - /url: /work/visionary-ai
+                - link "Code" [ref=f35e148] [cursor=pointer]:
+                  - /url: https://github.com/MU1147-LEGEND
+          - article [ref=f35e153]:
+            - generic [ref=f35e154]:
+              - link "www.yucarrental.com/en YuCar Rental screenshot" [ref=f35e155] [cursor=pointer]:
+                - /url: /work/yucar-rental
+                - generic [ref=f35e156]:
+                  - generic [ref=f35e157]: www.yucarrental.com/en
+                  - img "YuCar Rental screenshot" [ref=f35e164]
+              - generic [ref=f35e165]:
+                - heading [level=2] [ref=f35e166]:
+                  - link "YuCar Rental" [ref=f35e167] [cursor=pointer]:
+                    - /url: /work/yucar-rental
+                - generic [ref=f35e168]: "2025"
+              - paragraph [ref=f35e169]: Full-Stack Engineer
+              - paragraph [ref=f35e170]: Team car rental comparison platform featuring vehicle inventory, booking system, and admin dashboard with advanced filtering and analytics.
+            - generic [ref=f35e171]:
+              - generic [ref=f35e172]:
+                - generic [ref=f35e173]: Next.js
+                - generic [ref=f35e174]: React
+                - generic [ref=f35e175]: Tailwind CSS
+                - generic [ref=f35e176]: TypeScript
+                - generic [ref=f35e177]: Node.js
+              - generic [ref=f35e178]:
+                - link "Case study" [ref=f35e179] [cursor=pointer]:
+                  - /url: /work/yucar-rental
+                - link "Live" [ref=f35e183] [cursor=pointer]:
+                  - /url: https://www.yucarrental.com/en
+          - article [ref=f35e188]:
+            - generic [ref=f35e189]:
+              - link "basati.vercel.app BASATI Institute screenshot" [ref=f35e190] [cursor=pointer]:
+                - /url: /work/basati
+                - generic [ref=f35e191]:
+                  - generic [ref=f35e192]: basati.vercel.app
+                  - img "BASATI Institute screenshot" [ref=f35e199]
+              - generic [ref=f35e200]:
+                - heading [level=2] [ref=f35e201]:
+                  - link "BASATI Institute" [ref=f35e202] [cursor=pointer]:
+                    - /url: /work/basati
+                - generic [ref=f35e203]: "2025"
+              - paragraph [ref=f35e204]: Full-Stack Engineer
+              - paragraph [ref=f35e205]: BASATI is a comprehensive polytechnic institute website with department showcases, faculty profiles, admissions portal, campus facilities, and student dashboard. Built for Badiul Alam Science and Technology Institute in Kasba, Brahmanbaria.
+            - generic [ref=f35e206]:
+              - generic [ref=f35e207]:
+                - generic [ref=f35e208]: Next.js
+                - generic [ref=f35e209]: React
+                - generic [ref=f35e210]: Tailwind CSS
+                - generic [ref=f35e211]: TypeScript
+                - generic [ref=f35e212]: Vercel
+              - generic [ref=f35e213]:
+                - link "Case study" [ref=f35e214] [cursor=pointer]:
+                  - /url: /work/basati
+                - link "Live" [ref=f35e218] [cursor=pointer]:
+                  - /url: https://basati.vercel.app/
+          - article [ref=f35e223]:
+            - generic [ref=f35e224]:
+              - link "text-to-speech-nextjs-fullstack.vercel.app Text-to-Speech Fullstack screenshot" [ref=f35e225] [cursor=pointer]:
+                - /url: /work/text-to-speech
+                - generic [ref=f35e226]:
+                  - generic [ref=f35e227]: text-to-speech-nextjs-fullstack.vercel.app
+                  - img "Text-to-Speech Fullstack screenshot" [ref=f35e234]
+              - generic [ref=f35e235]:
+                - heading [level=2] [ref=f35e236]:
+                  - link "Text-to-Speech Fullstack" [ref=f35e237] [cursor=pointer]:
+                    - /url: /work/text-to-speech
+                - generic [ref=f35e238]: "2025"
+              - paragraph [ref=f35e239]: Product Engineer
+              - paragraph [ref=f35e240]: A production-ready text-to-speech application leveraging Azure Cognitive Services neural voices with real-time preview, MP3 download, voice customization (rate, pitch), and multi-language support.
+            - generic [ref=f35e241]:
+              - generic [ref=f35e242]:
+                - generic [ref=f35e243]: Next.js
+                - generic [ref=f35e244]: React
+                - generic [ref=f35e245]: TypeScript
+                - generic [ref=f35e246]: Tailwind CSS
+                - generic [ref=f35e247]: Azure Speech SDK
+              - generic [ref=f35e248]:
+                - link "Case study" [ref=f35e249] [cursor=pointer]:
+                  - /url: /work/text-to-speech
+                - link "Live" [ref=f35e253] [cursor=pointer]:
+                  - /url: https://text-to-speech-nextjs-fullstack.vercel.app/
+          - article [ref=f35e258]:
+            - generic [ref=f35e259]:
+              - link "my-id-card-nine.vercel.app Student ID Card Generator screenshot" [ref=f35e260] [cursor=pointer]:
+                - /url: /work/my-id-card
+                - generic [ref=f35e261]:
+                  - generic [ref=f35e262]: my-id-card-nine.vercel.app
+                  - img "Student ID Card Generator screenshot" [ref=f35e269]
+              - generic [ref=f35e270]:
+                - heading [level=2] [ref=f35e271]:
+                  - link "Student ID Card Generator" [ref=f35e272] [cursor=pointer]:
+                    - /url: /work/my-id-card
+                - generic [ref=f35e273]: "2025"
+              - paragraph [ref=f35e274]: Frontend Architect
+              - paragraph [ref=f35e275]: A feature-rich ID card generator allowing institutes to create professional student ID cards with customizable templates, photo uploads, guardian info, blood group, and multiple design themes (Classic Blue, Modern Dark, Minimalist).
+            - generic [ref=f35e276]:
+              - generic [ref=f35e277]:
+                - generic [ref=f35e278]: Next.js
+                - generic [ref=f35e279]: React
+                - generic [ref=f35e280]: TypeScript
+                - generic [ref=f35e281]: Tailwind CSS
+                - generic [ref=f35e282]: Canvas API
+              - generic [ref=f35e283]:
+                - link "Case study" [ref=f35e284] [cursor=pointer]:
+                  - /url: /work/my-id-card
+                - link "Live" [ref=f35e288] [cursor=pointer]:
+                  - /url: https://my-id-card-nine.vercel.app/
+          - article [ref=f35e293]:
+            - generic [ref=f35e294]:
+              - link "sunnah-store.vercel.app/books Sunnah Store screenshot" [ref=f35e295] [cursor=pointer]:
+                - /url: /work/sunnah-store
+                - generic [ref=f35e296]:
+                  - generic [ref=f35e297]: sunnah-store.vercel.app/books
+                  - img "Sunnah Store screenshot" [ref=f35e304]
+              - generic [ref=f35e305]:
+                - heading [level=2] [ref=f35e306]:
+                  - link "Sunnah Store" [ref=f35e307] [cursor=pointer]:
+                    - /url: /work/sunnah-store
+                - generic [ref=f35e308]: "2025"
+              - paragraph [ref=f35e309]: Full-Stack Engineer
+              - paragraph [ref=f35e310]: Sunnah Store is a multi-vendor Islamic e-commerce platform featuring 3000+ SKUs across books, electronics, groceries, and clothing. Includes 20+ physical outlets, 10-year service history, 200k+ served customers, and ISO-certified operations.
+            - generic [ref=f35e311]:
+              - generic [ref=f35e312]:
+                - generic [ref=f35e313]: Next.js
+                - generic [ref=f35e314]: React
+                - generic [ref=f35e315]: TypeScript
+                - generic [ref=f35e316]: Tailwind CSS
+                - generic [ref=f35e317]: Node.js
+                - generic [ref=f35e318]: Vercel
+              - generic [ref=f35e319]:
+                - link "Case study" [ref=f35e320] [cursor=pointer]:
+                  - /url: /work/sunnah-store
+                - link "Live" [ref=f35e324] [cursor=pointer]:
+                  - /url: https://sunnah-store.vercel.app/books
+          - article [ref=f35e329]:
+            - generic [ref=f35e330]:
+              - link "v0-cosmetics-landing-page-pink.vercel.app LUMIÈRE Cosmetics screenshot" [ref=f35e331] [cursor=pointer]:
+                - /url: /work/lumiere-cosmetics
+                - generic [ref=f35e332]:
+                  - generic [ref=f35e333]: v0-cosmetics-landing-page-pink.vercel.app
+                  - img "LUMIÈRE Cosmetics screenshot" [ref=f35e340]
+              - generic [ref=f35e341]:
+                - heading [level=2] [ref=f35e342]:
+                  - link "LUMIÈRE Cosmetics" [ref=f35e343] [cursor=pointer]:
+                    - /url: /work/lumiere-cosmetics
+                - generic [ref=f35e344]: "2025"
+              - paragraph [ref=f35e345]: Frontend Architect
+              - paragraph [ref=f35e346]: LUMIÈRE is a premium cosmetics brand landing page featuring elegant hero with animated product reveals, curated collection grids, shade swatches, and editorial-style storytelling sections. Built with v0 for rapid iteration.
+            - generic [ref=f35e347]:
+              - generic [ref=f35e348]:
+                - generic [ref=f35e349]: Next.js
+                - generic [ref=f35e350]: React
+                - generic [ref=f35e351]: TypeScript
+                - generic [ref=f35e352]: Tailwind CSS
+                - generic [ref=f35e353]: Motion
+                - generic [ref=f35e354]: v0
+              - generic [ref=f35e355]:
+                - link "Case study" [ref=f35e356] [cursor=pointer]:
+                  - /url: /work/lumiere-cosmetics
+                - link "Live" [ref=f35e360] [cursor=pointer]:
+                  - /url: https://v0-cosmetics-landing-page-pink.vercel.app/
+          - article [ref=f35e365]:
+            - generic [ref=f35e366]:
+              - link "originalcosmetics.shop Original Cosmetics screenshot" [ref=f35e367] [cursor=pointer]:
+                - /url: /work/original-cosmetics
+                - generic [ref=f35e368]:
+                  - generic [ref=f35e369]: originalcosmetics.shop
+                  - img "Original Cosmetics screenshot" [ref=f35e376]
+              - generic [ref=f35e377]:
+                - heading [level=2] [ref=f35e378]:
+                  - link "Original Cosmetics" [ref=f35e379] [cursor=pointer]:
+                    - /url: /work/original-cosmetics
+                - generic [ref=f35e380]: "2025"
+              - paragraph [ref=f35e381]: Full-Stack Engineer
+              - paragraph [ref=f35e382]: Original Cosmetics is a UAE-based skincare and cosmetics e-commerce platform featuring curated product bundles, subscription models, loyalty rewards, and multilingual support (EN/AR). Includes admin dashboard for inventory, orders, and customer management.
+            - generic [ref=f35e383]:
+              - generic [ref=f35e384]:
+                - generic [ref=f35e385]: Next.js
+                - generic [ref=f35e386]: React
+                - generic [ref=f35e387]: TypeScript
+                - generic [ref=f35e388]: Tailwind CSS
+                - generic [ref=f35e389]: Stripe
+                - generic [ref=f35e390]: NextAuth
+                - generic [ref=f35e391]: Vercel Edge
+              - generic [ref=f35e392]:
+                - link "Case study" [ref=f35e393] [cursor=pointer]:
+                  - /url: /work/original-cosmetics
+                - link "Live" [ref=f35e397] [cursor=pointer]:
+                  - /url: https://originalcosmetics.shop/
+          - article [ref=f35e402]:
+            - generic [ref=f35e403]:
+              - link "rdshop360.com RD SHOP 360 screenshot" [ref=f35e404] [cursor=pointer]:
+                - /url: /work/rdshop360
+                - generic [ref=f35e405]:
+                  - generic [ref=f35e406]: rdshop360.com
+                  - img "RD SHOP 360 screenshot" [ref=f35e413]
+              - generic [ref=f35e414]:
+                - heading [level=2] [ref=f35e415]:
+                  - link "RD SHOP 360" [ref=f35e416] [cursor=pointer]:
+                    - /url: /work/rdshop360
+                - generic [ref=f35e417]: "2025"
+              - paragraph [ref=f35e418]: Full-Stack Engineer
+              - paragraph [ref=f35e419]: RD SHOP 360 is a Bangladesh-based omnichannel retail platform combining B2C and B2B wholesale ordering. Features category megamenus, bulk pricing tiers, dealer registration, order management, and delivery zone-based logistics.
+            - generic [ref=f35e420]:
+              - generic [ref=f35e421]:
+                - generic [ref=f35e422]: Next.js
+                - generic [ref=f35e423]: React
+                - generic [ref=f35e424]: TypeScript
+                - generic [ref=f35e425]: Tailwind CSS
+                - generic [ref=f35e426]: Node.js
+                - generic [ref=f35e427]: PostgreSQL
+              - generic [ref=f35e428]:
+                - link "Case study" [ref=f35e429] [cursor=pointer]:
+                  - /url: /work/rdshop360
+                - link "Live" [ref=f35e433] [cursor=pointer]:
+                  - /url: https://rdshop360.com/
+          - article [ref=f35e438]:
+            - generic [ref=f35e439]:
+              - link "tamota.shop Tamota Shop screenshot" [ref=f35e440] [cursor=pointer]:
+                - /url: /work/tamota
+                - generic [ref=f35e441]:
+                  - generic [ref=f35e442]: tamota.shop
+                  - img "Tamota Shop screenshot" [ref=f35e449]
+              - generic [ref=f35e450]:
+                - heading [level=2] [ref=f35e451]:
+                  - link "Tamota Shop" [ref=f35e452] [cursor=pointer]:
+                    - /url: /work/tamota
+                - generic [ref=f35e453]: "2025"
+              - paragraph [ref=f35e454]: Full-Stack Engineer
+              - paragraph [ref=f35e455]: Tamota is a premium Bangladeshi cosmetics and skincare e-commerce store featuring dermatologist-curated products, routine builders, ingredient education, skin-type filters, and loyalty points. Includes vendor dashboard for brand partners.
+            - generic [ref=f35e456]:
+              - generic [ref=f35e457]:
+                - generic [ref=f35e458]: Next.js
+                - generic [ref=f35e459]: React
+                - generic [ref=f35e460]: TypeScript
+                - generic [ref=f35e461]: Tailwind CSS
+                - generic [ref=f35e462]: bKash
+                - generic [ref=f35e463]: Nagad
+                - generic [ref=f35e464]: Vercel
+              - generic [ref=f35e465]:
+                - link "Case study" [ref=f35e466] [cursor=pointer]:
+                  - /url: /work/tamota
+                - link "Live" [ref=f35e470] [cursor=pointer]:
+                  - /url: https://tamota.shop/
+          - article [ref=f35e475]:
+            - generic [ref=f35e476]:
+              - link "moi-beauty-beta.vercel.app M.O.I Beauty screenshot" [ref=f35e477] [cursor=pointer]:
+                - /url: /work/moi-beauty
+                - generic [ref=f35e478]:
+                  - generic [ref=f35e479]: moi-beauty-beta.vercel.app
+                  - img "M.O.I Beauty screenshot" [ref=f35e486]
+              - generic [ref=f35e487]:
+                - heading [level=2] [ref=f35e488]:
+                  - link "M.O.I Beauty" [ref=f35e489] [cursor=pointer]:
+                    - /url: /work/moi-beauty
+                - generic [ref=f35e490]: "2025"
+              - paragraph [ref=f35e491]: Frontend Architect
+              - paragraph [ref=f35e492]: M.O.I Beauty is a premium cosmetics brand website with immersive product storytelling, shade-matched recommendations, editorial lookbooks, and a minimalist shop interface. Emphasizes bold beauty aesthetic with high-end visual design.
+            - generic [ref=f35e493]:
+              - generic [ref=f35e494]:
+                - generic [ref=f35e495]: Next.js
+                - generic [ref=f35e496]: React
+                - generic [ref=f35e497]: TypeScript
+                - generic [ref=f35e498]: Tailwind CSS
+                - generic [ref=f35e499]: Motion
+                - generic [ref=f35e500]: Vercel
+              - generic [ref=f35e501]:
+                - link "Case study" [ref=f35e502] [cursor=pointer]:
+                  - /url: /work/moi-beauty
+                - link "Live" [ref=f35e506] [cursor=pointer]:
+                  - /url: https://moi-beauty-beta.vercel.app/
+          - article [ref=f35e511]:
+            - generic [ref=f35e512]:
+              - link "magnificent-duckanoo-3ec124.netlify.app Velvet Beauty screenshot" [ref=f35e513] [cursor=pointer]:
+                - /url: /work/velvet-beauty
+                - generic [ref=f35e514]:
+                  - generic [ref=f35e515]: magnificent-duckanoo-3ec124.netlify.app
+                  - img "Velvet Beauty screenshot" [ref=f35e522]
+              - generic [ref=f35e523]:
+                - heading [level=2] [ref=f35e524]:
+                  - link "Velvet Beauty" [ref=f35e525] [cursor=pointer]:
+                    - /url: /work/velvet-beauty
+                - generic [ref=f35e526]: "2025"
+              - paragraph [ref=f35e527]: Frontend Architect
+              - paragraph [ref=f35e528]: Velvet Beauty is a bold cosmetics landing page featuring dramatic hero animations, collection carousels, shade intensity visualizers, and a confident brand narrative. Built for rapid iteration with Netlify deployment.
+            - generic [ref=f35e529]:
+              - generic [ref=f35e530]:
+                - generic [ref=f35e531]: Next.js
+                - generic [ref=f35e532]: React
+                - generic [ref=f35e533]: TypeScript
+                - generic [ref=f35e534]: Tailwind CSS
+                - generic [ref=f35e535]: GSAP
+                - generic [ref=f35e536]: Netlify
+              - generic [ref=f35e537]:
+                - link "Case study" [ref=f35e538] [cursor=pointer]:
+                  - /url: /work/velvet-beauty
+                - link "Live" [ref=f35e542] [cursor=pointer]:
+                  - /url: https://magnificent-duckanoo-3ec124.netlify.app/
+          - article [ref=f35e547]:
+            - generic [ref=f35e548]:
+              - link "one-little-web-six.vercel.app One Little Web screenshot" [ref=f35e549] [cursor=pointer]:
+                - /url: /work/one-little-web
+                - generic [ref=f35e550]:
+                  - generic [ref=f35e551]: one-little-web-six.vercel.app
+                  - img "One Little Web screenshot" [ref=f35e558]
+              - generic [ref=f35e559]:
+                - heading [level=2] [ref=f35e560]:
+                  - link "One Little Web" [ref=f35e561] [cursor=pointer]:
+                    - /url: /work/one-little-web
+                - generic [ref=f35e562]: "2025"
+              - paragraph [ref=f35e563]: Frontend Developer
+              - paragraph [ref=f35e564]: A simple landing page prototype.
+            - generic [ref=f35e565]:
+              - generic [ref=f35e566]: Web
+              - generic [ref=f35e568]:
+                - link "Case study" [ref=f35e569] [cursor=pointer]:
+                  - /url: /work/one-little-web
+                - link "Live" [ref=f35e573] [cursor=pointer]:
+                  - /url: https://one-little-web-six.vercel.app/
+  - contentinfo [ref=f35e578]:
+    - generic [ref=f35e579]:
+      - generic [ref=f35e580]:
+        - generic [ref=f35e581]:
+          - paragraph [ref=f35e582]: Mohammad Ullah
+          - paragraph [ref=f35e583]: Full-Stack Engineer building fast, reliable Next.js applications and clear, tactile user interfaces.
+          - paragraph [ref=f35e584]:
+            - generic [ref=f35e585]: Brahmanbaria, Bangladesh · UTC+6
+        - generic [ref=f35e586]:
+          - paragraph [ref=f35e587]: Pages
+          - list [ref=f35e588]:
+            - listitem [ref=f35e589]:
+              - link "Home" [ref=f35e590] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f35e591]:
+              - link "Work" [ref=f35e592] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f35e593]:
+              - link "About" [ref=f35e594] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f35e595]:
+              - link "Resume" [ref=f35e596] [cursor=pointer]:
+                - /url: /resume
+            - listitem [ref=f35e597]:
+              - link "Contact" [ref=f35e598] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f35e599]:
+          - paragraph [ref=f35e600]: Direct Channels
+          - list [ref=f35e601]:
+            - listitem [ref=f35e602]:
+              - link "WhatsApp (+8801734906838)" [ref=f35e603] [cursor=pointer]:
+                - /url: https://wa.me/8801734906838
+            - listitem [ref=f35e607]:
+              - link "ullahmohammad314@gmail.com" [ref=f35e608] [cursor=pointer]:
+                - /url: mailto:ullahmohammad314@gmail.com
+            - listitem [ref=f35e609]:
+              - link "GitHub" [ref=f35e610] [cursor=pointer]:
+                - /url: https://github.com/MU1147-LEGEND
+            - listitem [ref=f35e614]:
+              - link "LinkedIn" [ref=f35e615] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/mohammad-ullah32
+        - generic [ref=f35e619]:
+          - paragraph [ref=f35e620]: Manage
+          - list [ref=f35e621]:
+            - listitem [ref=f35e622]:
+              - link "Admin Panel" [ref=f35e623] [cursor=pointer]:
+                - /url: /admin
+            - listitem [ref=f35e624]:
+              - link "Resume PDF" [ref=f35e625] [cursor=pointer]:
+                - /url: /assets/resume.pdf
+      - generic [ref=f35e626]:
+        - paragraph [ref=f35e627]: © 2026 Mohammad Ullah. All rights reserved.
+        - paragraph [ref=f35e628]: Built with Next.js, TypeScript, Motion & SQLite.
+  - region "Notifications alt+T"

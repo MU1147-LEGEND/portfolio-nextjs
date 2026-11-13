@@ -1,0 +1,115 @@
+- generic [active] [ref=f6e1]:
+  - link "Skip to content" [ref=f6e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - link "Mohammad Ullah" [ref=f6e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f6e8]:
+        - link "Work" [ref=f6e9] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f6e10] [cursor=pointer]:
+          - /url: /about
+        - link "Resume" [ref=f6e11] [cursor=pointer]:
+          - /url: /resume
+        - link "Contact" [ref=f6e12] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f6e13]:
+        - button "Switch to light mode" [ref=f6e14] [cursor=pointer]
+        - link "WhatsApp" [ref=f6e21] [cursor=pointer]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.
+  - main [ref=f6e25]:
+    - generic [ref=f6e27]:
+      - heading "Get in Touch" [level=1] [ref=f6e28]
+      - paragraph [ref=f6e29]: Available for freelance & product engineering roles. Reach out directly on WhatsApp or via email.
+      - generic [ref=f6e31]:
+        - generic [ref=f6e32]:
+          - generic [ref=f6e33]: Direct WhatsApp Channel
+          - heading "Start a conversation on WhatsApp" [level=2] [ref=f6e36]
+          - paragraph [ref=f6e37]: Pick a topic and add a quick note — opens directly in WhatsApp with your message pre-filled.
+          - generic [ref=f6e38]:
+            - paragraph [ref=f6e39]: Topic
+            - generic [ref=f6e40]:
+              - button "Freelance / Product Build" [pressed] [ref=f6e41] [cursor=pointer]
+              - button "Full-Time Role" [ref=f6e42] [cursor=pointer]
+              - button "UI / Frontend Consultation" [ref=f6e43] [cursor=pointer]
+              - button "Quick Question" [ref=f6e44] [cursor=pointer]
+          - generic [ref=f6e45]:
+            - generic [ref=f6e46]: Short note (optional)
+            - textbox "Short note (optional)" [ref=f6e47]:
+              - /placeholder: Share timeline, project scope, or link...
+          - generic [ref=f6e48]:
+            - link "Open WhatsApp Chat" [ref=f6e49] [cursor=pointer]:
+              - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I'd%20like%20to%20discuss%3A%20Freelance%20%2F%20Product%20Build.
+            - generic [ref=f6e56]: "+8801734906838"
+        - generic [ref=f6e57]:
+          - generic [ref=f6e58]:
+            - generic [ref=f6e59]:
+              - paragraph [ref=f6e60]: Email
+              - generic [ref=f6e61]:
+                - link "ullahmohammad314@gmail.com" [ref=f6e62] [cursor=pointer]:
+                  - /url: mailto:ullahmohammad314@gmail.com
+                - button "Copy email address" [ref=f6e63] [cursor=pointer]
+            - generic [ref=f6e67]:
+              - paragraph [ref=f6e68]: Phone / WhatsApp
+              - link "+8801734906838" [ref=f6e69] [cursor=pointer]:
+                - /url: tel:+8801734906838
+            - generic [ref=f6e70]:
+              - paragraph [ref=f6e71]: Location & Timezone
+              - paragraph [ref=f6e72]: Brahmanbaria, Bangladesh · UTC+6
+          - paragraph [ref=f6e73]: Typically responds within a few hours during 09:00–22:00 BST.
+  - contentinfo [ref=f6e74]:
+    - generic [ref=f6e75]:
+      - generic [ref=f6e76]:
+        - generic [ref=f6e77]:
+          - paragraph [ref=f6e78]: Mohammad Ullah
+          - paragraph [ref=f6e79]: Full-Stack Engineer building fast, reliable Next.js applications and clear, tactile user interfaces.
+          - paragraph [ref=f6e80]:
+            - generic [ref=f6e81]: Brahmanbaria, Bangladesh · 12:37 BST
+        - generic [ref=f6e82]:
+          - paragraph [ref=f6e83]: Pages
+          - list [ref=f6e84]:
+            - listitem [ref=f6e85]:
+              - link "Home" [ref=f6e86] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f6e87]:
+              - link "Work" [ref=f6e88] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f6e89]:
+              - link "About" [ref=f6e90] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f6e91]:
+              - link "Resume" [ref=f6e92] [cursor=pointer]:
+                - /url: /resume
+            - listitem [ref=f6e93]:
+              - link "Contact" [ref=f6e94] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f6e95]:
+          - paragraph [ref=f6e96]: Direct Channels
+          - list [ref=f6e97]:
+            - listitem [ref=f6e98]:
+              - link "WhatsApp (+8801734906838)" [ref=f6e99] [cursor=pointer]:
+                - /url: https://wa.me/8801734906838
+            - listitem [ref=f6e103]:
+              - link "ullahmohammad314@gmail.com" [ref=f6e104] [cursor=pointer]:
+                - /url: mailto:ullahmohammad314@gmail.com
+            - listitem [ref=f6e105]:
+              - link "GitHub" [ref=f6e106] [cursor=pointer]:
+                - /url: https://github.com/MU1147-LEGEND
+            - listitem [ref=f6e110]:
+              - link "LinkedIn" [ref=f6e111] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/mohammad-ullah32
+        - generic [ref=f6e115]:
+          - paragraph [ref=f6e116]: Manage
+          - list [ref=f6e117]:
+            - listitem [ref=f6e118]:
+              - link "Admin Panel" [ref=f6e119] [cursor=pointer]:
+                - /url: /admin
+            - listitem [ref=f6e120]:
+              - link "Resume PDF" [ref=f6e121] [cursor=pointer]:
+                - /url: /assets/resume.pdf
+      - generic [ref=f6e122]:
+        - paragraph [ref=f6e123]: © 2026 Mohammad Ullah. All rights reserved.
+        - paragraph [ref=f6e124]: Built with Next.js, TypeScript, Motion & SQLite.
+  - region "Notifications alt+T"
+  - alert [ref=f6e125]

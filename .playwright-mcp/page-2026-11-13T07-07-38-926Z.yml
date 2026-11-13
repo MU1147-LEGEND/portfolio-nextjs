@@ -1,0 +1,123 @@
+- generic [active] [ref=f28e1]:
+  - banner [ref=f28e2]:
+    - navigation [ref=f28e3]:
+      - link "Velvet Beauty" [ref=f28e4] [cursor=pointer]:
+        - /url: "#"
+      - list [ref=f28e5]:
+        - listitem [ref=f28e6]:
+          - link "Home" [ref=f28e7] [cursor=pointer]:
+            - /url: "#hero"
+        - listitem [ref=f28e8]:
+          - link "Products" [ref=f28e9] [cursor=pointer]:
+            - /url: "#products"
+        - listitem [ref=f28e10]:
+          - link "About" [ref=f28e11] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f28e12]:
+          - link "Contact" [ref=f28e13] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f28e15]:
+    - heading "Unleash Your Bold Beauty" [level=1] [ref=f28e16]: Unleash YourBold Beauty
+    - paragraph [ref=f28e17]: Discover luxurious cosmetics that celebrate every shade of you. From vibrant lipsticks to radiant foundations — express yourself fearlessly.
+    - generic [ref=f28e18]:
+      - link "Shop Now" [ref=f28e19] [cursor=pointer]:
+        - /url: "#products"
+      - link "Learn More" [ref=f28e20] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f28e22]:
+    - heading "Our Bestsellers" [level=2] [ref=f28e23]
+    - paragraph [ref=f28e24]: The products our community can't stop raving about
+    - generic [ref=f28e25]:
+      - generic [ref=f28e26]:
+        - link [ref=f28e27] [cursor=pointer]:
+          - /url: product.html?id=lipstick
+          - img "Velvet Rouge Lipstick" [ref=f28e28]
+        - generic [ref=f28e29]:
+          - heading "Velvet Rouge Lipstick" [level=3] [ref=f28e30]
+          - paragraph [ref=f28e31]: Long-lasting matte formula with intense pigment for all-day bold color.
+          - generic [ref=f28e32]:
+            - generic [ref=f28e33]: $24.99
+            - link "View Product" [ref=f28e34] [cursor=pointer]:
+              - /url: product.html?id=lipstick
+      - generic [ref=f28e35]:
+        - link [ref=f28e36] [cursor=pointer]:
+          - /url: product.html?id=highlighter
+          - img "Glow Highlighter Palette" [ref=f28e37]
+        - generic [ref=f28e38]:
+          - heading "Glow Highlighter Palette" [level=3] [ref=f28e39]
+          - paragraph [ref=f28e40]: Four shimmering shades to illuminate your best features effortlessly.
+          - generic [ref=f28e41]:
+            - generic [ref=f28e42]: $34.99
+            - link "View Product" [ref=f28e43] [cursor=pointer]:
+              - /url: product.html?id=highlighter
+      - generic [ref=f28e44]:
+        - link [ref=f28e45] [cursor=pointer]:
+          - /url: product.html?id=blush
+          - img "Blush Bouquet Trio" [ref=f28e46]
+        - generic [ref=f28e47]:
+          - heading "Blush Bouquet Trio" [level=3] [ref=f28e48]
+          - paragraph [ref=f28e49]: A trio of buildable blushes for a natural, flushed-from-within glow.
+          - generic [ref=f28e50]:
+            - generic [ref=f28e51]: $29.99
+            - link "View Product" [ref=f28e52] [cursor=pointer]:
+              - /url: product.html?id=blush
+      - generic [ref=f28e53]:
+        - link [ref=f28e54] [cursor=pointer]:
+          - /url: product.html?id=eyeshadow
+          - img "Midnight Eyeshadow Set" [ref=f28e55]
+        - generic [ref=f28e56]:
+          - heading "Midnight Eyeshadow Set" [level=3] [ref=f28e57]
+          - paragraph [ref=f28e58]: Twelve rich, blendable shades from subtle nudes to dramatic smokeshow.
+          - generic [ref=f28e59]:
+            - generic [ref=f28e60]: $42.99
+            - link "View Product" [ref=f28e61] [cursor=pointer]:
+              - /url: product.html?id=eyeshadow
+  - contentinfo [ref=f28e62]:
+    - generic [ref=f28e63]:
+      - generic [ref=f28e64]:
+        - generic [ref=f28e65]:
+          - link "Velvet Beauty" [ref=f28e66] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=f28e67]: Luxury cosmetics for the bold and beautiful. Cruelty-free & made with love.
+        - generic [ref=f28e68]:
+          - heading "Quick Links" [level=4] [ref=f28e69]
+          - list [ref=f28e70]:
+            - listitem [ref=f28e71]:
+              - link "Home" [ref=f28e72] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f28e73]:
+              - link "Products" [ref=f28e74] [cursor=pointer]:
+                - /url: "#products"
+            - listitem [ref=f28e75]:
+              - link "About Us" [ref=f28e76] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f28e77]:
+              - link "Contact" [ref=f28e78] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f28e79]:
+          - heading "Support" [level=4] [ref=f28e80]
+          - list [ref=f28e81]:
+            - listitem [ref=f28e82]:
+              - link "FAQ" [ref=f28e83] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f28e84]:
+              - link "Shipping" [ref=f28e85] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f28e86]:
+              - link "Returns" [ref=f28e87] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f28e88]:
+              - link "Privacy Policy" [ref=f28e89] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f28e90]:
+          - heading "Follow Us" [level=4] [ref=f28e91]
+          - generic [ref=f28e92]:
+            - link "Instagram" [ref=f28e93] [cursor=pointer]:
+              - /url: "#"
+            - link "Twitter" [ref=f28e97] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=f28e100] [cursor=pointer]:
+              - /url: "#"
+            - link "TikTok" [ref=f28e103] [cursor=pointer]:
+              - /url: "#"
+      - paragraph [ref=f28e107]: © 2026 Velvet Beauty. All rights reserved.

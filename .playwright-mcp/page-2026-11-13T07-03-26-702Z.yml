@@ -1,0 +1,229 @@
+- main [ref=f16e2]:
+  - generic [ref=f16e5]:
+    - link [ref=f16e6] [cursor=pointer]:
+      - /url: /
+      - heading "LUMIÈRE" [level=1] [ref=f16e7]
+    - navigation [ref=f16e8]:
+      - link "Shop" [ref=f16e9] [cursor=pointer]:
+        - /url: "#shop"
+      - link "Skincare" [ref=f16e10] [cursor=pointer]:
+        - /url: "#skincare"
+      - link "Makeup" [ref=f16e11] [cursor=pointer]:
+        - /url: "#makeup"
+      - link "Fragrance" [ref=f16e12] [cursor=pointer]:
+        - /url: "#fragrance"
+      - link "About" [ref=f16e13] [cursor=pointer]:
+        - /url: "#about"
+    - generic [ref=f16e14]:
+      - button "Search" [ref=f16e15]
+      - button "Account" [ref=f16e17]
+      - button "0 Cart" [ref=f16e19]:
+        - generic [ref=f16e20]: "0"
+        - generic [ref=f16e21]: Cart
+  - generic [ref=f16e22]:
+    - img "Luxury cosmetics collection" [ref=f16e24]
+    - generic [ref=f16e27]:
+      - paragraph [ref=f16e28]: New Collection 2026
+      - heading "Timeless beauty, effortlessly refined" [level=2] [ref=f16e29]
+      - paragraph [ref=f16e30]: Discover our curated collection of luxury skincare and cosmetics, crafted with the finest ingredients for radiant, luminous skin.
+      - generic [ref=f16e31]:
+        - button "Shop Collection" [ref=f16e32]
+        - button "Learn More" [ref=f16e33]
+    - generic [ref=f16e34]: Scroll
+  - generic [ref=f16e39]:
+    - generic [ref=f16e40]:
+      - paragraph [ref=f16e41]: Collections
+      - heading "Explore Our Categories" [level=2] [ref=f16e42]
+    - generic [ref=f16e43]:
+      - link "Skincare 48 Products Skincare Nourish and rejuvenate Shop Now" [ref=f16e44] [cursor=pointer]:
+        - /url: "#skincare"
+        - img "Skincare" [ref=f16e45]
+        - generic [ref=f16e47]:
+          - paragraph [ref=f16e48]: 48 Products
+          - heading "Skincare" [level=3] [ref=f16e49]
+          - paragraph [ref=f16e50]: Nourish and rejuvenate
+          - generic [ref=f16e51]: Shop Now
+      - link "Makeup 65 Products Makeup Enhance your natural beauty Shop Now" [ref=f16e55] [cursor=pointer]:
+        - /url: "#makeup"
+        - img "Makeup" [ref=f16e56]
+        - generic [ref=f16e58]:
+          - paragraph [ref=f16e59]: 65 Products
+          - heading "Makeup" [level=3] [ref=f16e60]
+          - paragraph [ref=f16e61]: Enhance your natural beauty
+          - generic [ref=f16e62]: Shop Now
+      - link "Fragrance 24 Products Fragrance Captivating scents Shop Now" [ref=f16e66] [cursor=pointer]:
+        - /url: "#fragrance"
+        - img "Fragrance" [ref=f16e67]
+        - generic [ref=f16e69]:
+          - paragraph [ref=f16e70]: 24 Products
+          - heading "Fragrance" [level=3] [ref=f16e71]
+          - paragraph [ref=f16e72]: Captivating scents
+          - generic [ref=f16e73]: Shop Now
+  - generic [ref=f16e78]:
+    - generic [ref=f16e79]:
+      - generic [ref=f16e80]:
+        - paragraph [ref=f16e81]: Featured
+        - heading "Our Bestsellers" [level=2] [ref=f16e82]
+      - button "View All Products" [ref=f16e83]
+    - generic [ref=f16e84]:
+      - article [ref=f16e85]:
+        - generic [ref=f16e86]:
+          - img "Rose Petal Serum" [ref=f16e87]
+          - generic [ref=f16e88]: Bestseller
+          - button "Add to favorites" [ref=f16e90]
+          - button "Add to Bag" [ref=f16e94]
+        - generic [ref=f16e95]:
+          - paragraph [ref=f16e96]: Skincare
+          - heading "Rose Petal Serum" [level=3] [ref=f16e97]
+          - paragraph [ref=f16e98]: $125
+      - article [ref=f16e99]:
+        - generic [ref=f16e100]:
+          - img "Velvet Matte Lipstick" [ref=f16e101]
+          - generic [ref=f16e102]: New
+          - button "Add to favorites" [ref=f16e104]
+          - button "Add to Bag" [ref=f16e108]
+        - generic [ref=f16e109]:
+          - paragraph [ref=f16e110]: Makeup
+          - heading "Velvet Matte Lipstick" [level=3] [ref=f16e111]
+          - paragraph [ref=f16e112]: $45
+      - article [ref=f16e113]:
+        - generic [ref=f16e114]:
+          - img "Midnight Bloom Perfume" [ref=f16e115]
+          - button "Add to favorites" [ref=f16e117]
+          - button "Add to Bag" [ref=f16e121]
+        - generic [ref=f16e122]:
+          - paragraph [ref=f16e123]: Fragrance
+          - heading "Midnight Bloom Perfume" [level=3] [ref=f16e124]
+          - paragraph [ref=f16e125]: $185
+      - article [ref=f16e126]:
+        - generic [ref=f16e127]:
+          - img "Luminous Glow Cream" [ref=f16e128]
+          - generic [ref=f16e129]: Limited
+          - button "Add to favorites" [ref=f16e131]
+          - button "Add to Bag" [ref=f16e135]
+        - generic [ref=f16e136]:
+          - paragraph [ref=f16e137]: Skincare
+          - heading "Luminous Glow Cream" [level=3] [ref=f16e138]
+          - paragraph [ref=f16e139]: $95
+  - generic [ref=f16e142]:
+    - img "Our story" [ref=f16e144]
+    - generic [ref=f16e145]:
+      - paragraph [ref=f16e146]: Our Story
+      - heading "Beauty that honors tradition and embraces innovation" [level=2] [ref=f16e147]
+      - paragraph [ref=f16e148]: Founded in Paris in 1952, LUMIÈRE has been at the forefront of luxury beauty for over seven decades. Our commitment to excellence combines time-honored formulations with cutting-edge skincare science, creating products that deliver visible results while indulging your senses.
+      - generic [ref=f16e149]:
+        - generic [ref=f16e152]:
+          - heading "Clean Ingredients" [level=3] [ref=f16e153]
+          - paragraph [ref=f16e154]: Formulated with natural, ethically-sourced ingredients free from harmful chemicals.
+        - generic [ref=f16e157]:
+          - heading "Cruelty Free" [level=3] [ref=f16e158]
+          - paragraph [ref=f16e159]: Never tested on animals. We believe beauty should be kind.
+        - generic [ref=f16e162]:
+          - heading "Sustainable" [level=3] [ref=f16e163]
+          - paragraph [ref=f16e164]: Eco-friendly packaging and responsible manufacturing practices.
+      - button "Discover Our Heritage" [ref=f16e165]
+  - generic [ref=f16e167]:
+    - generic [ref=f16e168]:
+      - paragraph [ref=f16e169]: Testimonials
+      - heading "What Our Clients Say" [level=2] [ref=f16e170]
+    - generic [ref=f16e171]:
+      - generic [ref=f16e173]:
+        - blockquote [ref=f16e185]: “The Rose Petal Serum has completely transformed my skin. I've never felt more confident in my natural beauty.”
+        - generic [ref=f16e186]:
+          - paragraph [ref=f16e187]: Sophie Laurent
+          - paragraph [ref=f16e188]: Paris, France
+        - paragraph [ref=f16e189]: Rose Petal Serum
+      - generic [ref=f16e190]:
+        - button "Previous testimonial" [ref=f16e191]
+        - generic [ref=f16e192]:
+          - button "Go to testimonial 1" [ref=f16e193]
+          - button "Go to testimonial 2" [ref=f16e194]
+          - button "Go to testimonial 3" [ref=f16e195]
+        - button "Next testimonial" [ref=f16e196]
+  - generic [ref=f16e199]:
+    - paragraph [ref=f16e200]: Stay Connected
+    - heading "Join the LUMIÈRE Family" [level=2] [ref=f16e201]
+    - paragraph [ref=f16e202]: Subscribe to receive exclusive offers, early access to new collections, and beauty tips from our experts.
+    - generic [ref=f16e203]:
+      - textbox "Enter your email" [ref=f16e204]
+      - button "Subscribe" [ref=f16e205]
+    - paragraph [ref=f16e206]: By subscribing, you agree to our Privacy Policy and consent to receive updates.
+  - generic [ref=f16e208]:
+    - generic [ref=f16e209]:
+      - generic [ref=f16e210]:
+        - link [ref=f16e211] [cursor=pointer]:
+          - /url: /
+          - heading "LUMIÈRE" [level=2] [ref=f16e212]
+        - paragraph [ref=f16e213]: Timeless beauty since 1952. Discover the art of luxury skincare and cosmetics crafted with passion and precision.
+        - generic [ref=f16e214]:
+          - link "Instagram" [ref=f16e215] [cursor=pointer]:
+            - /url: "#"
+          - link "Facebook" [ref=f16e219] [cursor=pointer]:
+            - /url: "#"
+          - link "Twitter" [ref=f16e222] [cursor=pointer]:
+            - /url: "#"
+          - link "YouTube" [ref=f16e225] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f16e229]:
+        - heading "Shop" [level=3] [ref=f16e230]
+        - list [ref=f16e231]:
+          - listitem [ref=f16e232]:
+            - link "Skincare" [ref=f16e233] [cursor=pointer]:
+              - /url: "#skincare"
+          - listitem [ref=f16e234]:
+            - link "Makeup" [ref=f16e235] [cursor=pointer]:
+              - /url: "#makeup"
+          - listitem [ref=f16e236]:
+            - link "Fragrance" [ref=f16e237] [cursor=pointer]:
+              - /url: "#fragrance"
+          - listitem [ref=f16e238]:
+            - link "Gift Sets" [ref=f16e239] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e240]:
+            - link "New Arrivals" [ref=f16e241] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f16e242]:
+        - heading "Support" [level=3] [ref=f16e243]
+        - list [ref=f16e244]:
+          - listitem [ref=f16e245]:
+            - link "Contact Us" [ref=f16e246] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e247]:
+            - link "FAQs" [ref=f16e248] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e249]:
+            - link "Shipping" [ref=f16e250] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e251]:
+            - link "Returns" [ref=f16e252] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e253]:
+            - link "Track Order" [ref=f16e254] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f16e255]:
+        - heading "Company" [level=3] [ref=f16e256]
+        - list [ref=f16e257]:
+          - listitem [ref=f16e258]:
+            - link "About Us" [ref=f16e259] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=f16e260]:
+            - link "Our Story" [ref=f16e261] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e262]:
+            - link "Sustainability" [ref=f16e263] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e264]:
+            - link "Careers" [ref=f16e265] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f16e266]:
+            - link "Press" [ref=f16e267] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=f16e268]:
+      - paragraph [ref=f16e269]: © 2026 LUMIÈRE. All rights reserved.
+      - generic [ref=f16e270]:
+        - link "Privacy Policy" [ref=f16e271] [cursor=pointer]:
+          - /url: "#"
+        - link "Terms of Service" [ref=f16e272] [cursor=pointer]:
+          - /url: "#"
+        - link "Cookies" [ref=f16e273] [cursor=pointer]:
+          - /url: "#"

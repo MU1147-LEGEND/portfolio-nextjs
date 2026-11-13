@@ -1,0 +1,1145 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e3]:
+    - link "Flash sale ongoing - Grab your deal now." [ref=f21e4] [cursor=pointer]:
+      - /url: /flash-sale
+    - banner [ref=f21e6]:
+      - generic [ref=f21e8]:
+        - link "Logo E-Com BP" [ref=f21e9] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=f21e10]
+          - generic [ref=f21e11]: E-Com BP
+        - navigation [ref=f21e13]:
+          - link "Home" [ref=f21e14] [cursor=pointer]:
+            - /url: /
+          - link "All Products" [ref=f21e16] [cursor=pointer]:
+            - /url: /products
+          - link "Offers" [ref=f21e18] [cursor=pointer]:
+            - /url: /flash-sale
+          - link "Track Order" [ref=f21e20] [cursor=pointer]:
+            - /url: /track-order
+        - generic [ref=f21e22]:
+          - button "Search" [ref=f21e23] [cursor=pointer]
+          - link "My Profile" [ref=f21e28] [cursor=pointer]:
+            - /url: /profile
+          - link "Wishlist" [ref=f21e33] [cursor=pointer]:
+            - /url: /wishlist
+          - link "Cart" [ref=f21e37] [cursor=pointer]:
+            - /url: /cart
+    - main [ref=f21e42]:
+      - region "Store home content" [ref=f21e45]:
+        - region [ref=f21e48]:
+          - generic [ref=f21e50]:
+            - group [ref=f21e51]:
+              - generic:
+                - img "প্রিমিয়াম কোরিয়ান স্কিনকেয়ার"
+              - generic [ref=f21e52]:
+                - generic [ref=f21e53]: বেস্ট সেলার
+                - heading "প্রিমিয়াম কোরিয়ান স্কিনকেয়ার" [level=2] [ref=f21e58]
+                - paragraph [ref=f21e59]: ত্বকের স্বাভাবিক উজ্জ্বলতা ফিরিয়ে আনুন
+                - paragraph [ref=f21e60]: ১০০% আসল ও আমদানিকৃত কোরিয়ান গ্লো বুস্টিং সেরাম ও ময়শ্চারাইজার কালেকশন।
+                - button "স্কিনকেয়ার দেখুন" [ref=f21e62] [cursor=pointer]
+            - group [aria-hidden] [ref=f21e66]:
+              - generic [ref=f21e67]:
+                - generic [ref=f21e68]: বিশেষ অফার
+                - heading [level=2] [ref=f21e73]: এক্সক্লুসিভ মেকআপ মেলা
+                - paragraph [ref=f21e74]: দীর্ঘস্থায়ী এইচডি কভারেজ ফিনিশ
+                - paragraph [ref=f21e75]: ওয়াটারপ্রুফ লিপস্টিক, আইলাইনার ও ফাউন্ডেশন দিয়ে ফুটিয়ে তুলুন আপনার অনন্য রূপ।
+                - button [ref=f21e77] [cursor=pointer]:
+                  - generic [ref=f21e78]: মেকআপ সংগ্রহ
+          - button "Previous Slide" [ref=f21e81] [cursor=pointer]
+          - button "Next Slide" [ref=f21e84] [cursor=pointer]
+          - generic [ref=f21e87]:
+            - button "Go to slide 1" [ref=f21e88] [cursor=pointer]
+            - button "Go to slide 2" [ref=f21e89] [cursor=pointer]
+        - region "Flash Sale Products" [ref=f21e91]:
+          - generic [ref=f21e92]:
+            - generic [ref=f21e93]:
+              - heading "Special Discount" [level=2] [ref=f21e94]
+              - generic [ref=f21e97]: Best Value
+            - generic [ref=f21e102]:
+              - button "Previous flash sale product" [disabled]
+              - button "Next flash sale product" [ref=f21e103] [cursor=pointer]
+          - generic [ref=f21e107]:
+            - generic [ref=f21e109]:
+              - generic:
+                - generic: pos
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e110] [cursor=pointer]
+              - link "View details for Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f21e113] [cursor=pointer]:
+                - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                - img "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f21e114]
+              - generic [ref=f21e115]:
+                - link [ref=f21e116] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                  - paragraph [ref=f21e117]: Innsaei • Skincare
+                  - heading "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [level=3] [ref=f21e118]
+                - generic [ref=f21e119]:
+                  - generic [ref=f21e120]: 20৳
+                  - generic [ref=f21e121]: 320৳
+                  - generic [ref=f21e122]: "-94%"
+              - generic [ref=f21e123]:
+                - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Select Variant" [ref=f21e124] [cursor=pointer]:
+                  - generic [ref=f21e131]: Select Variant
+                - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Add to cart" [ref=f21e132] [cursor=pointer]:
+                  - generic [ref=f21e137]: Buy Now
+            - generic [ref=f21e139]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e140] [cursor=pointer]
+              - link "View details for Puritans Pride Odorless Garlic & Parsley" [ref=f21e143] [cursor=pointer]:
+                - /url: /product/puritans-pride-odorless-garlic-parsley
+                - img "Puritans Pride Odorless Garlic & Parsley" [ref=f21e144]
+              - generic [ref=f21e145]:
+                - link [ref=f21e146] [cursor=pointer]:
+                  - /url: /product/puritans-pride-odorless-garlic-parsley
+                  - paragraph [ref=f21e147]: Haircare
+                  - heading "Puritans Pride Odorless Garlic & Parsley" [level=3] [ref=f21e148]
+                - generic [ref=f21e149]:
+                  - generic [ref=f21e150]: 50৳
+                  - generic [ref=f21e151]: 700৳
+                  - generic [ref=f21e152]: "-93%"
+              - generic [ref=f21e153]:
+                - button "Puritans Pride Odorless Garlic & Parsley — Select Variant" [ref=f21e154] [cursor=pointer]:
+                  - generic [ref=f21e161]: Select Variant
+                - button "Puritans Pride Odorless Garlic & Parsley — Add to cart" [ref=f21e162] [cursor=pointer]:
+                  - generic [ref=f21e167]: Buy Now
+            - generic [ref=f21e169]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e170] [cursor=pointer]
+              - link "View details for Innsaei Salicylic Acid Acne Solution Cleansing Foam" [ref=f21e173] [cursor=pointer]:
+                - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                - img "Innsaei Salicylic Acid Acne Solution Cleansing Foam" [ref=f21e174]
+              - generic [ref=f21e175]:
+                - link [ref=f21e176] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                  - paragraph [ref=f21e177]: Skincare
+                  - heading "Innsaei Salicylic Acid Acne Solution Cleansing Foam" [level=3] [ref=f21e178]
+                - generic [ref=f21e179]:
+                  - generic [ref=f21e180]: 72৳
+                  - generic [ref=f21e181]: 288৳
+                  - generic [ref=f21e182]: "-75%"
+              - generic [ref=f21e183]:
+                - link "Innsaei Salicylic Acid Acne Solution Cleansing Foam — View Details" [ref=f21e184] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                  - generic [ref=f21e188]: View Details
+                - button "Innsaei Salicylic Acid Acne Solution Cleansing Foam — Add to cart" [ref=f21e189] [cursor=pointer]:
+                  - generic [ref=f21e194]: Buy Now
+            - generic [ref=f21e196]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e197] [cursor=pointer]
+              - link "View details for Cathy Doll Acne Solution Serum Foam Cleanser" [ref=f21e200] [cursor=pointer]:
+                - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                - img "Cathy Doll Acne Solution Serum Foam Cleanser" [ref=f21e201]
+              - generic [ref=f21e202]:
+                - link [ref=f21e203] [cursor=pointer]:
+                  - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                  - paragraph [ref=f21e204]: Skincare
+                  - heading "Cathy Doll Acne Solution Serum Foam Cleanser" [level=3] [ref=f21e205]
+                - generic [ref=f21e206]:
+                  - generic [ref=f21e207]: 50৳
+                  - generic [ref=f21e208]: 550৳
+                  - generic [ref=f21e209]: "-91%"
+              - generic [ref=f21e210]:
+                - link "Cathy Doll Acne Solution Serum Foam Cleanser — View Details" [ref=f21e211] [cursor=pointer]:
+                  - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                  - generic [ref=f21e215]: View Details
+                - button "Cathy Doll Acne Solution Serum Foam Cleanser — Add to cart" [ref=f21e216] [cursor=pointer]:
+                  - generic [ref=f21e221]: Buy Now
+            - generic [ref=f21e223]:
+              - generic:
+                - generic: Acne Care
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e224] [cursor=pointer]
+              - link "View details for Skin'O Miracle Anti Acne Cleansing Foam" [ref=f21e227] [cursor=pointer]:
+                - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                - img "Skin'O Miracle Anti Acne Cleansing Foam" [ref=f21e228]
+              - generic [ref=f21e229]:
+                - link [ref=f21e230] [cursor=pointer]:
+                  - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                  - paragraph [ref=f21e231]: Skincare
+                  - heading "Skin'O Miracle Anti Acne Cleansing Foam" [level=3] [ref=f21e232]
+                - generic [ref=f21e233]:
+                  - generic [ref=f21e234]: 13৳
+                  - generic [ref=f21e235]: 247৳
+                  - generic [ref=f21e236]: "-95%"
+              - generic [ref=f21e237]:
+                - link "Skin'O Miracle Anti Acne Cleansing Foam — View Details" [ref=f21e238] [cursor=pointer]:
+                  - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                  - generic [ref=f21e242]: View Details
+                - button "Skin'O Miracle Anti Acne Cleansing Foam — Add to cart" [ref=f21e243] [cursor=pointer]:
+                  - generic [ref=f21e248]: Buy Now
+            - generic [ref=f21e250]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e251] [cursor=pointer]
+              - link "View details for Skin'O Acne + Spot Treatment Serum" [ref=f21e254] [cursor=pointer]:
+                - /url: /product/skino-acne-spot-treatment-serum
+                - img "Skin'O Acne + Spot Treatment Serum" [ref=f21e255]
+              - generic [ref=f21e256]:
+                - link [ref=f21e257] [cursor=pointer]:
+                  - /url: /product/skino-acne-spot-treatment-serum
+                  - paragraph [ref=f21e258]: Skincare
+                  - heading "Skin'O Acne + Spot Treatment Serum" [level=3] [ref=f21e259]
+                - generic [ref=f21e260]:
+                  - generic [ref=f21e261]: 125৳
+                  - generic [ref=f21e262]: 365৳
+                  - generic [ref=f21e263]: "-66%"
+              - generic [ref=f21e264]:
+                - link "Skin'O Acne + Spot Treatment Serum — View Details" [ref=f21e265] [cursor=pointer]:
+                  - /url: /product/skino-acne-spot-treatment-serum
+                  - generic [ref=f21e269]: View Details
+                - button "Skin'O Acne + Spot Treatment Serum — Add to cart" [ref=f21e270] [cursor=pointer]:
+                  - generic [ref=f21e275]: Buy Now
+            - generic [ref=f21e277]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e278] [cursor=pointer]
+              - link "View details for Some By Mi Yuja Niacin Blemish Care Serum" [ref=f21e281] [cursor=pointer]:
+                - /url: /product/some-by-mi-yuja-niacin-blemish-care-serum
+                - img "Some By Mi Yuja Niacin Blemish Care Serum" [ref=f21e282]
+              - generic [ref=f21e283]:
+                - link [ref=f21e284] [cursor=pointer]:
+                  - /url: /product/some-by-mi-yuja-niacin-blemish-care-serum
+                  - paragraph [ref=f21e285]: Skincare
+                  - heading "Some By Mi Yuja Niacin Blemish Care Serum" [level=3] [ref=f21e286]
+                - generic [ref=f21e287]:
+                  - generic [ref=f21e288]: 100৳
+                  - generic [ref=f21e289]: 1,550৳
+                  - generic [ref=f21e290]: "-94%"
+              - generic [ref=f21e291]:
+                - link "Some By Mi Yuja Niacin Blemish Care Serum — View Details" [ref=f21e292] [cursor=pointer]:
+                  - /url: /product/some-by-mi-yuja-niacin-blemish-care-serum
+                  - generic [ref=f21e296]: View Details
+                - button "Some By Mi Yuja Niacin Blemish Care Serum — Add to cart" [ref=f21e297] [cursor=pointer]:
+                  - generic [ref=f21e302]: Buy Now
+            - generic [ref=f21e304]:
+              - generic:
+                - generic: Sale
+                - generic: "OFF"
+              - button "Add to wishlist" [ref=f21e305] [cursor=pointer]
+              - link "View details for Cosrx Acne Pimple Master Patch" [ref=f21e308] [cursor=pointer]:
+                - /url: /product/cosrx-acne-pimple-master-patch
+                - img "Cosrx Acne Pimple Master Patch" [ref=f21e309]
+              - generic [ref=f21e310]:
+                - link [ref=f21e311] [cursor=pointer]:
+                  - /url: /product/cosrx-acne-pimple-master-patch
+                  - paragraph [ref=f21e312]: Skincare
+                  - heading "Cosrx Acne Pimple Master Patch" [level=3] [ref=f21e313]
+                - generic [ref=f21e314]:
+                  - generic [ref=f21e315]: 205৳
+                  - generic [ref=f21e316]: 350৳
+                  - generic [ref=f21e317]: "-41%"
+              - generic [ref=f21e318]:
+                - link "Cosrx Acne Pimple Master Patch — View Details" [ref=f21e319] [cursor=pointer]:
+                  - /url: /product/cosrx-acne-pimple-master-patch
+                  - generic [ref=f21e323]: View Details
+                - button "Cosrx Acne Pimple Master Patch — Add to cart" [ref=f21e324] [cursor=pointer]:
+                  - generic [ref=f21e329]: Buy Now
+          - link "View All Discounted Products" [ref=f21e331] [cursor=pointer]:
+            - /url: /flash-sale
+        - generic [ref=f21e336]:
+          - generic [ref=f21e337]:
+            - generic [ref=f21e338]:
+              - generic [ref=f21e339]: Categories
+              - heading "Shop by Category" [level=2] [ref=f21e344]
+            - generic [ref=f21e345]:
+              - button "Scroll categories left" [ref=f21e346] [cursor=pointer]
+              - button "Scroll categories right" [ref=f21e349] [cursor=pointer]
+          - generic [ref=f21e352]:
+            - button "All Products" [ref=f21e353] [cursor=pointer]
+            - button "Skincare" [ref=f21e362] [cursor=pointer]
+            - button "Makeup" [ref=f21e367] [cursor=pointer]
+            - button "Haircare" [ref=f21e372] [cursor=pointer]
+            - button "Body Care" [ref=f21e377] [cursor=pointer]
+            - button "Fragrances" [ref=f21e382] [cursor=pointer]
+        - generic [ref=f21e388]:
+          - generic [ref=f21e389]:
+            - generic [ref=f21e390]:
+              - heading "Skincare" [level=2] [ref=f21e391]
+              - link "See more Skincare" [ref=f21e393] [cursor=pointer]:
+                - /url: /skincare
+                - generic [ref=f21e394]: See more
+                - generic [ref=f21e395]: Skincare
+            - generic [ref=f21e399]:
+              - generic [ref=f21e401]:
+                - generic:
+                  - generic: pos
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e402] [cursor=pointer]
+                - link "View details for Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f21e405] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                  - img "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [ref=f21e406]
+                - generic [ref=f21e407]:
+                  - link [ref=f21e408] [cursor=pointer]:
+                    - /url: /product/innsaei-salicylic-acid-acne-cleansing-foam-150ml
+                    - paragraph [ref=f21e409]: Innsaei • Skincare
+                    - heading "Innsaei Salicylic Acid Acne Cleansing Foam 150ml" [level=3] [ref=f21e410]
+                  - generic [ref=f21e411]:
+                    - generic [ref=f21e412]: 20৳
+                    - generic [ref=f21e413]: 320৳
+                    - generic [ref=f21e414]: "-94%"
+                - generic [ref=f21e415]:
+                  - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Select Variant" [ref=f21e416] [cursor=pointer]:
+                    - generic [ref=f21e423]: Select Variant
+                  - button "Innsaei Salicylic Acid Acne Cleansing Foam 150ml — Add to cart" [ref=f21e424] [cursor=pointer]:
+                    - generic [ref=f21e429]: Buy Now
+              - generic [ref=f21e431]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e432] [cursor=pointer]
+                - link "View details for Innsaei Salicylic Acid Acne Solution Cleansing Foam" [ref=f21e435] [cursor=pointer]:
+                  - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                  - img "Innsaei Salicylic Acid Acne Solution Cleansing Foam" [ref=f21e436]
+                - generic [ref=f21e437]:
+                  - link [ref=f21e438] [cursor=pointer]:
+                    - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                    - paragraph [ref=f21e439]: Skincare
+                    - heading "Innsaei Salicylic Acid Acne Solution Cleansing Foam" [level=3] [ref=f21e440]
+                  - generic [ref=f21e441]:
+                    - generic [ref=f21e442]: 72৳
+                    - generic [ref=f21e443]: 288৳
+                    - generic [ref=f21e444]: "-75%"
+                - generic [ref=f21e445]:
+                  - link "Innsaei Salicylic Acid Acne Solution Cleansing Foam — View Details" [ref=f21e446] [cursor=pointer]:
+                    - /url: /product/innsaei-salicylic-acid-acne-solution-cleansing-foam
+                    - generic [ref=f21e450]: View Details
+                  - button "Innsaei Salicylic Acid Acne Solution Cleansing Foam — Add to cart" [ref=f21e451] [cursor=pointer]:
+                    - generic [ref=f21e456]: Buy Now
+              - generic [ref=f21e458]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e459] [cursor=pointer]
+                - link "View details for Cathy Doll Acne Solution Serum Foam Cleanser" [ref=f21e462] [cursor=pointer]:
+                  - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                  - img "Cathy Doll Acne Solution Serum Foam Cleanser" [ref=f21e463]
+                - generic [ref=f21e464]:
+                  - link [ref=f21e465] [cursor=pointer]:
+                    - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                    - paragraph [ref=f21e466]: Skincare
+                    - heading "Cathy Doll Acne Solution Serum Foam Cleanser" [level=3] [ref=f21e467]
+                  - generic [ref=f21e468]:
+                    - generic [ref=f21e469]: 50৳
+                    - generic [ref=f21e470]: 550৳
+                    - generic [ref=f21e471]: "-91%"
+                - generic [ref=f21e472]:
+                  - link "Cathy Doll Acne Solution Serum Foam Cleanser — View Details" [ref=f21e473] [cursor=pointer]:
+                    - /url: /product/cathy-doll-acne-solution-serum-foam-cleanser
+                    - generic [ref=f21e477]: View Details
+                  - button "Cathy Doll Acne Solution Serum Foam Cleanser — Add to cart" [ref=f21e478] [cursor=pointer]:
+                    - generic [ref=f21e483]: Buy Now
+              - generic [ref=f21e485]:
+                - generic:
+                  - generic: Acne Care
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e486] [cursor=pointer]
+                - link "View details for Skin'O Miracle Anti Acne Cleansing Foam" [ref=f21e489] [cursor=pointer]:
+                  - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                  - img "Skin'O Miracle Anti Acne Cleansing Foam" [ref=f21e490]
+                - generic [ref=f21e491]:
+                  - link [ref=f21e492] [cursor=pointer]:
+                    - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                    - paragraph [ref=f21e493]: Skincare
+                    - heading "Skin'O Miracle Anti Acne Cleansing Foam" [level=3] [ref=f21e494]
+                  - generic [ref=f21e495]:
+                    - generic [ref=f21e496]: 13৳
+                    - generic [ref=f21e497]: 247৳
+                    - generic [ref=f21e498]: "-95%"
+                - generic [ref=f21e499]:
+                  - link "Skin'O Miracle Anti Acne Cleansing Foam — View Details" [ref=f21e500] [cursor=pointer]:
+                    - /url: /product/skino-miracle-anti-acne-cleansing-foam
+                    - generic [ref=f21e504]: View Details
+                  - button "Skin'O Miracle Anti Acne Cleansing Foam — Add to cart" [ref=f21e505] [cursor=pointer]:
+                    - generic [ref=f21e510]: Buy Now
+              - generic [ref=f21e512]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e513] [cursor=pointer]
+                - link "View details for Skin'O Acne + Spot Treatment Serum" [ref=f21e516] [cursor=pointer]:
+                  - /url: /product/skino-acne-spot-treatment-serum
+                  - img "Skin'O Acne + Spot Treatment Serum" [ref=f21e517]
+                - generic [ref=f21e518]:
+                  - link [ref=f21e519] [cursor=pointer]:
+                    - /url: /product/skino-acne-spot-treatment-serum
+                    - paragraph [ref=f21e520]: Skincare
+                    - heading "Skin'O Acne + Spot Treatment Serum" [level=3] [ref=f21e521]
+                  - generic [ref=f21e522]:
+                    - generic [ref=f21e523]: 125৳
+                    - generic [ref=f21e524]: 365৳
+                    - generic [ref=f21e525]: "-66%"
+                - generic [ref=f21e526]:
+                  - link "Skin'O Acne + Spot Treatment Serum — View Details" [ref=f21e527] [cursor=pointer]:
+                    - /url: /product/skino-acne-spot-treatment-serum
+                    - generic [ref=f21e531]: View Details
+                  - button "Skin'O Acne + Spot Treatment Serum — Add to cart" [ref=f21e532] [cursor=pointer]:
+                    - generic [ref=f21e537]: Buy Now
+              - generic [ref=f21e539]:
+                - generic: Acne Care
+                - button "Add to wishlist" [ref=f21e540] [cursor=pointer]
+                - link "View details for Acne Fighting Facial Wash" [ref=f21e543] [cursor=pointer]:
+                  - /url: /product/acne-fighting-facial-wash
+                  - img "Acne Fighting Facial Wash" [ref=f21e544]
+                - generic [ref=f21e545]:
+                  - link [ref=f21e546] [cursor=pointer]:
+                    - /url: /product/acne-fighting-facial-wash
+                    - paragraph [ref=f21e547]: Skincare
+                    - heading "Acne Fighting Facial Wash" [level=3] [ref=f21e548]
+                  - generic [ref=f21e549]: 185৳
+                - generic [ref=f21e551]:
+                  - link "Acne Fighting Facial Wash — View Details" [ref=f21e552] [cursor=pointer]:
+                    - /url: /product/acne-fighting-facial-wash
+                    - generic [ref=f21e556]: View Details
+                  - button "Acne Fighting Facial Wash — Add to cart" [ref=f21e557] [cursor=pointer]:
+                    - generic [ref=f21e562]: Buy Now
+              - generic [ref=f21e564]:
+                - generic: Acne Care
+                - button "Add to wishlist" [ref=f21e565] [cursor=pointer]
+                - link "View details for MAYA Rosehip Oil & Acne Control Gel Cream" [ref=f21e568] [cursor=pointer]:
+                  - /url: /product/maya-rosehip-oil-acne-control-gel-cream
+                  - img "MAYA Rosehip Oil & Acne Control Gel Cream" [ref=f21e569]
+                - generic [ref=f21e570]:
+                  - link [ref=f21e571] [cursor=pointer]:
+                    - /url: /product/maya-rosehip-oil-acne-control-gel-cream
+                    - paragraph [ref=f21e572]: Skincare
+                    - heading "MAYA Rosehip Oil & Acne Control Gel Cream" [level=3] [ref=f21e573]
+                  - generic [ref=f21e574]: 230৳
+                - generic [ref=f21e576]:
+                  - link "MAYA Rosehip Oil & Acne Control Gel Cream — View Details" [ref=f21e577] [cursor=pointer]:
+                    - /url: /product/maya-rosehip-oil-acne-control-gel-cream
+                    - generic [ref=f21e581]: View Details
+                  - button "MAYA Rosehip Oil & Acne Control Gel Cream — Add to cart" [ref=f21e582] [cursor=pointer]:
+                    - generic [ref=f21e587]: Buy Now
+              - generic [ref=f21e589]:
+                - generic: Brand
+                - button "Add to wishlist" [ref=f21e590] [cursor=pointer]
+                - link "View details for Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser" [ref=f21e593] [cursor=pointer]:
+                  - /url: /product/neutrogena-acne-proofing-salicylic-acid-daily-facial-gel-cleanser
+                  - img "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser" [ref=f21e594]
+                - generic [ref=f21e595]:
+                  - link [ref=f21e596] [cursor=pointer]:
+                    - /url: /product/neutrogena-acne-proofing-salicylic-acid-daily-facial-gel-cleanser
+                    - paragraph [ref=f21e597]: Skincare
+                    - heading "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser" [level=3] [ref=f21e598]
+                  - generic [ref=f21e599]: 1,050৳
+                - generic [ref=f21e601]:
+                  - link "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser — View Details" [ref=f21e602] [cursor=pointer]:
+                    - /url: /product/neutrogena-acne-proofing-salicylic-acid-daily-facial-gel-cleanser
+                    - generic [ref=f21e606]: View Details
+                  - button "Neutrogena Acne Proofing Salicylic Acid Daily Facial Gel Cleanser — Add to cart" [ref=f21e607] [cursor=pointer]:
+                    - generic [ref=f21e612]: Buy Now
+          - generic [ref=f21e613]:
+            - generic [ref=f21e614]:
+              - heading "Makeup" [level=2] [ref=f21e615]
+              - link "See more Makeup" [ref=f21e617] [cursor=pointer]:
+                - /url: /makeup
+                - generic [ref=f21e618]: See more
+                - generic [ref=f21e619]: Makeup
+            - generic [ref=f21e624]:
+              - generic [ref=f21e626]:
+                - generic:
+                  - generic: Makeup Tool
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e627] [cursor=pointer]
+                - link "View details for Groome Beauty Blender Sponge" [ref=f21e630] [cursor=pointer]:
+                  - /url: /product/groome-beauty-blender-sponge
+                  - img "Groome Beauty Blender Sponge" [ref=f21e631]
+                - generic [ref=f21e632]:
+                  - link [ref=f21e633] [cursor=pointer]:
+                    - /url: /product/groome-beauty-blender-sponge
+                    - paragraph [ref=f21e634]: Makeup
+                    - heading "Groome Beauty Blender Sponge" [level=3] [ref=f21e635]
+                  - generic [ref=f21e636]:
+                    - generic [ref=f21e637]: 34৳
+                    - generic [ref=f21e638]: 186৳
+                    - generic [ref=f21e639]: "-82%"
+                - generic [ref=f21e640]:
+                  - link "Groome Beauty Blender Sponge — View Details" [ref=f21e641] [cursor=pointer]:
+                    - /url: /product/groome-beauty-blender-sponge
+                    - generic [ref=f21e645]: View Details
+                  - button "Groome Beauty Blender Sponge — Add to cart" [ref=f21e646] [cursor=pointer]:
+                    - generic [ref=f21e651]: Buy Now
+              - generic [ref=f21e653]:
+                - generic:
+                  - generic: Essentials
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e654] [cursor=pointer]
+                - link "View details for Groome Cotton Pad 80's Pack" [ref=f21e657] [cursor=pointer]:
+                  - /url: /product/groome-cotton-pad-80s-pack
+                  - img "Groome Cotton Pad 80's Pack" [ref=f21e658]
+                - generic [ref=f21e659]:
+                  - link [ref=f21e660] [cursor=pointer]:
+                    - /url: /product/groome-cotton-pad-80s-pack
+                    - paragraph [ref=f21e661]: Makeup
+                    - heading "Groome Cotton Pad 80's Pack" [level=3] [ref=f21e662]
+                  - generic [ref=f21e663]:
+                    - generic [ref=f21e664]: 47৳
+                    - generic [ref=f21e665]: 218৳
+                    - generic [ref=f21e666]: "-78%"
+                - generic [ref=f21e667]:
+                  - link "Groome Cotton Pad 80's Pack — View Details" [ref=f21e668] [cursor=pointer]:
+                    - /url: /product/groome-cotton-pad-80s-pack
+                    - generic [ref=f21e672]: View Details
+                  - button "Groome Cotton Pad 80's Pack — Add to cart" [ref=f21e673] [cursor=pointer]:
+                    - generic [ref=f21e678]: Buy Now
+              - generic [ref=f21e680]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e681] [cursor=pointer]
+                - link "View details for Supreme Slim Demi Matte Lip Stick" [ref=f21e684] [cursor=pointer]:
+                  - /url: /product/supreme-slim-demi-matte-lip-stick
+                  - img "Supreme Slim Demi Matte Lip Stick" [ref=f21e685]
+                - generic [ref=f21e686]:
+                  - link [ref=f21e687] [cursor=pointer]:
+                    - /url: /product/supreme-slim-demi-matte-lip-stick
+                    - paragraph [ref=f21e688]: Makeup
+                    - heading "Supreme Slim Demi Matte Lip Stick" [level=3] [ref=f21e689]
+                  - generic [ref=f21e690]:
+                    - generic [ref=f21e691]: 155৳
+                    - generic [ref=f21e692]: 495৳
+                    - generic [ref=f21e693]: "-69%"
+                - generic [ref=f21e694]:
+                  - button "Supreme Slim Demi Matte Lip Stick — Select Variant" [ref=f21e695] [cursor=pointer]:
+                    - generic [ref=f21e702]: Select Variant
+                  - button "Supreme Slim Demi Matte Lip Stick — Add to cart" [ref=f21e703] [cursor=pointer]:
+                    - generic [ref=f21e708]: Buy Now
+              - generic [ref=f21e710]:
+                - button "Add to wishlist" [ref=f21e711] [cursor=pointer]
+                - link "View details for Keen Black Pencil Gel Liner 3D Kajal" [ref=f21e714] [cursor=pointer]:
+                  - /url: /product/keen-black-pencil-gel-liner-3d-kajal
+                  - img "Keen Black Pencil Gel Liner 3D Kajal" [ref=f21e715]
+                - generic [ref=f21e716]:
+                  - link [ref=f21e717] [cursor=pointer]:
+                    - /url: /product/keen-black-pencil-gel-liner-3d-kajal
+                    - paragraph [ref=f21e718]: Makeup
+                    - heading "Keen Black Pencil Gel Liner 3D Kajal" [level=3] [ref=f21e719]
+                  - generic [ref=f21e720]: 350৳
+                - generic [ref=f21e722]:
+                  - link "Keen Black Pencil Gel Liner 3D Kajal — View Details" [ref=f21e723] [cursor=pointer]:
+                    - /url: /product/keen-black-pencil-gel-liner-3d-kajal
+                    - generic [ref=f21e727]: View Details
+                  - button "Keen Black Pencil Gel Liner 3D Kajal — Add to cart" [ref=f21e728] [cursor=pointer]:
+                    - generic [ref=f21e733]: Buy Now
+              - generic [ref=f21e735]:
+                - button "Add to wishlist" [ref=f21e736] [cursor=pointer]
+                - link "View details for Amazing Slender Mascara" [ref=f21e739] [cursor=pointer]:
+                  - /url: /product/amazing-slender-mascara
+                  - img "Amazing Slender Mascara" [ref=f21e740]
+                - generic [ref=f21e741]:
+                  - link [ref=f21e742] [cursor=pointer]:
+                    - /url: /product/amazing-slender-mascara
+                    - paragraph [ref=f21e743]: Makeup
+                    - heading "Amazing Slender Mascara" [level=3] [ref=f21e744]
+                  - generic [ref=f21e745]: 450৳
+                - generic [ref=f21e747]:
+                  - link "Amazing Slender Mascara — View Details" [ref=f21e748] [cursor=pointer]:
+                    - /url: /product/amazing-slender-mascara
+                    - generic [ref=f21e752]: View Details
+                  - button "Amazing Slender Mascara — Add to cart" [ref=f21e753] [cursor=pointer]:
+                    - generic [ref=f21e758]: Buy Now
+              - generic [ref=f21e760]:
+                - button "Add to wishlist" [ref=f21e761] [cursor=pointer]
+                - link "View details for Showy Curl Waterproof Curling Mascara" [ref=f21e764] [cursor=pointer]:
+                  - /url: /product/showy-curl-waterproof-curling-mascara
+                  - img "Showy Curl Waterproof Curling Mascara" [ref=f21e765]
+                - generic [ref=f21e766]:
+                  - link [ref=f21e767] [cursor=pointer]:
+                    - /url: /product/showy-curl-waterproof-curling-mascara
+                    - paragraph [ref=f21e768]: Makeup
+                    - heading "Showy Curl Waterproof Curling Mascara" [level=3] [ref=f21e769]
+                  - generic [ref=f21e770]: 350৳
+                - generic [ref=f21e772]:
+                  - link "Showy Curl Waterproof Curling Mascara — View Details" [ref=f21e773] [cursor=pointer]:
+                    - /url: /product/showy-curl-waterproof-curling-mascara
+                    - generic [ref=f21e777]: View Details
+                  - button "Showy Curl Waterproof Curling Mascara — Add to cart" [ref=f21e778] [cursor=pointer]:
+                    - generic [ref=f21e783]: Buy Now
+              - generic [ref=f21e785]:
+                - button "Add to wishlist" [ref=f21e786] [cursor=pointer]
+                - link "View details for Cat Eye Kajal" [ref=f21e789] [cursor=pointer]:
+                  - /url: /product/cat-eye-kajal
+                  - img "Cat Eye Kajal" [ref=f21e790]
+                - generic [ref=f21e791]:
+                  - link [ref=f21e792] [cursor=pointer]:
+                    - /url: /product/cat-eye-kajal
+                    - paragraph [ref=f21e793]: Makeup
+                    - heading "Cat Eye Kajal" [level=3] [ref=f21e794]
+                  - generic [ref=f21e795]: 475৳
+                - generic [ref=f21e797]:
+                  - link "Cat Eye Kajal — View Details" [ref=f21e798] [cursor=pointer]:
+                    - /url: /product/cat-eye-kajal
+                    - generic [ref=f21e802]: View Details
+                  - button "Cat Eye Kajal — Add to cart" [ref=f21e803] [cursor=pointer]:
+                    - generic [ref=f21e808]: Buy Now
+              - generic [ref=f21e810]:
+                - button "Add to wishlist" [ref=f21e811] [cursor=pointer]
+                - link "View details for Egypt's Lands Long Thick Mascara" [ref=f21e814] [cursor=pointer]:
+                  - /url: /product/egypts-lands-long-thick-mascara
+                  - img "Egypt's Lands Long Thick Mascara" [ref=f21e815]
+                - generic [ref=f21e816]:
+                  - link [ref=f21e817] [cursor=pointer]:
+                    - /url: /product/egypts-lands-long-thick-mascara
+                    - paragraph [ref=f21e818]: Makeup
+                    - heading "Egypt's Lands Long Thick Mascara" [level=3] [ref=f21e819]
+                  - generic [ref=f21e820]: 450৳
+                - generic [ref=f21e822]:
+                  - link "Egypt's Lands Long Thick Mascara — View Details" [ref=f21e823] [cursor=pointer]:
+                    - /url: /product/egypts-lands-long-thick-mascara
+                    - generic [ref=f21e827]: View Details
+                  - button "Egypt's Lands Long Thick Mascara — Add to cart" [ref=f21e828] [cursor=pointer]:
+                    - generic [ref=f21e833]: Buy Now
+          - generic [ref=f21e834]:
+            - generic [ref=f21e835]:
+              - heading "Haircare" [level=2] [ref=f21e836]
+              - link "See more Haircare" [ref=f21e838] [cursor=pointer]:
+                - /url: /haircare
+                - generic [ref=f21e839]: See more
+                - generic [ref=f21e840]: Haircare
+            - generic [ref=f21e845]:
+              - generic [ref=f21e847]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e848] [cursor=pointer]
+                - link "View details for Puritans Pride Odorless Garlic & Parsley" [ref=f21e851] [cursor=pointer]:
+                  - /url: /product/puritans-pride-odorless-garlic-parsley
+                  - img "Puritans Pride Odorless Garlic & Parsley" [ref=f21e852]
+                - generic [ref=f21e853]:
+                  - link [ref=f21e854] [cursor=pointer]:
+                    - /url: /product/puritans-pride-odorless-garlic-parsley
+                    - paragraph [ref=f21e855]: Haircare
+                    - heading "Puritans Pride Odorless Garlic & Parsley" [level=3] [ref=f21e856]
+                  - generic [ref=f21e857]:
+                    - generic [ref=f21e858]: 50৳
+                    - generic [ref=f21e859]: 700৳
+                    - generic [ref=f21e860]: "-93%"
+                - generic [ref=f21e861]:
+                  - button "Puritans Pride Odorless Garlic & Parsley — Select Variant" [ref=f21e862] [cursor=pointer]:
+                    - generic [ref=f21e869]: Select Variant
+                  - button "Puritans Pride Odorless Garlic & Parsley — Add to cart" [ref=f21e870] [cursor=pointer]:
+                    - generic [ref=f21e875]: Buy Now
+              - generic [ref=f21e877]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e878] [cursor=pointer]
+                - link "View details for Innsaei Smooth and Silky Hair Serum for Frizz Control" [ref=f21e881] [cursor=pointer]:
+                  - /url: /product/innsaei-smooth-and-silky-hair-serum-for-frizz-control
+                  - img "Innsaei Smooth and Silky Hair Serum for Frizz Control" [ref=f21e882]
+                - generic [ref=f21e883]:
+                  - link [ref=f21e884] [cursor=pointer]:
+                    - /url: /product/innsaei-smooth-and-silky-hair-serum-for-frizz-control
+                    - paragraph [ref=f21e885]: Haircare
+                    - heading "Innsaei Smooth and Silky Hair Serum for Frizz Control" [level=3] [ref=f21e886]
+                  - generic [ref=f21e887]:
+                    - generic [ref=f21e888]: 150৳
+                    - generic [ref=f21e889]: 540৳
+                    - generic [ref=f21e890]: "-72%"
+                - generic [ref=f21e891]:
+                  - link "Innsaei Smooth and Silky Hair Serum for Frizz Control — View Details" [ref=f21e892] [cursor=pointer]:
+                    - /url: /product/innsaei-smooth-and-silky-hair-serum-for-frizz-control
+                    - generic [ref=f21e896]: View Details
+                  - button "Innsaei Smooth and Silky Hair Serum for Frizz Control — Add to cart" [ref=f21e897] [cursor=pointer]:
+                    - generic [ref=f21e902]: Buy Now
+              - generic [ref=f21e904]:
+                - generic:
+                  - generic: Keratin
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e905] [cursor=pointer]
+                - link "View details for Skin'O Keratin Smooth Repair Shampoo" [ref=f21e908] [cursor=pointer]:
+                  - /url: /product/skino-keratin-smooth-repair-shampoo
+                  - img "Skin'O Keratin Smooth Repair Shampoo" [ref=f21e909]
+                - generic [ref=f21e910]:
+                  - link [ref=f21e911] [cursor=pointer]:
+                    - /url: /product/skino-keratin-smooth-repair-shampoo
+                    - paragraph [ref=f21e912]: Haircare
+                    - heading "Skin'O Keratin Smooth Repair Shampoo" [level=3] [ref=f21e913]
+                  - generic [ref=f21e914]:
+                    - generic [ref=f21e915]: 10৳
+                    - generic [ref=f21e916]: 340৳
+                    - generic [ref=f21e917]: "-97%"
+                - generic [ref=f21e918]:
+                  - link "Skin'O Keratin Smooth Repair Shampoo — View Details" [ref=f21e919] [cursor=pointer]:
+                    - /url: /product/skino-keratin-smooth-repair-shampoo
+                    - generic [ref=f21e923]: View Details
+                  - button "Skin'O Keratin Smooth Repair Shampoo — Add to cart" [ref=f21e924] [cursor=pointer]:
+                    - generic [ref=f21e929]: Buy Now
+              - generic [ref=f21e931]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e932] [cursor=pointer]
+                - link "View details for Skin Cafe Biotin Shampoo" [ref=f21e935] [cursor=pointer]:
+                  - /url: /product/skin-cafe-biotin-shampoo
+                  - img "Skin Cafe Biotin Shampoo" [ref=f21e936]
+                - generic [ref=f21e937]:
+                  - link [ref=f21e938] [cursor=pointer]:
+                    - /url: /product/skin-cafe-biotin-shampoo
+                    - paragraph [ref=f21e939]: Haircare
+                    - heading "Skin Cafe Biotin Shampoo" [level=3] [ref=f21e940]
+                  - generic [ref=f21e941]:
+                    - generic [ref=f21e942]: 246৳
+                    - generic [ref=f21e943]: 454৳
+                    - generic [ref=f21e944]: "-46%"
+                - generic [ref=f21e945]:
+                  - link "Skin Cafe Biotin Shampoo — View Details" [ref=f21e946] [cursor=pointer]:
+                    - /url: /product/skin-cafe-biotin-shampoo
+                    - generic [ref=f21e950]: View Details
+                  - button "Skin Cafe Biotin Shampoo — Add to cart" [ref=f21e951] [cursor=pointer]:
+                    - generic [ref=f21e956]: Buy Now
+              - generic [ref=f21e958]:
+                - generic:
+                  - generic: Hair Care
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e959] [cursor=pointer]
+                - link "View details for Hawaa Hair Fall Avenger Oil" [ref=f21e962] [cursor=pointer]:
+                  - /url: /product/hawaa-hair-fall-avenger-oil
+                  - img "Hawaa Hair Fall Avenger Oil" [ref=f21e963]
+                - generic [ref=f21e964]:
+                  - link [ref=f21e965] [cursor=pointer]:
+                    - /url: /product/hawaa-hair-fall-avenger-oil
+                    - paragraph [ref=f21e966]: Haircare
+                    - heading "Hawaa Hair Fall Avenger Oil" [level=3] [ref=f21e967]
+                  - generic [ref=f21e968]:
+                    - generic [ref=f21e969]: 22৳
+                    - generic [ref=f21e970]: 198৳
+                    - generic [ref=f21e971]: "-89%"
+                - generic [ref=f21e972]:
+                  - link "Hawaa Hair Fall Avenger Oil — View Details" [ref=f21e973] [cursor=pointer]:
+                    - /url: /product/hawaa-hair-fall-avenger-oil
+                    - generic [ref=f21e977]: View Details
+                  - button "Hawaa Hair Fall Avenger Oil — Add to cart" [ref=f21e978] [cursor=pointer]:
+                    - generic [ref=f21e983]: Buy Now
+              - generic [ref=f21e985]:
+                - button "Add to wishlist" [ref=f21e986] [cursor=pointer]
+                - link "View details for Spanish Olive Oil" [ref=f21e989] [cursor=pointer]:
+                  - /url: /product/spanish-olive-oil
+                  - img "Spanish Olive Oil" [ref=f21e990]
+                - generic [ref=f21e991]:
+                  - link [ref=f21e992] [cursor=pointer]:
+                    - /url: /product/spanish-olive-oil
+                    - paragraph [ref=f21e993]: Haircare
+                    - heading "Spanish Olive Oil" [level=3] [ref=f21e994]
+                  - generic [ref=f21e995]: 245৳
+                - generic [ref=f21e997]:
+                  - button "Spanish Olive Oil — Select Variant" [ref=f21e998] [cursor=pointer]:
+                    - generic [ref=f21e1005]: Select Variant
+                  - button "Spanish Olive Oil — Add to cart" [ref=f21e1006] [cursor=pointer]:
+                    - generic [ref=f21e1011]: Buy Now
+              - generic [ref=f21e1013]:
+                - button "Add to wishlist" [ref=f21e1014] [cursor=pointer]
+                - link "View details for Hair Oil" [ref=f21e1017] [cursor=pointer]:
+                  - /url: /product/hair-oil
+                  - img "Hair Oil" [ref=f21e1018]
+                - generic [ref=f21e1019]:
+                  - link [ref=f21e1020] [cursor=pointer]:
+                    - /url: /product/hair-oil
+                    - paragraph [ref=f21e1021]: Haircare
+                    - heading "Hair Oil" [level=3] [ref=f21e1022]
+                  - generic [ref=f21e1023]: 375৳
+                - generic [ref=f21e1025]:
+                  - button "Hair Oil — Select Variant" [ref=f21e1026] [cursor=pointer]:
+                    - generic [ref=f21e1033]: Select Variant
+                  - button "Hair Oil — Add to cart" [ref=f21e1034] [cursor=pointer]:
+                    - generic [ref=f21e1039]: Buy Now
+              - generic [ref=f21e1041]:
+                - button "Add to wishlist" [ref=f21e1042] [cursor=pointer]
+                - link "View details for Amla Shampoo With Biotin Shikakai" [ref=f21e1045] [cursor=pointer]:
+                  - /url: /product/amla-shampoo-with-biotin-shikakai
+                  - img "Amla Shampoo With Biotin Shikakai" [ref=f21e1046]
+                - generic [ref=f21e1047]:
+                  - link [ref=f21e1048] [cursor=pointer]:
+                    - /url: /product/amla-shampoo-with-biotin-shikakai
+                    - paragraph [ref=f21e1049]: Haircare
+                    - heading "Amla Shampoo With Biotin Shikakai" [level=3] [ref=f21e1050]
+                  - generic [ref=f21e1051]: 590৳
+                - generic [ref=f21e1053]:
+                  - link "Amla Shampoo With Biotin Shikakai — View Details" [ref=f21e1054] [cursor=pointer]:
+                    - /url: /product/amla-shampoo-with-biotin-shikakai
+                    - generic [ref=f21e1058]: View Details
+                  - button "Amla Shampoo With Biotin Shikakai — Add to cart" [ref=f21e1059] [cursor=pointer]:
+                    - generic [ref=f21e1064]: Buy Now
+          - generic [ref=f21e1065]:
+            - generic [ref=f21e1066]:
+              - heading "Body Care" [level=2] [ref=f21e1067]
+              - link "See more Body Care" [ref=f21e1069] [cursor=pointer]:
+                - /url: /bodycare
+                - generic [ref=f21e1070]: See more
+                - generic [ref=f21e1071]: Body Care
+            - generic [ref=f21e1076]:
+              - generic [ref=f21e1078]:
+                - generic:
+                  - generic: Pack of 3
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1079] [cursor=pointer]
+                - link "View details for Dettol Soap Skincare Pack of 3 with Argan Oil" [ref=f21e1082] [cursor=pointer]:
+                  - /url: /product/dettol-soap-skincare-pack-of-3-with-argan-oil
+                  - img "Dettol Soap Skincare Pack of 3 with Argan Oil" [ref=f21e1083]
+                - generic [ref=f21e1084]:
+                  - link [ref=f21e1085] [cursor=pointer]:
+                    - /url: /product/dettol-soap-skincare-pack-of-3-with-argan-oil
+                    - paragraph [ref=f21e1086]: Body Care
+                    - heading "Dettol Soap Skincare Pack of 3 with Argan Oil" [level=3] [ref=f21e1087]
+                  - generic [ref=f21e1088]:
+                    - generic [ref=f21e1089]: 6৳
+                    - generic [ref=f21e1090]: 159৳
+                    - generic [ref=f21e1091]: "-96%"
+                - generic [ref=f21e1092]:
+                  - link "Dettol Soap Skincare Pack of 3 with Argan Oil — View Details" [ref=f21e1093] [cursor=pointer]:
+                    - /url: /product/dettol-soap-skincare-pack-of-3-with-argan-oil
+                    - generic [ref=f21e1097]: View Details
+                  - button "Dettol Soap Skincare Pack of 3 with Argan Oil — Add to cart" [ref=f21e1098] [cursor=pointer]:
+                    - generic [ref=f21e1103]: Buy Now
+              - generic [ref=f21e1105]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1106] [cursor=pointer]
+                - link "View details for Innsaei Niacinamide Body Lotion with Vitamin E" [ref=f21e1109] [cursor=pointer]:
+                  - /url: /product/innsaei-niacinamide-body-lotion-with-vitamin-e
+                  - img "Innsaei Niacinamide Body Lotion with Vitamin E" [ref=f21e1110]
+                - generic [ref=f21e1111]:
+                  - link [ref=f21e1112] [cursor=pointer]:
+                    - /url: /product/innsaei-niacinamide-body-lotion-with-vitamin-e
+                    - paragraph [ref=f21e1113]: Innsaei • Body Care
+                    - heading "Innsaei Niacinamide Body Lotion with Vitamin E" [level=3] [ref=f21e1114]
+                  - generic [ref=f21e1115]:
+                    - generic [ref=f21e1116]: 91৳
+                    - generic [ref=f21e1117]: 369৳
+                    - generic [ref=f21e1118]: "-75%"
+                - generic [ref=f21e1119]:
+                  - link "Innsaei Niacinamide Body Lotion with Vitamin E — View Details" [ref=f21e1120] [cursor=pointer]:
+                    - /url: /product/innsaei-niacinamide-body-lotion-with-vitamin-e
+                    - generic [ref=f21e1124]: View Details
+                  - button "Innsaei Niacinamide Body Lotion with Vitamin E — Add to cart" [ref=f21e1125] [cursor=pointer]:
+                    - generic [ref=f21e1130]: Buy Now
+              - generic [ref=f21e1132]:
+                - generic:
+                  - generic: Sale
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1133] [cursor=pointer]
+                - link "View details for Innsaei Pure Radiance Body Oil" [ref=f21e1136] [cursor=pointer]:
+                  - /url: /product/innsaei-pure-radiance-body-oil
+                  - img "Innsaei Pure Radiance Body Oil" [ref=f21e1137]
+                - generic [ref=f21e1138]:
+                  - link [ref=f21e1139] [cursor=pointer]:
+                    - /url: /product/innsaei-pure-radiance-body-oil
+                    - paragraph [ref=f21e1140]: Body Care
+                    - heading "Innsaei Pure Radiance Body Oil" [level=3] [ref=f21e1141]
+                  - generic [ref=f21e1142]:
+                    - generic [ref=f21e1143]: 98৳
+                    - generic [ref=f21e1144]: 392৳
+                    - generic [ref=f21e1145]: "-75%"
+                - generic [ref=f21e1146]:
+                  - link "Innsaei Pure Radiance Body Oil — View Details" [ref=f21e1147] [cursor=pointer]:
+                    - /url: /product/innsaei-pure-radiance-body-oil
+                    - generic [ref=f21e1151]: View Details
+                  - button "Innsaei Pure Radiance Body Oil — Add to cart" [ref=f21e1152] [cursor=pointer]:
+                    - generic [ref=f21e1157]: Buy Now
+              - generic [ref=f21e1159]:
+                - generic:
+                  - generic: Organic
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1160] [cursor=pointer]
+                - link "View details for SkinO 100% Organic Olive Oil" [ref=f21e1163] [cursor=pointer]:
+                  - /url: /product/skino-100-organic-olive-oil
+                  - img "SkinO 100% Organic Olive Oil" [ref=f21e1164]
+                - generic [ref=f21e1165]:
+                  - link [ref=f21e1166] [cursor=pointer]:
+                    - /url: /product/skino-100-organic-olive-oil
+                    - paragraph [ref=f21e1167]: Body Care
+                    - heading "SkinO 100% Organic Olive Oil" [level=3] [ref=f21e1168]
+                  - generic [ref=f21e1169]:
+                    - generic [ref=f21e1170]: 27৳
+                    - generic [ref=f21e1171]: 193৳
+                    - generic [ref=f21e1172]: "-86%"
+                - generic [ref=f21e1173]:
+                  - link "SkinO 100% Organic Olive Oil — View Details" [ref=f21e1174] [cursor=pointer]:
+                    - /url: /product/skino-100-organic-olive-oil
+                    - generic [ref=f21e1178]: View Details
+                  - button "SkinO 100% Organic Olive Oil — Add to cart" [ref=f21e1179] [cursor=pointer]:
+                    - generic [ref=f21e1184]: Buy Now
+              - generic [ref=f21e1186]:
+                - generic:
+                  - generic: Hydrating
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1187] [cursor=pointer]
+                - link "View details for Skin'O Soft Care Hydrating Body Lotion" [ref=f21e1190] [cursor=pointer]:
+                  - /url: /product/skino-soft-care-hydrating-body-lotion
+                  - img "Skin'O Soft Care Hydrating Body Lotion" [ref=f21e1191]
+                - generic [ref=f21e1192]:
+                  - link [ref=f21e1193] [cursor=pointer]:
+                    - /url: /product/skino-soft-care-hydrating-body-lotion
+                    - paragraph [ref=f21e1194]: Body Care
+                    - heading "Skin'O Soft Care Hydrating Body Lotion" [level=3] [ref=f21e1195]
+                  - generic [ref=f21e1196]:
+                    - generic [ref=f21e1197]: 10৳
+                    - generic [ref=f21e1198]: 340৳
+                    - generic [ref=f21e1199]: "-97%"
+                - generic [ref=f21e1200]:
+                  - link "Skin'O Soft Care Hydrating Body Lotion — View Details" [ref=f21e1201] [cursor=pointer]:
+                    - /url: /product/skino-soft-care-hydrating-body-lotion
+                    - generic [ref=f21e1205]: View Details
+                  - button "Skin'O Soft Care Hydrating Body Lotion — Add to cart" [ref=f21e1206] [cursor=pointer]:
+                    - generic [ref=f21e1211]: Buy Now
+              - generic [ref=f21e1213]:
+                - generic:
+                  - generic: Body Care
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1214] [cursor=pointer]
+                - link "View details for Dettol Body Shower Gel Skincare Rose & Sakura Blossom" [ref=f21e1217] [cursor=pointer]:
+                  - /url: /product/dettol-body-shower-gel-skincare-rose-sakura-blossom
+                  - img "Dettol Body Shower Gel Skincare Rose & Sakura Blossom" [ref=f21e1218]
+                - generic [ref=f21e1219]:
+                  - link [ref=f21e1220] [cursor=pointer]:
+                    - /url: /product/dettol-body-shower-gel-skincare-rose-sakura-blossom
+                    - paragraph [ref=f21e1221]: Body Care
+                    - heading "Dettol Body Shower Gel Skincare Rose & Sakura Blossom" [level=3] [ref=f21e1222]
+                  - generic [ref=f21e1223]:
+                    - generic [ref=f21e1224]: 12৳
+                    - generic [ref=f21e1225]: 213৳
+                    - generic [ref=f21e1226]: "-94%"
+                - generic [ref=f21e1227]:
+                  - link "Dettol Body Shower Gel Skincare Rose & Sakura Blossom — View Details" [ref=f21e1228] [cursor=pointer]:
+                    - /url: /product/dettol-body-shower-gel-skincare-rose-sakura-blossom
+                    - generic [ref=f21e1232]: View Details
+                  - button "Dettol Body Shower Gel Skincare Rose & Sakura Blossom — Add to cart" [ref=f21e1233] [cursor=pointer]:
+                    - generic [ref=f21e1238]: Buy Now
+              - generic [ref=f21e1240]:
+                - generic: Body Care
+                - button "Add to wishlist" [ref=f21e1241] [cursor=pointer]
+                - link "View details for Bioaqua Nenhong Pink Body Cream" [ref=f21e1244] [cursor=pointer]:
+                  - /url: /product/bioaqua-nenhong-pink-body-cream
+                  - img "Bioaqua Nenhong Pink Body Cream" [ref=f21e1245]
+                - generic [ref=f21e1246]:
+                  - link [ref=f21e1247] [cursor=pointer]:
+                    - /url: /product/bioaqua-nenhong-pink-body-cream
+                    - paragraph [ref=f21e1248]: Body Care
+                    - heading "Bioaqua Nenhong Pink Body Cream" [level=3] [ref=f21e1249]
+                  - generic [ref=f21e1250]: 300৳
+                - generic [ref=f21e1252]:
+                  - link "Bioaqua Nenhong Pink Body Cream — View Details" [ref=f21e1253] [cursor=pointer]:
+                    - /url: /product/bioaqua-nenhong-pink-body-cream
+                    - generic [ref=f21e1257]: View Details
+                  - button "Bioaqua Nenhong Pink Body Cream — Add to cart" [ref=f21e1258] [cursor=pointer]:
+                    - generic [ref=f21e1263]: Buy Now
+              - generic [ref=f21e1265]:
+                - generic: Sale
+                - button "Add to wishlist" [ref=f21e1266] [cursor=pointer]
+                - link "View details for Skin'O Lavender Soothing Shower Gel" [ref=f21e1269] [cursor=pointer]:
+                  - /url: /product/skino-lavender-soothing-shower-gel
+                  - img "Skin'O Lavender Soothing Shower Gel" [ref=f21e1270]
+                - generic [ref=f21e1271]:
+                  - link [ref=f21e1272] [cursor=pointer]:
+                    - /url: /product/skino-lavender-soothing-shower-gel
+                    - paragraph [ref=f21e1273]: Body Care
+                    - heading "Skin'O Lavender Soothing Shower Gel" [level=3] [ref=f21e1274]
+                  - generic [ref=f21e1275]: 250৳
+                - generic [ref=f21e1277]:
+                  - link "Skin'O Lavender Soothing Shower Gel — View Details" [ref=f21e1278] [cursor=pointer]:
+                    - /url: /product/skino-lavender-soothing-shower-gel
+                    - generic [ref=f21e1282]: View Details
+                  - button "Skin'O Lavender Soothing Shower Gel — Add to cart" [ref=f21e1283] [cursor=pointer]:
+                    - generic [ref=f21e1288]: Buy Now
+          - generic [ref=f21e1289]:
+            - generic [ref=f21e1290]:
+              - heading "Fragrances" [level=2] [ref=f21e1291]
+              - link "See more Fragrances" [ref=f21e1293] [cursor=pointer]:
+                - /url: /fragrances
+                - generic [ref=f21e1294]: See more
+                - generic [ref=f21e1295]: Fragrances
+            - generic [ref=f21e1300]:
+              - generic [ref=f21e1302]:
+                - generic:
+                  - generic: Perfume
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1303] [cursor=pointer]
+                - link "View details for Nirvana Eau De Parfum for Women - Prohelika" [ref=f21e1306] [cursor=pointer]:
+                  - /url: /product/nirvana-eau-de-parfum-for-women-prohelika
+                  - img "Nirvana Eau De Parfum for Women - Prohelika" [ref=f21e1307]
+                - generic [ref=f21e1308]:
+                  - link [ref=f21e1309] [cursor=pointer]:
+                    - /url: /product/nirvana-eau-de-parfum-for-women-prohelika
+                    - paragraph [ref=f21e1310]: Fragrances
+                    - heading "Nirvana Eau De Parfum for Women - Prohelika" [level=3] [ref=f21e1311]
+                  - generic [ref=f21e1312]:
+                    - generic [ref=f21e1313]: 86৳
+                    - generic [ref=f21e1314]: 364৳
+                    - generic [ref=f21e1315]: "-76%"
+                - generic [ref=f21e1316]:
+                  - link "Nirvana Eau De Parfum for Women - Prohelika — View Details" [ref=f21e1317] [cursor=pointer]:
+                    - /url: /product/nirvana-eau-de-parfum-for-women-prohelika
+                    - generic [ref=f21e1321]: View Details
+                  - button "Nirvana Eau De Parfum for Women - Prohelika — Add to cart" [ref=f21e1322] [cursor=pointer]:
+                    - generic [ref=f21e1327]: Buy Now
+              - generic [ref=f21e1329]:
+                - generic:
+                  - generic: Perfume
+                  - generic: "OFF"
+                - button "Add to wishlist" [ref=f21e1330] [cursor=pointer]
+                - link "View details for Revlon Charlie Eau Fraiche Natural Spray - Gold" [ref=f21e1333] [cursor=pointer]:
+                  - /url: /product/revlon-charlie-eau-fraiche-natural-spray-gold
+                  - img "Revlon Charlie Eau Fraiche Natural Spray - Gold" [ref=f21e1334]
+                - generic [ref=f21e1335]:
+                  - link [ref=f21e1336] [cursor=pointer]:
+                    - /url: /product/revlon-charlie-eau-fraiche-natural-spray-gold
+                    - paragraph [ref=f21e1337]: Fragrances
+                    - heading "Revlon Charlie Eau Fraiche Natural Spray - Gold" [level=3] [ref=f21e1338]
+                  - generic [ref=f21e1339]:
+                    - generic [ref=f21e1340]: 144৳
+                    - generic [ref=f21e1341]: 1,106৳
+                    - generic [ref=f21e1342]: "-87%"
+                - generic [ref=f21e1343]:
+                  - link "Revlon Charlie Eau Fraiche Natural Spray - Gold — View Details" [ref=f21e1344] [cursor=pointer]:
+                    - /url: /product/revlon-charlie-eau-fraiche-natural-spray-gold
+                    - generic [ref=f21e1348]: View Details
+                  - button "Revlon Charlie Eau Fraiche Natural Spray - Gold — Add to cart" [ref=f21e1349] [cursor=pointer]:
+                    - generic [ref=f21e1354]: Buy Now
+              - generic [ref=f21e1356]:
+                - button "Add to wishlist" [ref=f21e1357] [cursor=pointer]
+                - link "View details for Boudoir Eau de Parfume for Women" [ref=f21e1360] [cursor=pointer]:
+                  - /url: /product/boudoir-eau-de-parfume-for-women
+                  - img "Boudoir Eau de Parfume for Women" [ref=f21e1361]
+                - generic [ref=f21e1362]:
+                  - link [ref=f21e1363] [cursor=pointer]:
+                    - /url: /product/boudoir-eau-de-parfume-for-women
+                    - paragraph [ref=f21e1364]: Fragrances
+                    - heading "Boudoir Eau de Parfume for Women" [level=3] [ref=f21e1365]
+                  - generic [ref=f21e1366]: 2,800৳
+                - generic [ref=f21e1368]:
+                  - link "Boudoir Eau de Parfume for Women — View Details" [ref=f21e1369] [cursor=pointer]:
+                    - /url: /product/boudoir-eau-de-parfume-for-women
+                    - generic [ref=f21e1373]: View Details
+                  - button "Boudoir Eau de Parfume for Women — Add to cart" [ref=f21e1374] [cursor=pointer]:
+                    - generic [ref=f21e1379]: Buy Now
+              - generic [ref=f21e1381]:
+                - button "Add to wishlist" [ref=f21e1382] [cursor=pointer]
+                - link "View details for Meow EAU de Perfume for Women" [ref=f21e1385] [cursor=pointer]:
+                  - /url: /product/meow-eau-de-perfume-for-women
+                  - img "Meow EAU de Perfume for Women" [ref=f21e1386]
+                - generic [ref=f21e1387]:
+                  - link [ref=f21e1388] [cursor=pointer]:
+                    - /url: /product/meow-eau-de-perfume-for-women
+                    - paragraph [ref=f21e1389]: Fragrances
+                    - heading "Meow EAU de Perfume for Women" [level=3] [ref=f21e1390]
+                  - generic [ref=f21e1391]: 2,180৳
+                - generic [ref=f21e1393]:
+                  - link "Meow EAU de Perfume for Women — View Details" [ref=f21e1394] [cursor=pointer]:
+                    - /url: /product/meow-eau-de-perfume-for-women
+                    - generic [ref=f21e1398]: View Details
+                  - button "Meow EAU de Perfume for Women — Add to cart" [ref=f21e1399] [cursor=pointer]:
+                    - generic [ref=f21e1404]: Buy Now
+              - generic [ref=f21e1406]:
+                - button "Add to wishlist" [ref=f21e1407] [cursor=pointer]
+                - link "View details for Melionism Eau de Parfume for Men" [ref=f21e1410] [cursor=pointer]:
+                  - /url: /product/melionism-eau-de-parfume-for-men
+                  - img "Melionism Eau de Parfume for Men" [ref=f21e1411]
+                - generic [ref=f21e1412]:
+                  - link [ref=f21e1413] [cursor=pointer]:
+                    - /url: /product/melionism-eau-de-parfume-for-men
+                    - paragraph [ref=f21e1414]: Fragrances
+                    - heading "Melionism Eau de Parfume for Men" [level=3] [ref=f21e1415]
+                  - generic [ref=f21e1416]: 2,180৳
+                - generic [ref=f21e1418]:
+                  - link "Melionism Eau de Parfume for Men — View Details" [ref=f21e1419] [cursor=pointer]:
+                    - /url: /product/melionism-eau-de-parfume-for-men
+                    - generic [ref=f21e1423]: View Details
+                  - button "Melionism Eau de Parfume for Men — Add to cart" [ref=f21e1424] [cursor=pointer]:
+                    - generic [ref=f21e1429]: Buy Now
+              - generic [ref=f21e1431]:
+                - button "Add to wishlist" [ref=f21e1432] [cursor=pointer]
+                - link "View details for Kolapsia Eau de Perfume for Men" [ref=f21e1435] [cursor=pointer]:
+                  - /url: /product/kolapsia-eau-de-perfume-for-men
+                  - img "Kolapsia Eau de Perfume for Men" [ref=f21e1436]
+                - generic [ref=f21e1437]:
+                  - link [ref=f21e1438] [cursor=pointer]:
+                    - /url: /product/kolapsia-eau-de-perfume-for-men
+                    - paragraph [ref=f21e1439]: Fragrances
+                    - heading "Kolapsia Eau de Perfume for Men" [level=3] [ref=f21e1440]
+                  - generic [ref=f21e1441]: 3,280৳
+                - generic [ref=f21e1443]:
+                  - link "Kolapsia Eau de Perfume for Men — View Details" [ref=f21e1444] [cursor=pointer]:
+                    - /url: /product/kolapsia-eau-de-perfume-for-men
+                    - generic [ref=f21e1448]: View Details
+                  - button "Kolapsia Eau de Perfume for Men — Add to cart" [ref=f21e1449] [cursor=pointer]:
+                    - generic [ref=f21e1454]: Buy Now
+              - generic [ref=f21e1456]:
+                - button "Add to wishlist" [ref=f21e1457] [cursor=pointer]
+                - link "View details for Ma Chérie Eau De Parfum For Women" [ref=f21e1460] [cursor=pointer]:
+                  - /url: /product/ma-chrie-eau-de-parfum-for-women
+                  - img "Ma Chérie Eau De Parfum For Women" [ref=f21e1461]
+                - generic [ref=f21e1462]:
+                  - link [ref=f21e1463] [cursor=pointer]:
+                    - /url: /product/ma-chrie-eau-de-parfum-for-women
+                    - paragraph [ref=f21e1464]: Fragrances
+                    - heading "Ma Chérie Eau De Parfum For Women" [level=3] [ref=f21e1465]
+                  - generic [ref=f21e1466]: 3,790৳
+                - generic [ref=f21e1468]:
+                  - link "Ma Chérie Eau De Parfum For Women — View Details" [ref=f21e1469] [cursor=pointer]:
+                    - /url: /product/ma-chrie-eau-de-parfum-for-women
+                    - generic [ref=f21e1473]: View Details
+                  - button "Ma Chérie Eau De Parfum For Women — Add to cart" [ref=f21e1474] [cursor=pointer]:
+                    - generic [ref=f21e1479]: Buy Now
+              - generic [ref=f21e1481]:
+                - button "Add to wishlist" [ref=f21e1482] [cursor=pointer]
+                - link "View details for V Voyage Bleu Body Spray for Him" [ref=f21e1485] [cursor=pointer]:
+                  - /url: /product/v-voyage-bleu-body-spray-for-him
+                  - img "V Voyage Bleu Body Spray for Him" [ref=f21e1486]
+                - generic [ref=f21e1487]:
+                  - link [ref=f21e1488] [cursor=pointer]:
+                    - /url: /product/v-voyage-bleu-body-spray-for-him
+                    - paragraph [ref=f21e1489]: Fragrances
+                    - heading "V Voyage Bleu Body Spray for Him" [level=3] [ref=f21e1490]
+                  - generic [ref=f21e1491]: 600৳
+                - generic [ref=f21e1493]:
+                  - link "V Voyage Bleu Body Spray for Him — View Details" [ref=f21e1494] [cursor=pointer]:
+                    - /url: /product/v-voyage-bleu-body-spray-for-him
+                    - generic [ref=f21e1498]: View Details
+                  - button "V Voyage Bleu Body Spray for Him — Add to cart" [ref=f21e1499] [cursor=pointer]:
+                    - generic [ref=f21e1504]: Buy Now
+    - contentinfo [ref=f21e1506]:
+      - generic [ref=f21e1507]:
+        - generic [ref=f21e1508]:
+          - generic [ref=f21e1510]:
+            - generic [ref=f21e1511]:
+              - img "E-Com BP" [ref=f21e1512]
+              - generic [ref=f21e1513]: E-Com BP
+            - paragraph [ref=f21e1514]: ১০০% অরিজিনাল আমদানিকৃত ব্র্যান্ডেড কসমেটিকস, মেকআপ ও স্কিনকেয়ার প্রোডাক্টের নির্ভরযোগ্য রিটেইল শপ।
+          - generic [ref=f21e1516]:
+            - generic [ref=f21e1517]:
+              - paragraph [ref=f21e1518]: Our Links
+              - generic [ref=f21e1519]:
+                - link "All Products" [ref=f21e1520] [cursor=pointer]:
+                  - /url: /
+                - link "Skincare" [ref=f21e1521] [cursor=pointer]:
+                  - /url: /skincare
+                - link "Makeup" [ref=f21e1522] [cursor=pointer]:
+                  - /url: /makeup
+                - link "Haircare" [ref=f21e1523] [cursor=pointer]:
+                  - /url: /haircare
+                - link "Body Care" [ref=f21e1524] [cursor=pointer]:
+                  - /url: /bodycare
+                - link "Fragrances" [ref=f21e1525] [cursor=pointer]:
+                  - /url: /fragrances
+            - generic [ref=f21e1526]:
+              - paragraph [ref=f21e1527]: Customer Care
+              - generic [ref=f21e1528]:
+                - link "About Us" [ref=f21e1529] [cursor=pointer]:
+                  - /url: /about
+                - link "Track Order" [ref=f21e1530] [cursor=pointer]:
+                  - /url: /track-order
+                - link "Return & Refund Policy" [ref=f21e1531] [cursor=pointer]:
+                  - /url: /return-policy
+                - link "Support FAQ" [ref=f21e1532] [cursor=pointer]:
+                  - /url: /faq
+        - paragraph [ref=f21e1534]: © 2026 E-Com BP. All rights reserved.
+  - alert [ref=f21e1535]

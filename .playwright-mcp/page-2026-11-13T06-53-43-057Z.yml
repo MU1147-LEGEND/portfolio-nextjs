@@ -1,0 +1,381 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - generic [ref=f8e7]:
+        - link [ref=f8e8] [cursor=pointer]:
+          - /url: /en
+          - img "yu" [ref=f8e9]
+        - button "Toggle navigation menu" [ref=f8e10] [cursor=pointer]
+    - generic [ref=f8e12]:
+      - generic [ref=f8e14]:
+        - generic [ref=f8e15]:
+          - separator [ref=f8e16]
+          - generic [ref=f8e17]: Welcome to YU Car Rental Powered by The World Global Connection
+          - separator [ref=f8e18]
+        - heading "Unlocking Luxury" [level=1] [ref=f8e19]
+        - heading "Driving Experiences" [level=2] [ref=f8e20]
+        - paragraph [ref=f8e21]: Premium fleet. Zero hidden fees. 100% Coverage. Drive into adventure with your trusted partner YU Car Rental. Enjoy & drive safe.
+        - generic [ref=f8e23]:
+          - button "Pick-up Date" [ref=f8e24] [cursor=pointer]
+          - button "18:00" [ref=f8e30] [cursor=pointer]
+          - button "Drop-off Date" [ref=f8e37] [cursor=pointer]
+          - button "18:00" [ref=f8e43] [cursor=pointer]
+          - button "SEARCH" [ref=f8e50] [cursor=pointer]
+      - paragraph [ref=f8e53]: "\"Skip the long lines and waiting, avoid extra surprise charges and penalties for tiny dents, enjoy worry-free and just simple car rental! \""
+    - generic [ref=f8e56]:
+      - generic [ref=f8e57]:
+        - heading "Distinctive fleet" [level=3] [ref=f8e63]
+        - paragraph [ref=f8e65]: From high-end SUV's to premium pickups
+      - generic [ref=f8e66]:
+        - heading "Exceptional service" [level=3] [ref=f8e70]
+        - paragraph [ref=f8e72]: Stress-free, trustworthy, no hidden costs
+    - generic [ref=f8e74]:
+      - generic [ref=f8e75]:
+        - generic [ref=f8e76]:
+          - generic [ref=f8e77]: Services
+          - heading "Our Services" [level=2] [ref=f8e79]
+        - generic [ref=f8e80]:
+          - button [ref=f8e81] [cursor=pointer]
+          - button [ref=f8e82] [cursor=pointer]
+      - generic [ref=f8e84]:
+        - generic [ref=f8e86]:
+          - generic: "01"
+          - generic [ref=f8e87]:
+            - heading "Zero Deductible with 100% Coverage Package" [level=3] [ref=f8e92]
+            - paragraph [ref=f8e93]: With our 100% coverage package, you'll enjoy peace of mind as there's no deposit required, and you won't need to worry about inspecting for scratches or dents. All damage, even to the rented vehicle, is fully covered.
+        - generic [ref=f8e95]:
+          - generic: "02"
+          - generic [ref=f8e96]:
+            - heading "Direct from Airport" [level=3] [ref=f8e100]
+            - paragraph [ref=f8e101]: Your car will be waiting in the airport parking lot. Just hop in and drive off. Your journey begins immediately.
+        - generic [ref=f8e103]:
+          - generic: "03"
+          - generic [ref=f8e104]:
+            - heading "Online Discount" [level=3] [ref=f8e109]
+            - paragraph [ref=f8e110]: Book through our digital platform and save up to 3%, 6% and 12% instantly. Premium service at the best market price.
+        - generic [ref=f8e112]:
+          - generic: "04"
+          - generic [ref=f8e113]:
+            - heading "100% Flexible Cancellation Policy" [level=3] [ref=f8e119]
+            - paragraph [ref=f8e120]: Life is full of surprises, and we understand that. With our flexible cancellation policy, you only pay for the days you rent, allowing you the freedom to adjust your plans without any hassles.
+        - generic [ref=f8e122]:
+          - generic: "05"
+          - generic [ref=f8e123]:
+            - heading "New and Fuel Efficient Cars and Unlimited Miles" [level=3] [ref=f8e128]
+            - paragraph [ref=f8e129]: Cruise around the island in style with our top-of-the-line SUV's and pickups. Enjoy a smooth and efficient ride while exploring Bonaire's stunning landscapes.
+        - generic [ref=f8e131]:
+          - generic: "06"
+          - generic [ref=f8e132]:
+            - heading "24/7 Self-Service" [level=3] [ref=f8e137]
+            - paragraph [ref=f8e138]: Pick up your car whenever it suits you — day or night, fully contactless. No waiting, no hassle.
+        - generic [ref=f8e140]:
+          - generic: "07"
+          - generic [ref=f8e141]:
+            - heading "No Hidden Fees" [level=3] [ref=f8e146]
+            - paragraph [ref=f8e147]: Transparency is at the core of our values. With YU Car Rental, what you see is what you get. Say goodbye to hidden charges and unexpected fees.
+        - generic [ref=f8e149]:
+          - generic: "08"
+          - generic [ref=f8e150]:
+            - heading "Free pick-up service" [level=3] [ref=f8e156]
+            - paragraph [ref=f8e157]: No more waiting in line! We offer a hassle free pick-up process, with our free pick-up service. Your rental vehicle will be waiting for you, so you can get started on your Bonaire adventure right away.
+        - generic [ref=f8e159]:
+          - generic: "09"
+          - generic [ref=f8e160]:
+            - heading "Multilingual Team" [level=3] [ref=f8e166]
+            - paragraph [ref=f8e167]: We speak your language. Our support is available in Dutch, English, Spanish and Papiamentu.
+        - generic [ref=f8e169]:
+          - generic: "10"
+          - generic [ref=f8e170]:
+            - heading "Local Expertise" [level=3] [ref=f8e175]
+            - paragraph [ref=f8e176]: As a local business, we know Bonaire inside and out — and we’re happy to share our secret tips with you.
+        - generic [ref=f8e178]:
+          - generic: "11"
+          - generic [ref=f8e179]:
+            - heading "Effortless Flow" [level=3] [ref=f8e184]
+            - paragraph [ref=f8e185]: From perfectly prepared cars to clear instructions, we make sure your journey begins relaxed, smooth and stress-free.
+        - generic [ref=f8e187]:
+          - generic: "12"
+          - generic [ref=f8e188]:
+            - heading "Real-Time Support & Instant Solutions" [level=3] [ref=f8e192]
+            - paragraph [ref=f8e193]: At YU Car Rental, you’re never alone. Our team is available 24/7 via WhatsApp or phone to answer questions, extend rentals, or handle anything unexpected—instantly, without forms or office visits. Fast, personal service keeps your journey smooth and stress-free.
+    - generic [ref=f8e195]:
+      - generic [ref=f8e196]:
+        - generic [ref=f8e197]: Explore Our Fleet
+        - heading "Featured Cars" [level=2] [ref=f8e199]
+      - generic [ref=f8e200]:
+        - generic [ref=f8e201]:
+          - img "Car" [ref=f8e203]
+          - generic [ref=f8e204]:
+            - heading "Hyundai Creta" [level=3] [ref=f8e205]
+            - generic [ref=f8e206]:
+              - generic [ref=f8e207]:
+                - generic [ref=f8e210]: "5"
+                - generic [ref=f8e211]: Seats
+              - generic [ref=f8e212]:
+                - generic [ref=f8e216]: 1.5L
+                - generic [ref=f8e217]: Engine
+              - generic [ref=f8e218]:
+                - generic [ref=f8e222]: GASOLINE
+                - generic [ref=f8e223]: Fuel
+              - generic [ref=f8e224]:
+                - generic [ref=f8e227]: AUTOMATIC
+                - generic [ref=f8e228]: Trans
+            - generic [ref=f8e229]:
+              - generic [ref=f8e230]:
+                - generic [ref=f8e231]: $60
+                - text: /Day
+              - link "Rent Now" [ref=f8e232] [cursor=pointer]:
+                - /url: /en/reserve-a-car?carSlug=hyundai-creta
+        - generic [ref=f8e233]:
+          - img "Car" [ref=f8e235]
+          - generic [ref=f8e236]:
+            - heading "Haval H6" [level=3] [ref=f8e237]
+            - generic [ref=f8e238]:
+              - generic [ref=f8e239]:
+                - generic [ref=f8e242]: "5"
+                - generic [ref=f8e243]: Seats
+              - generic [ref=f8e244]:
+                - generic [ref=f8e248]: 1.5L
+                - generic [ref=f8e249]: Engine
+              - generic [ref=f8e250]:
+                - generic [ref=f8e254]: GASOLINE
+                - generic [ref=f8e255]: Fuel
+              - generic [ref=f8e256]:
+                - generic [ref=f8e259]: AUTOMATIC
+                - generic [ref=f8e260]: Trans
+            - generic [ref=f8e261]:
+              - generic [ref=f8e262]:
+                - generic [ref=f8e263]: $70
+                - text: /Day
+              - link "Rent Now" [ref=f8e264] [cursor=pointer]:
+                - /url: /en/reserve-a-car?carSlug=haval-h6
+        - generic [ref=f8e265]:
+          - img "Car" [ref=f8e267]
+          - generic [ref=f8e268]:
+            - heading "Kia Sonet" [level=3] [ref=f8e269]
+            - generic [ref=f8e270]:
+              - generic [ref=f8e271]:
+                - generic [ref=f8e274]: "5"
+                - generic [ref=f8e275]: Seats
+              - generic [ref=f8e276]:
+                - generic [ref=f8e280]: 1.5L
+                - generic [ref=f8e281]: Engine
+              - generic [ref=f8e282]:
+                - generic [ref=f8e286]: GASOLINE
+                - generic [ref=f8e287]: Fuel
+              - generic [ref=f8e288]:
+                - generic [ref=f8e291]: AUTOMATIC
+                - generic [ref=f8e292]: Trans
+            - generic [ref=f8e293]:
+              - generic [ref=f8e294]:
+                - generic [ref=f8e295]: $55
+                - text: /Day
+              - link "Rent Now" [ref=f8e296] [cursor=pointer]:
+                - /url: /en/reserve-a-car?carSlug=kia-sonet
+        - generic [ref=f8e297]:
+          - img "Car" [ref=f8e299]
+          - generic [ref=f8e300]:
+            - heading "Hyundai Staria" [level=3] [ref=f8e301]
+            - generic [ref=f8e302]:
+              - generic [ref=f8e303]:
+                - generic [ref=f8e306]: "8"
+                - generic [ref=f8e307]: Seats
+              - generic [ref=f8e308]:
+                - generic [ref=f8e312]: 2.2L
+                - generic [ref=f8e313]: Engine
+              - generic [ref=f8e314]:
+                - generic [ref=f8e318]: GASOLINE
+                - generic [ref=f8e319]: Fuel
+              - generic [ref=f8e320]:
+                - generic [ref=f8e323]: AUTOMATIC
+                - generic [ref=f8e324]: Trans
+            - generic [ref=f8e325]:
+              - generic [ref=f8e326]:
+                - generic [ref=f8e327]: $75
+                - text: /Day
+              - link "Rent Now" [ref=f8e328] [cursor=pointer]:
+                - /url: /en/reserve-a-car?carSlug=hyundai-staria
+        - generic [ref=f8e329]:
+          - img "Car" [ref=f8e331]
+          - generic [ref=f8e332]:
+            - heading "Toyota Raize" [level=3] [ref=f8e333]
+            - generic [ref=f8e334]:
+              - generic [ref=f8e335]:
+                - generic [ref=f8e338]: "5"
+                - generic [ref=f8e339]: Seats
+              - generic [ref=f8e340]:
+                - generic [ref=f8e344]: 1.0L Turbo
+                - generic [ref=f8e345]: Engine
+              - generic [ref=f8e346]:
+                - generic [ref=f8e350]: GASOLINE
+                - generic [ref=f8e351]: Fuel
+              - generic [ref=f8e352]:
+                - generic [ref=f8e355]: AUTOMATIC
+                - generic [ref=f8e356]: Trans
+            - generic [ref=f8e357]:
+              - generic [ref=f8e358]:
+                - generic [ref=f8e359]: $50
+                - text: /Day
+              - link "Rent Now" [ref=f8e360] [cursor=pointer]:
+                - /url: /en/reserve-a-car?carSlug=toyota-raize
+        - generic [ref=f8e361]:
+          - img "Car" [ref=f8e363]
+          - generic [ref=f8e364]:
+            - heading "Toyota Hilux" [level=3] [ref=f8e365]
+            - generic [ref=f8e366]:
+              - generic [ref=f8e367]:
+                - generic [ref=f8e370]: "5"
+                - generic [ref=f8e371]: Seats
+              - generic [ref=f8e372]:
+                - generic [ref=f8e376]: 1.0L Turbo
+                - generic [ref=f8e377]: Engine
+              - generic [ref=f8e378]:
+                - generic [ref=f8e382]: DIESEL
+                - generic [ref=f8e383]: Fuel
+              - generic [ref=f8e384]:
+                - generic [ref=f8e387]: MANUAL
+                - generic [ref=f8e388]: Trans
+            - generic [ref=f8e389]:
+              - generic [ref=f8e390]:
+                - generic [ref=f8e391]: $60
+                - text: /Day
+              - link "Rent Now" [ref=f8e392] [cursor=pointer]:
+                - /url: /en/reserve-a-car?carSlug=toyota-hilux
+    - generic [ref=f8e394]:
+      - generic [ref=f8e395]:
+        - generic [ref=f8e396]: Coverage Options
+        - heading "Travel with complete peace of mind" [level=2] [ref=f8e398]
+      - generic [ref=f8e399]:
+        - generic [ref=f8e402] [cursor=pointer]:
+          - paragraph [ref=f8e403]: Standard
+          - heading "CDW Insurance" [level=3] [ref=f8e404]
+        - generic [ref=f8e406] [cursor=pointer]:
+          - generic [ref=f8e407]: Recommended
+          - paragraph [ref=f8e408]: Premium
+          - heading "100% Coverage" [level=3] [ref=f8e409]
+      - generic [ref=f8e410]:
+        - generic [ref=f8e411]:
+          - generic [ref=f8e412]: Deductible Risk
+          - generic [ref=f8e413] [cursor=pointer]: $650
+          - generic [ref=f8e414] [cursor=pointer]: $0
+        - generic [ref=f8e415]:
+          - generic [ref=f8e416]: Security Deposit
+          - generic [ref=f8e417] [cursor=pointer]: $650
+          - generic [ref=f8e418] [cursor=pointer]: $0
+        - generic [ref=f8e419]:
+          - generic [ref=f8e420]: Additional Driver
+          - generic [ref=f8e421] [cursor=pointer]: $10 / DAY
+          - generic [ref=f8e422] [cursor=pointer]: INCLUDED
+        - generic [ref=f8e423]:
+          - generic [ref=f8e424]: Tank Rack
+          - generic [ref=f8e425] [cursor=pointer]: $5
+          - generic [ref=f8e426] [cursor=pointer]: INCLUDED
+        - generic [ref=f8e427]:
+          - generic [ref=f8e428]: Flat Tire Service
+          - generic [ref=f8e429] [cursor=pointer]: $40
+          - generic [ref=f8e430] [cursor=pointer]: INCLUDED
+        - generic [ref=f8e431]:
+          - generic [ref=f8e432]: Cancellation Fee
+          - generic [ref=f8e433] [cursor=pointer]: $80
+          - generic [ref=f8e434] [cursor=pointer]: $0
+        - generic [ref=f8e435]:
+          - generic [ref=f8e436]: After-hours Pickup
+          - generic [ref=f8e437] [cursor=pointer]
+          - generic [ref=f8e441] [cursor=pointer]
+        - generic [ref=f8e444]:
+          - generic [ref=f8e445]: Discount Coupons
+          - generic [ref=f8e446] [cursor=pointer]
+          - generic [ref=f8e450] [cursor=pointer]
+        - generic [ref=f8e453]:
+          - generic [ref=f8e454]: All Damage Covered
+          - generic [ref=f8e455] [cursor=pointer]
+          - generic [ref=f8e459] [cursor=pointer]
+        - generic [ref=f8e462]:
+          - generic [ref=f8e463]: Third Party Damage
+          - generic [ref=f8e464] [cursor=pointer]
+          - generic [ref=f8e467] [cursor=pointer]
+      - generic [ref=f8e470]:
+        - generic [ref=f8e472] [cursor=pointer]:
+          - paragraph [ref=f8e473]: Included
+          - paragraph [ref=f8e474]: $0 /day
+        - generic [ref=f8e475] [cursor=pointer]:
+          - paragraph [ref=f8e476]: Add for only
+          - paragraph [ref=f8e477]: +$12 /day
+      - generic [ref=f8e478]:
+        - button "Select Package" [ref=f8e481] [cursor=pointer]
+        - button "Select Package" [ref=f8e483] [cursor=pointer]
+    - generic [ref=f8e485]:
+      - generic [ref=f8e487]:
+        - generic [ref=f8e488]: Reviews
+        - heading "Real Experiences, Real Freedom" [level=2] [ref=f8e491]
+      - generic [ref=f8e492]:
+        - generic [ref=f8e493]:
+          - generic [ref=f8e494]: 4.6/5
+          - separator [ref=f8e495]
+          - paragraph [ref=f8e507]: Average Rating Reviews
+        - generic [ref=f8e508]:
+          - generic [ref=f8e510]:
+            - generic [ref=f8e511]: S
+            - generic [ref=f8e513]:
+              - heading "Sofia L." [level=4] [ref=f8e514]
+              - paragraph [ref=f8e515]: VEYRA TRAIL
+          - paragraph [ref=f8e527]: "\"The YU Car Rental Team Was Incredibly Responsive And Professional. Pick-Up And Drop-Off Were Smooth. And Online Reserving Saved Me So Much Time. Highly Recommend Their Service.\""
+      - generic [ref=f8e528]:
+        - button [ref=f8e529] [cursor=pointer]
+        - button [ref=f8e530] [cursor=pointer]
+      - generic [ref=f8e531]:
+        - button [ref=f8e532] [cursor=pointer]
+        - button [ref=f8e533] [cursor=pointer]
+        - button [ref=f8e534] [cursor=pointer]
+        - button [ref=f8e535] [cursor=pointer]
+    - generic [ref=f8e537]:
+      - generic [ref=f8e538]:
+        - generic [ref=f8e539]: FAQ
+        - heading "Frequently Asked Questions" [level=2] [ref=f8e541]
+      - generic [ref=f8e542]:
+        - generic [ref=f8e543]:
+          - button "Do I Need An International Driver's License On Bonaire?" [ref=f8e544] [cursor=pointer]
+          - paragraph [ref=f8e549]: No, a valid driver's license is sufficient to rent a car on Bonaire.
+        - generic [ref=f8e550]:
+          - button "Is My US Driver's License Valid On Bonaire?" [ref=f8e551] [cursor=pointer]
+          - paragraph [ref=f8e555]: Yes, US driver's licenses are accepted for car rentals on Bonaire.
+        - generic [ref=f8e556]:
+          - button "What Is The Minimum Age To Rent A Car?" [ref=f8e557] [cursor=pointer]
+          - paragraph [ref=f8e561]: The minimum age to rent a car is 21 years old.
+        - generic [ref=f8e562]:
+          - button "How Do I Reset My Pin?" [ref=f8e563] [cursor=pointer]
+          - paragraph [ref=f8e567]: You can reset your PIN by contacting our customer service or through the self-service portal.
+        - generic [ref=f8e568]:
+          - button "What Is Required To Use Digital Banking?" [ref=f8e569] [cursor=pointer]
+          - paragraph [ref=f8e573]: You'll need a valid ID, a linked bank account, and to complete our digital verification process.
+    - contentinfo [ref=f8e574]:
+      - generic [ref=f8e575]:
+        - generic [ref=f8e576]:
+          - generic [ref=f8e577]:
+            - heading "Drive Into Adventure with your trusted partner YU Car Rental. Enjoy & Drive Safe." [level=2] [ref=f8e578]
+            - img "Logo" [ref=f8e580]
+          - generic [ref=f8e581]:
+            - generic [ref=f8e582]:
+              - generic [ref=f8e583]: Bonaire Flamingo Airport
+              - link "info@yucarrental.com" [ref=f8e594] [cursor=pointer]:
+                - /url: mailto:info@yucarrental.com
+            - generic [ref=f8e595]:
+              - link "Facebook" [ref=f8e596] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61580783072606&mibextid=wwXIfr&rdid=Mw3XButM6lyFpfMt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DeCtnkfFE%2F%3Fmibextid%3DwwXIfr%26ref%3D1#
+              - link "Instagram" [ref=f8e599] [cursor=pointer]:
+                - /url: https://www.instagram.com/yucarrental?igsh=MWtteWJneTBmZXB0Mg%3D%3D
+              - link "LinkedIn" [ref=f8e603] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@yucarrental?_r=1&_t=ZG-94fFMOWqMcr
+                - img "tiktok_fill" [ref=f8e604]
+        - generic [ref=f8e610]:
+          - link "Terms & Conditions" [ref=f8e611] [cursor=pointer]:
+            - /url: /en/terms
+          - link "Privacy Policy" [ref=f8e612] [cursor=pointer]:
+            - /url: /en/privacy
+          - link "Cancellation Policy" [ref=f8e613] [cursor=pointer]:
+            - /url: /en/cancellation-policy
+    - link "Chat on WhatsApp" [ref=f8e614] [cursor=pointer]:
+      - /url: https://wa.me/+5997955565
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f8e618]

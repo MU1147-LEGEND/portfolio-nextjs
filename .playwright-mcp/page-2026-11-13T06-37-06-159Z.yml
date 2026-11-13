@@ -1,0 +1,128 @@
+- generic [active] [ref=f4e1]:
+  - link "Skip to content" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "Mohammad Ullah" [ref=f4e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f4e8]:
+        - link "Work" [ref=f4e9] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f4e10] [cursor=pointer]:
+          - /url: /about
+        - link "Resume" [ref=f4e11] [cursor=pointer]:
+          - /url: /resume
+        - link "Contact" [ref=f4e12] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f4e13]:
+        - button "Switch to light mode" [ref=f4e14] [cursor=pointer]
+        - link "WhatsApp" [ref=f4e21] [cursor=pointer]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.
+  - main [ref=f4e25]:
+    - generic [ref=f4e26]:
+      - generic [ref=f4e29]:
+        - img "Mohammad Ullah" [ref=f4e32]
+        - generic [ref=f4e33]:
+          - heading "About Mohammad Ullah" [level=1] [ref=f4e34]
+          - paragraph [ref=f4e35]: I'm Mohammad Ullah, a Full-Stack Engineer from Bangladesh focused on building resilient web applications with React, Next.js, TypeScript, and modern databases. I care deeply about architecture that scales cleanly, typography that guides attention, and interactions that feel immediate under the fingertips — both in code and out on long biking rides.
+          - generic [ref=f4e36]:
+            - generic [ref=f4e37]:
+              - heading "Engineering Approach" [level=2] [ref=f4e38]
+              - paragraph [ref=f4e39]: Start with clear data modeling, ship minimal server-rendered pages that feel fast on real mobile connections, and refine every interactive detail until nothing feels sluggish or accidental.
+            - generic [ref=f4e40]:
+              - heading "Outside the Editor" [level=2] [ref=f4e41]
+              - paragraph [ref=f4e42]: Away from TypeScript and UI engineering, I spend time on long biking adventures across Bangladesh, exploring new routes and sharpening problem-solving focus.
+          - generic [ref=f4e43]:
+            - link "Explore projects" [ref=f4e44] [cursor=pointer]:
+              - /url: /work
+            - link "View resume" [ref=f4e45] [cursor=pointer]:
+              - /url: /resume
+      - region "Education & Credentials" [ref=f4e46]:
+        - generic [ref=f4e47]:
+          - generic [ref=f4e49]:
+            - heading "Education & Credentials" [level=2] [ref=f4e50]
+            - link "Read full background" [ref=f4e51] [cursor=pointer]:
+              - /url: /about
+          - generic [ref=f4e52]:
+            - generic [ref=f4e53]:
+              - generic [ref=f4e54]: "2025"
+              - generic [ref=f4e55]: JavaScript Algorithms & Data Structures
+              - generic [ref=f4e56]:
+                - generic [ref=f4e57]: freeCodeCamp (Verified)
+                - link "Verify" [ref=f4e58] [cursor=pointer]:
+                  - /url: https://www.freecodecamp.org/certification/mu1147_legend/javascript-algorithms-and-data-structures-v8
+            - generic [ref=f4e63]:
+              - generic [ref=f4e64]: "2024"
+              - generic [ref=f4e65]: Responsive Web Design
+              - generic [ref=f4e66]: freeCodeCamp
+            - generic [ref=f4e68]:
+              - generic [ref=f4e69]: 2022–2023
+              - generic [ref=f4e70]: Diploma in Computer Science & Technology
+              - generic [ref=f4e71]: Technical Education
+            - generic [ref=f4e73]:
+              - generic [ref=f4e74]: "2020"
+              - generic [ref=f4e75]: Alim (HSC)
+              - generic [ref=f4e76]: Tamirul Millat Kamil Madrasah
+      - generic [ref=f4e82]:
+        - generic [ref=f4e83]:
+          - heading "Have a product or role in mind? Let's talk directly." [level=2] [ref=f4e84]
+          - paragraph [ref=f4e85]: Fastest way to reach me is WhatsApp. Send a quick note about your timeline, stack, or idea and I'll reply promptly.
+        - generic [ref=f4e86]:
+          - link "Chat on WhatsApp" [ref=f4e87] [cursor=pointer]:
+            - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I'd%20love%20to%20discuss%20a%20project.
+          - button "ullahmohammad314@gmail.com" [ref=f4e91] [cursor=pointer]
+  - contentinfo [ref=f4e96]:
+    - generic [ref=f4e97]:
+      - generic [ref=f4e98]:
+        - generic [ref=f4e99]:
+          - paragraph [ref=f4e100]: Mohammad Ullah
+          - paragraph [ref=f4e101]: Full-Stack Engineer building fast, reliable Next.js applications and clear, tactile user interfaces.
+          - paragraph [ref=f4e102]:
+            - generic [ref=f4e103]: Brahmanbaria, Bangladesh · 12:37 BST
+        - generic [ref=f4e104]:
+          - paragraph [ref=f4e105]: Pages
+          - list [ref=f4e106]:
+            - listitem [ref=f4e107]:
+              - link "Home" [ref=f4e108] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e109]:
+              - link "Work" [ref=f4e110] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f4e111]:
+              - link "About" [ref=f4e112] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f4e113]:
+              - link "Resume" [ref=f4e114] [cursor=pointer]:
+                - /url: /resume
+            - listitem [ref=f4e115]:
+              - link "Contact" [ref=f4e116] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f4e117]:
+          - paragraph [ref=f4e118]: Direct Channels
+          - list [ref=f4e119]:
+            - listitem [ref=f4e120]:
+              - link "WhatsApp (+8801734906838)" [ref=f4e121] [cursor=pointer]:
+                - /url: https://wa.me/8801734906838
+            - listitem [ref=f4e125]:
+              - link "ullahmohammad314@gmail.com" [ref=f4e126] [cursor=pointer]:
+                - /url: mailto:ullahmohammad314@gmail.com
+            - listitem [ref=f4e127]:
+              - link "GitHub" [ref=f4e128] [cursor=pointer]:
+                - /url: https://github.com/MU1147-LEGEND
+            - listitem [ref=f4e132]:
+              - link "LinkedIn" [ref=f4e133] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/mohammad-ullah32
+        - generic [ref=f4e137]:
+          - paragraph [ref=f4e138]: Manage
+          - list [ref=f4e139]:
+            - listitem [ref=f4e140]:
+              - link "Admin Panel" [ref=f4e141] [cursor=pointer]:
+                - /url: /admin
+            - listitem [ref=f4e142]:
+              - link "Resume PDF" [ref=f4e143] [cursor=pointer]:
+                - /url: /assets/resume.pdf
+      - generic [ref=f4e144]:
+        - paragraph [ref=f4e145]: © 2026 Mohammad Ullah. All rights reserved.
+        - paragraph [ref=f4e146]: Built with Next.js, TypeScript, Motion & SQLite.
+  - region "Notifications alt+T"
+  - alert [ref=f4e147]

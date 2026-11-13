@@ -1,0 +1,63 @@
+- generic [active] [ref=f1e1] [box=0,0,914,4648]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer] [box=-9999,0,139,46]:
+    - /url: "#main"
+  - banner [ref=f1e3] [box=0,0,914,68]:
+    - generic [ref=f1e4] [box=24,12,866,56]:
+      - link "Mohammad Ullah" [ref=f1e5] [cursor=pointer] [box=45,18,158,44]:
+        - /url: /
+      - navigation "Primary" [ref=f1e8] [box=289,20,323,40]:
+        - link "Work" [ref=f1e9] [cursor=pointer] [box=289,20,68,40]:
+          - /url: /work
+        - link "About" [ref=f1e10] [cursor=pointer] [box=361,20,73,40]:
+          - /url: /about
+        - link "Resume" [ref=f1e11] [cursor=pointer] [box=438,20,85,40]:
+          - /url: /resume
+        - link "Contact" [ref=f1e12] [cursor=pointer] [box=527,20,85,40]:
+          - /url: /contact
+      - generic [ref=f1e13] [box=698,18,171,44]:
+        - button "Switch to dark mode" [ref=f1e14] [cursor=pointer] [box=698,18,44,44]
+        - link "WhatsApp" [ref=f1e17] [cursor=pointer] [box=750,18,119,44]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.
+  - main [ref=f1e21] [box=0,68,914,4118]:
+    - generic [ref=f1e24] [box=24,132,866,1020]:
+      - generic [ref=f1e25] [box=24,132,866,414]:
+        - generic [ref=f1e26] [box=24,132,866,35]: Available for freelance & product engineering roles
+        - heading "Designing and engineering fast, tactile web software." [level=1] [ref=f1e31] [box=24,195,866,113]
+        - paragraph [ref=f1e33] [box=24,336,734,61]: I build Next.js systems, full-stack products, and refined interfaces where clarity and motion feel effortless.
+        - generic [ref=f1e35] [box=24,424,866,52]
+        - generic [ref=f1e45] [box=24,504,866,42]
+      - figure "Mohammad Ullah React · Next.js · TypeScript" [ref=f1e52] [box=247,594,420,558]:
+        - img "Mohammad Ullah portrait" [ref=f1e54] [box=248,595,418,523]
+        - generic [ref=f1e55] [box=247,1131,420,21]
+    - region "Selected Work" [ref=f1e58] [box=0,1248,914,1414]:
+      - generic [ref=f1e59] [box=24,1345,866,1221]:
+        - generic [ref=f1e60] [box=24,1345,866,68]
+        - generic [ref=f1e80] [box=24,1453,866,1113]
+    - region "Engineering & Craft" [ref=f1e134] [box=0,2662,914,671]:
+      - generic [ref=f1e135] [box=24,2759,866,478]:
+        - generic [ref=f1e137] [box=24,2771,866,48]
+        - generic [ref=f1e140] [box=24,2847,866,390]
+    - region "Education & Credentials" [ref=f1e171] [box=0,3333,914,536]:
+      - generic [ref=f1e172] [box=24,3430,866,343]:
+        - generic [ref=f1e174] [box=24,3442,866,36]
+        - generic [ref=f1e177] [box=24,3507,866,267]
+    - generic [ref=f1e207] [box=73,3963,768,186]:
+      - generic [ref=f1e208] [box=73,3963,768,104]:
+        - heading "Have a product or role in mind? Let's talk directly." [level=2] [ref=f1e209] [box=73,3963,768,36]
+        - paragraph [ref=f1e210] [box=73,4015,575,52]: Fastest way to reach me is WhatsApp. Send a quick note about your timeline, stack, or idea and I'll reply promptly.
+      - generic [ref=f1e211] [box=73,4099,768,50]:
+        - link "Chat on WhatsApp" [ref=f1e212] [cursor=pointer] [box=73,4099,207,50]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I'd%20love%20to%20discuss%20a%20project.
+        - button "ullahmohammad314@gmail.com" [ref=f1e216] [cursor=pointer] [box=292,4099,279,50]
+  - contentinfo [ref=f1e221] [box=0,4282,914,366]:
+    - generic [ref=f1e222] [box=24,4331,866,269]:
+      - generic [ref=f1e223] [box=24,4331,866,175]:
+        - generic [ref=f1e224] [box=24,4331,338,175]
+        - generic [ref=f1e229] [box=402,4331,111,175]
+        - generic [ref=f1e242] [box=553,4331,187,175]
+        - generic [ref=f1e262] [box=779,4331,111,175]
+      - generic [ref=f1e269] [box=24,4554,866,46]:
+        - paragraph [ref=f1e270] [box=24,4579,269,21]: © 2026 Mohammad Ullah. All rights reserved.
+        - paragraph [ref=f1e271] [box=615,4579,275,21]: Built with Next.js, TypeScript, Motion & SQLite.
+  - region "Notifications alt+T" [box=0,4648,914,0]
+  - alert [ref=f1e272] [box=-1,4647,1,1]

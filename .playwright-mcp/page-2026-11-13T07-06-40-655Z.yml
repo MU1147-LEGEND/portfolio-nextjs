@@ -1,0 +1,528 @@
+- generic [active] [ref=f27e1]:
+  - navigation [ref=f27e2]:
+    - generic [ref=f27e4]:
+      - link "M.O.I BEAUTY" [ref=f27e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f27e7]: M.O.I
+        - generic [ref=f27e8]: BEAUTY
+      - generic [ref=f27e9]:
+        - link "Home" [ref=f27e10] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=f27e11] [cursor=pointer]:
+          - /url: /#products
+        - link "Reviews" [ref=f27e12] [cursor=pointer]:
+          - /url: /#reviews
+        - link "FAQ" [ref=f27e13] [cursor=pointer]:
+          - /url: /#faq
+        - link "Contact" [ref=f27e14] [cursor=pointer]:
+          - /url: "#footer"
+      - link "Buy Now" [ref=f27e16] [cursor=pointer]:
+        - /url: /#products
+  - banner [ref=f27e19]:
+    - generic [ref=f27e21]:
+      - generic [ref=f27e22]:
+        - generic [ref=f27e23]: M.O.I Beauty Official Store
+        - heading "Premium skincare made for everyday beauty." [level=1] [ref=f27e28]
+        - generic [ref=f27e29]:
+          - heading "Shop original skincare with secure website checkout." [level=3] [ref=f27e30]
+          - paragraph [ref=f27e31]: Browse our elegant catalog, review details and sizes, and complete your purchase securely. Fast delivery directly to your home.
+        - generic [ref=f27e32]:
+          - link "Buy Now" [ref=f27e33] [cursor=pointer]:
+            - /url: /checkout?items=hydrating-amino-face-wash:1
+          - link "View Best Sellers" [ref=f27e37] [cursor=pointer]:
+            - /url: "#products"
+        - generic [ref=f27e40]:
+          - generic [ref=f27e41]: Cash on Delivery
+          - generic [ref=f27e46]: Skincare Consultation
+          - generic [ref=f27e51]: Seoul Formulated Standard
+      - generic [ref=f27e57]:
+        - img "M.O.I Beauty Luxury Product Skincare Assembly" [ref=f27e59]
+        - generic [ref=f27e61]:
+          - generic [ref=f27e62]:
+            - generic [ref=f27e63]: Best Sellers
+            - heading "M.O.I Premium Collection" [level=4] [ref=f27e64]
+            - paragraph [ref=f27e65]: Seoul formulated face wash, body wash, and active serum sets.
+          - generic [ref=f27e66]: ★
+  - generic [ref=f27e69]:
+    - generic [ref=f27e70]:
+      - heading "Cash on Delivery" [level=3] [ref=f27e74]
+      - paragraph [ref=f27e75]: Pay safely and only when you receive and inspect your package at your doorstep. 100% risk-free shopping.
+    - generic [ref=f27e76]:
+      - heading "Fast Delivery" [level=3] [ref=f27e83]
+      - paragraph [ref=f27e84]: Express shipping within 24-48 hours. Carefully packed with protective luxury bubble buffers.
+    - generic [ref=f27e85]:
+      - heading "Trusted Quality" [level=3] [ref=f27e90]
+      - paragraph [ref=f27e91]: Dermatologically tested, vegan-friendly premium cosmetics formulated using state-of-the-art Seoul standard laboratories.
+    - generic [ref=f27e92]:
+      - heading "Secure Checkout" [level=3] [ref=f27e98]
+      - paragraph [ref=f27e99]: Quick e-commerce order process. Fast, transparent checkout with instant invoice receipts and secure confirmation.
+  - generic [ref=f27e101]:
+    - generic [ref=f27e102]:
+      - text: Signature Beauties
+      - heading "The M.O.I Best Sellers" [level=2] [ref=f27e103]
+      - paragraph [ref=f27e104]: Explore our highly coveted product range. Individually designed to work seamlessly alone or combined into high-value beauty layers.
+    - generic [ref=f27e105]:
+      - generic [ref=f27e106]:
+        - generic [ref=f27e107]:
+          - img "Hydrating Amino Acid Face Wash" [ref=f27e108]
+          - generic [ref=f27e109]: Face Wash
+          - link "View Product" [ref=f27e111] [cursor=pointer]:
+            - /url: /products/hydrating-amino-face-wash
+        - generic [ref=f27e115]:
+          - generic [ref=f27e116]:
+            - generic [ref=f27e117]: "4.8"
+            - link [ref=f27e130] [cursor=pointer]:
+              - /url: /products/hydrating-amino-face-wash
+              - heading "Hydrating Amino Acid Face Wash" [level=3] [ref=f27e131]
+            - paragraph [ref=f27e132]: Gentle Moisture Barrier Protection — A pH-balanced cream-to-foam cleanser infused with double amino acids and ceramides to deeply clean without stripping.
+          - generic [ref=f27e133]:
+            - generic [ref=f27e134]:
+              - generic [ref=f27e135]: $18.00
+              - generic [ref=f27e136]: $24.00
+            - generic [ref=f27e137]:
+              - link "Details" [ref=f27e138] [cursor=pointer]:
+                - /url: /products/hydrating-amino-face-wash
+              - link "Buy Now" [ref=f27e139] [cursor=pointer]:
+                - /url: /checkout?items=hydrating-amino-face-wash:1
+      - generic [ref=f27e143]:
+        - generic [ref=f27e144]:
+          - img "Vitamin C Kakadu Plum Glow Serum" [ref=f27e145]
+          - generic [ref=f27e146]: Serum
+          - link "View Product" [ref=f27e148] [cursor=pointer]:
+            - /url: /products/vitamin-c-glow-serum
+        - generic [ref=f27e152]:
+          - generic [ref=f27e153]:
+            - generic [ref=f27e154]: "4.9"
+            - link [ref=f27e167] [cursor=pointer]:
+              - /url: /products/vitamin-c-glow-serum
+              - heading "Vitamin C Kakadu Plum Glow Serum" [level=3] [ref=f27e168]
+            - paragraph [ref=f27e169]: Brighten, Firm & Protect — A high-potency 15% Vitamin C complex enhanced with Kakadu Plum and Ferulic Acid to reduce dark spots and boost collagen.
+          - generic [ref=f27e170]:
+            - generic [ref=f27e171]:
+              - generic [ref=f27e172]: $28.00
+              - generic [ref=f27e173]: $36.00
+            - generic [ref=f27e174]:
+              - link "Details" [ref=f27e175] [cursor=pointer]:
+                - /url: /products/vitamin-c-glow-serum
+              - link "Buy Now" [ref=f27e176] [cursor=pointer]:
+                - /url: /checkout?items=vitamin-c-glow-serum:1
+      - generic [ref=f27e180]:
+        - generic [ref=f27e181]:
+          - img "Refreshing Eucalyptus & Mint Shower Gel" [ref=f27e182]
+          - generic [ref=f27e183]: Shower Gel
+          - link "View Product" [ref=f27e185] [cursor=pointer]:
+            - /url: /products/eucalyptus-mint-shower-gel
+        - generic [ref=f27e189]:
+          - generic [ref=f27e190]:
+            - generic [ref=f27e191]: "4.7"
+            - link [ref=f27e204] [cursor=pointer]:
+              - /url: /products/eucalyptus-mint-shower-gel
+              - heading "Refreshing Eucalyptus & Mint Shower Gel" [level=3] [ref=f27e205]
+            - paragraph [ref=f27e206]: Invigorating Clean Aromatherapy — A botanical body wash with organic eucalyptus leaf oil and peppermint extract that energizes the senses while washing away impurities.
+          - generic [ref=f27e207]:
+            - generic [ref=f27e208]:
+              - generic [ref=f27e209]: $16.00
+              - generic [ref=f27e210]: $20.00
+            - generic [ref=f27e211]:
+              - link "Details" [ref=f27e212] [cursor=pointer]:
+                - /url: /products/eucalyptus-mint-shower-gel
+              - link "Buy Now" [ref=f27e213] [cursor=pointer]:
+                - /url: /checkout?items=eucalyptus-mint-shower-gel:1
+      - generic [ref=f27e217]:
+        - generic [ref=f27e218]:
+          - img "Salicylic Acid Clarifying Face Wash" [ref=f27e219]
+          - generic [ref=f27e220]: Face Wash
+          - link "View Product" [ref=f27e222] [cursor=pointer]:
+            - /url: /products/salicylic-clarifying-face-wash
+        - generic [ref=f27e226]:
+          - generic [ref=f27e227]:
+            - generic [ref=f27e228]: "4.8"
+            - link [ref=f27e241] [cursor=pointer]:
+              - /url: /products/salicylic-clarifying-face-wash
+              - heading "Salicylic Acid Clarifying Face Wash" [level=3] [ref=f27e242]
+            - paragraph [ref=f27e243]: Deep Pore & Blemish Clearing — Formulated with 2% Salicylic Acid (BHA) and Tea Tree extract to gently exfoliate, control excess sebum, and target breakouts.
+          - generic [ref=f27e244]:
+            - generic [ref=f27e245]:
+              - generic [ref=f27e246]: $19.00
+              - generic [ref=f27e247]: $25.00
+            - generic [ref=f27e248]:
+              - link "Details" [ref=f27e249] [cursor=pointer]:
+                - /url: /products/salicylic-clarifying-face-wash
+              - link "Buy Now" [ref=f27e250] [cursor=pointer]:
+                - /url: /checkout?items=salicylic-clarifying-face-wash:1
+      - generic [ref=f27e254]:
+        - generic [ref=f27e255]:
+          - img "Hyaluronic Acid Water-Plump Serum" [ref=f27e256]
+          - generic [ref=f27e257]: Serum
+          - link "View Product" [ref=f27e259] [cursor=pointer]:
+            - /url: /products/hyaluronic-water-plump-serum
+        - generic [ref=f27e263]:
+          - generic [ref=f27e264]:
+            - generic [ref=f27e265]: "4.9"
+            - link [ref=f27e278] [cursor=pointer]:
+              - /url: /products/hyaluronic-water-plump-serum
+              - heading "Hyaluronic Acid Water-Plump Serum" [level=3] [ref=f27e279]
+            - paragraph [ref=f27e280]: 72-Hour Intense Dewy Hydration — A multi-molecular hyaluronic acid serum that delivers deep, multi-layered hydration to plump up fine lines and restore bounce.
+          - generic [ref=f27e281]:
+            - generic [ref=f27e282]:
+              - generic [ref=f27e283]: $26.00
+              - generic [ref=f27e284]: $34.00
+            - generic [ref=f27e285]:
+              - link "Details" [ref=f27e286] [cursor=pointer]:
+                - /url: /products/hyaluronic-water-plump-serum
+              - link "Buy Now" [ref=f27e287] [cursor=pointer]:
+                - /url: /checkout?items=hyaluronic-water-plump-serum:1
+      - generic [ref=f27e291]:
+        - generic [ref=f27e292]:
+          - img "Lavender & Chamomile Calming Shower Gel" [ref=f27e293]
+          - generic [ref=f27e294]: Shower Gel
+          - link "View Product" [ref=f27e296] [cursor=pointer]:
+            - /url: /products/lavender-calming-shower-gel
+        - generic [ref=f27e300]:
+          - generic [ref=f27e301]:
+            - generic [ref=f27e302]: "4.8"
+            - link [ref=f27e315] [cursor=pointer]:
+              - /url: /products/lavender-calming-shower-gel
+              - heading "Lavender & Chamomile Calming Shower Gel" [level=3] [ref=f27e316]
+            - paragraph [ref=f27e317]: Relaxing Botanical Sunset Therapy — A luxurious self-care body wash infused with French lavender oils and Roman chamomile extracts that calms the mind and hydrates the body.
+          - generic [ref=f27e318]:
+            - generic [ref=f27e319]:
+              - generic [ref=f27e320]: $16.00
+              - generic [ref=f27e321]: $22.00
+            - generic [ref=f27e322]:
+              - link "Details" [ref=f27e323] [cursor=pointer]:
+                - /url: /products/lavender-calming-shower-gel
+              - link "Buy Now" [ref=f27e324] [cursor=pointer]:
+                - /url: /checkout?items=lavender-calming-shower-gel:1
+      - generic [ref=f27e328]:
+        - generic [ref=f27e329]:
+          - img "Retinol Night Renewal Serum" [ref=f27e330]
+          - generic [ref=f27e331]: Serum
+          - link "View Product" [ref=f27e333] [cursor=pointer]:
+            - /url: /products/retinol-night-renewal-serum
+        - generic [ref=f27e337]:
+          - generic [ref=f27e338]:
+            - generic [ref=f27e339]: "4.9"
+            - link [ref=f27e352] [cursor=pointer]:
+              - /url: /products/retinol-night-renewal-serum
+              - heading "Retinol Night Renewal Serum" [level=3] [ref=f27e353]
+            - paragraph [ref=f27e354]: Overnight Age-Defying Glow — A stabilized 1% pure retinol serum blended with bakuchiol and squalane to accelerate cell turnover and refine skin texture overnight.
+          - generic [ref=f27e355]:
+            - generic [ref=f27e356]:
+              - generic [ref=f27e357]: $32.00
+              - generic [ref=f27e358]: $42.00
+            - generic [ref=f27e359]:
+              - link "Details" [ref=f27e360] [cursor=pointer]:
+                - /url: /products/retinol-night-renewal-serum
+              - link "Buy Now" [ref=f27e361] [cursor=pointer]:
+                - /url: /checkout?items=retinol-night-renewal-serum:1
+      - generic [ref=f27e365]:
+        - generic [ref=f27e366]:
+          - img "Niacinamide Pore-Refining Serum" [ref=f27e367]
+          - generic [ref=f27e368]: Serum
+          - link "View Product" [ref=f27e370] [cursor=pointer]:
+            - /url: /products/niacinamide-pore-refining-serum
+        - generic [ref=f27e374]:
+          - generic [ref=f27e375]:
+            - generic [ref=f27e376]: "4.8"
+            - link [ref=f27e389] [cursor=pointer]:
+              - /url: /products/niacinamide-pore-refining-serum
+              - heading "Niacinamide Pore-Refining Serum" [level=3] [ref=f27e390]
+            - paragraph [ref=f27e391]: Minimize Pores & Even Tone — Formulated with 10% Niacinamide and 2% Zinc PCA to visibly reduce enlarged pores, refine uneven texture, and calm redness.
+          - generic [ref=f27e392]:
+            - generic [ref=f27e393]:
+              - generic [ref=f27e394]: $25.00
+              - generic [ref=f27e395]: $32.00
+            - generic [ref=f27e396]:
+              - link "Details" [ref=f27e397] [cursor=pointer]:
+                - /url: /products/niacinamide-pore-refining-serum
+              - link "Buy Now" [ref=f27e398] [cursor=pointer]:
+                - /url: /checkout?items=niacinamide-pore-refining-serum:1
+      - generic [ref=f27e402]:
+        - generic [ref=f27e403]:
+          - img "Centella Gentle Foaming Face Wash" [ref=f27e404]
+          - generic [ref=f27e405]: Face Wash
+          - link "View Product" [ref=f27e407] [cursor=pointer]:
+            - /url: /products/centella-gentle-foaming-wash
+        - generic [ref=f27e411]:
+          - generic [ref=f27e412]:
+            - generic [ref=f27e413]: "4.7"
+            - link [ref=f27e426] [cursor=pointer]:
+              - /url: /products/centella-gentle-foaming-wash
+              - heading "Centella Gentle Foaming Face Wash" [level=3] [ref=f27e427]
+            - paragraph [ref=f27e428]: Rapid Skin Soothing & Calming Cleansing — Infused with 45% Centella Asiatica extract (Cica), this gentle foam wash calms sensitive skin, redness, and irritation.
+          - generic [ref=f27e429]:
+            - generic [ref=f27e430]:
+              - generic [ref=f27e431]: $17.00
+              - generic [ref=f27e432]: $22.00
+            - generic [ref=f27e433]:
+              - link "Details" [ref=f27e434] [cursor=pointer]:
+                - /url: /products/centella-gentle-foaming-wash
+              - link "Buy Now" [ref=f27e435] [cursor=pointer]:
+                - /url: /checkout?items=centella-gentle-foaming-wash:1
+      - generic [ref=f27e439]:
+        - generic [ref=f27e440]:
+          - img "Shea Butter Deep Moisture Shower Gel" [ref=f27e441]
+          - generic [ref=f27e442]: Shower Gel
+          - link "View Product" [ref=f27e444] [cursor=pointer]:
+            - /url: /products/shea-butter-moisture-shower-gel
+        - generic [ref=f27e448]:
+          - generic [ref=f27e449]:
+            - generic [ref=f27e450]: "4.8"
+            - link [ref=f27e463] [cursor=pointer]:
+              - /url: /products/shea-butter-moisture-shower-gel
+              - heading "Shea Butter Deep Moisture Shower Gel" [level=3] [ref=f27e464]
+            - paragraph [ref=f27e465]: Rich Creamy Nourishment for Dry Skin — An ultra-nourishing shower cream enriched with organic shea butter and honey extract to deeply moisturize dry skin layers.
+          - generic [ref=f27e466]:
+            - generic [ref=f27e467]:
+              - generic [ref=f27e468]: $17.00
+              - generic [ref=f27e469]: $22.00
+            - generic [ref=f27e470]:
+              - link "Details" [ref=f27e471] [cursor=pointer]:
+                - /url: /products/shea-butter-moisture-shower-gel
+              - link "Buy Now" [ref=f27e472] [cursor=pointer]:
+                - /url: /checkout?items=shea-butter-moisture-shower-gel:1
+      - generic [ref=f27e476]:
+        - generic [ref=f27e477]:
+          - img "Green Tea Sebum Control Face Wash" [ref=f27e478]
+          - generic [ref=f27e479]: Face Wash
+          - link "View Product" [ref=f27e481] [cursor=pointer]:
+            - /url: /products/green-tea-sebum-face-wash
+        - generic [ref=f27e485]:
+          - generic [ref=f27e486]:
+            - generic [ref=f27e487]: "4.8"
+            - link [ref=f27e500] [cursor=pointer]:
+              - /url: /products/green-tea-sebum-face-wash
+              - heading "Green Tea Sebum Control Face Wash" [level=3] [ref=f27e501]
+            - paragraph [ref=f27e502]: Antioxidant Refresh & Shine-Free Clean — Packed with organic Jeju green tea leaf water, this refreshing cleanser washes away impurities while providing antioxidants.
+          - generic [ref=f27e503]:
+            - generic [ref=f27e504]:
+              - generic [ref=f27e505]: $18.00
+              - generic [ref=f27e506]: $23.00
+            - generic [ref=f27e507]:
+              - link "Details" [ref=f27e508] [cursor=pointer]:
+                - /url: /products/green-tea-sebum-face-wash
+              - link "Buy Now" [ref=f27e509] [cursor=pointer]:
+                - /url: /checkout?items=green-tea-sebum-face-wash:1
+      - generic [ref=f27e513]:
+        - generic [ref=f27e514]:
+          - img "Coconut Water Soothing Shower Gel" [ref=f27e515]
+          - generic [ref=f27e516]: Shower Gel
+          - link "View Product" [ref=f27e518] [cursor=pointer]:
+            - /url: /products/coconut-water-soothing-shower-gel
+        - generic [ref=f27e522]:
+          - generic [ref=f27e523]:
+            - generic [ref=f27e524]: "4.7"
+            - link [ref=f27e537] [cursor=pointer]:
+              - /url: /products/coconut-water-soothing-shower-gel
+              - heading "Coconut Water Soothing Shower Gel" [level=3] [ref=f27e538]
+            - paragraph [ref=f27e539]: Tropical Hydration & Clean Refreshment — A hydrating shower gel formulated with 100% pure coconut water and aloe vera extract that leaves skin soft, clean, and tropically scented.
+          - generic [ref=f27e540]:
+            - generic [ref=f27e541]:
+              - generic [ref=f27e542]: $15.00
+              - generic [ref=f27e543]: $20.00
+            - generic [ref=f27e544]:
+              - link "Details" [ref=f27e545] [cursor=pointer]:
+                - /url: /products/coconut-water-soothing-shower-gel
+              - link "Buy Now" [ref=f27e546] [cursor=pointer]:
+                - /url: /checkout?items=coconut-water-soothing-shower-gel:1
+  - generic [ref=f27e552]:
+    - generic [ref=f27e553]:
+      - text: Built for flawless client trust
+      - heading "Designed for Easier, Faster Conversions" [level=2] [ref=f27e554]
+      - paragraph [ref=f27e555]: Why force interested Facebook or Instagram ad visitors to wait in a crowded inbox? Providing a dedicated, elegant catalog builds extreme brand value while keeping ordering down to a couple of taps.
+      - generic [ref=f27e556]:
+        - generic [ref=f27e561]:
+          - heading "Instant Shade & Specs Access" [level=4] [ref=f27e562]
+          - paragraph [ref=f27e563]: Customers browse product descriptions, see actual color swatches, view model photos, and check original certifications instantly.
+        - generic [ref=f27e569]:
+          - heading "Higher Perceived Brand Value" [level=4] [ref=f27e570]
+          - paragraph [ref=f27e571]: An elegant, clean interface establishes maximum trust. Clients instantly perceive M.O.I as an international powerhouse brand.
+        - generic [ref=f27e577]:
+          - heading "Instant Website Checkout" [level=4] [ref=f27e578]
+          - paragraph [ref=f27e579]: Customers place their order directly on our site, and receive a secure confirmation instantly. No missed details, zero friction.
+    - generic [ref=f27e581]:
+      - generic [ref=f27e582]: Website Checkout vs. Social DM
+      - generic [ref=f27e583]:
+        - generic [ref=f27e584]:
+          - generic [ref=f27e585]:
+            - generic [ref=f27e586]: Social Chat DMs Only
+            - generic [ref=f27e587]: Inefficient
+          - generic [ref=f27e588]:
+            - paragraph [ref=f27e589]: "❌ Customer types: \"hi, price?\""
+            - paragraph [ref=f27e590]: ❌ Owner replies 4 hours later with price card
+            - paragraph [ref=f27e591]: ❌ Customer asks size details, wait response
+            - paragraph [ref=f27e592]: ❌ Confusion about shipping address, order drops off
+        - generic [ref=f27e593]:
+          - generic [ref=f27e594]:
+            - generic [ref=f27e595]: M.O.I Landing Web Link
+            - generic [ref=f27e596]: 10-Sec Conversion
+          - generic [ref=f27e597]:
+            - paragraph [ref=f27e598]:
+              - generic [ref=f27e599]: ✓
+              - text: Customer accesses visual portfolio instantly
+            - paragraph [ref=f27e600]:
+              - generic [ref=f27e601]: ✓
+              - text: Tap product sizes, see specifications in detail
+            - paragraph [ref=f27e602]:
+              - generic [ref=f27e603]: ✓
+              - text: Click order, secure checkout is processed instantly
+            - paragraph [ref=f27e604]:
+              - generic [ref=f27e605]: ✓
+              - text: Safe cash on delivery, zero dropped inquiries
+  - generic [ref=f27e607]:
+    - generic [ref=f27e608]:
+      - text: Satisfied Skin Loves Us
+      - heading "Loved by Thousands of Beauties" [level=2] [ref=f27e609]
+      - paragraph [ref=f27e610]: Don’t take our word for it. Read honest feedback left by verified M.O.I customers sharing their skin experiences.
+    - generic [ref=f27e611]:
+      - generic [ref=f27e612]:
+        - generic: “
+        - paragraph [ref=f27e625]: "\"Usually buying skincare over social media is a lottery. You wait for hours for them to reply, and sometimes they get the package wrong. Purchasing from this website was instant! I completed my checkout in under 30 seconds. The Hydrating Face Wash is lightweight and leaves my skin feeling incredibly soft!\""
+        - generic [ref=f27e626]:
+          - generic [ref=f27e627]: PC
+          - generic [ref=f27e628]:
+            - heading "Nguyen Phuong Chi" [level=4] [ref=f27e629]
+            - generic [ref=f27e630]: Verified Buyer
+      - generic [ref=f27e631]:
+        - generic: “
+        - paragraph [ref=f27e644]: "\"This Serum is the glowing recovery I have been searching for my entire life. Perfect texture and does not clog my sensitive skin. The online sizing and specification details were extremely clear. 10/10 checkout experience!\""
+        - generic [ref=f27e645]:
+          - generic [ref=f27e646]: CG
+          - generic [ref=f27e647]:
+            - heading "Camilla Gomez" [level=4] [ref=f27e648]
+            - generic [ref=f27e649]: Verified Buyer
+      - generic [ref=f27e650]:
+        - generic: “
+        - paragraph [ref=f27e663]: "\"Absolutely spectacular. The lipstick enclosure has a satisfying luxury magnetic click! I ordered the Soft Touch powder as well and it does a beautiful job masking my skin blemishes. Delivery arrived the next day. Fast, easy, and exceptionally high quality.\""
+        - generic [ref=f27e664]:
+          - generic [ref=f27e665]: LT
+          - generic [ref=f27e666]:
+            - heading "Le Thu Trang" [level=4] [ref=f27e667]
+            - generic [ref=f27e668]: Verified Buyer
+  - generic [ref=f27e671]:
+    - generic [ref=f27e672]:
+      - generic [ref=f27e673]: Real Transformative Confidence
+      - heading "A Healthy, Effortless Glow in Ten Seconds" [level=2] [ref=f27e677]
+      - paragraph [ref=f27e678]: M.O.I Beauty doesn’t mask who you are — it celebrates your skin. Our Premium Cushion Foundation and Loose setting powders use light-diffusing smart-clay technology that blurs fine pores while reinforcing essential deep hydration layer blocks.
+      - generic [ref=f27e679]:
+        - generic [ref=f27e680]:
+          - generic [ref=f27e681]: "1"
+          - generic [ref=f27e682]:
+            - heading "Poreless Silk Finish" [level=4] [ref=f27e683]
+            - paragraph [ref=f27e684]: Light-diffusing micro-particles create an instant airbrush effect, blunting active shine.
+        - generic [ref=f27e685]:
+          - generic [ref=f27e686]: "2"
+          - generic [ref=f27e687]:
+            - heading "Non-drying Moist Formula" [level=4] [ref=f27e688]
+            - paragraph [ref=f27e689]: Korean-designed hyaluronic complex maintains surface hydration all day long.
+    - generic [ref=f27e690]:
+      - generic [ref=f27e691]: ← Drag or Slide to Compare Skin Perfection →
+      - generic [ref=f27e692]:
+        - img "After M.O.I Makeup Glow"
+        - generic [ref=f27e693]: AFTER M.O.I
+        - generic:
+          - img "Before Makeup Natural Skin"
+          - generic: BEFORE MAKEUP
+        - generic [ref=f27e694]: ↔
+  - generic [ref=f27e698]:
+    - generic [ref=f27e699]:
+      - text: Social Community
+      - heading "#MOIBeautyGlow" [level=2] [ref=f27e700]
+      - paragraph [ref=f27e701]: Follow our official lifestyle feeds on Instagram and Facebook for daily, raw skin inspirations.
+    - generic [ref=f27e702]:
+      - img "M.O.I Cosmetics Styling Gallery" [ref=f27e704]
+      - img "M.O.I Cosmetics Styling Gallery" [ref=f27e706]
+      - img "M.O.I Cosmetics Styling Gallery" [ref=f27e708]
+      - img "M.O.I Cosmetics Styling Gallery" [ref=f27e710]
+      - img "M.O.I Cosmetics Styling Gallery" [ref=f27e712]
+      - img "M.O.I Cosmetics Styling Gallery" [ref=f27e714]
+  - generic [ref=f27e716]:
+    - generic [ref=f27e717]:
+      - text: Got Questions?
+      - heading "Frequently Asked Questions" [level=2] [ref=f27e718]
+      - paragraph [ref=f27e719]: Everything you need to know about M.O.I Beauty products, safe checkout, shipping speeds, and direct skincare consultation services.
+    - generic [ref=f27e720]:
+      - generic [ref=f27e721]:
+        - button "How do I place an order?" [ref=f27e722] [cursor=pointer]
+        - paragraph [ref=f27e731]: Ordering is extremely simple and fast! Browse our website catalog, choose your preferred products and sizes, select your quantities, and click the "Buy Now" button. You can then fill out your shipping details on our checkout page and place your order securely. We will process and ship your package immediately.
+      - generic [ref=f27e732]:
+        - button "Do you offer Cash on Delivery (COD)?" [ref=f27e733] [cursor=pointer]
+        - generic:
+          - paragraph: Yes! We offer nationwide Cash on Delivery. You sit back and wait for the package to arrive at your doorstep, inspect the luxurious packaging and seal integrity, and only pay standard cash directly to the delivery rider.
+      - generic [ref=f27e741]:
+        - button "How long does shipment and delivery take?" [ref=f27e742] [cursor=pointer]
+        - generic:
+          - paragraph: All orders are processed and packaged within 24 hours. For major urban centers, delivery takes exactly 1 to 2 business days. For regional and remote provinces, packages arrive securely in 3 to 4 business days.
+      - generic [ref=f27e750]:
+        - button "Are the cosmetic products 100% original?" [ref=f27e751] [cursor=pointer]
+        - generic:
+          - paragraph: Absolutely. We are M.O.I Beauty, and all items showcased are directly sourced and manufactured under strict safety audits at our certified laboratories in Seoul, Korea. Each package arrives wrapped in an authentic hologram-coded seal that you can scan via phone.
+      - generic [ref=f27e759]:
+        - button "Can I get skincare recommendations through WhatsApp?" [ref=f27e760] [cursor=pointer]
+        - generic:
+          - paragraph: Yes! You can contact us directly by clicking the WhatsApp support button in the website footer. Feel free to chat with our skincare experts for recommendations on the best face wash, serum, or shower gel for your specific skin type.
+  - generic [ref=f27e769]:
+    - text: Ready to Glow Up?
+    - heading "Order Your Premium M.O.I Cosmetic Cosmetics Today" [level=2] [ref=f27e770]
+    - paragraph [ref=f27e771]: Get instant free shade matching on WhatsApp with our makeup consultants. Discover why buying through our official website delivers a seamless, highly trusted customer experience.
+    - generic [ref=f27e772]:
+      - link "Buy Now" [ref=f27e773] [cursor=pointer]:
+        - /url: /checkout?items=hydrating-amino-face-wash:1
+      - paragraph [ref=f27e777]: ✓ Cash on Delivery ✓ Formulated in Seoul ✓ Scan Hologram Verified
+  - contentinfo [ref=f27e778]:
+    - generic [ref=f27e779]:
+      - generic [ref=f27e780]:
+        - generic [ref=f27e781]:
+          - link "M.O.I BEAUTY" [ref=f27e782] [cursor=pointer]:
+            - /url: /
+            - text: M.O.I
+            - generic [ref=f27e783]: BEAUTY
+          - paragraph [ref=f27e784]: We design premium cosmetic lines engineered for effortless, raw, everyday elegance. Building trust through dermatologically verified active ingredients and instant messaging-friendly customer care.
+          - generic [ref=f27e785]:
+            - link [ref=f27e786] [cursor=pointer]:
+              - /url: https://facebook.com
+            - link [ref=f27e789] [cursor=pointer]:
+              - /url: https://instagram.com
+            - button [ref=f27e793] [cursor=pointer]
+        - generic [ref=f27e796]:
+          - heading "Quick Navigation" [level=4] [ref=f27e797]
+          - list [ref=f27e798]:
+            - listitem [ref=f27e799]:
+              - link "Home Page" [ref=f27e800] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f27e801]:
+              - link "Best Seller Catalog" [ref=f27e802] [cursor=pointer]:
+                - /url: /#products
+            - listitem [ref=f27e803]:
+              - link "Why Shop on Our Web" [ref=f27e804] [cursor=pointer]:
+                - /url: /#why-buy
+            - listitem [ref=f27e805]:
+              - link "Customer Testimonials" [ref=f27e806] [cursor=pointer]:
+                - /url: /#reviews
+            - listitem [ref=f27e807]:
+              - link "Frequently Asked FAQs" [ref=f27e808] [cursor=pointer]:
+                - /url: /#faq
+        - generic [ref=f27e809]:
+          - heading "Connect Directly" [level=4] [ref=f27e810]
+          - list [ref=f27e811]:
+            - listitem [ref=f27e812]:
+              - generic [ref=f27e815]: +1 (234) 567-890 (Primary WhatsApp Support)
+            - listitem [ref=f27e816]:
+              - generic [ref=f27e820]: orders@moibeautybrand.com
+            - listitem [ref=f27e821]:
+              - generic [ref=f27e825]: District 1, Ho Chi Minh City, Vietnam
+        - generic [ref=f27e826]:
+          - heading "Skincare Consultation" [level=4] [ref=f27e827]
+          - paragraph [ref=f27e828]: Have questions about our serums, face washes, or shower gels? Chat directly with our beauty experts on WhatsApp to receive personalized recommendations and support for your daily skincare routine.
+          - button "Chat on WhatsApp Now" [ref=f27e829] [cursor=pointer]
+      - generic [ref=f27e830]:
+        - paragraph [ref=f27e831]: © 2026 M.O.I Beauty. All rights reserved. Made for premium everyday cosmetic elegance.
+        - generic [ref=f27e832]:
+          - link "Terms of Service" [ref=f27e833] [cursor=pointer]:
+            - /url: "#navbar"
+          - link "Privacy & Security Policy" [ref=f27e834] [cursor=pointer]:
+            - /url: "#navbar"
+          - link "Order Tracking" [ref=f27e835] [cursor=pointer]:
+            - /url: "#navbar"
+  - alert [ref=f27e836]

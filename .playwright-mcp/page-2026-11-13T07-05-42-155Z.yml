@@ -1,0 +1,315 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - banner [ref=f18e3]:
+      - generic [ref=f18e5]:
+        - link "Logo RD SHOP 360" [ref=f18e6] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=f18e7]
+          - generic [ref=f18e8]: RD SHOP 360
+        - textbox "পণ্য খুঁজুন... (Search anything)" [ref=f18e11]
+        - generic [ref=f18e12]:
+          - button [ref=f18e13]
+          - button [ref=f18e17]
+          - button [ref=f18e20]
+    - main [ref=f18e24]:
+      - main [ref=f18e27]:
+        - generic [ref=f18e28]:
+          - generic [ref=f18e29]:
+            - generic [ref=f18e30]:
+              - generic [ref=f18e31]:
+                - generic [ref=f18e32]: বেস্ট সেলার
+                - heading "প্রিমিয়াম কোরিয়ান স্কিনকেয়ার" [level=2] [ref=f18e37]
+                - paragraph [ref=f18e38]: ত্বকের স্বাভাবিক উজ্জ্বলতা ফিরিয়ে আনুন
+                - paragraph [ref=f18e39]: ১০০% আসল ও আমদানিকৃত কোরিয়ান গ্লো বুস্টিং সেরাম ও ময়শ্চারাইজার কালেকশন।
+                - button "স্কিনকেয়ার দেখুন →" [ref=f18e40]
+              - img "প্রিমিয়াম কোরিয়ান স্কিনকেয়ার" [ref=f18e44]
+            - generic [ref=f18e45]:
+              - generic [ref=f18e46]:
+                - generic [ref=f18e47]: বিশেষ অফার
+                - heading "এক্সক্লুসিভ মেকআপ মেলা" [level=2] [ref=f18e52]
+                - paragraph [ref=f18e53]: দীর্ঘস্থায়ী এইচডি কভারেজ ফিনিশ
+                - paragraph [ref=f18e54]: ওয়াটারপ্রুফ লিপস্টিক, আইলাইনার ও ফাউন্ডেশন দিয়ে ফুটিয়ে তুলুন আপনার অনন্য রূপ।
+                - button "মেকআপ সংগ্রহ →" [ref=f18e55]
+              - img "এক্সক্লুসিভ মেকআপ মেলা" [ref=f18e59]
+            - generic [ref=f18e60]:
+              - generic [ref=f18e61]:
+                - generic [ref=f18e62]: নতুন রিলিজ
+                - heading "অভিজাত রাজকীয় পারফিউম" [level=2] [ref=f18e67]
+                - paragraph [ref=f18e68]: ২৪ ঘণ্টা মনমাতানো মিষ্টি ঘ্রাণ
+                - paragraph [ref=f18e69]: মরোক্কান গোলাপ, চন্দন ও ওদ কাঠের প্রিমিয়াম অ্যালকোহল-মুক্ত বডি মিস্ট ও সেন্ট।
+                - button "পারফিউম সংগ্রহ →" [ref=f18e70]
+              - img "অভিজাত রাজকীয় পারফিউম" [ref=f18e74]
+          - button "Previous Slide" [ref=f18e75] [cursor=pointer]
+          - button "Next Slide" [ref=f18e78] [cursor=pointer]
+          - generic [ref=f18e81]:
+            - button "Go to slide 1" [ref=f18e82]
+            - button "Go to slide 2" [ref=f18e83]
+            - button "Go to slide 3" [ref=f18e84]
+        - generic [ref=f18e85]:
+          - generic [ref=f18e86]:
+            - heading "Special Discount" [level=2] [ref=f18e87]
+            - generic [ref=f18e90]: Best Value
+          - generic [ref=f18e96]:
+            - generic [ref=f18e97]:
+              - generic [ref=f18e98]:
+                - generic [ref=f18e99]: Best Seller
+                - generic [ref=f18e100]: বিশেষ ছাড়
+              - button [ref=f18e104]
+              - img "YC Whitening Face Wash Milk Extract 50 ml" [ref=f18e108] [cursor=pointer]
+              - generic [ref=f18e109]:
+                - generic [ref=f18e110] [cursor=pointer]:
+                  - paragraph [ref=f18e111]: Skincare
+                  - heading "YC Whitening Face Wash Milk Extract 50 ml" [level=3] [ref=f18e112]
+                - generic [ref=f18e113]:
+                  - generic [ref=f18e114]: 230৳
+                  - generic [ref=f18e115]: 290৳
+                  - generic [ref=f18e116]: "-21%"
+            - generic [ref=f18e117]:
+              - generic [ref=f18e118]:
+                - generic [ref=f18e119]: Best Seller
+                - generic [ref=f18e120]: বিশেষ ছাড়
+              - button [ref=f18e124]
+              - img "POND'S Bright Beauty Anti-Dullness Facewash" [ref=f18e128] [cursor=pointer]
+              - generic [ref=f18e129]:
+                - generic [ref=f18e130] [cursor=pointer]:
+                  - paragraph [ref=f18e131]: Skincare
+                  - heading "POND'S Bright Beauty Anti-Dullness Facewash" [level=3] [ref=f18e132]
+                - generic [ref=f18e133]:
+                  - generic [ref=f18e134]: 90৳
+                  - generic [ref=f18e135]: 120৳
+                  - generic [ref=f18e136]: "-25%"
+            - generic [ref=f18e137]:
+              - generic [ref=f18e138]:
+                - generic [ref=f18e139]: Best Seller
+                - generic [ref=f18e140]: বিশেষ ছাড়
+              - button [ref=f18e144]
+              - img "Mistine Acne Clear Facial Foam" [ref=f18e148] [cursor=pointer]
+              - generic [ref=f18e149]:
+                - generic [ref=f18e150] [cursor=pointer]:
+                  - paragraph [ref=f18e151]: Skincare
+                  - heading "Mistine Acne Clear Facial Foam" [level=3] [ref=f18e152]
+                - generic [ref=f18e153]:
+                  - generic [ref=f18e154]: 290৳
+                  - generic [ref=f18e155]: 380৳
+                  - generic [ref=f18e156]: "-24%"
+            - generic [ref=f18e157]:
+              - generic [ref=f18e158]:
+                - generic [ref=f18e159]: Best Seller
+                - generic [ref=f18e160]: বিশেষ ছাড়
+              - button [ref=f18e164]
+              - img "POND'S Bright Beauty Anti-Dullness Facewash 100g" [ref=f18e168] [cursor=pointer]
+              - generic [ref=f18e169]:
+                - generic [ref=f18e170] [cursor=pointer]:
+                  - paragraph [ref=f18e171]: Skincare
+                  - heading "POND'S Bright Beauty Anti-Dullness Facewash 100g" [level=3] [ref=f18e172]
+                - generic [ref=f18e173]:
+                  - generic [ref=f18e174]: 190৳
+                  - generic [ref=f18e175]: 220৳
+                  - generic [ref=f18e176]: "-14%"
+        - generic [ref=f18e177]:
+          - generic [ref=f18e178]:
+            - heading "Shop by Category" [level=3] [ref=f18e179]
+            - heading "প্রোডাক্ট ক্যাটাগরি" [level=2] [ref=f18e180]
+          - generic [ref=f18e183]:
+            - generic [ref=f18e184] [cursor=pointer]:
+              - generic [ref=f18e185]: সব
+              - generic [ref=f18e186]: সকল পণ্য
+              - generic [ref=f18e187]: All Store
+            - generic [ref=f18e188] [cursor=pointer]:
+              - img "Skincare" [ref=f18e189]
+              - generic [ref=f18e190]: ত্বকের যত্ন
+              - generic [ref=f18e191]: Skincare
+            - generic [ref=f18e192] [cursor=pointer]:
+              - img "Haircare" [ref=f18e193]
+              - generic [ref=f18e194]: চুলের যত্ন
+              - generic [ref=f18e195]: Haircare
+            - generic [ref=f18e196] [cursor=pointer]:
+              - img "Body Care" [ref=f18e197]
+              - generic [ref=f18e198]: বডি সোপ ও বাথ
+              - generic [ref=f18e199]: Body Care
+            - generic [ref=f18e200] [cursor=pointer]:
+              - img "Fragrances" [ref=f18e201]
+              - generic [ref=f18e202]: অভিজাত পারফিউম
+              - generic [ref=f18e203]: Fragrances
+        - generic [ref=f18e205]:
+          - generic [ref=f18e206]:
+            - heading "Skincare" [level=2] [ref=f18e207]
+            - link "See more" [ref=f18e209] [cursor=pointer]:
+              - /url: /skincare
+          - generic [ref=f18e213]:
+            - generic [ref=f18e214]:
+              - generic [ref=f18e215]:
+                - generic [ref=f18e216]: Best Seller
+                - generic [ref=f18e217]: বিশেষ ছাড়
+              - button [ref=f18e221]
+              - img "YC Whitening Face Wash Milk Extract 50 ml" [ref=f18e225] [cursor=pointer]
+              - generic [ref=f18e226]:
+                - generic [ref=f18e227] [cursor=pointer]:
+                  - paragraph [ref=f18e228]: Skincare
+                  - heading "YC Whitening Face Wash Milk Extract 50 ml" [level=3] [ref=f18e229]
+                - generic [ref=f18e230]:
+                  - generic [ref=f18e231]: 230৳
+                  - generic [ref=f18e232]: 290৳
+                  - generic [ref=f18e233]: "-21%"
+            - generic [ref=f18e234]:
+              - generic [ref=f18e235]:
+                - generic [ref=f18e236]: Best Seller
+                - generic [ref=f18e237]: বিশেষ ছাড়
+              - button [ref=f18e241]
+              - img "Simple Kind to Skin Moisturising Facial Wash - 150ml" [ref=f18e245] [cursor=pointer]
+              - generic [ref=f18e246]:
+                - generic [ref=f18e247] [cursor=pointer]:
+                  - paragraph [ref=f18e248]: Skincare
+                  - heading "Simple Kind to Skin Moisturising Facial Wash - 150ml" [level=3] [ref=f18e249]
+                - generic [ref=f18e250]:
+                  - generic [ref=f18e251]: 680৳
+                  - generic [ref=f18e252]: 750৳
+                  - generic [ref=f18e253]: "-9%"
+            - generic [ref=f18e254]:
+              - generic [ref=f18e255]:
+                - generic [ref=f18e256]: Best Seller
+                - generic [ref=f18e257]: বিশেষ ছাড়
+              - button [ref=f18e261]
+              - img "Simple Kind to Skin Refreshing Facial Wash - 150ml" [ref=f18e265] [cursor=pointer]
+              - generic [ref=f18e266]:
+                - generic [ref=f18e267] [cursor=pointer]:
+                  - paragraph [ref=f18e268]: Skincare
+                  - heading "Simple Kind to Skin Refreshing Facial Wash - 150ml" [level=3] [ref=f18e269]
+                - generic [ref=f18e270]:
+                  - generic [ref=f18e271]: 620৳
+                  - generic [ref=f18e272]: 790৳
+                  - generic [ref=f18e273]: "-22%"
+            - generic [ref=f18e274]:
+              - generic [ref=f18e275]:
+                - generic [ref=f18e276]: Best Seller
+                - generic [ref=f18e277]: বিশেষ ছাড়
+              - button [ref=f18e281]
+              - img "POND'S Bright Beauty Anti-Dullness Facewash" [ref=f18e285] [cursor=pointer]
+              - generic [ref=f18e286]:
+                - generic [ref=f18e287] [cursor=pointer]:
+                  - paragraph [ref=f18e288]: Skincare
+                  - heading "POND'S Bright Beauty Anti-Dullness Facewash" [level=3] [ref=f18e289]
+                - generic [ref=f18e290]:
+                  - generic [ref=f18e291]: 90৳
+                  - generic [ref=f18e292]: 120৳
+                  - generic [ref=f18e293]: "-25%"
+            - generic [ref=f18e294]:
+              - generic [ref=f18e295]:
+                - generic [ref=f18e296]: Best Seller
+                - generic [ref=f18e297]: বিশেষ ছাড়
+              - button [ref=f18e301]
+              - img "Mistine Acne Clear Facial Foam" [ref=f18e305] [cursor=pointer]
+              - generic [ref=f18e306]:
+                - generic [ref=f18e307] [cursor=pointer]:
+                  - paragraph [ref=f18e308]: Skincare
+                  - heading "Mistine Acne Clear Facial Foam" [level=3] [ref=f18e309]
+                - generic [ref=f18e310]:
+                  - generic [ref=f18e311]: 290৳
+                  - generic [ref=f18e312]: 380৳
+                  - generic [ref=f18e313]: "-24%"
+            - generic [ref=f18e314]:
+              - generic [ref=f18e315]:
+                - generic [ref=f18e316]: Best Seller
+                - generic [ref=f18e317]: বিশেষ ছাড়
+              - button [ref=f18e321]
+              - img "POND'S Bright Beauty Anti-Dullness Facewash 100g" [ref=f18e325] [cursor=pointer]
+              - generic [ref=f18e326]:
+                - generic [ref=f18e327] [cursor=pointer]:
+                  - paragraph [ref=f18e328]: Skincare
+                  - heading "POND'S Bright Beauty Anti-Dullness Facewash 100g" [level=3] [ref=f18e329]
+                - generic [ref=f18e330]:
+                  - generic [ref=f18e331]: 190৳
+                  - generic [ref=f18e332]: 220৳
+                  - generic [ref=f18e333]: "-14%"
+            - generic [ref=f18e334]:
+              - generic [ref=f18e335]:
+                - generic [ref=f18e336]: Best Seller
+                - generic [ref=f18e337]: বিশেষ ছাড়
+              - button [ref=f18e341]
+              - img "YC Whitening Face Wash Milk Extract - 100ml" [ref=f18e345] [cursor=pointer]
+              - generic [ref=f18e346]:
+                - generic [ref=f18e347] [cursor=pointer]:
+                  - paragraph [ref=f18e348]: Skincare
+                  - heading "YC Whitening Face Wash Milk Extract - 100ml" [level=3] [ref=f18e349]
+                - generic [ref=f18e350]:
+                  - generic [ref=f18e351]: 370৳
+                  - generic [ref=f18e352]: 440৳
+                  - generic [ref=f18e353]: "-16%"
+            - generic [ref=f18e354]:
+              - generic [ref=f18e355]:
+                - generic [ref=f18e356]: Best Seller
+                - generic [ref=f18e357]: বিশেষ ছাড়
+              - button [ref=f18e361]
+              - img "Bioaqua Papaya Cleansing Face Wash - 100g" [ref=f18e365] [cursor=pointer]
+              - generic [ref=f18e366]:
+                - generic [ref=f18e367] [cursor=pointer]:
+                  - paragraph [ref=f18e368]: Skincare
+                  - heading "Bioaqua Papaya Cleansing Face Wash - 100g" [level=3] [ref=f18e369]
+                - generic [ref=f18e370]:
+                  - generic [ref=f18e371]: 290৳
+                  - generic [ref=f18e372]: 390৳
+                  - generic [ref=f18e373]: "-26%"
+    - contentinfo [ref=f18e374]:
+      - generic [ref=f18e375]:
+        - generic [ref=f18e376]:
+          - generic [ref=f18e382]:
+            - heading "১০০% অরিজিনাল পণ্য" [level=4] [ref=f18e383]
+            - paragraph [ref=f18e384]: ১০০% খাঁটি ও আমদানিকৃত ব্র্যান্ডেড পণ্য সরবরাহ করি।
+          - generic [ref=f18e392]:
+            - heading "দ্রুত ডেলিভারি সুবিধা" [level=4] [ref=f18e393]
+            - paragraph [ref=f18e394]: আমাদের নিজস্ব লজিস্টিকস দিয়ে সারাদেশে ২৪-৭২ ঘণ্টায় ডেলিভারি।
+          - generic [ref=f18e399]:
+            - heading "নিরাপদ ক্যাশ পেমেন্ট" [level=4] [ref=f18e400]
+            - paragraph [ref=f18e401]: শতভাগ নিরাপদ লেনদেনে পণ্য হাতে পেয়ে মূল্য পরিশোধ করুন।
+          - generic [ref=f18e407]:
+            - heading "সহজ কাস্টমার সাপোর্ট" [level=4] [ref=f18e408]
+            - paragraph [ref=f18e409]: অর্ডার সংক্রান্ত যেকোনো সহায়তায় আমাদের সাপোর্ট টিম সর্বদা প্রস্তুত।
+        - generic [ref=f18e410]:
+          - generic [ref=f18e411]:
+            - generic [ref=f18e412]:
+              - generic [ref=f18e413]:
+                - img "RD SHOP 360" [ref=f18e414]
+                - generic [ref=f18e415]: RD SHOP 360
+              - paragraph [ref=f18e416]: ১০০% অরিজিনাল কসমেটিকস, মেকআপ ও স্কিনকেয়ার প্রোডাক্টের নির্ভরযোগ্য রিটেইল শপ।
+            - generic [ref=f18e417]:
+              - paragraph [ref=f18e418]: Connect with Us
+              - generic [ref=f18e419]:
+                - link [ref=f18e420] [cursor=pointer]:
+                  - /url: https://www.facebook.com/rdshops360
+                - link [ref=f18e423] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@rdshop360
+                - link [ref=f18e426] [cursor=pointer]:
+                  - /url: https://www.instagram.com/rdshop360
+                - link [ref=f18e430] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@RDSHOP360
+          - generic [ref=f18e435]:
+            - generic [ref=f18e436]:
+              - paragraph [ref=f18e437]: আমাদের লিঙ্কসমূহ
+              - generic [ref=f18e438]:
+                - link "সব পণ্য" [ref=f18e439] [cursor=pointer]:
+                  - /url: /
+                - link "ত্বকের যত্ন" [ref=f18e440] [cursor=pointer]:
+                  - /url: /skincare
+                - link "চুলের যত্ন" [ref=f18e441] [cursor=pointer]:
+                  - /url: /haircare
+                - link "বডি সোপ ও বাথ" [ref=f18e442] [cursor=pointer]:
+                  - /url: /body-care
+                - link "অভিজাত পারফিউম" [ref=f18e443] [cursor=pointer]:
+                  - /url: /fragrances
+            - generic [ref=f18e444]:
+              - paragraph [ref=f18e445]: কাস্টমার কেয়ার
+              - generic [ref=f18e446]:
+                - link "আমাদের সম্পর্কে" [ref=f18e447] [cursor=pointer]:
+                  - /url: /about
+                - link "অর্ডার ট্র্যাক করুন" [ref=f18e448] [cursor=pointer]:
+                  - /url: /track-order
+                - link "রিটার্ন পলিসি" [ref=f18e449] [cursor=pointer]:
+                  - /url: /return-policy
+                - link "সাপোর্ট FAQ" [ref=f18e450] [cursor=pointer]:
+                  - /url: /faq
+          - generic [ref=f18e451]:
+            - paragraph [ref=f18e452]: Contact Us
+            - link "যোগাযোগের জন্য এখানে ইমেইল করুন" [ref=f18e453] [cursor=pointer]:
+              - /url: mailto:mdjaman01784514914@gmail.com
+        - paragraph [ref=f18e458]: © 2026 RD SHOP 360. All rights reserved.
+  - alert [ref=f18e459]

@@ -1,0 +1,126 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "Mohammad Ullah" [ref=f3e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f3e8]:
+        - link "Work" [ref=f3e9] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f3e10] [cursor=pointer]:
+          - /url: /about
+        - link "Resume" [ref=f3e11] [cursor=pointer]:
+          - /url: /resume
+        - link "Contact" [ref=f3e12] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f3e13]:
+        - button "Switch to light mode" [ref=f3e14] [cursor=pointer]
+        - link "WhatsApp" [ref=f3e21] [cursor=pointer]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.
+  - main [ref=f3e25]:
+    - article [ref=f3e26]:
+      - generic [ref=f3e27]:
+        - link "Back to all work" [ref=f3e28] [cursor=pointer]:
+          - /url: /work
+        - generic [ref=f3e32]:
+          - generic [ref=f3e33]:
+            - generic [ref=f3e34]: "2025"
+            - generic [aria-hidden] [ref=f3e35]: /
+            - generic [ref=f3e36]: Full-Stack Engineer
+            - generic [aria-hidden] [ref=f3e37]: /
+            - generic [ref=f3e38]: fullstack
+          - heading "SanchayanBD" [level=1] [ref=f3e39]
+          - paragraph [ref=f3e40]: Community-based financial organization web platform
+          - generic [ref=f3e41]:
+            - link "Visit live site" [ref=f3e42] [cursor=pointer]:
+              - /url: https://sanchayanbd.com
+            - link "Source repository" [ref=f3e47] [cursor=pointer]:
+              - /url: https://github.com/MU1147-LEGEND/sanchayan
+        - generic [ref=f3e53]:
+          - generic [ref=f3e54]: sanchayanbd.com
+          - img "SanchayanBD showcase" [ref=f3e61]
+        - generic [ref=f3e62]:
+          - generic [ref=f3e63]:
+            - generic [ref=f3e64]:
+              - heading "Stack" [level=2] [ref=f3e65]
+              - generic [ref=f3e66]:
+                - generic [ref=f3e67]: Next.js
+                - generic [ref=f3e68]: React
+                - generic [ref=f3e69]: Tailwind CSS
+                - generic [ref=f3e70]: Node.js
+            - generic [ref=f3e71]:
+              - heading "Role" [level=2] [ref=f3e72]
+              - paragraph [ref=f3e73]: Full-Stack Engineer
+          - generic [ref=f3e74]:
+            - generic [ref=f3e75]:
+              - heading "Overview" [level=2] [ref=f3e76]
+              - paragraph [ref=f3e77]: SanchayanBD is a responsive web application built for a community-based financial organization, presenting membership tiers, member services, and transparent organizational values through an accessible interface.
+            - generic [ref=f3e78]:
+              - heading "The Challenge" [level=2] [ref=f3e79]
+              - paragraph [ref=f3e80]: Members and prospective applicants lacked a central, trustworthy place to review cooperative services, fee structures, and onboarding steps across mobile devices.
+            - generic [ref=f3e81]:
+              - heading "Architecture & Execution" [level=2] [ref=f3e82]
+              - paragraph [ref=f3e83]: Designed a structured, high-legibility Next.js application with clear service pathways, fast asset delivery, and responsive layouts tailored for low-bandwidth mobile connections.
+            - generic [ref=f3e84]:
+              - heading "Outcome" [level=2] [ref=f3e85]
+              - paragraph [ref=f3e86]: Streamlined member onboarding inquiries and established a credible digital presence for community operations.
+        - generic [ref=f3e88]:
+          - paragraph [ref=f3e89]: Next project
+          - link "Next.js Learning Platform" [ref=f3e90] [cursor=pointer]:
+            - /url: /work/nextjs-learning-platform
+  - contentinfo [ref=f3e94]:
+    - generic [ref=f3e95]:
+      - generic [ref=f3e96]:
+        - generic [ref=f3e97]:
+          - paragraph [ref=f3e98]: Mohammad Ullah
+          - paragraph [ref=f3e99]: Full-Stack Engineer building fast, reliable Next.js applications and clear, tactile user interfaces.
+          - paragraph [ref=f3e100]:
+            - generic [ref=f3e101]: Brahmanbaria, Bangladesh · 12:37 BST
+        - generic [ref=f3e102]:
+          - paragraph [ref=f3e103]: Pages
+          - list [ref=f3e104]:
+            - listitem [ref=f3e105]:
+              - link "Home" [ref=f3e106] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f3e107]:
+              - link "Work" [ref=f3e108] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f3e109]:
+              - link "About" [ref=f3e110] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f3e111]:
+              - link "Resume" [ref=f3e112] [cursor=pointer]:
+                - /url: /resume
+            - listitem [ref=f3e113]:
+              - link "Contact" [ref=f3e114] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f3e115]:
+          - paragraph [ref=f3e116]: Direct Channels
+          - list [ref=f3e117]:
+            - listitem [ref=f3e118]:
+              - link "WhatsApp (+8801734906838)" [ref=f3e119] [cursor=pointer]:
+                - /url: https://wa.me/8801734906838
+            - listitem [ref=f3e123]:
+              - link "ullahmohammad314@gmail.com" [ref=f3e124] [cursor=pointer]:
+                - /url: mailto:ullahmohammad314@gmail.com
+            - listitem [ref=f3e125]:
+              - link "GitHub" [ref=f3e126] [cursor=pointer]:
+                - /url: https://github.com/MU1147-LEGEND
+            - listitem [ref=f3e130]:
+              - link "LinkedIn" [ref=f3e131] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/mohammad-ullah32
+        - generic [ref=f3e135]:
+          - paragraph [ref=f3e136]: Manage
+          - list [ref=f3e137]:
+            - listitem [ref=f3e138]:
+              - link "Admin Panel" [ref=f3e139] [cursor=pointer]:
+                - /url: /admin
+            - listitem [ref=f3e140]:
+              - link "Resume PDF" [ref=f3e141] [cursor=pointer]:
+                - /url: /assets/resume.pdf
+      - generic [ref=f3e142]:
+        - paragraph [ref=f3e143]: © 2026 Mohammad Ullah. All rights reserved.
+        - paragraph [ref=f3e144]: Built with Next.js, TypeScript, Motion & SQLite.
+  - region "Notifications alt+T"
+  - alert [ref=f3e145]

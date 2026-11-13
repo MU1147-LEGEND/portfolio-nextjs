@@ -1,0 +1,88 @@
+- generic [ref=f17e5]:
+  - generic [ref=f17e6]:
+    - generic [ref=f17e7]: Developed with Dermatologists
+    - heading "Choose Your Skin Type" [level=1] [ref=f17e8]
+    - heading "3 Professional Skincare Systems" [level=3] [ref=f17e9]
+    - paragraph [ref=f17e10]: Select the skincare routine that's right for you. Each bundle contains 5 specialized products to cleanse, hydrate, treat, and protect.
+  - generic [ref=f17e11]:
+    - generic [ref=f17e12]:
+      - generic [ref=f17e13]:
+        - generic [ref=f17e14]:
+          - img "Dry Skin Routine - image 1" [ref=f17e15]
+          - button "Previous Dry Skin Routine image" [ref=f17e16]
+          - button "Next Dry Skin Routine image" [ref=f17e19]
+        - generic [ref=f17e26]:
+          - button "Show Dry Skin Routine image 1" [ref=f17e27]:
+            - img "Dry Skin Routine thumbnail 1" [ref=f17e28]
+          - button "Show Dry Skin Routine image 2" [ref=f17e29]:
+            - img "Dry Skin Routine thumbnail 2" [ref=f17e30]
+          - button "Show Dry Skin Routine image 3" [ref=f17e31]:
+            - img "Dry Skin Routine thumbnail 3" [ref=f17e32]
+          - button "Show Dry Skin Routine image 4" [ref=f17e33]:
+            - img "Dry Skin Routine thumbnail 4" [ref=f17e34]
+          - button "Show Dry Skin Routine image 5" [ref=f17e35]:
+            - img "Dry Skin Routine thumbnail 5" [ref=f17e36]
+        - generic [ref=f17e37]: Normal to Dry / Sensitive
+        - heading "Dry Skin Routine" [level=3] [ref=f17e38]
+        - paragraph [ref=f17e39]: Hydration & Barrier Repair
+        - paragraph [ref=f17e40]: Complete hydration routine for dry and dehydrated skin.
+        - generic [ref=f17e41]:
+          - generic [ref=f17e42]: Replenishes skin lipids
+          - generic [ref=f17e46]: Locks in deep moisture
+          - generic [ref=f17e50]: Calms tightness & dry flakes
+      - link "View Routine" [ref=f17e54] [cursor=pointer]:
+        - /url: /dry-skin
+    - generic [ref=f17e58]:
+      - generic [ref=f17e59]:
+        - generic [ref=f17e60]:
+          - img "Oily Skin Routine - image 1" [ref=f17e61]
+          - button "Previous Oily Skin Routine image" [ref=f17e62]
+          - button "Next Oily Skin Routine image" [ref=f17e65]
+        - generic [ref=f17e72]:
+          - button "Show Oily Skin Routine image 1" [ref=f17e73]:
+            - img "Oily Skin Routine thumbnail 1" [ref=f17e74]
+          - button "Show Oily Skin Routine image 2" [ref=f17e75]:
+            - img "Oily Skin Routine thumbnail 2" [ref=f17e76]
+          - button "Show Oily Skin Routine image 3" [ref=f17e77]:
+            - img "Oily Skin Routine thumbnail 3" [ref=f17e78]
+          - button "Show Oily Skin Routine image 4" [ref=f17e79]:
+            - img "Oily Skin Routine thumbnail 4" [ref=f17e80]
+          - button "Show Oily Skin Routine image 5" [ref=f17e81]:
+            - img "Oily Skin Routine thumbnail 5" [ref=f17e82]
+        - generic [ref=f17e83]: Oily to Combination
+        - heading "Oily Skin Routine" [level=3] [ref=f17e84]
+        - paragraph [ref=f17e85]: Shine Control & Pore Refining
+        - paragraph [ref=f17e86]: Control oil and maintain healthy skin with a matte finish.
+        - generic [ref=f17e87]:
+          - generic [ref=f17e88]: Exfoliates & clears pores
+          - generic [ref=f17e92]: Reduces excess oil production
+          - generic [ref=f17e96]: Lightweight, non-greasy feel
+      - link "View Routine" [ref=f17e100] [cursor=pointer]:
+        - /url: /oily-skin
+    - generic [ref=f17e104]:
+      - generic [ref=f17e105]:
+        - generic [ref=f17e106]:
+          - img "Acne-Prone Skin Routine - image 1" [ref=f17e107]
+          - button "Previous Acne-Prone Skin Routine image" [ref=f17e108]
+          - button "Next Acne-Prone Skin Routine image" [ref=f17e111]
+        - generic [ref=f17e117]:
+          - button "Show Acne-Prone Skin Routine image 1" [ref=f17e118]:
+            - img "Acne-Prone Skin Routine thumbnail 1" [ref=f17e119]
+          - button "Show Acne-Prone Skin Routine image 2" [ref=f17e120]:
+            - img "Acne-Prone Skin Routine thumbnail 2" [ref=f17e121]
+          - button "Show Acne-Prone Skin Routine image 3" [ref=f17e122]:
+            - img "Acne-Prone Skin Routine thumbnail 3" [ref=f17e123]
+          - button "Show Acne-Prone Skin Routine image 4" [ref=f17e124]:
+            - img "Acne-Prone Skin Routine thumbnail 4" [ref=f17e125]
+          - button "Show Acne-Prone Skin Routine image 5" [ref=f17e126]:
+            - img "Acne-Prone Skin Routine thumbnail 5" [ref=f17e127]
+        - generic [ref=f17e128]: Acne-Prone & Blemished
+        - heading "Acne-Prone Skin Routine" [level=3] [ref=f17e129]
+        - paragraph [ref=f17e130]: Blemish Control & Resurfacing
+        - paragraph [ref=f17e131]: Complete acne treatment routine to clear breakouts and fade marks.
+        - generic [ref=f17e132]:
+          - generic [ref=f17e133]: Clears active breakouts
+          - generic [ref=f17e137]: Unclogs pores with BHA
+          - generic [ref=f17e141]: Fades post-acne dark marks
+      - link "View Routine" [ref=f17e145] [cursor=pointer]:
+        - /url: /acne-skin

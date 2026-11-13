@@ -1,0 +1,392 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e2]:
+    - generic [ref=f31e3]: একাউন্ট খুলতে ও লোন নিতে আপনার নিকটস্থ ব্রাঞ্চে যোগাযোগ করুন। বিস্তারিত জানতে ফোন করুনঃ +8801535-796189
+    - button "×" [ref=f31e4] [cursor=pointer]
+  - banner [ref=f31e5]:
+    - generic [ref=f31e6]:
+      - link "Go to home" [ref=f31e7] [cursor=pointer]:
+        - /url: /
+        - paragraph [ref=f31e8]:
+          - img "site logo" [ref=f31e9]
+      - navigation [ref=f31e10]:
+        - button "Home" [ref=f31e11] [cursor=pointer]
+        - button "About" [ref=f31e13] [cursor=pointer]
+        - button "Contact" [ref=f31e15] [cursor=pointer]
+        - button "Gallery" [ref=f31e17] [cursor=pointer]
+        - button "Registration Form" [ref=f31e19] [cursor=pointer]
+        - button "Dashboard" [ref=f31e21] [cursor=pointer]
+        - button "Withdraw" [ref=f31e23] [cursor=pointer]
+        - button
+  - main [ref=f31e25]:
+    - generic [ref=f31e27]:
+      - generic [ref=f31e28]:
+        - generic [ref=f31e29]:
+          - generic [ref=f31e30]: সুদমুক্ত সমবায় ও সমাজ উন্নয়ন সংস্থা
+          - heading "সুদহীন অর্থনীতিতে সাধারণ মানুষের আস্থা ও যৌথ সমৃদ্ধির ঠিকানা" [level=1] [ref=f31e35]
+          - paragraph [ref=f31e36]: সঞ্চয়ন একটি নিবন্ধিত ও ইসলামী শরিয়াহ্ ভিত্তিক সমাজসেবামূলক প্রতিষ্ঠান। প্রবাসীদের কষ্টার্জিত আমানত ও সদস্যদের সঞ্চয়কে কৃষি, হাসপাতাল, শিক্ষা ও ক্ষুদ্র উদ্যোক্তা প্রকল্পে সরাসরি বিনিয়োগ করে আমরা গড়ে তুলছি শোষণমুক্ত এক সমবায়ী সমাজ।
+          - generic [ref=f31e37]:
+            - link "সদস্য আবেদন ফরম" [ref=f31e38] [cursor=pointer]:
+              - /url: /registration-form
+            - link "লগইন করুন" [disabled] [ref=f31e42] [cursor=pointer]:
+              - /url: /login
+            - link "সরাসরি কথা বলুন" [ref=f31e43] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f31e49]:
+            - generic [ref=f31e50]: ১০০% শরিয়াহ্ নিরীক্ষিত
+            - generic [ref=f31e55]: তাৎক্ষণিক মোবাইল SMS ট্র্যাকিং
+            - generic [ref=f31e60]: প্রবাসীদের অনলাইন সুবিধা
+        - generic [ref=f31e66]:
+          - generic [ref=f31e67]:
+            - img "সঞ্চয়ন মাঠপর্যায়ের প্রকল্প কার্যক্রম" [ref=f31e68]
+            - generic [ref=f31e70]: চলমান জনকল্যাণমূলক উদ্যোগ
+            - generic [ref=f31e73]:
+              - heading "ফ্রি মেডিকেল চিকিৎসা ও স্বাস্থ্য সেবা কেন্দ্র" [level=3] [ref=f31e74]
+              - paragraph [ref=f31e75]: সদস্যদের শতভাগ ফ্রি সেবা এবং পরিবারের জন্য ৫০% বিশেষ ডিসকাউন্ট
+          - generic [ref=f31e76]:
+            - generic [ref=f31e77]:
+              - generic [ref=f31e78]: "সামাজিক প্রভাব ও অগ্রগতি:"
+              - generic [ref=f31e79]: ৮৫০+ পরিবার সরাসরি উপকৃত
+            - generic [ref=f31e82]:
+              - generic [ref=f31e83]: উপকারভোগী সদস্যবৃন্দ
+              - generic [ref=f31e84]: ১০০% সুদমুক্ত হালাল বণ্টন
+          - generic [ref=f31e90]:
+            - strong [ref=f31e91]: সমান অংশীদারিত্ব ও পূর্ণ জবাবদিহিতা
+            - text: পরিচালক ও সাধারণ সদস্য সবার সমান ভোটাধিকার এবং বছরে দুইবার মূলধনভিত্তিক লভ্যাংশ বণ্টন।
+      - generic [ref=f31e92]:
+        - generic [ref=f31e93]:
+          - generic [ref=f31e94]: কার্যক্রমের পরিধি
+          - generic [ref=f31e99]: দেশ ও প্রবাসে
+          - paragraph [ref=f31e100]: স্থানীয় ও প্রবাসী বাংলাদেশিদের সমবায়
+        - generic [ref=f31e101]:
+          - generic [ref=f31e102]: উন্নয়ন প্রকল্প
+          - generic [ref=f31e108]: ১৫+
+          - paragraph [ref=f31e109]: স্বাস্থ্য, শিক্ষা, কৃষি, আবাসন ও ডেইরি
+        - generic [ref=f31e110]:
+          - generic [ref=f31e111]: সুবিধাভোগী পরিবার
+          - generic [ref=f31e118]: ১,০০০+
+          - paragraph [ref=f31e119]: সরাসরি সেবা ও সহায়তা প্রাপ্ত পরিবার
+        - generic [ref=f31e120]:
+          - generic [ref=f31e121]: শরিয়াহ্ নীতি
+          - generic [ref=f31e125]: ০% সুদ
+          - paragraph [ref=f31e126]: শতভাগ মুদারাবা ও লাভ-ক্ষতি সমবণ্টন
+    - generic [ref=f31e128]:
+      - generic [ref=f31e129]:
+        - generic [ref=f31e130]: পবিত্র আল-কুরআনের নির্দেশিকা
+        - blockquote [ref=f31e134]: "\"আল্লাহ তা'য়ালা ব্যবসাকে হালাল করেছেন এবং সুদকে হারাম করেছেন।\""
+        - paragraph [ref=f31e135]: "— সূরা আল-বাকারা, আয়াত: ২৭৫"
+        - paragraph [ref=f31e137]: ইসলামী শরীয়াহ্ মোতাবেক অর্থনৈতিক কার্যক্রম পরিচালনা, সদস্যদের আর্থিক মর্যাদা বৃদ্ধি, সমাজিক সম্প্রীতি রক্ষা এবং সুদহীন কল্যাণকামী রাষ্ট্র বিনির্মাণই সঞ্চয়নের মূল প্রেরণা।
+      - generic [ref=f31e138]:
+        - generic [ref=f31e139]: আমাদের আদর্শ ও লক্ষ্য
+        - heading "যে ৩টি মূলস্তম্ভে গড়ে উঠেছে আমাদের সংস্থা" [level=2] [ref=f31e145]
+        - paragraph [ref=f31e146]: সঞ্চয়ন কেবল একটি আর্থিক প্রতিষ্ঠান নয়, এটি একটি সামগ্রিক সমাজ রূপান্তর ও মানবকল্যাণ আন্দোলন।
+      - generic [ref=f31e147]:
+        - generic [ref=f31e148]:
+          - heading "১. সুদহীন অর্থনীতি ও ইনসাফ" [level=3] [ref=f31e154]
+          - paragraph [ref=f31e155]: সুদের ধ্বংসাত্মক প্রভাব থেকে মানুষকে রক্ষা করে হালাল ব্যবসা ও অংশীদারিত্বের ভিত্তিতে যৌথ বিনিয়োগ পরিচালনা করা, যেখানে ঝুঁকি ও মুনাফা সুষমভাবে বণ্টিত হয়।
+        - generic [ref=f31e156]:
+          - heading "২. পারস্পরিক সহমর্মিতা ও সমবায়" [level=3] [ref=f31e160]
+          - paragraph [ref=f31e161]: প্রত্যেক সদস্যের বিপদে পাশে দাঁড়ানো, আপদকালীন চিকিৎসা ও আর্থিক সহায়তা নিশ্চিত করা এবং ধনী-দরিদ্রের বৈষম্য কমিয়ে ভ্রাতৃত্ববোধ প্রতিষ্ঠা করা।
+        - generic [ref=f31e162]:
+          - heading "৩. আধুনিক শিক্ষা ও যুব ক্ষমতায়ন" [level=3] [ref=f31e167]
+          - paragraph [ref=f31e168]: ইসলামী নৈতিকতার সাথে সামঞ্জস্যপূর্ণ আধুনিক যুগোপযোগী শিক্ষা ও প্রযুক্তিগত কারিগরি প্রশিক্ষণের মাধ্যমে বেকার যুবক-যুবতীদের স্বাবলম্বী করা।
+      - link "আমাদের লক্ষ্য ও উদ্দেশ্য সম্পর্কে আরও বিস্তারিত পড়ুন" [ref=f31e170] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=f31e175]:
+      - generic [ref=f31e176]:
+        - generic [ref=f31e177]: চলমান প্রকল্পসমূহ
+        - heading "যেসব জনকল্যাণমূলক প্রকল্পে কাজ করছে সঞ্চয়ন" [level=2] [ref=f31e181]
+        - paragraph [ref=f31e182]: সদস্যদের যৌথ বিনিয়োগের মাধ্যমে বাস্তবায়িত প্রতিটি প্রকল্প সমাজে প্রত্যক্ষ ইতিবাচক প্রভাব রাখছে এবং সুদমুক্ত হালাল মুনাফা অর্জন করছে।
+      - generic [ref=f31e183]:
+        - generic [ref=f31e184]:
+          - generic [ref=f31e185]:
+            - generic [ref=f31e186]: সামাজিক সেবা
+            - generic [ref=f31e191]:
+              - heading "স্বাস্থ্য সেবা ও হাসপাতাল প্রকল্প" [level=3] [ref=f31e192]
+              - paragraph [ref=f31e193]: সদস্য ও সাধারণ মানুষের জন্য বিশেষায়িত হাসপাতাল প্রতিষ্ঠা। প্রত্যেক সদস্যের জন্য ফ্রি ডাক্তারী পরামর্শ এবং পরিবারের জন্য ৫০% পর্যন্ত ছাড়ের ব্যবস্থা।
+          - generic [ref=f31e194]: ● ফ্রি ও ৫০% ডিসকাউন্ট চিকিৎসা
+        - generic [ref=f31e196]:
+          - generic [ref=f31e197]:
+            - generic [ref=f31e198]: মানবসম্পদ উন্নয়ন
+            - generic [ref=f31e204]:
+              - heading "শিক্ষা প্রতিষ্ঠান ও বৃত্তি কর্মসূচি" [level=3] [ref=f31e205]
+              - paragraph [ref=f31e206]: স্কুল, কলেজ ও মাদ্রাসা প্রতিষ্ঠা। সদস্যদের সন্তানদের জন্য বিশেষ ফি মওকুফ, অর্ধ-বেতন এবং শিক্ষার্থী সঞ্চয়কারীদের জন্য নিয়মিত শিক্ষাবৃত্তি প্রদান।
+          - generic [ref=f31e207]: ● অর্ধ-বেতন ও শিক্ষা উপবৃত্তি
+        - generic [ref=f31e209]:
+          - generic [ref=f31e210]:
+            - generic [ref=f31e211]: উৎপাদনমুখী
+            - generic [ref=f31e217]:
+              - heading "কৃষি, ডেইরি ও প্রাণিসম্পদ খামার" [level=3] [ref=f31e218]
+              - paragraph [ref=f31e219]: উন্নত জাতের গবাদিপশু পালন, দুগ্ধ খামার, মৎস্য চাষ ও পোল্ট্রি প্রকল্পের মাধ্যমে গ্রামীণ জনগণের পুষ্টির চাহিদা পূরণ ও কর্মসংস্থান সৃষ্টি।
+          - generic [ref=f31e220]: ● গ্রামীণ কর্মসংস্থান ও পুষ্টি নিরাপত্তা
+        - generic [ref=f31e222]:
+          - generic [ref=f31e223]:
+            - generic [ref=f31e224]: সুদমুক্ত অর্থায়ন
+            - generic [ref=f31e232]:
+              - heading "মুদারাবা ক্ষুদ্র উদ্যোক্তা সহায়তা" [level=3] [ref=f31e233]
+              - paragraph [ref=f31e234]: কিস্তিতে মালামাল ও পণ্য সামগ্রী সরবরাহ। জমাকৃত টাকার বিপরীতে শতভাগ পর্যন্ত সুদমুক্ত ইসলামী ঋণ সহায়তা দিয়ে ক্ষুদ্র ব্যবসা শুরু করার সুযোগ।
+          - generic [ref=f31e235]: ● ১০০% সুদমুক্ত ঋণ ও পণ্য সরবরাহ
+        - generic [ref=f31e237]:
+          - generic [ref=f31e238]:
+            - generic [ref=f31e239]: আবাসন
+            - generic [ref=f31e245]:
+              - heading "টেকসই আবাসন ও সামাজিক নিরাপত্তা" [level=3] [ref=f31e246]
+              - paragraph [ref=f31e247]: নিম্ন ও মধ্যবিত্ত সদস্যদের জন্য নিরাপদ ও সাশ্রয়ী আবাসন প্রকল্প বাস্তবায়ন এবং জরুরি আপদকালীন আর্থিক সহযোগিতার স্থায়ী সামাজিক ফান্ড।
+          - generic [ref=f31e248]: ● পরিকল্পিত ও সাশ্রয়ী আবাসন
+        - generic [ref=f31e250]:
+          - generic [ref=f31e251]:
+            - generic [ref=f31e252]: দক্ষতা উন্নয়ন
+            - generic [ref=f31e257]:
+              - heading "যুব কারিগরি প্রশিক্ষণ ও আইটি স্কিল" [level=3] [ref=f31e258]
+              - paragraph [ref=f31e259]: বেকার তরুণ-তরুণীদের আধুনিক কারিগরি, ড্রাইভিং, মোবাইল সার্ভিসিং ও তথ্যপ্রযুক্তি প্রশিক্ষণ দিয়ে আত্মনির্ভরশীল ও দক্ষ মানবসম্পদে রূপান্তর।
+          - generic [ref=f31e260]: ● সম্পূর্ণ বিনামূল্যে প্রশিক্ষণ
+        - generic [ref=f31e262]:
+          - generic [ref=f31e263]:
+            - generic [ref=f31e264]: বাণিজ্য
+            - generic [ref=f31e270]:
+              - heading "বহুমুখী হালাল ডিলারশিপ ব্যবসা" [level=3] [ref=f31e271]
+              - paragraph [ref=f31e272]: নিত্যপ্রয়োজনীয় পণ্য ও কনজ্যুমার আইটেমের বৃহৎ পরিসরে পাইকারি ডিলারশিপের মাধ্যমে ন্যায্যমূল্য নিশ্চিতকরণ এবং লভ্যাংশ যৌথ তহবিলে যুক্তকরণ।
+          - generic [ref=f31e273]: ● ন্যায্যমূল্য ও বাণিজ্যিক লভ্যাংশ
+        - generic [ref=f31e275]:
+          - generic [ref=f31e276]:
+            - generic [ref=f31e277]: পরিকল্পিত বিনিয়োগ
+            - generic [ref=f31e283]:
+              - heading "জমি ও টেকসই রিয়েল এস্টেট প্রকল্প" [level=3] [ref=f31e284]
+              - paragraph [ref=f31e285]: নিরাপদ ও আইনিভাবে যাচাইকৃত জমি ক্রয়-বিক্রয় এবং ভবিষ্যৎ প্রজন্মের জন্য পরিকল্পিত কমিউনিটি স্পেস তৈরি করে পুঁজির সুরক্ষা নিশ্চিত করা।
+          - generic [ref=f31e286]: ● পুঁজির সর্বোচ্চ নিরাপত্তা ও প্রবৃদ্ধি
+      - link "এই প্রকল্পগুলোর অংশীদার হতে আজই সদস্য ফরম পূরণ করুন" [ref=f31e289] [cursor=pointer]:
+        - /url: /registration-form
+    - generic [ref=f31e294]:
+      - generic [ref=f31e295]:
+        - generic [ref=f31e296]: সদস্যদের বিশেষ সুবিধাসমূহ
+        - heading "সঞ্চয়ন পরিবারের সদস্য হলে আপনি যেসব নাগরিক ও সামাজিক সুবিধা পাবেন" [level=2] [ref=f31e301]
+        - paragraph [ref=f31e302]: আমাদের লক্ষ্য প্রতিটি সদস্য ও তার পরিবারকে একটি নির্ভরযোগ্য সামাজিক নিরাপত্তা বলয়ের আওতায় নিয়ে আসা।
+      - generic [ref=f31e303]:
+        - generic [ref=f31e308]:
+          - generic [ref=f31e309]:
+            - generic [ref=f31e310]: "#1"
+            - heading "তাৎক্ষণিক এসএমএস ও অনলাইন পোর্টাল" [level=3] [ref=f31e311]
+          - paragraph [ref=f31e312]: প্রত্যেক সদস্যের সকল আর্থিক লেনদেনের তথ্য নিজ মোবাইল নম্বরে এসএমএস এ পৌঁছায়। এছাড়া অনলাইন পোর্টালে লগইন করে ২৪/৭ যেকোনো হিসাব দেখা যায়।
+        - generic [ref=f31e317]:
+          - generic [ref=f31e318]:
+            - generic [ref=f31e319]: "#2"
+            - heading "প্রবাসী ভাই-বোনদের অনলাইন মেম্বারশিপ" [level=3] [ref=f31e320]
+          - paragraph [ref=f31e321]: প্রবাসী ভাই-বোন বিদেশে অবস্থান করেই অনলাইনে নিজের ফরম পূরণ করতে পারেন কিংবা পাসপোর্টের কপি ও নমিনির তথ্য দিয়ে সদস্যপদ চালু করতে পারেন।
+        - generic [ref=f31e328]:
+          - generic [ref=f31e329]:
+            - generic [ref=f31e330]: "#3"
+            - heading "ফ্রি চিকিৎসা ও ৫০% হাসপাতাল ডিসকাউন্ট" [level=3] [ref=f31e331]
+          - paragraph [ref=f31e332]: সঞ্চয়ন কর্তৃক নির্মিত হাসপাতালে প্রত্যেক সদস্য ফ্রি ডাক্তারী পরামর্শ পাবেন এবং পরিবারের অন্যান্য সদস্যদের জন্য ৫০% পর্যন্ত বিশেষ ডিসকাউন্ট প্রযোজ্য।
+        - generic [ref=f31e340]:
+          - generic [ref=f31e341]:
+            - generic [ref=f31e342]: "#4"
+            - heading "১০০% পর্যন্ত সুদমুক্ত ঋণ/পণ্য কিস্তি" [level=3] [ref=f31e343]
+          - paragraph [ref=f31e344]: জরুরি প্রয়োজনে কিংবা ব্যবসার পণ্য ক্রয়ের জন্য জমাকৃত ব্যালেন্সের বিপরীতে শতভাগ পর্যন্ত সুদমুক্ত মুদারাবা ঋণ ও কিস্তি সুবিধা গ্রহণ করা যায়।
+        - generic [ref=f31e350]:
+          - generic [ref=f31e351]:
+            - generic [ref=f31e352]: "#5"
+            - heading "জরুরি আপদকালীন অর্থ উত্তোলন" [level=3] [ref=f31e353]
+          - paragraph [ref=f31e354]: পরিবারের হঠাৎ বিপদে বা জরুরি প্রয়োজনে কোনো প্রকার জটিলতা ছাড়াই সদস্য তার জমাকৃত অর্থ নির্ধারিত নিয়মে দ্রুত উত্তোলন করতে পারেন।
+        - generic [ref=f31e360]:
+          - generic [ref=f31e361]:
+            - generic [ref=f31e362]: "#6"
+            - heading "শিক্ষা প্রতিষ্ঠানে সন্তানদের বিশেষ সুবিধা" [level=3] [ref=f31e363]
+          - paragraph [ref=f31e364]: সঞ্চয়ন কর্তৃক প্রতিষ্ঠিত স্কুল, কলেজ ও মাদ্রাসায় সদস্যের সন্তানদের জন্য অর্ধ-বেতন, পরীক্ষার ফি মওকুফসহ বিশেষ একাডেমিক অগ্রাধিকার প্রদান করা হয়।
+        - generic [ref=f31e370]:
+          - generic [ref=f31e371]:
+            - generic [ref=f31e372]: "#7"
+            - heading "শিক্ষার্থী সঞ্চয়কারীদের শিক্ষা উপবৃত্তি" [level=3] [ref=f31e373]
+          - paragraph [ref=f31e374]: শিক্ষার্থী সঞ্চয় হিসাবধারী মেধাবী ছাত্র-ছাত্রীদের পড়াশোনার ধারাবাহিকতা বজায় রাখতে নিয়মিত শিক্ষা উপবৃত্তি ও সহায়তা প্রদান করা হয়।
+        - generic [ref=f31e381]:
+          - generic [ref=f31e382]:
+            - generic [ref=f31e383]: "#8"
+            - heading "সমান অধিকার ও সুষম লভ্যাংশ বণ্টন" [level=3] [ref=f31e384]
+          - paragraph [ref=f31e385]: পরিচালনা পর্ষদের সদস্য ও সাধারণ মেম্বার সবাই সমান সুযোগ ভোগ করেন। মূলধনের আনুপাতিক হারে বছরে ২ বার লাভ-ক্ষতির হিসাব করে মুনাফা বণ্টন করা হয়।
+        - generic [ref=f31e393]:
+          - generic [ref=f31e394]:
+            - generic [ref=f31e395]: "#9"
+            - heading "নারী-পুরুষ উভয়ের সমান অংশগ্রহণ" [level=3] [ref=f31e396]
+          - paragraph [ref=f31e397]: নারী ও পুরুষ উভয়েই সমান নাগরিক মর্যাদায় সদস্য হতে পারেন এবং নিজ নিজ কর্মসংস্থান ও সঞ্চয় বৃদ্ধির পূর্ণ অধিকার ভোগ করেন।
+        - generic [ref=f31e403]:
+          - generic [ref=f31e404]:
+            - generic [ref=f31e405]: "#10"
+            - heading "বছরে দুইবার স্বচ্ছ অডিট ও মুনাফা বণ্টন" [level=3] [ref=f31e406]
+          - paragraph [ref=f31e407]: শরীয়াহ্ ও আর্থিক নীতিমালা মেনে বছরে দুইবার সামগ্রিক ব্যালেন্সশিট অডিট করা হয় এবং অর্জিত মুনাফা সদস্যদের মূল অ্যাকাউন্টে স্বয়ংক্রিয়ভাবে ক্রেডিট হয়।
+      - generic [ref=f31e408]:
+        - generic [ref=f31e409]:
+          - heading "আপনি কি সঞ্চয়ন পরিবারের সম্মানিত সদস্য হতে প্রস্তুত?" [level=4] [ref=f31e410]
+          - paragraph [ref=f31e411]: কোনো হিডেন ফি ছাড়া মাত্র ৩ মিনিটে সম্পূর্ণ অনলাইন আবেদন সম্পন্ন করুন।
+        - link "সদস্য আবেদন ফরম পূরণ করুন" [ref=f31e412] [cursor=pointer]:
+          - /url: /registration-form
+    - generic [ref=f31e417]:
+      - generic [ref=f31e418]:
+        - generic [ref=f31e419]: সহজ কার্যপ্রণালী
+        - heading "যেভাবে সঞ্চয়ন পরিবারের সাথে যুক্ত হবেন" [level=2] [ref=f31e421]
+        - paragraph [ref=f31e422]: কোনো প্রকার মধ্যস্থতাকারী বা দালাল ছাড়াই সরাসরি ৩টি সহজ পদক্ষেপে ডিজিটাল উপায়ে সদস্যপদ সম্পন্ন করুন।
+      - generic [ref=f31e423]:
+        - generic [ref=f31e424]:
+          - generic [ref=f31e425]:
+            - generic [ref=f31e426]: ০১
+            - generic [ref=f31e432]:
+              - heading "অনলাইন ফরম পূরণ করুন" [level=3] [ref=f31e433]
+              - paragraph [ref=f31e434]: জাতীয় পরিচয়পত্র (NID) অথবা পাসপোর্ট নম্বর এবং নমিনির তথ্য দিয়ে ঘরে বসেই ৩ মিনিটে অনলাইন সদস্য আবেদন ফরম পূরণ করুন।
+          - link "ফরম পূরণ করুন" [ref=f31e436] [cursor=pointer]:
+            - /url: /registration-form
+        - generic [ref=f31e440]:
+          - generic [ref=f31e441]:
+            - generic [ref=f31e442]: ০২
+            - generic [ref=f31e449]:
+              - heading "তথ্য যাচাইকরণ ও অনুমোদন" [level=3] [ref=f31e450]
+              - paragraph [ref=f31e451]: আমাদের প্রশাসনিক টিম আপনার তথ্য যাচাই করবে এবং তাৎক্ষণিকভাবে আপনার মোবাইলে এসএমএস এর মাধ্যমে মেম্বারশিপ কনফার্মেশন পাঠাবে।
+          - link "আমাদের নীতিমালা" [ref=f31e453] [cursor=pointer]:
+            - /url: /structure
+        - generic [ref=f31e457]:
+          - generic [ref=f31e458]:
+            - generic [ref=f31e459]: ০৩
+            - generic [ref=f31e464]:
+              - heading "সুদমুক্ত কল্যাণে অংশীদারিত্ব" [level=3] [ref=f31e465]
+              - paragraph [ref=f31e466]: নিজের মোবাইল দিয়ে ড্যাশবোর্ডে লগইন করে সঞ্চয় শুরু করুন, যৌথ সামাজিক প্রকল্পে ভূমিকা রাখুন এবং নির্ধারিত সময়ে সুষম মুনাফা উপভোগ করুন।
+          - link "লগইন করুন" [ref=f31e468] [cursor=pointer]:
+            - /url: /login
+    - generic [ref=f31e473]:
+      - generic [ref=f31e474]:
+        - generic [ref=f31e475]:
+          - generic [ref=f31e476]: সরেজমিন কার্যক্রম ও ফটো গ্যালারি
+          - heading "মাঠপর্যায়ে সঞ্চয়নের জনকল্যাণমূলক উদ্যোগ" [level=2] [ref=f31e481]
+          - paragraph [ref=f31e482]: সদস্য সম্মেলন, স্বাস্থ্য ক্যাম্প, শিক্ষা সামগ্রী বিতরণ ও প্রকল্প পরিদর্শনের প্রামাণ্য চিত্র।
+        - link "সম্পূর্ণ গ্যালারি দেখুন" [ref=f31e484] [cursor=pointer]:
+          - /url: /gallery
+      - generic [ref=f31e493]:
+        - img "Modern bank building" [ref=f31e496]
+        - img "Financial planning" [ref=f31e499]
+        - img "Insurance protection" [ref=f31e502]
+        - img "Credit cards" [ref=f31e505]
+        - img "Investment growth" [ref=f31e508]
+        - img "Business analytics" [ref=f31e511]
+        - img "Gallery image" [ref=f31e514]
+      - generic [ref=f31e517]:
+        - generic [ref=f31e518]:
+          - generic [ref=f31e519]: স্বাস্থ্য ক্যাম্প ও পরামর্শ
+          - text: সদস্যদের ফ্রি স্ক্রিনিং
+        - generic [ref=f31e520]:
+          - generic [ref=f31e521]: শিক্ষা বৃত্তি বিতরণ
+          - text: মেধাবী শিক্ষার্থীদের সম্মাননা
+        - generic [ref=f31e522]:
+          - generic [ref=f31e523]: ক্ষুদ্র খামারি সমাবেশ
+          - text: প্রশিক্ষণ ও সহায়তা
+        - generic [ref=f31e524]:
+          - generic [ref=f31e525]: বার্ষিক সাধারণ সভা
+          - text: স্বচ্ছ হিসাব পর্যালোচনা
+    - generic [ref=f31e528]:
+      - generic [ref=f31e529]:
+        - generic [ref=f31e530]: সুশাসন ও জবাবদিহিতা
+        - heading "স্বচ্ছ পরিচালনা ও শরীয়াহ্ সম্মত প্রাতিষ্ঠানিক কাঠামো" [level=2] [ref=f31e536]
+        - paragraph [ref=f31e537]: সঞ্চয়ন সংস্থা দুটি সুসংগঠিত স্তরে পরিচালিত হয় — সর্বোচ্চ নীতি নির্ধারণী **পরিচালনা পর্ষদ (Board of Directors)** এবং দৈনন্দিন নির্বাহী কার্যক্রম পরিচালনাকারী **কার্যনির্বাহী পরিষদ (Executive Committee)**। প্রতিটি আর্থিক পদক্ষেপ শরীয়াহ্ ও সমবায় নীতিমালার আলোকে নিরীক্ষিত।
+        - generic [ref=f31e538]:
+          - generic [ref=f31e539]:
+            - generic [ref=f31e540]: ✓
+            - paragraph [ref=f31e541]:
+              - strong [ref=f31e542]: "নীতি নির্ধারণী পরিষদ:"
+              - text: চেয়ারম্যান, ভাইস-চেয়ারম্যান ও জেনারেল সেক্রেটারী সহ সর্বোচ্চ ২০ সদস্যের প্রতিনিধি দল।
+          - generic [ref=f31e543]:
+            - generic [ref=f31e544]: ✓
+            - paragraph [ref=f31e545]:
+              - strong [ref=f31e546]: "দৈনন্দিন নির্বাহী ব্যবস্থাপনা:"
+              - text: ব্যবস্থাপনা পরিচালক (MD) ও জেনারেল ম্যানেজার (GM)-এর সার্বক্ষণিক তত্ত্বাবধান।
+          - generic [ref=f31e547]:
+            - generic [ref=f31e548]: ✓
+            - paragraph [ref=f31e549]:
+              - strong [ref=f31e550]: "মাঠপর্যায়ে সেবা নিশ্চিতকরণ:"
+              - text: ব্রাঞ্চ ম্যানেজার (BM) ও ফিল্ড অফিসার (FO)-দের মাধ্যমে সরাসরি মেম্বারদের দোরগোড়ায় সেবা।
+        - link "সম্পূর্ণ প্রাতিষ্ঠানিক কাঠামো দেখুন" [ref=f31e552] [cursor=pointer]:
+          - /url: /structure
+      - generic [ref=f31e562]:
+        - generic [ref=f31e569]:
+          - heading "স্বচ্ছ আর্থিক অঙ্গীকার" [level=3] [ref=f31e570]
+          - paragraph [ref=f31e571]: হিসাব ও আমানতের পূর্ণ নিরাপত্তা
+        - generic [ref=f31e572]:
+          - generic [ref=f31e573]:
+            - generic [ref=f31e574]: লভ্যাংশ মূল্যায়ন
+            - generic [ref=f31e575]: বছরে ২ বার
+            - generic [ref=f31e576]: লাভ-ক্ষতি সুষম বন্টন
+          - generic [ref=f31e577]:
+            - generic [ref=f31e578]: লেনদেন নোটিফিকেশন
+            - generic [ref=f31e579]: তাৎক্ষণিক SMS
+            - generic [ref=f31e580]: নিবন্ধনকৃত নম্বরে অ্যালার্ট
+          - generic [ref=f31e581]:
+            - generic [ref=f31e582]: ভোটাধিকার
+            - generic [ref=f31e583]: সবার সমান
+            - generic [ref=f31e584]: পরিচালক ও সাধারণ মেম্বার
+          - generic [ref=f31e585]:
+            - generic [ref=f31e586]: শরীয়াহ্ কমপ্লায়েন্স
+            - generic [ref=f31e587]: সুদমুক্ত মুদারাবা
+            - generic [ref=f31e588]: কঠোর শরীয়াহ্ মানদণ্ড
+    - generic [ref=f31e590]:
+      - generic [ref=f31e591]:
+        - generic [ref=f31e592]: সাধারণ প্রশ্নোত্তর
+        - heading "সচরাচর জিজ্ঞাসিত প্রশ্ন ও উত্তর" [level=2] [ref=f31e597]
+        - paragraph [ref=f31e598]: সদস্যপদ ও সংস্থা পরিচালনা সম্পর্কিত প্রয়োজনীয় তথ্যাবলী।
+      - generic [ref=f31e599]:
+        - generic [ref=f31e600]:
+          - button "সঞ্চয়ন আসলে কী ধরণের প্রতিষ্ঠান এবং এটি কীভাবে কাজ করে?" [expanded] [ref=f31e601] [cursor=pointer]
+          - generic [ref=f31e605]: সঞ্চয়ন হলো ইসলামী শরীয়াহ্ মোতাবেক পরিচালিত একটি সমাজ উন্নয়ন ও মানবকল্যাণ সমবায় সংস্থা। এখানে সদস্য ও শুভানুধ্যায়ীদের যৌথ আর্থিক আমানত সুদমুক্তভাবে কৃষি, স্বাস্থ্য, শিক্ষা, আবাসন ও উৎপাদনমুখী ব্যবসা প্রকল্পে বিনিয়োগ করা হয় এবং অর্জিত মুনাফা সমবণ্টন করা হয়।
+        - button "প্রবাসী ভাই-বোনেরা কীভাবে সঞ্চয়নের সদস্য হতে পারবেন?" [ref=f31e607] [cursor=pointer]
+        - button "লাভ-ক্ষতির হিসাব এবং মুনাফা কীভাবে বণ্টন করা হয়?" [ref=f31e612] [cursor=pointer]
+        - button "জরুরি প্রয়োজনে কি আমার জমাকৃত অর্থ উত্তোলন করতে পারব?" [ref=f31e617] [cursor=pointer]
+        - button "সঞ্চয়ন কর্তৃক নির্মিত হাসপাতাল ও শিক্ষা প্রতিষ্ঠানের সুবিধা পেতে কী শর্ত প্রয়োজন?" [ref=f31e622] [cursor=pointer]
+    - generic [ref=f31e627]:
+      - generic [ref=f31e628]: সুদমুক্ত সমাজ বিনির্মাণে আমাদের সাথে এগিয়ে আসুন
+      - heading "সমাজের ইতিবাচক রূপান্তরে আজই যুক্ত হোন সঞ্চয়ন পরিবারে" [level=2] [ref=f31e633]
+      - paragraph [ref=f31e634]: আপনার একটি সৎ উদ্যোগ ও ক্ষুদ্র সঞ্চয় বদলে দিতে পারে একটি অভাবী পরিবারের ভাগ্য। ঘরে বসেই মাত্র কয়েক মিনিটে অনলাইন সদস্যপদ গ্রহণ করুন।
+      - generic [ref=f31e635]:
+        - link "সদস্য আবেদন ফরম পূরণ করুন" [ref=f31e636] [cursor=pointer]:
+          - /url: /registration-form
+        - link "সরাসরি কথা বলুন" [ref=f31e640] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f31e644]:
+        - generic [ref=f31e645]: কোনো মধ্যস্থতাকারী নেই
+        - generic [ref=f31e650]: ১০০% নিরাপদ ও স্বচ্ছ হিসাব
+        - generic [ref=f31e655]: আইনি ও সমবায় নীতিমালা সমর্থিত
+  - contentinfo [ref=f31e660]:
+    - generic [ref=f31e662]:
+      - generic [ref=f31e663]:
+        - heading "সঞ্চয়ন" [level=3] [ref=f31e664]
+        - paragraph [ref=f31e665]: ইসলামী শরীয়াহ্ ভিত্তিক পরিচালিত একটি সমাজ উন্নয়ন সংস্থা। আমাদের লক্ষ্য হলো সমাজের কল্যাণ ও উন্নয়নে অবদান রাখা।
+      - generic [ref=f31e666]:
+        - heading "Quick Links" [level=3] [ref=f31e667]
+        - generic [ref=f31e668]:
+          - link "Home" [ref=f31e669] [cursor=pointer]:
+            - /url: /
+          - link "About Us" [ref=f31e670] [cursor=pointer]:
+            - /url: /about
+          - link "Gallery" [ref=f31e671] [cursor=pointer]:
+            - /url: /gallery
+          - link "Contact" [ref=f31e672] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=f31e673]:
+        - heading "Services" [level=3] [ref=f31e674]
+        - generic [ref=f31e675]:
+          - link "Member Registration" [ref=f31e676] [cursor=pointer]:
+            - /url: /registration-form
+          - link "Privacy Policy" [ref=f31e677] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Institutional Structure" [ref=f31e678] [cursor=pointer]:
+            - /url: /structure
+      - generic [ref=f31e679]:
+        - heading "Connect With Us" [level=3] [ref=f31e680]
+        - generic [ref=f31e681]:
+          - link "Facebook" [ref=f31e682] [cursor=pointer]:
+            - /url: https://www.facebook.com/sanchayansbd
+          - link "X (Twitter)" [ref=f31e686] [cursor=pointer]:
+            - /url: https://www.twitter.com/sanchayanbd
+          - link "Instagram" [ref=f31e690] [cursor=pointer]:
+            - /url: https://www.instagram.com/sanchayanbd
+          - link "LinkedIn" [ref=f31e695] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/sanchayanbd
+    - generic [ref=f31e701]:
+      - generic [ref=f31e702]:
+        - generic [ref=f31e703]: "Theme:"
+        - button [ref=f31e705] [cursor=pointer]:
+          - img "Dark mode" [ref=f31e706]
+          - text: Dark
+      - paragraph [ref=f31e707]: © 2026 Sanchayan. All rights reserved.
+  - alert [ref=f31e708]

@@ -1,0 +1,116 @@
+- generic [ref=f14e3]:
+  - generic [ref=f14e4]:
+    - generic [ref=f14e5]:
+      - generic [ref=f14e6]:
+        - heading "Student's Info" [level=1] [ref=f14e7]
+        - paragraph [ref=f14e9]: Fill in the details for the ID card.
+      - generic [ref=f14e10]:
+        - generic [ref=f14e11]:
+          - generic [ref=f14e12]: Student Name
+          - textbox "Student Name" [ref=f14e13]:
+            - /placeholder: "Ex: Mohammad Ullah"
+        - generic [ref=f14e14]:
+          - generic [ref=f14e15]: Institute Name
+          - textbox "Institute Name" [ref=f14e16]:
+            - /placeholder: "Ex: Badiul Alam Institute"
+        - generic [ref=f14e17]:
+          - generic [ref=f14e18]: Institute Subtitle (Optional)
+          - textbox "Institute Subtitle (Optional)" [ref=f14e19]:
+            - /placeholder: "Ex: Science and Technology"
+        - generic [ref=f14e20]:
+          - generic [ref=f14e21]: Roll / ID Number
+          - textbox "Roll / ID Number" [ref=f14e22]:
+            - /placeholder: "Ex: 778782"
+        - generic [ref=f14e23]:
+          - generic [ref=f14e24]: Student Photo
+          - button "Student Photo" [ref=f14e26] [cursor=pointer]
+        - generic [ref=f14e27]:
+          - generic [ref=f14e28]: Institute Logo
+          - button "Institute Logo" [ref=f14e30] [cursor=pointer]
+        - generic [ref=f14e31]:
+          - generic [ref=f14e32]: Class
+          - textbox "Class" [ref=f14e33]:
+            - /placeholder: "Ex: Diploma"
+        - generic [ref=f14e34]:
+          - generic [ref=f14e35]: Department
+          - textbox "Department" [ref=f14e36]:
+            - /placeholder: "Ex: Computer"
+        - generic [ref=f14e37]:
+          - generic [ref=f14e38]: Group
+          - textbox "Group" [ref=f14e39]:
+            - /placeholder: "Ex: A"
+        - generic [ref=f14e40]:
+          - generic [ref=f14e41]: Session
+          - textbox "Session" [ref=f14e42]:
+            - /placeholder: "Ex: 24-25"
+        - generic [ref=f14e43]:
+          - generic [ref=f14e44]: Blood Group
+          - textbox "Blood Group" [ref=f14e45]:
+            - /placeholder: "Ex: O+"
+      - generic [ref=f14e46]:
+        - heading "Guardian's Info" [level=1] [ref=f14e47]
+        - paragraph [ref=f14e49]: Emergency contact details.
+      - generic [ref=f14e50]:
+        - generic [ref=f14e51]:
+          - generic [ref=f14e52]: Primary Guardian
+          - textbox "Primary Guardian" [ref=f14e53]:
+            - /placeholder: Name
+          - textbox "Phone Number" [ref=f14e54]
+          - button "Choose File" [ref=f14e55] [cursor=pointer]
+        - generic [ref=f14e56]:
+          - generic [ref=f14e57]: Secondary Guardian
+          - textbox "Secondary Guardian" [ref=f14e58]:
+            - /placeholder: Name
+          - textbox "Phone Number" [ref=f14e59]
+          - button "Choose File" [ref=f14e60] [cursor=pointer]
+    - generic [ref=f14e61]:
+      - generic [ref=f14e62]:
+        - button "Classic Blue" [ref=f14e63]
+        - button "Modern Dark" [ref=f14e64]
+        - button "Minimalist" [ref=f14e65]
+      - generic [ref=f14e66]:
+        - generic [ref=f14e67]:
+          - img "institute" [ref=f14e69]
+          - heading "Badiul Alam Institute" [level=1] [ref=f14e71]
+        - generic [ref=f14e72]:
+          - img "student" [ref=f14e76]
+          - generic [ref=f14e77]: Student ID Card
+          - heading "Mohammad Ullah" [level=2] [ref=f14e78]
+          - generic [ref=f14e81]:
+            - generic [ref=f14e82]:
+              - generic [ref=f14e83]: ID Number
+              - generic [ref=f14e84]: "778782"
+            - generic [ref=f14e85]:
+              - generic [ref=f14e86]: Session
+              - generic [ref=f14e87]: 22-23
+            - generic [ref=f14e88]:
+              - generic [ref=f14e89]: Department
+              - generic [ref=f14e90]: CMT
+            - generic [ref=f14e91]:
+              - generic [ref=f14e92]: Blood Group
+              - generic [ref=f14e93]: O+
+            - generic [ref=f14e94]:
+              - generic [ref=f14e95]: Class
+              - generic [ref=f14e96]: Diploma
+            - generic [ref=f14e97]:
+              - generic [ref=f14e98]: Group
+              - generic [ref=f14e99]: None
+        - generic [ref=f14e100]:
+          - heading "Emergency Contact / Guardian" [level=2] [ref=f14e101]
+          - generic [ref=f14e102]:
+            - generic [ref=f14e103]:
+              - img "guardian 1" [ref=f14e104]
+              - generic [ref=f14e105]:
+                - generic [ref=f14e106]: Abdur Razzaque
+                - generic [ref=f14e107]: 01726XXXXX
+            - generic [ref=f14e108]:
+              - generic [ref=f14e109]:
+                - generic [ref=f14e110]: Caroline
+                - generic [ref=f14e111]: 01726XXXXX
+              - img "guardian 2" [ref=f14e112]
+      - button "Download ID Card" [ref=f14e113]
+  - contentinfo [ref=f14e116]:
+    - paragraph [ref=f14e118]:
+      - text: For your institute's website contact
+      - link "WhatsApp 01734906838" [ref=f14e119] [cursor=pointer]:
+        - /url: https://wa.me/8801734906838?text=Hello%20bro%0AI%20want%20to%20know%20about%20your%20service%0APrice%3F

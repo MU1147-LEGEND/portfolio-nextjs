@@ -1,0 +1,216 @@
+- generic [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Mohammad Ullah" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=f1e8]:
+        - link "Work" [ref=f1e9] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f1e10] [cursor=pointer]:
+          - /url: /about
+        - link "Resume" [ref=f1e11] [cursor=pointer]:
+          - /url: /resume
+        - link "Contact" [ref=f1e12] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f1e13]:
+        - button "Switch to light mode" [ref=f1e273] [cursor=pointer]
+        - link "WhatsApp" [ref=f1e17] [cursor=pointer]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.
+  - main [ref=f1e21]:
+    - generic [ref=f1e24]:
+      - generic [ref=f1e25]:
+        - generic [ref=f1e26]: Available for freelance & product engineering roles
+        - heading "Designing and engineering fast, tactile web software." [level=1] [ref=f1e31]
+        - paragraph [ref=f1e33]: I build Next.js systems, full-stack products, and refined interfaces where clarity and motion feel effortless.
+        - generic [ref=f1e35]:
+          - link "Explore work (3)" [ref=f1e36] [cursor=pointer]:
+            - /url: /work
+          - link "Message on WhatsApp" [ref=f1e40] [cursor=pointer]:
+            - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I'd%20like%20to%20talk%20about%20a%20project%20or%20role.
+        - generic [ref=f1e45]:
+          - generic [ref=f1e46]: Full-Stack Engineer
+          - generic [ref=f1e47]: Brahmanbaria, Bangladesh · 12:33 BST
+          - link "Read resume" [ref=f1e49] [cursor=pointer]:
+            - /url: /resume
+      - figure "Mohammad Ullah React · Next.js · TypeScript" [ref=f1e52]:
+        - img "Mohammad Ullah portrait" [ref=f1e54]
+        - generic [ref=f1e55]:
+          - generic [ref=f1e56]: Mohammad Ullah
+          - generic [ref=f1e57]: React · Next.js · TypeScript
+    - region "Selected Work" [ref=f1e58]:
+      - generic [ref=f1e59]:
+        - generic [ref=f1e60]:
+          - generic [ref=f1e61]:
+            - heading "Selected Work" [level=2] [ref=f1e62]
+            - paragraph [ref=f1e63]: Case studies & production software — dynamically managed.
+          - generic [ref=f1e64]:
+            - group "Work display mode" [ref=f1e65]:
+              - button "Stage" [active] [pressed] [ref=f1e66] [cursor=pointer]
+              - button "List" [ref=f1e73] [cursor=pointer]
+            - link "All projects (3)" [ref=f1e76] [cursor=pointer]:
+              - /url: /work
+        - generic [ref=f1e80]:
+          - generic [ref=f1e81]:
+            - generic [ref=f1e82]:
+              - generic [ref=f1e83]: "01"
+              - generic [ref=f1e85]: 2025 · Full-Stack Engineer
+            - listbox "Featured projects" [ref=f1e86]:
+              - listitem [ref=f1e87]:
+                - option "01 SanchayanBD 2025" [selected] [ref=f1e88] [cursor=pointer]:
+                  - generic [ref=f1e89]:
+                    - generic [ref=f1e90]: "01"
+                    - generic [ref=f1e91]: SanchayanBD
+                  - generic [ref=f1e92]: "2025"
+              - listitem [ref=f1e93]:
+                - option "02 Next.js Learning Platform 2025" [ref=f1e94] [cursor=pointer]:
+                  - generic [ref=f1e95]:
+                    - generic [ref=f1e96]: "02"
+                    - generic [ref=f1e97]: Next.js Learning Platform
+                  - generic [ref=f1e98]: "2025"
+              - listitem [ref=f1e99]:
+                - option "03 VisionaryAI 2024" [ref=f1e100] [cursor=pointer]:
+                  - generic [ref=f1e101]:
+                    - generic [ref=f1e102]: "03"
+                    - generic [ref=f1e103]: VisionaryAI
+                  - generic [ref=f1e104]: "2024"
+            - generic [ref=f1e105]:
+              - paragraph [ref=f1e106]: Community-based financial organization web platform — SanchayanBD is a responsive web application built for a community-based financial organization, presenting membership tiers, member services, and transparent organizational values through an accessible interface.
+              - generic [ref=f1e107]:
+                - generic [ref=f1e108]: Next.js
+                - generic [ref=f1e109]: React
+                - generic [ref=f1e110]: Tailwind CSS
+                - generic [ref=f1e111]: Node.js
+              - generic [ref=f1e112]:
+                - link "Read case study" [ref=f1e113] [cursor=pointer]:
+                  - /url: /work/sanchayanbd
+                - link "Live site" [ref=f1e117] [cursor=pointer]:
+                  - /url: https://sanchayanbd.com
+          - link "sanchayanbd.com SanchayanBD preview" [ref=f1e124] [cursor=pointer]:
+            - /url: /work/sanchayanbd
+            - generic [ref=f1e125]:
+              - generic [ref=f1e126]: sanchayanbd.com
+              - img "SanchayanBD preview" [ref=f1e133]
+    - region "Engineering & Craft" [ref=f1e134]:
+      - generic [ref=f1e135]:
+        - generic [ref=f1e137]:
+          - heading "Engineering & Craft" [level=2] [ref=f1e138]
+          - paragraph [ref=f1e139]: Focused on durable architecture, tactile responsiveness, and clean delivery from schema to screen.
+        - generic [ref=f1e140]:
+          - article [ref=f1e142]:
+            - generic [ref=f1e143]:
+              - heading "Interface Architecture" [level=3] [ref=f1e144]
+              - paragraph [ref=f1e145]: Design systems, optical typography, accessible state machines, and responsive layouts built from first principles.
+            - list [ref=f1e146]:
+              - listitem [ref=f1e147]: React 19
+              - listitem [ref=f1e148]: Next.js App Router
+              - listitem [ref=f1e149]: TypeScript
+              - listitem [ref=f1e150]: Tailwind CSS v4
+          - article [ref=f1e152]:
+            - generic [ref=f1e153]:
+              - heading "Full-Stack & Data" [level=3] [ref=f1e154]
+              - paragraph [ref=f1e155]: End-to-end product engineering with typed APIs, relational data modeling, authentication, and fast server rendering.
+            - list [ref=f1e156]:
+              - listitem [ref=f1e157]: Node.js
+              - listitem [ref=f1e158]: SQLite / libSQL
+              - listitem [ref=f1e159]: MongoDB
+              - listitem [ref=f1e160]: Drizzle ORM
+          - article [ref=f1e162]:
+            - generic [ref=f1e163]:
+              - heading "Motion & Polish" [level=3] [ref=f1e164]
+              - paragraph [ref=f1e165]: Interruptible physics, GPU-composited transitions, reduced-motion parity, and sub-second perceived performance.
+            - list [ref=f1e166]:
+              - listitem [ref=f1e167]: Motion Springs
+              - listitem [ref=f1e168]: Lenis Smooth Scroll
+              - listitem [ref=f1e169]: WCAG 2.1 AA
+              - listitem [ref=f1e170]: Figma to Code
+    - region "Education & Credentials" [ref=f1e171]:
+      - generic [ref=f1e172]:
+        - generic [ref=f1e174]:
+          - heading "Education & Credentials" [level=2] [ref=f1e175]
+          - link "Read full background" [ref=f1e176] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=f1e177]:
+          - generic [ref=f1e178]:
+            - generic [ref=f1e179]: "2025"
+            - generic [ref=f1e180]: JavaScript Algorithms & Data Structures
+            - generic [ref=f1e181]:
+              - generic [ref=f1e182]: freeCodeCamp (Verified)
+              - link "Verify" [ref=f1e183] [cursor=pointer]:
+                - /url: https://www.freecodecamp.org/certification/mu1147_legend/javascript-algorithms-and-data-structures-v8
+          - generic [ref=f1e188]:
+            - generic [ref=f1e189]: "2024"
+            - generic [ref=f1e190]: Responsive Web Design
+            - generic [ref=f1e191]: freeCodeCamp
+          - generic [ref=f1e193]:
+            - generic [ref=f1e194]: 2022–2023
+            - generic [ref=f1e195]: Diploma in Computer Science & Technology
+            - generic [ref=f1e196]: Technical Education
+          - generic [ref=f1e198]:
+            - generic [ref=f1e199]: "2020"
+            - generic [ref=f1e200]: Alim (HSC)
+            - generic [ref=f1e201]: Tamirul Millat Kamil Madrasah
+    - generic [ref=f1e207]:
+      - generic [ref=f1e208]:
+        - heading "Have a product or role in mind? Let's talk directly." [level=2] [ref=f1e209]
+        - paragraph [ref=f1e210]: Fastest way to reach me is WhatsApp. Send a quick note about your timeline, stack, or idea and I'll reply promptly.
+      - generic [ref=f1e211]:
+        - link "Chat on WhatsApp" [ref=f1e212] [cursor=pointer]:
+          - /url: https://wa.me/8801734906838?text=Hi%20Mohammad%2C%20I'd%20love%20to%20discuss%20a%20project.
+        - button "ullahmohammad314@gmail.com" [ref=f1e216] [cursor=pointer]
+  - contentinfo [ref=f1e221]:
+    - generic [ref=f1e222]:
+      - generic [ref=f1e223]:
+        - generic [ref=f1e224]:
+          - paragraph [ref=f1e225]: Mohammad Ullah
+          - paragraph [ref=f1e226]: Full-Stack Engineer building fast, reliable Next.js applications and clear, tactile user interfaces.
+          - paragraph [ref=f1e227]:
+            - generic [ref=f1e228]: Brahmanbaria, Bangladesh · 12:33 BST
+        - generic [ref=f1e229]:
+          - paragraph [ref=f1e230]: Pages
+          - list [ref=f1e231]:
+            - listitem [ref=f1e232]:
+              - link "Home" [ref=f1e233] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f1e234]:
+              - link "Work" [ref=f1e235] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f1e236]:
+              - link "About" [ref=f1e237] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f1e238]:
+              - link "Resume" [ref=f1e239] [cursor=pointer]:
+                - /url: /resume
+            - listitem [ref=f1e240]:
+              - link "Contact" [ref=f1e241] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f1e242]:
+          - paragraph [ref=f1e243]: Direct Channels
+          - list [ref=f1e244]:
+            - listitem [ref=f1e245]:
+              - link "WhatsApp (+8801734906838)" [ref=f1e246] [cursor=pointer]:
+                - /url: https://wa.me/8801734906838
+            - listitem [ref=f1e250]:
+              - link "ullahmohammad314@gmail.com" [ref=f1e251] [cursor=pointer]:
+                - /url: mailto:ullahmohammad314@gmail.com
+            - listitem [ref=f1e252]:
+              - link "GitHub" [ref=f1e253] [cursor=pointer]:
+                - /url: https://github.com/MU1147-LEGEND
+            - listitem [ref=f1e257]:
+              - link "LinkedIn" [ref=f1e258] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/mohammad-ullah32
+        - generic [ref=f1e262]:
+          - paragraph [ref=f1e263]: Manage
+          - list [ref=f1e264]:
+            - listitem [ref=f1e265]:
+              - link "Admin Panel" [ref=f1e266] [cursor=pointer]:
+                - /url: /admin
+            - listitem [ref=f1e267]:
+              - link "Resume PDF" [ref=f1e268] [cursor=pointer]:
+                - /url: /assets/resume.pdf
+      - generic [ref=f1e269]:
+        - paragraph [ref=f1e270]: © 2026 Mohammad Ullah. All rights reserved.
+        - paragraph [ref=f1e271]: Built with Next.js, TypeScript, Motion & SQLite.
+  - region "Notifications alt+T"
+  - alert [ref=f1e272]

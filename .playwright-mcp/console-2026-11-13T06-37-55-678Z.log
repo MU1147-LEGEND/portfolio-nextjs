@@ -1,0 +1,56 @@
+[  763085ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/work?_rsc=3lb4g:1
+[  763085ms] [ERROR] Failed to fetch RSC payload for http://localhost:3000/work. Falling back to browser navigation. TypeError: Failed to fetch
+    at y (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:124103)
+    at _ (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:123014)
+    at http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37458
+    at Object.l [as task] (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:18969)
+    at c.s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19674)
+    at c.enqueue (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19099)
+    at s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37421)
+    at i (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:36937)
+    at o (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:116348)
+    at Object.prefetch (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:133649) @ http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1
+[  766194ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/work/sanchayanbd?_rsc=3lb4g:1
+[  766194ms] [ERROR] Failed to fetch RSC payload for http://localhost:3000/work/sanchayanbd. Falling back to browser navigation. TypeError: Failed to fetch
+    at y (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:124103)
+    at _ (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:123014)
+    at http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37458
+    at Object.l [as task] (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:18969)
+    at c.s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19674)
+    at c.enqueue (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19099)
+    at s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37421)
+    at i (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:36937)
+    at o (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:116348)
+    at Object.prefetch (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:133649) @ http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1
+[  766307ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/work/nextjs-learning-platform?_rsc=3lb4g:1
+[  766307ms] [ERROR] Failed to fetch RSC payload for http://localhost:3000/work/nextjs-learning-platform. Falling back to browser navigation. TypeError: Failed to fetch
+    at y (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:124103)
+    at _ (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:123014)
+    at http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37458
+    at Object.l [as task] (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:18969)
+    at c.s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19674)
+    at c.enqueue (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19099)
+    at s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37421)
+    at i (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:36937)
+    at o (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:116348)
+    at Object.prefetch (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:133649) @ http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1
+[  766356ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/work/visionary-ai?_rsc=3lb4g:1
+[  766356ms] [ERROR] Failed to fetch RSC payload for http://localhost:3000/work/visionary-ai. Falling back to browser navigation. TypeError: Failed to fetch
+    at y (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:124103)
+    at _ (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:123014)
+    at http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37458
+    at Object.l [as task] (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:18969)
+    at c.s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19674)
+    at c.enqueue (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:19099)
+    at s (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:37421)
+    at i (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:36937)
+    at o (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:116348)
+    at Object.prefetch (http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1:133649) @ http://localhost:3000/_next/static/chunks/334-14f098cc2a68d1b4.js:1
+[  766547ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fvisionaryai.png&w=640&q=75:1
+[  767225ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fnextlearn.png&w=640&q=75:1
+[  768326ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fnextlearn.png&w=640&q=75:1
+[  769137ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fvisionaryai.png&w=640&q=75:1
+[  772086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fnextlearn.png&w=640&q=75:1
+[  772915ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fvisionaryai.png&w=640&q=75:1
+[  775217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fnextlearn.png&w=640&q=75:1
+[  775736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/image?url=%2Fassets%2Fprojects%2Fvisionaryai.png&w=640&q=75:1
