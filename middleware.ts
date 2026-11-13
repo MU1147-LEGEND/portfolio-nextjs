@@ -4,20 +4,20 @@ import { SESSION_COOKIE_NAME, verifySessionToken } from "./lib/auth";
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (pathname === "/admin/login") {
+  if (pathname === "/dev-admin/login") {
     const token = request.cookies.get(SESSION_COOKIE_NAME)?.value;
     const valid = await verifySessionToken(token);
     if (valid) {
-      return NextResponse.redirect(new URL("/admin", request.url));
+      return NextResponse.redirect(new URL("/dev-admin", request.url));
     }
     return NextResponse.next();
   }
 
-  if (pathname.startsWith("/admin")) {
+  if (pathname.startsWith("/dev-admin")) {
     const token = request.cookies.get(SESSION_COOKIE_NAME)?.value;
     const valid = await verifySessionToken(token);
     if (!valid) {
-      const loginUrl = new URL("/admin/login", request.url);
+      const loginUrl = new URL("/dev-admin/login", request.url);
       loginUrl.searchParams.set("next", pathname);
       return NextResponse.redirect(loginUrl);
     }
@@ -27,5 +27,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*"],
+  matcher: ["/dev-admin/:path*"],
 };

@@ -76,7 +76,7 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
                 <Link href={`/work/${project.slug}`} className="block">
                   <MediaFrame
                     src={project.imageUrl}
-                    alt={`${project.title} screenshot`}
+                    alt={`${project.title}{project.domain && <span className="ml-2 rounded-md bg-[var(--bg-subtle)] px-2 py-0.5 text-[11px] font-normal text-[var(--ink-secondary)]">{project.domain}</span>} screenshot`}
                     domainLabel={
                       project.liveUrl
                         ? project.liveUrl.replace(/^https?:\/\//, "").replace(/\/$/, "")
@@ -92,7 +92,7 @@ export default function WorkArchive({ projects }: WorkArchiveProps) {
                       href={`/work/${project.slug}`}
                       className="hover:text-[var(--accent)] transition-colors"
                     >
-                      {project.title}
+                      {project.title}{project.domain && <span className="ml-2 rounded-md bg-[var(--bg-subtle)] px-2 py-0.5 text-[11px] font-normal text-[var(--ink-secondary)]">{project.domain}</span>}
                     </Link>
                   </h2>
                   <span className="shrink-0 font-mono text-[13px] tabular-nums text-[var(--ink-secondary)]">

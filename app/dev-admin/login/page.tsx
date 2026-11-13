@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
 import { ArrowLeft, Lock } from "lucide-react";
 
-export default function AdminLoginPage() {
+export default function DevAdminLoginPage() {
   const router = useRouter();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -27,7 +27,7 @@ export default function AdminLoginPage() {
         setLoading(false);
         return;
       }
-      router.push("/admin");
+      router.push("/dev-admin");
       router.refresh();
     } catch {
       setError("Network error. Try again.");

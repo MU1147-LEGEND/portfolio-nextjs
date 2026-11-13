@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default async function AdminPage() {
+export default async function DevAdminPage() {
   const session = await getAdminSession();
   if (!session) {
-    redirect("/admin/login");
+    redirect("/dev-admin/login");
   }
 
   const [projects, settings] = await Promise.all([

@@ -27,12 +27,6 @@ const CREDENTIALS = [
     issuer: "Technical Education",
     href: "",
   },
-  {
-    year: "2020",
-    title: "Alim (HSC)",
-    issuer: "Tamirul Millat Kamil Madrasah",
-    href: "",
-  },
 ];
 
 export default function CredentialLedger() {

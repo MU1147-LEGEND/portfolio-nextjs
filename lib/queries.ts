@@ -12,6 +12,7 @@ export interface ProjectDTO {
   role: string;
   year: string;
   category: "fullstack" | "frontend" | "product";
+  domain: string;
   description: string;
   problem: string;
   solution: string;
@@ -43,6 +44,7 @@ function toProjectDTO(row: ProjectRow): ProjectDTO {
   return {
     ...row,
     category: cat,
+    domain: row.domain ?? "",
     stack,
   };
 }
@@ -131,6 +133,7 @@ export async function createProject(
       role: input.role,
       year: input.year,
       category: input.category,
+      domain: input.domain ?? "",
       description: input.description,
       problem: input.problem ?? "",
       solution: input.solution ?? "",
@@ -174,6 +177,7 @@ export async function updateProject(
       role: patch.role ?? existing.role,
       year: patch.year ?? existing.year,
       category: patch.category ?? existing.category,
+      domain: patch.domain ?? existing.domain,
       description: patch.description ?? existing.description,
       problem: patch.problem ?? existing.problem,
       solution: patch.solution ?? existing.solution,

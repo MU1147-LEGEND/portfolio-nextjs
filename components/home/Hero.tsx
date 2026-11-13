@@ -92,7 +92,7 @@ export default function Hero({ settings, projectCount }: HeroProps) {
               <figure className="mx-auto max-w-[420px] lg:ml-auto lg:mr-0">
                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-[var(--hairline)] bg-[var(--bg-surface)] shadow-[var(--shadow-stage)]">
                   <Image
-                    src="/assets/profile.png"
+                    src="/assets/profile_square.jpg"
                     alt={`${settings.fullName} portrait`}
                     fill
                     priority

@@ -13,7 +13,7 @@ interface SiteFooterProps {
 
 export default function SiteFooter({ settings }: SiteFooterProps) {
   const pathname = usePathname() ?? "";
-  if (pathname?.startsWith("/admin")) {
+  if (pathname?.startsWith("/dev-admin")) {
     return null;
   }
 
@@ -125,17 +125,9 @@ export default function SiteFooter({ settings }: SiteFooterProps) {
 
           <div className="md:col-span-2 space-y-2.5">
             <p className="text-[13px] font-medium text-[var(--ink-primary)]">
-              Manage
+              Document
             </p>
             <ul className="space-y-2 text-[14px] text-[var(--ink-secondary)]">
-              <li>
-                <Link
-                  href="/admin"
-                  className="hover:text-[var(--ink-primary)] transition-colors"
-                >
-                  Admin Panel
-                </Link>
-              </li>
               <li>
                 <a
                   href={settings.resumeUrl || "/assets/resume.pdf"}

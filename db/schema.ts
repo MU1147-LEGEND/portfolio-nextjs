@@ -8,6 +8,7 @@ export const projects = sqliteTable("projects", {
   role: text("role").notNull(),
   year: text("year").notNull(),
   category: text("category").notNull().default("fullstack"),
+  domain: text("domain").notNull().default(""),
   description: text("description").notNull(),
   problem: text("problem").notNull().default(""),
   solution: text("solution").notNull().default(""),

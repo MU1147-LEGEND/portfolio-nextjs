@@ -31,7 +31,7 @@ test("ensureSchemaAndSeed seeds idempotently and queries return ordered projects
     await ensureSchemaAndSeed(db);
 
     const all = await getAllProjects(db);
-    assert.equal(all.length, 15);
+    assert.equal(all.length, 17);
     assert.equal(all[0].slug, "sanchayanbd");
 
     const published = await getPublishedProjects(db);
@@ -47,6 +47,23 @@ test("ensureSchemaAndSeed seeds idempotently and queries return ordered projects
 
     const settings = await getSiteSettings(db);
     assert.equal(settings.whatsappNumber, "8801734906838");
+  } finally {
+    cleanup();
+  }
+});
+
+test("homepage featured projects are the five requested projects in order", async () => {
+  const { db, cleanup } = setupTempDb();
+  try {
+    await ensureSchemaAndSeed(db);
+    const featured = await getFeaturedProjects(db);
+    assert.deepEqual(featured.map((project) => project.slug), [
+      "sanchayanbd",
+      "nextipress",
+      "basati",
+      "focus-dock",
+      "yucar-rental",
+    ]);
   } finally {
     cleanup();
   }
@@ -77,6 +94,9 @@ test("seeding adds requested portfolio projects without duplicating or overwriti
     assert.equal(all.filter((project) => project.slug === "sanchayanbd").length, 1);
     assert.equal((await getProjectBySlug("sanchayanbd", db))?.title, before.title);
     assert.equal((await getProjectBySlug("sanchayanbd", db))?.description, before.description);
+    assert.equal((await getProjectBySlug("nextipress", db))?.domain, "saas");
+    assert.equal((await getProjectBySlug("focus-dock", db))?.domain, "productivity");
+    assert.equal((await getProjectBySlug("yucar-rental", db))?.domain, "travel / team");
   } finally {
     cleanup();
   }

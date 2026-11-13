@@ -328,7 +328,7 @@ export default function AdminDashboard({
 
   const handleSignOut = async () => {
     await fetch("/api/admin/logout", { method: "POST" });
-    router.push("/admin/login");
+    router.push("/dev-admin/login");
     router.refresh();
   };
 

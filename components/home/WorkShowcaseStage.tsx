@@ -30,7 +30,7 @@ export default function WorkShowcaseStage({
           </h2>
           <p className="mt-4 text-[var(--ink-secondary)]">
             No featured projects published yet. Manage projects from the{" "}
-            <Link href="/admin" className="underline text-[var(--accent)]">
+            <Link href="/dev-admin" className="underline text-[var(--accent)]">
               Admin Panel
             </Link>
             .
@@ -173,6 +173,11 @@ export default function WorkShowcaseStage({
                           </span>
                           <span className="truncate text-[16px] font-medium">
                             {project.title}
+                            {project.domain && (
+                              <span className="ml-2 rounded-md bg-[var(--bg-subtle)] px-2 py-0.5 text-[11px] font-normal text-[var(--ink-secondary)]">
+                                {project.domain}
+                              </span>
+                            )}
                           </span>
                         </span>
                         <span className="ml-3 shrink-0 font-mono text-[12px] opacity-70 tabular-nums">

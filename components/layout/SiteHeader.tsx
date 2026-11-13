@@ -37,7 +37,7 @@ export default function SiteHeader({ fullName, whatsappNumber }: SiteHeaderProps
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [drawerOpen]);
 
-  if (pathname?.startsWith("/admin")) {
+  if (pathname?.startsWith("/dev-admin")) {
     return null;
   }
 

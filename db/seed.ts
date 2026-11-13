@@ -7,7 +7,7 @@ let initialized = false;
 const SEED_PROJECTS = [
   {
     slug: "yucar-rental",
-    title: "YuCar Rental",
+    title: "YuCar Rental (Team Project)",
     tagline: "Team car rental comparison platform",
     role: "Full-Stack Engineer",
     year: "2025",
@@ -24,9 +24,10 @@ const SEED_PROJECTS = [
     imageUrl: "/assets/projects/yucar-rental.png",
     liveUrl: "https://www.yucarrental.com/en",
     repoUrl: "",
+    domain: "travel / team",
     featured: true,
     published: true,
-    sortOrder: 4,
+    sortOrder: 5,
   },
   {
     slug: "sanchayanbd",
@@ -49,7 +50,56 @@ const SEED_PROJECTS = [
     repoUrl: "https://github.com/MU1147-LEGEND/sanchayan",
     featured: true,
     published: true,
+    domain: "fintech",
     sortOrder: 1,
+  },
+  {
+    slug: "nextipress",
+    title: "NextiPress",
+    tagline: "Modern multi-tenant ecommerce platform",
+    role: "Full-Stack Engineer",
+    year: "2025",
+    category: "fullstack",
+    description:
+      "NextiPress is a modern multi-tenant ecommerce platform built with Next.js, featuring vendor onboarding, product catalog management, order processing, and a responsive admin dashboard. Supports multiple stores from a single deployment with isolated data and shared infrastructure.",
+    problem:
+      "Businesses needed a scalable ecommerce solution that could support multiple vendors and storefronts while maintaining isolated data, shared infrastructure, and consistent UX across tenants.",
+    solution:
+      "Built a Next.js multi-tenant architecture with tenant-aware routing, shared component library, tenant-specific theming, and a centralized admin panel for platform operations.",
+    outcome:
+      "Launched a production-ready multi-tenant ecommerce platform supporting multiple vendors with isolated data and shared infrastructure.",
+    stack: JSON.stringify(["Next.js", "React", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"]),
+    imageUrl: "/assets/projects/nextipress.png",
+    liveUrl: "https://nextipress.shop",
+    repoUrl: "",
+    featured: true,
+    published: true,
+    domain: "saas",
+    sortOrder: 2,
+  },
+  {
+    slug: "focus-dock",
+    title: "Focus Dock",
+    tagline: "Pomodoro timer desktop app with system integration",
+    role: "Desktop Engineer",
+    year: "2025",
+    category: "product",
+    description:
+      "Focus Dock is a native pomodoro timer desktop application built with Tauri (Rust + TypeScript), featuring system tray integration, native notifications, customizable work/break intervals, session statistics, and automatic break enforcement. Runs on Windows, macOS, and Linux.",
+    problem:
+      "Users needed a lightweight, cross-platform pomodoro timer that integrates deeply with the OS (system tray, native notifications, auto-start) without Electron bloat.",
+    solution:
+      "Built a Tauri app with Rust backend for native OS integration and TypeScript/React frontend. Features system tray with live timer, global hotkeys, focus mode blocking, and local SQLite persistence.",
+    outcome:
+      "Delivered a <5MB native desktop app with 60fps animations, zero Electron overhead, and full cross-platform system integration.",
+    stack: JSON.stringify(["Tauri", "Rust", "TypeScript", "React", "Tailwind CSS", "SQLite"]),
+    imageUrl: "/assets/projects/focus-dock.png",
+    liveUrl: "",
+    repoUrl: "https://github.com/MU1147-LEGEND/pomodoro-desktop-app",
+    domain: "productivity",
+    featured: true,
+    published: true,
+    sortOrder: 4,
   },
   {
     slug: "basati",
@@ -72,7 +122,8 @@ const SEED_PROJECTS = [
     repoUrl: "",
     featured: true,
     published: true,
-    sortOrder: 5,
+    domain: "edtech",
+    sortOrder: 3,
   },
   {
     slug: "text-to-speech",
@@ -350,6 +401,7 @@ export async function ensureSchemaAndSeed(targetDb: AppDatabase = getDb()): Prom
       role TEXT NOT NULL,
       year TEXT NOT NULL,
       category TEXT NOT NULL DEFAULT 'fullstack',
+      domain TEXT NOT NULL DEFAULT '',
       description TEXT NOT NULL,
       problem TEXT NOT NULL DEFAULT '',
       solution TEXT NOT NULL DEFAULT '',
@@ -387,6 +439,12 @@ export async function ensureSchemaAndSeed(targetDb: AppDatabase = getDb()): Prom
     )
   `);
 
+  try {
+    await targetDb.run(sql`ALTER TABLE projects ADD COLUMN domain TEXT NOT NULL DEFAULT ''`);
+  } catch {
+    // Column already exists
+  }
+
   const now = Math.floor(Date.now() / 1000);
 
   const existingSettings = await targetDb.select().from(siteSettings).limit(1);
@@ -412,7 +470,7 @@ export async function ensureSchemaAndSeed(targetDb: AppDatabase = getDb()): Prom
     });
   }
 
-  // Idempotent: insert only missing requested projects
+  // Idempotent: insert missing projects, and sync featured flags, sortOrder & domain
   for (const projectData of SEED_PROJECTS) {
     const exists = await targetDb
       .select({ slug: projects.slug })
@@ -425,6 +483,17 @@ export async function ensureSchemaAndSeed(targetDb: AppDatabase = getDb()): Prom
         createdAt: now,
         updatedAt: now,
       });
+    } else {
+      await targetDb
+        .update(projects)
+        .set({
+          featured: projectData.featured,
+          sortOrder: projectData.sortOrder,
+          domain: projectData.domain ?? "",
+          imageUrl: projectData.imageUrl,
+          title: projectData.title,
+        })
+        .where(eq(projects.slug, projectData.slug));
     }
   }
 }

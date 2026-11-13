@@ -23,7 +23,7 @@ export default async function AboutPage() {
             <div className="lg:col-span-4">
               <div className="relative aspect-[4/5] max-w-[360px] overflow-hidden rounded-3xl border border-[var(--hairline)] bg-[var(--bg-surface)] shadow-[var(--shadow-stage)]">
                 <Image
-                  src="/assets/profile.png"
+                  src="/assets/profile_square.jpg"
                   alt={settings.fullName}
                   fill
                   priority

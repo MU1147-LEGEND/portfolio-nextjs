@@ -36,6 +36,7 @@ export const projectInputSchema = z.object({
   role: z.string().trim().min(1, "Role is required").max(100),
   year: z.string().trim().min(2).max(20),
   category: z.enum(["fullstack", "frontend", "product"]),
+  domain: z.string().trim().max(100).optional().default(""),
   description: z.string().trim().min(1, "Description is required").max(3000),
   problem: z.string().trim().max(3000).optional().default(""),
   solution: z.string().trim().max(3000).optional().default(""),
@@ -75,6 +76,6 @@ export const siteSettingsSchema = z.object({
   facebookUrl: optionalUrl,
 });
 
-export type ProjectInput = z.infer<typeof projectInputSchema>;
-export type ProjectPatch = z.infer<typeof projectPatchSchema>;
-export type SiteSettingsInput = z.infer<typeof siteSettingsSchema>;
+export type ProjectInput = z.input<typeof projectInputSchema>;
+export type ProjectPatch = z.input<typeof projectPatchSchema>;
+export type SiteSettingsInput = z.input<typeof siteSettingsSchema>;
