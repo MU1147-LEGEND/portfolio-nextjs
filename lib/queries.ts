@@ -1,7 +1,7 @@
 import { asc, eq, and } from "drizzle-orm";
 import { getDb, type AppDatabase } from "@/db";
 import { projects, siteSettings, type ProjectRow, type SiteSettingsRow } from "@/db/schema";
-import { ensureSeedOnce } from "@/db/seed";
+import { ensureSeedOnce, SEED_PROJECTS, DEFAULT_SITE_SETTINGS } from "@/db/seed";
 import { slugify, type ProjectInput, type ProjectPatch, type SiteSettingsInput } from "./validators";
 
 export interface ProjectDTO {
@@ -49,50 +49,114 @@ function toProjectDTO(row: ProjectRow): ProjectDTO {
   };
 }
 
+function seedItemToProjectDTO(item: (typeof SEED_PROJECTS)[number], index: number): ProjectDTO {
+  let stack: string[] = [];
+  try {
+    const parsed = JSON.parse(item.stack);
+    if (Array.isArray(parsed)) stack = parsed.map(String);
+  } catch {
+    stack = [];
+  }
+  const cat =
+    item.category === "frontend" || item.category === "product"
+      ? item.category
+      : "fullstack";
+
+  return {
+    id: index + 1,
+    slug: item.slug,
+    title: item.title,
+    tagline: item.tagline,
+    role: item.role,
+    year: item.year,
+    category: cat,
+    domain: item.domain ?? "",
+    description: item.description,
+    problem: item.problem ?? "",
+    solution: item.solution ?? "",
+    outcome: item.outcome ?? "",
+    stack,
+    imageUrl: item.imageUrl,
+    liveUrl: item.liveUrl ?? "",
+    repoUrl: item.repoUrl ?? "",
+    featured: item.featured,
+    published: item.published,
+    sortOrder: item.sortOrder,
+    createdAt: 1731500000,
+    updatedAt: 1731500000,
+  };
+}
+
+export function getSeedProjectsFallback(): ProjectDTO[] {
+  return SEED_PROJECTS.map((item, idx) => seedItemToProjectDTO(item, idx));
+}
+
 export async function getAllProjects(targetDb?: AppDatabase): Promise<ProjectDTO[]> {
-  const db = targetDb ?? getDb();
-  await ensureSeedOnce(targetDb);
-  const rows = await db
-    .select()
-    .from(projects)
-    .orderBy(asc(projects.sortOrder), asc(projects.id));
-  return rows.map(toProjectDTO);
+  try {
+    const db = targetDb ?? getDb();
+    await ensureSeedOnce(targetDb);
+    const rows = await db
+      .select()
+      .from(projects)
+      .orderBy(asc(projects.sortOrder), asc(projects.id));
+    if (rows.length > 0) return rows.map(toProjectDTO);
+  } catch (error) {
+    console.warn("getAllProjects database error, falling back to static seed:", error);
+  }
+  return getSeedProjectsFallback();
 }
 
 export async function getPublishedProjects(targetDb?: AppDatabase): Promise<ProjectDTO[]> {
-  const db = targetDb ?? getDb();
-  await ensureSeedOnce(targetDb);
-  const rows = await db
-    .select()
-    .from(projects)
-    .where(eq(projects.published, true))
-    .orderBy(asc(projects.sortOrder), asc(projects.id));
-  return rows.map(toProjectDTO);
+  try {
+    const db = targetDb ?? getDb();
+    await ensureSeedOnce(targetDb);
+    const rows = await db
+      .select()
+      .from(projects)
+      .where(eq(projects.published, true))
+      .orderBy(asc(projects.sortOrder), asc(projects.id));
+    if (rows.length > 0) return rows.map(toProjectDTO);
+  } catch (error) {
+    console.warn("getPublishedProjects database error, falling back to static seed:", error);
+  }
+  return getSeedProjectsFallback().filter((p) => p.published);
 }
 
 export async function getFeaturedProjects(targetDb?: AppDatabase): Promise<ProjectDTO[]> {
-  const db = targetDb ?? getDb();
-  await ensureSeedOnce(targetDb);
-  const rows = await db
-    .select()
-    .from(projects)
-    .where(and(eq(projects.published, true), eq(projects.featured, true)))
-    .orderBy(asc(projects.sortOrder), asc(projects.id));
-  return rows.map(toProjectDTO);
+  try {
+    const db = targetDb ?? getDb();
+    await ensureSeedOnce(targetDb);
+    const rows = await db
+      .select()
+      .from(projects)
+      .where(and(eq(projects.published, true), eq(projects.featured, true)))
+      .orderBy(asc(projects.sortOrder), asc(projects.id));
+    if (rows.length > 0) return rows.map(toProjectDTO);
+  } catch (error) {
+    console.warn("getFeaturedProjects database error, falling back to static seed:", error);
+  }
+  return getSeedProjectsFallback()
+    .filter((p) => p.published && p.featured)
+    .sort((a, b) => a.sortOrder - b.sortOrder);
 }
 
 export async function getProjectBySlug(
   slug: string,
   targetDb?: AppDatabase
 ): Promise<ProjectDTO | null> {
-  const db = targetDb ?? getDb();
-  await ensureSeedOnce(targetDb);
-  const rows = await db
-    .select()
-    .from(projects)
-    .where(eq(projects.slug, slug))
-    .limit(1);
-  return rows[0] ? toProjectDTO(rows[0]) : null;
+  try {
+    const db = targetDb ?? getDb();
+    await ensureSeedOnce(targetDb);
+    const rows = await db
+      .select()
+      .from(projects)
+      .where(eq(projects.slug, slug))
+      .limit(1);
+    if (rows[0]) return toProjectDTO(rows[0]);
+  } catch (error) {
+    console.warn("getProjectBySlug database error, falling back to static seed:", error);
+  }
+  return getSeedProjectsFallback().find((p) => p.slug === slug) ?? null;
 }
 
 export async function getProjectById(
@@ -204,10 +268,15 @@ export async function deleteProject(id: number, targetDb?: AppDatabase): Promise
 }
 
 export async function getSiteSettings(targetDb?: AppDatabase): Promise<SiteSettingsRow> {
-  const db = targetDb ?? getDb();
-  await ensureSeedOnce(targetDb);
-  const rows = await db.select().from(siteSettings).where(eq(siteSettings.id, 1)).limit(1);
-  return rows[0];
+  try {
+    const db = targetDb ?? getDb();
+    await ensureSeedOnce(targetDb);
+    const rows = await db.select().from(siteSettings).where(eq(siteSettings.id, 1)).limit(1);
+    if (rows[0]) return rows[0];
+  } catch (error) {
+    console.warn("getSiteSettings database error, falling back to default:", error);
+  }
+  return DEFAULT_SITE_SETTINGS as SiteSettingsRow;
 }
 
 export async function updateSiteSettings(

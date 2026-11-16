@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test": "node --import tsx --test tests/*.test.ts",
-    "install": "node -e \"process.exit(0)\""
+    "test": "node --import tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@libsql/client": "^0.18.0",

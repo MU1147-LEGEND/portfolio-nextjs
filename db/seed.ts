@@ -4,7 +4,7 @@ import { projects, siteSettings } from "./schema";
 
 let initialized = false;
 
-const SEED_PROJECTS = [
+export const SEED_PROJECTS = [
   {
     slug: "yucar-rental",
     title: "YuCar Rental (Team Project)",
@@ -391,6 +391,26 @@ const SEED_PROJECTS = [
   },
 ];
 
+export const DEFAULT_SITE_SETTINGS = {
+  id: 1,
+  fullName: "Mohammad Ullah",
+  roleTitle: "Full-Stack Engineer",
+  heroHeadline: "Designing and engineering fast, tactile web software.",
+  heroSubheadline:
+    "I build Next.js systems, full-stack products, and refined interfaces where clarity and motion feel effortless.",
+  bio: "I'm Mohammad Ullah, a Full-Stack Engineer from Bangladesh focused on building resilient web applications with React, Next.js, TypeScript, and modern databases. I care deeply about architecture that scales cleanly, typography that guides attention, and interactions that feel immediate under the fingertips — both in code and out on long biking rides.",
+  availabilityText: "Available for freelance & product engineering roles",
+  whatsappNumber: "8801734906838",
+  email: "ullahmohammad314@gmail.com",
+  location: "Brahmanbaria, Bangladesh",
+  resumeUrl: "/assets/resume.pdf",
+  githubUrl: "https://github.com/MU1147-LEGEND",
+  linkedinUrl: "https://www.linkedin.com/in/mohammad-ullah32",
+  instagramUrl: "https://www.instagram.com/mohammad_ullah11/",
+  facebookUrl: "https://facebook.com/fb.mohammadullah",
+  updatedAt: 1731500000,
+};
+
 export async function ensureSchemaAndSeed(targetDb: AppDatabase = getDb()): Promise<void> {
   await targetDb.run(sql`
     CREATE TABLE IF NOT EXISTS projects (
@@ -450,22 +470,7 @@ export async function ensureSchemaAndSeed(targetDb: AppDatabase = getDb()): Prom
   const existingSettings = await targetDb.select().from(siteSettings).limit(1);
   if (existingSettings.length === 0) {
     await targetDb.insert(siteSettings).values({
-      id: 1,
-      fullName: "Mohammad Ullah",
-      roleTitle: "Full-Stack Engineer",
-      heroHeadline: "Designing and engineering fast, tactile web software.",
-      heroSubheadline:
-        "I build Next.js systems, full-stack products, and refined interfaces where clarity and motion feel effortless.",
-      bio: "I'm Mohammad Ullah, a Full-Stack Engineer from Bangladesh focused on building resilient web applications with React, Next.js, TypeScript, and modern databases. I care deeply about architecture that scales cleanly, typography that guides attention, and interactions that feel immediate under the fingertips — both in code and out on long biking rides.",
-      availabilityText: "Available for freelance & product engineering roles",
-      whatsappNumber: "8801734906838",
-      email: "ullahmohammad314@gmail.com",
-      location: "Brahmanbaria, Bangladesh",
-      resumeUrl: "/assets/resume.pdf",
-      githubUrl: "https://github.com/MU1147-LEGEND",
-      linkedinUrl: "https://www.linkedin.com/in/mohammad-ullah32",
-      instagramUrl: "https://www.instagram.com/mohammad_ullah11/",
-      facebookUrl: "https://facebook.com/fb.mohammadullah",
+      ...DEFAULT_SITE_SETTINGS,
       updatedAt: now,
     });
   }
